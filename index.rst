@@ -5,6 +5,8 @@
 
 Welcome to DOSER's documentation!
 =================================
+Bonjour tout le monde!!!
+D'accord j'accepte
 
 .. toctree::
    :maxdepth: 2
