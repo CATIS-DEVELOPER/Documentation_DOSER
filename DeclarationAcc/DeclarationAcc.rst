@@ -22,7 +22,6 @@ Les différentes descriptions de ces etats sont les suivantes :
 
 .. list-table::Les différents états.
     :class: tight-table
-    
 ===========  =================================================
 Etats        Descriptions
 ===========  =================================================
