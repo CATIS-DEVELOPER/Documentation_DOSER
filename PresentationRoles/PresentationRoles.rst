@@ -2,41 +2,43 @@
 PRESENTATION DES ROLES
 ======================
 
-Présentation du rôle caisse
----------------------------
-Un compte ayant le rôle **caisse** effectue les opérations suivantes :
-    * Enregistrement d’un client
-    * Impression du ticket de paiement dans DITROS CT
+Présentation du rôle de la police et gendarmerie
+------------------------------------------------
 
-Présentation du rôle de gestion de carte grise
-----------------------------------------------
-Le compte ayant les droits de **gestion de carte grise** effectue :
-    * Le remplissage dans DIDTROS CT des informations de la carte grise du client.
-Il a également la possibilité de :
-    * Visualiser et modifier les informations du certificat d’immatriculation
+Le policier ou le gendarme est tout agent de police ou de gendarmerie apte à faire un
+constat d’accident et à produire un procès-verbal. Il est capable des actions suivantes
+dans l’application :
 
-Présentation du rôle du contrôleur
-----------------------------------
-Le compte ayant les droits du **contrôleur** a pour rôle d’effectuer le contrôle technique proprement dit :
-    * Il lance l’inspection via l’application sur la tablette,
-    * Il gère le passage des véhicules sur les bancs de tests,
-    * Il réalise le contrôle visuel du véhicule en relevant ses défauts et en prenant ses photos,
-    * Il transmet les résultats des tests d’inspections sur les bancs de test
-    * Il signe les procès-verbaux d’inspection via l’interface Web de DITROS CT.
+    * Enregistrer des données sur les accidents dans le système sous un délai de 60 jours.
+    * Collecter toutes les informations sur les blessés et les dégâts corporels lors de la déclaration des accidents en tous lieux.
+    * Valider les données sur les accidents avant leurs entrées dans le système.
+    * Acheminer les formulaires papiers remplis vers la sous-direction de la voie publique.
+    * Acheminer les formulaires papiers remplis vers le bureau de circulation.
+    * La production du procès-verbal.
+    * Recueillement des dépositions des parties.
+    * Identification des accidentés.
+    * Vérification de la validité et de l’authenticité des documents et titres de transport.
 
-Il a également la possibilité de :
-    * Changer la ligne d’une inspection en cours
-    * Visualiser et modifier les informations du certificat d’immatriculation
+Présentation du rôle de l’hôpital
+---------------------------------
 
+Il s’agit de tout établissement sanitaire capable de prendre en charge des personnes accidentées. Celle-ci est capable des actions suivantes dans l’application :
+    * La collecte des données sur chaque blessé dans un accident de la circulation (via un formulaire papier ou électronique).
+    * La saisie des données dans la base de données de l’hôpital .
+    * Enregistrement des causes de chaque décès muni d’un code fournis par OMS, qui permet d’identifier chaque victime d’accident.
+    * Enregistrement des modes de déplacements de chaque protagoniste.
+    * Met à jour le rapport accident en ajoutant plus d’informations tels que : la gravité des blessures résultantes, soins Administrer, la réponse aux traumatismes, le délai d’action sur un blesser pour l’administration d’un traitement médical après accident.
+    * Gestion de la prise en charge des accidentés.
+    * Gestion des dossiers médicaux des patients.
+    * Gestion des ambulances.
+    * Notifier les forces de l’ordre en cas d’accident.
 
-
-Présentation du rôle de responsable d’exploitation
---------------------------------------------------
-Le compte ayant les droits d’exploitation effectue les opérations suivantes : 
-    * L’impression du procès-verbal de contrôle technique d’un véhicule
-    * L’activation des Procès-verbaux
-Il a également la possibilité de :
-    * Changer la ligne d’une inspection en cours
-    * Visualiser et modifier les informations du certificat d’immatriculation
-    * Suppression d’un véhicule
+Présentation du rôle de l’assurance
+-----------------------------------
+Tout centre apte à évaluer la sante technique d’un véhicule et à produire un procès-verbal.Il est capable des actions suivantes dans l’application :
+    * Mettre à disposition les données des contrats d’assurance.
+    * Relever les différents défauts des véhicules (majeurs/mineurs).
+    * Prise en charge des accidentés concernant le véhicule assuré en validant les soins et examens à supporter.
+    * Identification du véhicule et Vérification de la Police D’assurance.
+    * Prise en charges des véhicules accidentés : indemnisation à la hauteur du contrat d’assurance.
 
