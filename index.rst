@@ -20,3 +20,5 @@ Bonjour tout le monde!!!
    :caption: PROCEDURE DE DECLARATION D’UN ACCIDENT
 
    DeclarationAcc/DeclarationAcc.rst
+   DeclarationAcc/Connexion.rst
+   DeclarationAcc/AddAccident.rst

@@ -1,6 +1,6 @@
 
-PROCEDURE DE DECLARATION D’UN ACCIDENT
-=======================================
+ETATS ET DESCRIPTIONS
+=====================
 
 Cette procédure comprend deux étapes : La déclaration de l’accident et la validation de
 l’accident. L’acteur principal de cette procédure est un agent de police ou de gendarmerie
@@ -20,7 +20,7 @@ véhicules enregistrés sur l’application.
 
 Les différentes descriptions de ces etats sont les suivantes :
 
-.. list-table:: Listes des Etats
+.. list-table:: Descriptions des Etats
    :widths: 20 30
    :header-rows: 1
    :class: tight-table
