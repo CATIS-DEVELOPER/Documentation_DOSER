@@ -20,14 +20,20 @@ véhicules enregistrés sur l’application.
 
 Les différentes descriptions de ces etats sont les suivantes :
 
-.. list-table::Les différents états.
-    :class: tight-table
-===========  =================================================
-Etats        Descriptions
-===========  =================================================
-OPENED        Lorsque l’accident a été détecté et l’agent de déclaration à entrer les informations qu’il appercoit pour ensuite rédiriger un procès verbal de l’accident. A cette etat l’agent peut consulter ou modifier les informations précédemment entrer lors de la detection de l’accident. Pour la suite de la procédure il devra ajouter le croquis, constituer le PV, générer le PV et enfin signer le PV pour terminer.
-READY         A cette etat, toutes les imoformations concernant l’application ont été ajouté par l’agent collecteur et c’est au tour du superieur agent collecteur valider ou de rejeter les informations sur l’accident
-REJECTED      Ici, le superieur agent collecteur a rejecté les informations liées à l’accident et a généré un motif de son rejet que l’agent collecteur prendra en compte pour pouvoir modifier les informations précédemment fournies.
-ACCEPTED      Le supérieur agent collecteur a validé les informations de l’accidents et a confirmé avec sa signature à l’appui.
-Ajouter       C’est lorsque l’agent collecteur ajoute un croquis à sa déclaration quelque soit le statut de la déclaration avant que la déclaration ne soit validée par le supérieur agent collecteur
-===========  =================================================
+.. list-table:: Listes des Etats
+   :widths: 20 30
+   :header-rows: 1
+   :class: tight-table
+
+   * - Etats
+     - Descriptions
+   * - OPENED
+     - Lorsque l’accident a été détecté et l’agent de déclaration à entrer les informations qu’il appercoit pour ensuite rédiriger un procès verbal de l’accident. A cette etat l’agent peut consulter ou modifier les informations précédemment entrer lors de la detection de l’accident. Pour la suite de la procédure il devra ajouter le croquis, constituer le PV, générer le PV et enfin signer le PV pour terminer.
+   * - READY
+     - A cette etat, toutes les imoformations concernant l’application ont été ajouté par l’agent collecteur et c’est au tour du superieur agent collecteur valider ou de rejeter les informations sur l’accident.
+   * - REJECTED
+     - Ici, le superieur agent collecteur a rejecté les informations liées à l’accident et a généré un motif de son rejet que l’agent collecteur prendra en compte pour pouvoir modifier les informations précédemment fournies.
+   * - ACCEPTED
+     - Le supérieur agent collecteur a validé les informations de l’accidents et a confirmé avec sa signature à l’appui.
+   * - Ajouter
+     - C’est lorsque l’agent collecteur ajoute un croquis à sa déclaration quelque soit le statut de la déclaration avant que la déclaration ne soit validée par le supérieur agent collecteur.
