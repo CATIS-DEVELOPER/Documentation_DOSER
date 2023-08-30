@@ -9,6 +9,14 @@ Bonjour tout le monde!!!
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: PRESENTATION DES ROLES
 
    PresentationRoles/PresentationRoles.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: PROCEDURE DE DECLARATION D’UN ACCIDENT
+
+   DeclarationAcc/DeclarationAcc.rst
