@@ -17,7 +17,7 @@ Bonjour tout le monde!!!
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: PROCEDURE DE DECLARATION D’UN ACCIDENT
+   :caption: PROCEDURE DE DECLARATION
 
    DeclarationAcc/DeclarationAcc.rst
    DeclarationAcc/Connexion.rst

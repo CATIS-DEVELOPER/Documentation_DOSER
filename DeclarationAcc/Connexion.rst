@@ -1,11 +1,9 @@
 
-Procédure de déclaration
-========================
+Connexion à l’application web COLLECTE DE DONNEES
+=================================================
 Cette procédure est effectuée par l’agent collecteur celui-là qui descend sur les lieux des
 accidents pour obtenir des informations sur l’accident.
 
-Connexion à l’application web COLLECTE DE DONNEES
--------------------------------------------------
 Sur la barre de recherche de votre navigateur, entrer l’adresse IP du serveur. Dans notre
 cas, c’est l’adresse **« 141.95.103.210:8098 »**. Puis appuyer la touche « entrer » du
 clavier.

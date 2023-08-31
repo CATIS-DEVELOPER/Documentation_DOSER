@@ -123,6 +123,16 @@ Constituer le PV
 Pour cette tâche, il vous sera demandé d’entrer certaines informations pour pouvoir vous lier avec l’accident. Après avoir rempli ces différentes informations, cliquer sur « Enregitrer » pour la constitution du PV.
 
 .. image:: ../Images/img-police1&2/constitu_pv.jpg
-    :name: Dessin d'un croquis.
-.. centered:: Dessin d'un croquis.
+    :name: Constituer un PV.
+.. centered:: Constituer un PV.
+
+Terminer le PV (Signer le PV)
+=============================
+Ici, il faudra juste émettre sa signature sur l’interface qui vous sera proposée et ensuite cliquer sur **« Enregistrer »**.
+
+.. image:: ../Images/img-police1&2/term.jpg
+    :name: Signature.
+.. centered:: Signature.
+
+A la fin de cette tâche, le statut de l’accident passe à « READY » et la suite de la déclaration s’effectuera par le supérieur agent collecteur.
 
