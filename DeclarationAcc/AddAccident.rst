@@ -14,7 +14,7 @@ Après avoir cliqué sur l’icône d’ajout d’un accident, plusieurs champs 
 .. centered::  Ajout d’un accident.
 
 Ajouter une image
-+++++++++++++++++
+-----------------
 
 .. image:: ../Images/img-police1&2/add_im.jpg
     :name:  Ajout de l’image de accident.
@@ -50,26 +50,30 @@ Section des informations liées aux véhicules
 .. centered::   Ajout des informations liées aux véhicules.
 
 Section des informations liées aux accidentés
----------------------------------------------
++++++++++++++++++++++++++++++++++++++++++++++
 
 .. image:: ../Images/img-police1&2/add_accident.jpg
     :name:   Ajout des informations liées aux accidentés.
 .. centered::   Ajout des informations liées aux accidentés.
 
 Après sélection de la catégorie de l'accidenté, différentes boîtes de dialogues vous sont présentées:
-    * Pour le chauffeur
+
+Pour le chauffeur
+-----------------
       
     .. image:: ../Images/img-police1&2/chauffeur.jpg
         :name:   Ajout d'un chauffeur victime.
     .. centered::   Ajout d'un chauffeur victime.
 
-    * Pour le passager
+Pour le passager
+----------------
 
     .. image:: ../Images/img-police1&2/passager.jpg
         :name:   Ajout d'un passager victime.
     .. centered::   Ajout d'un passager victime.
 
-    * Pour le piéton 
+Pour le piéton 
+--------------
 
     .. image:: ../Images/img-police1&2/pieton.jpg
         :name:   Ajout d'un piéton victime.
