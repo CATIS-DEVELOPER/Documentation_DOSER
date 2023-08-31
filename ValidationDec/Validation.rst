@@ -12,3 +12,34 @@ Après toute cette procédure qui a abouti à une déclaration d’un accident v
 .. centered:: Générer PV
 
 Vous avez donc la possibilité d’imprimer ce PV en cliquant sur **« Imprimer »**.
+
+Actions effectuées par l'agent supérieur collecteur en fonction des états de la déclaration
+===========================================================================================
+Que le statut soit « ACCEPTED » ou « ACCEPTED Ajouter », le supérieur agent collecteur ne pourra que consulter la déclaration de nouveau.
+
+.. image:: ../Images/img-police1&2/accepted.jpg
+    :name: Action du supérieur de l'agent collecteur à l'état ACCEPTED
+.. centered:: Action du supérieur de l'agent collecteur à l'état ACCEPTED
+
+Lorsque la déclaration est au statut « REJECTED » ou « REJECTED Ajouter » les actions de cet agent sera de consulter la déclaration et de consulter le PV.
+
+.. image:: ../Images/img-police1&2/rej_sup.jpg
+    :name: Action du supérieur de l'agent collecteur à l'état REJECTED
+.. centered:: Action du supérieur de l'agent collecteur à l'état REJECTED
+
+Que le statut soit « OPENED » ou « OPENED Ajouter », le supérieur agent collecteur ne pourra que consulter la déclaration de nouveau. 
+
+.. image:: ../Images/img-police1&2/open_sup.jpg
+    :name: Action du supérieur de l'agent collecteur à l'état OPENED
+.. centered:: Action du supérieur de l'agent collecteur à l'état OPENED
+
+Lorsque l’agent collecteur termine l’élaboration de sa déclaration, l’état de la déclaration passe a « READY » et si le croquis a été ajouté il passe a « READY Ajouter » et à ce moment le supérieur agent collecteur pourra consulter la déclaration, consulter le PV, valider la déclaration et annuler ou effacer la déclaration.
+
+.. image:: ../Images/img-police1&2/read_sup.jpg
+    :name: Action du supérieur de l'agent collecteur à l'état READY
+.. centered:: Action du supérieur de l'agent collecteur à l'état READY
+
+
+
+
+

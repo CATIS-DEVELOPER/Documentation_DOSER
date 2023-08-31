@@ -136,3 +136,29 @@ Ici, il faudra juste émettre sa signature sur l’interface qui vous sera propo
 
 A la fin de cette tâche, le statut de l’accident passe à « READY » et la suite de la déclaration s’effectuera par le supérieur agent collecteur.
 
+Actions effectuées par l'agent collecteur en fonction des états de la déclaration
+=================================================================================
+Que le statut soit « ACCEPTED » ou « ACCEPTED Ajouter », l’agent collecteur ne pourra que consulter la déclaration de nouveau.
+
+.. image:: ../Images/img-police1&2/accepted.jpg
+    :name: Action du collecteur à l'état ACCEPTED
+.. centered:: Action du collecteur à l'état ACCEPTED.
+
+Lorsque la déclaration est au statut « REJECTED » ou « REJECTED Ajouter » les actions de cet agent sera de consulter la déclaration, modifier la déclaration, modifier le croquis de l’accident, reconstituer le PV et de signer le PV à la fin.
+
+.. image:: ../Images/img-police1&2/rej_aj.jpg
+    :name: Action du collecteur à l'état REJECTED
+.. centered:: Action du collecteur à l'état REJECTED.
+
+Lorsque l’agent ajoute un accident, le statut de l’accident passe à « OPENED », mais une fois qu’il a ajouté le croquis de l’accident, son état passe à « OPENED Ajouter » et ses différentes actions qu’il pourra effectuer sont les suivantes mais qui ont été mieux détaillé plus haut dans le document.
+
+.. image:: ../Images/img-police1&2/open.jpg
+    :name: Action du collecteur à l'état OPENED.
+.. centered:: Action du collecteur à l'état OPENED.
+
+Lorsque l’agent collecteur termine l’élaboration de sa déclaration, l’état de la déclaration passe a « READY » et si le croquis a été ajouté il passe a « READY Ajouter » et l’agent collecteur ne pourra que consulter la déclaration.
+
+.. image:: ../Images/img-police1&2/ready.jpg
+    :name: ction du collecteur à l'état READY
+.. centered:: Action du collecteur à l'état READY
+
