@@ -22,3 +22,4 @@ Bonjour tout le monde!!!
    DeclarationAcc/DeclarationAcc.rst
    DeclarationAcc/Connexion.rst
    DeclarationAcc/AddAccident.rst
+   DeclarationAcc/EnrichirDec.rst
