@@ -14,7 +14,7 @@ Après avoir cliqué sur l’icône d’ajout d’un accident, plusieurs champs 
 .. centered::  Ajout d’un accident.
 
 Ajouter une image
-=================
++++++++++++++++++
 
 .. image:: ../Images/img-police1&2/add_im.jpg
     :name:  Ajout de l’image de accident.
