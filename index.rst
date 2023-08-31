@@ -29,4 +29,4 @@ Bonjour tout le monde!!!
    :hidden:
    :caption: VALIDATION DE LA DECLARATION
 
-   ValidationDec/validation.rst
+   ValidationDec/Validation.rst
