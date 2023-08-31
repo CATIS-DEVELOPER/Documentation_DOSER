@@ -23,3 +23,10 @@ Bonjour tout le monde!!!
    DeclarationAcc/Connexion.rst
    DeclarationAcc/AddAccident.rst
    DeclarationAcc/EnrichirDec.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: VALIDATION DE LA DECLARATION
+
+   ValidationDec/validation.rst
