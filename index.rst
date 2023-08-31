@@ -38,3 +38,12 @@ Bonjour tout le monde!!!
 
    PriseEnCharge/Connexion.rst
    PriseEnCharge/GestDossMed.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: ASSURANCE
+
+   Assurance/Introduction.rst
+   Assurance/Connexion.rst
+   Assurance/GestContrat.rst
