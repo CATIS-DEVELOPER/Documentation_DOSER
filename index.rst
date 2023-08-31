@@ -30,3 +30,11 @@ Bonjour tout le monde!!!
    :caption: VALIDATION DE LA DECLARATION
 
    ValidationDec/Validation.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: PROCEDURE DE PRISE EN CHARGE
+
+   Prise en charge/Connexion.rst
+   Prise en charge/GestDossMed.rst
