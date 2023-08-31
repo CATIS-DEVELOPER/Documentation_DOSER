@@ -97,24 +97,28 @@ Contacts du patient
 .. centered:: Modification des contacts du patient.
 
 Lorsque vous cliquer sur l’icône de modification d’un contact, une boite de dialogue s’ouvre avec des anciennes valeurs et vous devez modifier les champs que vous voulez et puis cliquer le bouton « Modifier » et vous recevrez un message de confirmation.
+
 .. image:: ../Images/img-hopit/contac_det.jpg
 .. centered:: Modification d'un contact d'un patient.
 
 Soins
 ~~~~~
 Lors de l’ajout d’un dossier médical, le champ des soins n’avait pas été ajouté donc c’est lors de l’enrichissement que vous informez les soins dont le patient aura besoin.
+
 .. image:: ../Images/img-hopit/soins.jpg
 .. centered:: Lites des soins.
 
 Après avoir ajouté un soin il aura pour status « PENDING », mais après la validation du soin par l’assurance le status va changer en « ACCEPTED ».
 		
 Lorsque vous voulez ajouter un soin, une boite de dialogue vous est proposée dont vous devez entrer la date, l’heure et la valeur des soins puis vous enregistrer le soin en cliquant sur le bouton « Ajouter ».
+
 .. image:: ../Images/img-hopit/add_soin.jpg
 .. centered:: Ajouter un soin.
 
 Examens
 ~~~~~~~
 Lors de l’ajout d’un dossier médical, le champ des examens n’avait pas été ajouté donc c’est lors de l’enrichissement que vous informez les examens dont le patient aura besoin
+
 .. image:: ../Images/img-hopit/exam.jpg
 .. centered:: Lites des examens.
 

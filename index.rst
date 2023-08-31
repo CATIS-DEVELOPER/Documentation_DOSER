@@ -36,5 +36,5 @@ Bonjour tout le monde!!!
    :hidden:
    :caption: PROCEDURE DE PRISE EN CHARGE
 
-   Prise en charge/Connexion.rst
-   Prise en charge/GestDossMed.rst
+   PriseEnCharge/Connexion.rst
+   PriseEnCharge/GestDossMed.rst
