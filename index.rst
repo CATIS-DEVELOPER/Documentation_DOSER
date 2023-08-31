@@ -5,7 +5,10 @@
 
 Welcome to DOSER's documentation!
 =================================
-Bonjour tout le monde!!!
+DITROS.... 
+
+
+
 
 .. toctree::
    :maxdepth: 2
