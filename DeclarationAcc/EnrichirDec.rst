@@ -26,7 +26,8 @@ Modifier une image
 
 Données GPS
 -----------
-Dans la modification de la déclaration, il est totalement impossible de modifier la localisation de l’accident.
+.. caution:: 
+    Dans la modification de la déclaration, il est totalement impossible de modifier la localisation de l’accident.
 
 .. image:: ../Images/img-police1&2/donn_GPS_mod.jpg
     :name: Visualisation des données GPS.
