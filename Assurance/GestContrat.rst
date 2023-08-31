@@ -12,27 +12,27 @@ Une fois être connecté à l’application, vous êtes redirigez à la page d�
 .. centered:: Affichage sous forme de graphe.
 
 Enregistrer un nouveau contrat
-==============================
+------------------------------
 Une fois avoir cliqué sur « Nouveau » pour enregistrer un nouveau contrat d’assurance
 avec un véhicule, un formulaire vous est présenté où il faudra entrer certaines informations
 puis cliquer sur « Enregistrer » pour enregistrer le contrat.
 
 Assurance
----------
+^^^^^^^^^
 Ici, il vous est demandé de renseigner les informations du contrat.
 
 .. image:: ../Images/img-ass/ass.jpg
 .. centered:: Informations sur le contrat.
 
 Client
-------
+^^^^^^
 Vous devez à ce niveau renseigner les informations liées au client.
 
 .. image:: ../Images/img-ass/inf_pat.jpg
 .. centered:: Informations sur le patient.
 
 Information sur le véhicule
----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Vous devez à ce niveau renseigner les informations liées au véhicule.
 
 .. image:: ../Images/img-ass/vehi.jpg
