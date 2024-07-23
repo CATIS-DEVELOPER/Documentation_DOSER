@@ -9,7 +9,7 @@ Après toute cette procédure qui a abouti à une déclaration d’un accident v
 
 .. image:: ../Images/img-police1&2/gen_pv.jpg
     :name: Générer PV
-.. centered:: Générer PV
+.. centered:: Générer PVs
 
 Vous avez donc la possibilité d’imprimer ce PV en cliquant sur **« Imprimer »**.
 
