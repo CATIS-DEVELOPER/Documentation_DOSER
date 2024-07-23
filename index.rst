@@ -5,7 +5,7 @@
 
 Welcome to DOSER's documentation!
 =================================
-DITROS.... 
+DITROS est un regroupement d'applications
 
 
 
