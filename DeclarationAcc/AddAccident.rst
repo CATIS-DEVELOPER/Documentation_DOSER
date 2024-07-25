@@ -79,4 +79,8 @@ Pour le piéton
         :name:   Ajout d'un piéton victime.
     .. centered::   Ajout d'un piéton victime.
 
-A la fin de cette procédure veuillez cliquer sur le bouton **« Enregistrer »** pour sauvegarder les informations sur l’accident.
+A la fin de cette procédure veuillez cliquer sur le bouton **« Enregistrer »** pour sauvegarder les informations sur l’accident. comme suit suit :
+
+    .. image:: ../Images/img-police1&2/Save_accident.png
+        :name:   Enregistrer l'accident.
+    .. centered::   Ajout d'un piéton victime.

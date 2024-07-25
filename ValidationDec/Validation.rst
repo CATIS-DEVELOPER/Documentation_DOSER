@@ -1,7 +1,35 @@
 
 Validation du PV
 ================
-Sur l’interface du superieur agent collecteur, pour la validation des déclarations il ne le fera que sur des accidents dont le statut est à **« READY »**. Pour cela, il va cliquer sur le bouton **« En savoir plus »** et ensuite cliquer sur **« Valider »**. Sur l’interface qui lui sera demandée, il devra prendre une décision en fonction du PV de l’accident. Lorsqu’il sera question de rejeter la déclaration, il devra enter un motif de son choix pour que l’agent collecteur soit notifier de la raison prise par son supérieur ensuite l’etat de la déclaration va passer a **« REJECTED »**, mais lorsque il sera question d’accepter la déclartion il devra juste entrer sa signature puis confirmer et l’etat de la déclaration va passer a **« ACCEPTED »**.
+**« NB : »** Il est bon à savoir que tout policier n'a pas le pouvoir de valider un PV.
+
+Lorsque vous avez le droit, vous verrez sur l’interface de présentation des déclarations, certaines déclarations dont le statut est à **« READY »**. Pour valider cette dernière, il faudra cliquer sur le bouton **« Actions »** et ensuite cliquer sur **« Validation »** comme suit :
+
+.. image:: ../Images/img-police1&2/valider_pv1.png
+    :name: Valider le PV
+.. centered:: Valider le PV
+
+Puis cliquez sur **« Aperçu du PV »**
+
+.. image:: ../Images/img-police1&2/valider_pv2.png
+    :name: Voir l'apperçu du PV
+.. centered:: Voir l'apperçu du PV
+
+cliquez sur **« Validation »**
+
+.. image:: ../Images/img-police1&2/valider_pv3.png
+    :name: Apperçu du PV
+.. centered:: Apperçu du PV
+
+Sur l’interface qui lui sera demandée, il devra prendre une décision en fonction du PV de l’accident. Lorsqu’il sera question de rejeter la déclaration, il devra choisir **« Annuler »** puis renseigner obligatoirement un motif pour choix afin que l’agent collecteur soit notifié de la raison prise par son supérieur ensuite l’etat de la déclaration va passer a **« REJECTED »**, mais lorsque il sera question d’accepter la déclartion il devra choisir **« Accepter »** puis signer, renseigner (facultatif) et confirmer. L’etat de la déclaration passera à **« ACCEPTED »**. 
+
+.. image:: ../Images/img-police1&2/valider_pv4.png
+    :name: Choix de validation
+.. centered:: Choix de validation
+
+.. image:: ../Images/img-police1&2/valider_pv5.png
+    :name: Motif
+.. centered:: Motif
 
 Génerer le PV de l'accident
 ===========================
