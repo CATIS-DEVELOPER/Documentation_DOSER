@@ -47,3 +47,11 @@ Welcome to DOSER's documentation!
    Assurance/Introduction.rst
    Assurance/Connexion.rst
    Assurance/GestContrat.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: GESTION DE FLOTTES
+
+   Gestion_flotte/Connexion.rst
+   
