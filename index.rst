@@ -54,4 +54,6 @@ Welcome to DOSER's documentation!
    :caption: GESTION DE FLOTTES
 
    Gestion_flotte/Connexion.rst
-   
+   Gestion_flotte/Dashboard.rst
+   Gestion_flotte/Fonctionnalités.rst
+
