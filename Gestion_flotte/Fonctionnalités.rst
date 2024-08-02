@@ -10,11 +10,11 @@ La création d'un voyage peut se faire de deux manières différentes; soit dire
 
 #. Dans le **Dashboard** :
 
-#Metrre l'image qui illustre la partie
+  #Metrre l'image qui illustre la partie
 
 #. Dans la section **« Voyages »** : 
 
-#Metrre l'image qui illustre la partie
+  #Metrre l'image qui illustre la partie
 
 l'ajout des véhicules
 +++++++++++++++++++++
