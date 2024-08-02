@@ -1,7 +1,7 @@
  
 Connexion à l’application web Assurance
 =======================================
-Cette procédure est effectuée par les agents d'assurance pour faciliter le suivi des données lorsqu'un accident concerne un véhicule ou plusieurs véhicules parmi ceux qu'ils assurent.
+Cette procédure est effectuée par les agents d'assurance pour faciliter le suivi des données lorsqu'un accident concerne un véhicule ou plusieurs véhicules parmi ceux qu'ils assurent. 
 
 Sur la barre de recherche de votre navigateur, entrer l’adresse IP du serveur. Dans notre
 cas, c’est l’adresse **« 141.95.103.210:8088 »**. Puis appuyer la touche « entrer » du
