@@ -125,13 +125,13 @@ Pour ajouter un itinéraire, nous allons aller dans la section **Voyages**, puis
 
 Cliquons ensuite sur le bouton **+** comme le présente l'interface qui suit :
 
-.. image:: ../Images/img-flotte/Liste_voitures1.PNG
+.. image:: ../Images/img-flotte/Liste_itineraires.PNG
     :name: Liste des itinéraires
 .. centered:: Liste des itinéraires
 
-Remplir les informations propres au véhicules, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout.
+Remplir les informations propres à l'itinéraire, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout.
 
-.. image:: ../Images/img-flotte/Ajout_voiture.PNG
+.. image:: ../Images/img-flotte/Ajout_itineraire.PNG
     :name: Les informations de l'itinéraire
 .. centered:: Les informations de l'itinéraire
 
@@ -148,12 +148,12 @@ Pour ajouter un emplacement, nous allons aller dans la section **Voyages**, puis
 
 Cliquons ensuite sur le bouton **+** comme le présente l'interface qui suit :
 
-.. image:: ../Images/img-flotte/Liste_voitures1.PNG
+.. image:: ../Images/img-flotte/Liste_emplacements.PNG
     :name: Liste des emplacements
 .. centered:: Liste des emplacements
 
-Remplir les informations propres au véhicules, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout.
+Remplir les informations propres à l'emplacement, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout.
 
-.. image:: ../Images/img-flotte/Ajout_voiture.PNG
+.. image:: ../Images/img-flotte/Ajout_emplacement.PNG
     :name: Les informations sur l'emplacement
 .. centered:: Les informations sur l'emplacement
