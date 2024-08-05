@@ -8,11 +8,13 @@ la création des voyages
 
 La création d'un voyage peut se faire de deux manières différentes; soit directement sur le **Dashboard** soit dans la section **« Voyages »**.
 
-#. Dans le **Dashboard** :
+**1** Dans le **Dashboard** :
 
-  #Metrre l'image qui illustre la partie
+  .. image:: ../Images/img-flotte/creerChauffeur.PNG
+    :name: Dashboard de la gestion de flottes
+  .. centered:: Dashboard de la gestion de flottes
 
-#. Dans la section **« Voyages »** : 
+**2** Dans la section **« Voyages »** : 
 
   #Metrre l'image qui illustre la partie
 

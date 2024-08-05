@@ -4,33 +4,33 @@ Présentation du Dashboard
 
 Le dashboard nous présente plusieurs informations parmi lesquels :
 
-#. La photo de profil
-#. le rôle
-#. les statistiques sur les voyages, les véhicules et les accidents
+**1** La photo de profil
+**2** le rôle
+**3** les statistiques sur les voyages, les véhicules et les accidents
 
   .. image:: ../Images/img-flotte/Accueil0.PNG
     :name: Dashboard de la gestion de flottes
   .. centered:: Dashboard de la gestion de flottes
 
-#. la liste des voyages
+**4** la liste des voyages
 
   .. image:: ../Images/img-flotte/Accueil1.PNG
     :name: Liste des voyages
   .. centered:: Liste des voyages
 
-#. la liste des véhicules
+**5** la liste des véhicules
 
   .. image:: ../Images/img-flotte/Accueil2.PNG
     :name: Liste des véhicules
   .. centered:: Liste des véhicules
 
-#. la liste des chauffeurs
+**6** la liste des chauffeurs
 
   .. image:: ../Images/img-flotte/Accueil2.PNG
     :name: Liste des véhicules
   .. centered:: Liste des véhicules
 
-#. Les graphes révélateurs de statistiques : pour avoir ces statistiques, il faut cliquer sur **« GRAPHE »**
+**7** Les graphes révélateurs de statistiques : pour avoir ces statistiques, il faut cliquer sur **« GRAPHE »**
 
   .. image:: ../Images/img-flotte/graphe1.PNG
     :name: Graphe 1
