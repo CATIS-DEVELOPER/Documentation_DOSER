@@ -31,7 +31,7 @@ Puis cliquer sur **« CONNEXION »**.
     :name: Connexion à l’application
 .. centered:: Connexion à l’application
 
-Une fois connecté vous devez voir apparaitre devant vous l'interface ci-dessous : 
+Une fois connecté vous devez voir apparaitre devant vous une interface similaire à celle ci-dessous : 
 
 .. image:: ../Images/img-flotte/Accueil.PNG
     :name: Accueil de la gestion de flottes
