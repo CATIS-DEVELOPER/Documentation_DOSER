@@ -9,7 +9,7 @@ Welcome to DOSER's documentation!
 
 Qui êtes vous ?
 
-* :doc:`un agent de police/gendamerie <DeclarationAcc/Connexion>`
+* :doc:`un agent de police/gendamerie <DeclarationAcc/DeclarationAcc>`
 * :doc:`un medecin/infirmier(ière) <PriseEnCharge/Connexion>`
 * :doc:`un agent d'assurance <Assurance/Connexion>`
 * :doc:`une agence de voyage <Gestion_flotte/Connexion>` (particulier disposant d'une flotte de véhicules)
@@ -51,7 +51,6 @@ Qui êtes vous ?
    :hidden:
    :caption: ASSURANCE
 
-   Assurance/Introduction.rst
    Assurance/Connexion.rst
    Assurance/GestContrat.rst
 
