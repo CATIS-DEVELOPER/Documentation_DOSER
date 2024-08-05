@@ -22,11 +22,11 @@ Remplir les informations des trois sections suivantes :
     :name: Les sections à remplir
 .. centered:: Les sections à remplir
 
-Remplir les informations de **la section des informations liée au voyage :** On renseigne ici les détails du véhicules, le jour & heure du voyage, le chauffeur concerné et les points de départ & d'arrivée
+Remplir les informations de **la section des informations liées au voyage :** On renseigne ici les détails du véhicules, le jour & heure du voyage, le chauffeur concerné et les points de départ & d'arrivée
 
 .. image:: ../Images/img-flotte/Ajout_voyage1.PNG
     :name: la section des informations liée au voyage
-.. centered:: la section des informations liée au voyage
+.. centered:: la section des informations liées au voyage
 
 Remplir les informations de **la section liée aux informations sur les passagers :** Il est question dans cette section d'enregistrer tous les passagers qui devront effectuer ce voyage.
 
@@ -54,11 +54,11 @@ Remplir les informations des trois sections suivantes :
     :name: Les sections à remplir
 .. centered:: Les sections à remplir
 
-Remplir les informations de **la section des informations liée au voyage :** On renseigne ici les détails du véhicules, le jour & heure du voyage, le chauffeur concerné et les points de départ & d'arrivée
+Remplir les informations de **la section des informations liées au voyage :** On renseigne ici les détails du véhicules, le jour & heure du voyage, le chauffeur concerné et les points de départ & d'arrivée
 
 .. image:: ../Images/img-flotte/Ajout_voyage1.PNG
     :name: la section des informations liée au voyage
-.. centered:: la section des informations liée au voyage
+.. centered:: la section des informations liées au voyage
 
 Remplir les informations de **la section liée aux informations sur les passagers :** Il est question dans cette section d'enregistrer tous les passagers qui devront effectuer ce voyage.
 

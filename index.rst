@@ -7,6 +7,13 @@ Welcome to DOSER's documentation!
 =================================
 **DITROS** est un ensemble de solutions/services utilisant l’innovation et la technologie numérique pour faire progresser la sécurité routière  en général et permettre aux gouvernements et autres organismes publics/privés d’atteindre les objectifs de l’ONU en matière de sécurité routière.
 
+Qui êtes vous ?
+
+* un agent de police/gendamerie
+* un medecin/infirmier(ière)
+* un agent d'assurance
+* une agence de voyage (particulier disposant d'une flotte de véhicules)
+
 .. toctree::
    :maxdepth: 2
    :hidden:
