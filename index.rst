@@ -9,10 +9,10 @@ Welcome to DOSER's documentation!
 
 Qui êtes vous ?
 
-* un agent de police/gendamerie
-* un medecin/infirmier(ière)
-* un agent d'assurance
-* une agence de voyage (particulier disposant d'une flotte de véhicules)
+* :doc:`un agent de police/gendamerie <DeclarationAcc/Connexion>`
+* :doc:`un medecin/infirmier(ière) <PriseEnCharge/Connexion>`
+* :doc:`un agent d'assurance <Assurance/Connexion>`
+* :doc:`une agence de voyage <Gestion_flotte/Connexion>` (particulier disposant d'une flotte de véhicules)
 
 .. toctree::
    :maxdepth: 2
