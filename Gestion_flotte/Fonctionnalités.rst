@@ -10,13 +10,67 @@ La création d'un voyage peut se faire de deux manières différentes; soit dire
 
 **1** Dans le **Dashboard** :
 
-  .. image:: ../Images/img-flotte/creerChauffeur.PNG
+Pour créer un voyage, nous allons cliquer sur le bouton **+** comme le présente l'interface qui suit : 
+
+.. image:: ../Images/img-flotte/creerVoyage.PNG
     :name: Dashboard de la gestion de flottes
-  .. centered:: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de flottes
+
+Remplir les informations des trois sections suivantes : 
+
+.. image:: ../Images/img-flotte/Ajout_voyage.PNG
+    :name: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de flottes
+
+Remplir les informations de **la section des informations liée au voyage :** On renseigne ici les détails du véhicules, le jour & heure du voyage, le chauffeur concerné et les points de départ & d'arrivée
+
+.. image:: ../Images/img-flotte/Ajout_voyage1.PNG
+    :name: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de FLOTTES
+
+Remplir les informations de **la section liée aux informations sur les passagers :** Il est question dans cette section d'enregistrer tous les passagers qui devront effectuer ce voyage.
+
+.. image:: ../Images/img-flotte/Ajout_voyage2.PNG
+    :name: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de flottes
+
+Remplir les informations de **la section liée aux bagages :** Ici on va renseigner les différents bagages. Enfin cliquer sur le bouton **« Enregistrer »** pour finaliser la création du voyage.
+
+.. image:: ../Images/img-flotte/Ajout_voyage3.PNG
+    :name: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de flottes
 
 **2** Dans la section **« Voyages »** : 
 
-  #Metrre l'image qui illustre la partie
+Pour créer un voyage, nous allons aller dans la section **Véhicule**, puis cliquer sur **Voyages** :
+
+.. image:: ../Images/img-flotte/voyageList.PNG
+    :name: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de flottes
+
+Remplir les informations des trois sections suivantes : 
+
+.. image:: ../Images/img-flotte/Ajout_voyage.PNG
+    :name: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de flottes
+
+Remplir les informations de **la section des informations liée au voyage :** On renseigne ici les détails du véhicules, le jour & heure du voyage, le chauffeur concerné et les points de départ & d'arrivée
+
+.. image:: ../Images/img-flotte/Ajout_voyage1.PNG
+    :name: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de FLOTTES
+
+Remplir les informations de **la section liée aux informations sur les passagers :** Il est question dans cette section d'enregistrer tous les passagers qui devront effectuer ce voyage.
+
+.. image:: ../Images/img-flotte/Ajout_voyage2.PNG
+    :name: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de flottes
+
+Remplir les informations de **la section liée aux bagages :** Ici on va renseigner les différents bagages. Enfin cliquer sur le bouton **« Enregistrer »** pour finaliser la création du voyage.
+
+.. image:: ../Images/img-flotte/Ajout_voyage3.PNG
+    :name: Dashboard de la gestion de flottes
+.. centered:: Dashboard de la gestion de flottes
 
 l'ajout des véhicules
 +++++++++++++++++++++
