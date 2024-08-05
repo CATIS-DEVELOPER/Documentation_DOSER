@@ -78,8 +78,8 @@ l'ajout des véhicules
 Pour ajouter un véhicule, nous allons aller dans la section **Véhicules**, puis cliquer sur **Voitures** :
 
 .. image:: ../Images/img-flotte/dashboardList.PNG
-    :name: L'onglet voitures
-.. centered:: L'onglet voitures
+    :name: L'onglet des voitures
+.. centered:: L'onglet des voitures
 
 Cliquons ensuite sur le bouton **+** comme le présente l'interface qui suit :
 
@@ -87,7 +87,7 @@ Cliquons ensuite sur le bouton **+** comme le présente l'interface qui suit :
     :name: Liste des voitures
 .. centered:: Liste des voitures
 
-Remplir les informations propres au véhicules, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout
+Remplir les informations propres au véhicules, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout.
 
 .. image:: ../Images/img-flotte/Ajout_voiture.PNG
     :name: Les informations du véhicule
@@ -105,14 +105,14 @@ Pour ajouter un véhicule, nous allons aller dans la section **Voyages**, puis c
 Cliquons ensuite sur le bouton **+** comme le présente l'interface qui suit :
 
 .. image:: ../Images/img-flotte/Ajout_chauffeur.PNG
-    :name: Liste des voitures
-.. centered:: Liste des voitures
+    :name: Liste des chauffeurs
+.. centered:: Liste des chauffeurs
 
-Remplir les informations propres au chauffeur, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout
+Remplir les informations propres au chauffeur, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout.
 
 .. image:: ../Images/img-flotte/Ajout_chauffeur1.PNG
-    :name: Les informations du véhicule
-.. centered:: Les informations du véhicule
+    :name: Les informations du chauffeur
+.. centered:: Les informations du chauffeur
 
 l'ajout d'un itinéraire
 +++++++++++++++++++++++
@@ -120,20 +120,20 @@ l'ajout d'un itinéraire
 Pour ajouter un itinéraire, nous allons aller dans la section **Voyages**, puis cliquer sur **Itinéraires** :
 
 .. image:: ../Images/img-flotte/voyageList2.PNG
-    :name: L'onglet voitures
-.. centered:: L'onglet voitures
+    :name: L'onglet des itinéraires
+.. centered:: L'onglet des itinéraires
 
 Cliquons ensuite sur le bouton **+** comme le présente l'interface qui suit :
 
 .. image:: ../Images/img-flotte/Liste_voitures1.PNG
-    :name: Liste des voitures
-.. centered:: Liste des voitures
+    :name: Liste des itinéraires
+.. centered:: Liste des itinéraires
 
-Remplir les informations propres au véhicules, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout
+Remplir les informations propres au véhicules, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout.
 
 .. image:: ../Images/img-flotte/Ajout_voiture.PNG
-    :name: Les informations du véhicule
-.. centered:: Les informations du véhicule
+    :name: Les informations de l'itinéraire
+.. centered:: Les informations de l'itinéraire
 
 l'ajout des emplacements
 ++++++++++++++++++++++++
@@ -143,17 +143,17 @@ On entend par emplacement ici soit un point de départ et un point d'arrivé.
 Pour ajouter un emplacement, nous allons aller dans la section **Voyages**, puis cliquer sur **Emplacements** :
 
 .. image:: ../Images/img-flotte/voyageList3.PNG
-    :name: L'onglet voitures
-.. centered:: L'onglet voitures
+    :name: L'onglet des emplacements
+.. centered:: L'onglet des emplacements
 
 Cliquons ensuite sur le bouton **+** comme le présente l'interface qui suit :
 
 .. image:: ../Images/img-flotte/Liste_voitures1.PNG
-    :name: Liste des voitures
-.. centered:: Liste des voitures
+    :name: Liste des emplacements
+.. centered:: Liste des emplacements
 
-Remplir les informations propres au véhicules, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout
+Remplir les informations propres au véhicules, puis cliquer sur **« Enregistrer »** pour finaliser l'ajout.
 
 .. image:: ../Images/img-flotte/Ajout_voiture.PNG
-    :name: Les informations du véhicule
-.. centered:: Les informations du véhicule
+    :name: Les informations sur l'emplacement
+.. centered:: Les informations sur l'emplacement
