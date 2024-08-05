@@ -1,6 +1,6 @@
 
- Procédure de gestion de l'assurance
-====================================
+Procédure de gestion de l'assurance
+===================================
 
 Suite à prise en charge au niveau de l’hôpital est immédiatement déclenchée par
 administration des soins, examens et traumatismes. Ces données enregistrées à l’hôpital
