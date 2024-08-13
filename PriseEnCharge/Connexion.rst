@@ -4,7 +4,7 @@ Connexion à l’application web COLLECTE DE DONNEES
 Cette procédure est effectuée par les centres hospitaliers proches du lieu de l’accident. C’est à cet effet qu’il pourra lié le(s) patient(s) à un accident déclarer par un agent collecteur ou encore notifier les forces de l’ordre en cas d’accident.
 
 Sur la barre de recherche de votre navigateur, entrer l’adresse IP du serveur. Dans notre
-cas, c’est l’adresse **« 141.95.103.210:8098 »**. Puis appuyer la touche « entrer » du
+cas, c’est l’adresse **« 51.195.11.202:8098 »**. Puis appuyer la touche « entrer » du
 clavier.
 
     * **Renseigner vos paramètres de connexion (identifiant et mot de passe)**
