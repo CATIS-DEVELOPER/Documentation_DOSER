@@ -5,7 +5,9 @@ Présentation du Dashboard
 Le dashboard nous présente plusieurs informations parmi lesquels :
 
 **1** La photo de profil
+
 **2** le rôle
+
 **3** les statistiques sur les voyages, les véhicules et les accidents
 
   .. image:: ../Images/img-flotte/Accueil0.PNG
