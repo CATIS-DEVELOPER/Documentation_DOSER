@@ -7,51 +7,48 @@ Juste après la connexion à votre compte, vous aurez accès à une page d’acc
     :name: Page d'accueil agent hopital.
 .. centered:: Page d'accueil agent hopital.
 
-Cette interface lui permettra d’ajouter des dossiers médicaux pour lier des victimes aux accidents déclarés par l’agent collecteur.
-
 Ajouter un dossier médical
 ==========================
-Ici, lors de l’arrivée d’une victime de l’accident à l’hôpital, l’agent de l’hôpital crée un dossier médical pour pouvoir renseigner les différentes informations de l’accident et du patient. Pour se faire il a plusieurs champs d’informations à renseigner.
-
-Information basique
--------------------
-A ce niveau, l’agent de l’hôpital renseigne toutes les informations du patient.
+Il faut cliquer sur **+** pour avoir accès à l'interface lui permettra d’ajouter des dossiers médicaux.
+Ces dossiers medicaux aiderons à gérer l’hospitalisation du patient, sa prise en
+charge et assurer la liaison des victimes aux accidents déclarés par l’agent collecteur.
+Ici, lors de l’arrivée d’une victime de l’accident à l’hôpital, 
+l’agent de l’hôpital crée un dossier médical, puis il renseigne les différentes informations sur l’accident et sur le patient. 
+Pour se faire il a plusieurs champs d’informations à renseigner.
 
 .. image:: ../Images/img-hopit/ajouter_dos.jpg
-.. centered:: Informations basique.
+.. centered:: Informations basiques.
 
-Informations liées à l'accident
--------------------------------
-A ce niveau l’agent de l’hôpital renseigne toutes les informations de l’accident.
+Comme nous pouvons le constater, les informations à remplir concerne :
 
-.. image:: ../Images/img-hopit/acc_inf.jpg
-.. centered:: Informations liées à l'accident.
+* Les informations basiques du patient
+* Les informations liées à l'accident
+* Une description du patient
+* Les paramètres médicaux
+* L'adresse du patient 
 
-Description
------------
-Dans cette rubrique, il faut ajouter une description de ce que vous observez à propos du patient.
+.. image:: ../Images/img-hopit/ajouterAutre_dos.jpg
+.. centered:: Autres informations du patient.
 
-.. image:: ../Images/img-hopit/desc.jpg
-.. centered:: Description.
+N'oubliez pas d'entrer les contacts du patient.
+Cela se fait en cliquant sur le bouton **+** comme indiqué sur l'image qui suit :
 
-Paramètres médicaux
--------------------
-Renseigner les champs qui vous sont proposés en fonction des observations faites sur le patient.
+**NB :** vous pouvez ajouter autant de contact qu’il en possède.
 
-.. image:: ../Images/img-hopit/param.jpg
-.. centered:: Paramètres médicaux.
+.. image:: ../Images/img-hopit/AjouterContact.jpg
+.. centered:: Ajouter un contact.
 
-Contacts du patient
--------------------
-Ici, il vous est demandé d’entrer les contacts du patient qui sera affiché dans un tableau et vous pouvez en ajouter autant qu’il en possède de contact.
-
-.. image:: ../Images/img-hopit/contac.jpg
-.. centered:: Contact du patient.
-
-Lorsque vous cliquer sur le bouton permettant d’ajouter un contact, une boite de dialogue apparaitra et vous devez entrer ses coordonnées.
+Lorsque vous cliquer sur le bouton **+** pour ajouter un contact, 
+une boite de dialogue apparaitra et vous devez entrer ses coordonnées
+et valider l'ajout en cliquant sur le bouton **Ajouter**.
 
 .. image:: ../Images/img-hopit/add_con.jpg
 .. centered:: Ajouter un nouveau contact.
+
+Enfin cliquer sur le bouton **Enregistrer** pour finaliser l'ajout du dossier médical.
+
+.. image:: ../Images/img-hopit/finaliser_dos.jpg
+.. centered:: Finaliser le dossier médical.
 
 Enrichir le dossier médical
 ===========================
