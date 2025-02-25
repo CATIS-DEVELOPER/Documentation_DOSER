@@ -9,6 +9,9 @@ Juste après la connexion à votre compte, vous aurez accès à une page d’acc
 
 Ajouter un dossier médical
 ==========================
+
+.. _refProcedureAjoutDossierMedical
+
 Il faut cliquer sur **+** pour avoir accès à l'interface lui permettra d’ajouter des dossiers médicaux.
 Ces dossiers medicaux aiderons à gérer l’hospitalisation du patient, sa prise en
 charge et assurer la liaison des victimes aux accidents déclarés par l’agent collecteur.
@@ -66,6 +69,8 @@ l’agent de l’hôpital pourra juste consulter, modifier, visualiser sous form
 
 L'image ci-dessous nous présente la liste des opérations que l'on peut effectuer sur un dossier médical pour l'enrichir.
 
+.. _refOperationsDossierMedical
+
 .. image:: ../Images/img-hopit/OperationsDossierMedical.jpg
 .. centered::  Opérations sur un dossier médical.
 
@@ -79,8 +84,74 @@ Les chiffres ci-dessus illustrent les opérations que l'on peut effectuer sur un
 
 **4** Ajout du document médical
 
+Transférer les soins
+--------------------
+
+Cliquer sur **1** comme présenté sur :ref:`l'image suivante <refOperationsDossierMedical>`, 
+pour faire un transfert de soins.
+
+Une fenêtre s'affiche où vous devez renseigner les informations sur l'hôpital où le transfert 
+sera opéré, le statut du soin, la méthode de transfert et une description de l'état des soins. 
+Cliquer sur le boutton **Create** pour valider le transfert.
+
+L'image ci-dessous présente le fenêtre qui doit apparaitre après avoir cliqué sur le boutton **1**.
+
+.. image:: ../Images/img-hopit/TransfertSoins.jpg
+.. centered::  Transfert de soins.
+
+
 Modifier le dossier médical
 ---------------------------
+
+Cliquer sur **2** comme présenté sur :ref:`l'image suivante <refOperationsDossierMedical>`, 
+pour modifier les informations précédemment enregistrées sur le dossier médical. Modifier 
+les informations que vous souhaitez modifier puis cliquer sur le boutton **Enregistrer** au bas de la page.
+
+L'image suivante présente l'interface de modification des informations sur le dossier médical 
+et la seconde présente le boutton d'enregistrement dudit dossier.
+
+.. image:: ../Images/img-hopit/ModificationDossierMedical.jpg
+.. centered::  Modification des informations sur le dossier médical.
+
+.. image:: ../Images/img-hopit/ValiderModificationsDossierMedical.jpg
+.. centered::  Valider les modifications sur le dossier médical.
+
+**NB :** Pour des problèmes sur la procédure de remplissage des informations, bien vouloir se reférer à 
+:ref:`la procédure d'ajout d'un dossier médical <refProcedureAjoutDossierMedical>`.
+
+Visualisation sous le format PDF
+--------------------------------
+
+Cliquer sur **3** comme présenté sur :ref:`l'image suivante <refOperationsDossierMedical>`, 
+pour visualiser le dossier médical sous format PDF.
+
+L'image qui suit montre l'onglet de visualisation du dossier médical sous le format PDF avec les fonctionnalités 
+de téléchargement et d'impression mis en exergue.
+
+.. image:: ../Images/img-hopit/VisualisationDossierMedical.jpg
+.. centered::  Visualisation du dossier médical sous format PDF.
+
+Ajout du document médical
+-------------------------
+
+Cliquer sur **4** comme présenté sur :ref:`l'image suivante <refOperationsDossierMedical>`, 
+pour ajouter le document médical. L'image suivante nous présente l'interface que nous obtenons : 
+
+.. image:: ../Images/img-hopit/DocumentMedical.jpg
+.. centered::  Parties du document médical.
+
+Le document médical est constitué de :
+
+* Paramètres médicaux
+* Examens des soins
+* Soins taitement
+* Soins médicaments
+* Diagnostics
+* Salle de soins
+
+Toutefois, nous pouvons toujours visualiser les informations du patient en cliquant sur son nom.
+
+
 Lorsque vous cliquez sur « Modifier », des champs de formulaire préalablement rempli
 lors de l’ajout du dossier médical vous sont présentés avec les anciennes valeurs dont vous
 n’aurez qu’à changer en fonction de vos besoins de modifications. Après avoir modifié ces

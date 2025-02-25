@@ -27,7 +27,7 @@ sur lesquels nous devons configurer les prix à savoir :
 Nous présenterons tour à tour comment configurer les prix de ces produits et services.
 
 Les examens
-~~~~~~~~~~~
+-----------
 
 Cliquer sur **1** comme présenté sur :ref:`l'image suivante <refConfiguration>`, 
 pour accéder à l'interface de configuration des examens.
@@ -65,7 +65,7 @@ L'image ci-dessous est illustrative de ce scénario.
 
 Pour supprimer un examen, nous devons cliquer sur le boutton de suppression de l'examen 
 comme présenté sur :ref:`l'image suivante <refExams>`. Une fenêtre apparaitra pour 
-effectuer la suppression du-dit examen.
+effectuer la suppression dudit examen.
 
 Cliquer enfin sur le boutton **Supprimer** pour valider la suppression de l'examen 
 ou sur le boutton **Annuler** pour annuler la suppression.
@@ -75,7 +75,7 @@ L'image ci-dessous est illustrative de ce scénario.
 .. centered:: Supprimer un examen.
 
 Les traitements
-~~~~~~~~~~~~~~~
+---------------
 
 Cliquer sur **2** comme présenté sur :ref:`l'image suivante <refConfiguration>`, 
 pour accéder à l'interface de configuration des traitements.
@@ -113,7 +113,7 @@ L'image ci-dessous est illustrative de ce scénario.
 
 Pour supprimer un traitement, nous devons cliquer sur le boutton de suppression du traitement  
 comme présenté sur :ref:`l'image suivante <refTraitement>`. Une fenêtre apparaitra pour 
-effectuer la suppression du-dit traitement.
+effectuer la suppression dudit traitement.
 
 Cliquer enfin sur le boutton **Supprimer** pour valider la suppression du traitement  
 ou sur le boutton **Annuler** pour annuler la suppression.
@@ -123,7 +123,7 @@ L'image ci-dessous est illustrative de ce scénario.
 .. centered:: Supprimer un traitement.
 
 Les médicaments
-~~~~~~~~~~~~~~~
+---------------
 
 Cliquer sur **3** comme présenté sur :ref:`l'image suivante <refConfiguration>`, 
 pour accéder à l'interface de configuration des médicaments.
@@ -161,7 +161,7 @@ L'image ci-dessous est illustrative de ce scénario.
 
 Pour supprimer un médicament, nous devons cliquer sur le boutton de suppression du médicament 
 comme présenté sur :ref:`l'image suivante <refMedicament>`. Une fenêtre apparaitra pour 
-effectuer la suppression du-dit médicament.
+effectuer la suppression dudit médicament.
 
 Cliquer enfin sur le boutton **Supprimer** pour valider la suppression du médicament 
 ou sur le boutton **Annuler** pour annuler la suppression.
@@ -171,7 +171,7 @@ L'image ci-dessous est illustrative de ce scénario.
 .. centered:: Supprimer un médicament.
 
 Les chambres
-~~~~~~~~~~~~
+------------
 
 Cliquer sur **4** comme présenté sur :ref:`l'image suivante <refConfiguration>`, 
 pour accéder à l'interface de configuration des chambres.
