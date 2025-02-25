@@ -50,19 +50,41 @@ Enfin cliquer sur le bouton **Enregistrer** pour finaliser l'ajout du dossier m�
 .. image:: ../Images/img-hopit/finaliser_dos.jpg
 .. centered:: Finaliser le dossier médical.
 
+En cliquant sur la zone représentée par **1** sur l'image ci-dessous, nous pouvons 
+visualiser ou cacher les informations du dossier médical.
+
+.. image:: ../Images/img-hopit/Visualiser_dos.jpg
+.. centered:: Visualiser le dossier médical.
+
 Enrichir le dossier médical
 ===========================
-Après l’ajout du dossier médical, l’état du dossier passe à « OPENED » et à ce moment l’agent de l’hôpital pourra juste consulter, modifier ou fermer le dossier médical si les traitements effectués sur le patient ont été réglé.
+Après l’ajout du dossier médical, l’état du dossier passe à « OPENED » et à ce moment,
+l’agent de l’hôpital pourra juste consulter, modifier, visualiser sous format PDF ou tranférer le dossier médical en question.
 
-.. image:: ../Images/img-hopit/en_savo.jpg
-.. centered::  En savoir plus.
+.. image:: ../Images/img-hopit/DossierMedicaux.jpg
+.. centered::  Dossiers médicaux & Etats.
+
+L'image ci-dessous nous présente la liste des opérations que l'on peut effectuer sur un dossier médical pour l'enrichir.
+
+.. image:: ../Images/img-hopit/OperationsDossierMedical.jpg
+.. centered::  Opérations sur un dossier médical.
+
+Les chiffres ci-dessus illustrent les opérations que l'on peut effectuer sur un dossier médical comme suit :
+
+**1** Transfert de soins
+
+**2** Modifier le dossier médical
+
+**3** Visualisation sous le format PDF
+
+**4** Ajout du document médical
 
 Modifier le dossier médical
 ---------------------------
 Lorsque vous cliquez sur « Modifier », des champs de formulaire préalablement rempli
 lors de l’ajout du dossier médical vous sont présentés avec les anciennes valeurs dont vous
 n’aurez qu’à changer en fonction de vos besoins de modifications. Après avoir modifié ces
-différents champs, cliquer sur « Enregistrer » pour enregistrer vos modifications.
+différents champs, cliquer sur **« Enregistrer »** pour enregistrer vos modifications.
 
 .. image:: ../Images/img-hopit/modi.jpg
 .. centered:: Modification d'un dossier médical.

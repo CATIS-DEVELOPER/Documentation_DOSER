@@ -44,6 +44,7 @@ Qui êtes vous ?
    :caption: PROCEDURE DE PRISE EN CHARGE
 
    PriseEnCharge/Connexion.rst
+   PriseEnCharge/ConfigurationPrix.rst
    PriseEnCharge/GestDossMed.rst
 
 .. toctree::
