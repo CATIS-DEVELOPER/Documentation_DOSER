@@ -87,7 +87,7 @@ Les chiffres ci-dessus illustrent les opérations que l'on peut effectuer sur un
 Transférer les soins
 --------------------
 
-Cliquer sur **1** comme présenté sur :ref:`l'image suivante <refOperationsDossierMedical>`, 
+Cliquer sur **1** comme présenté sur :doc:`l'image suivante <refOperationsDossierMedical>`, 
 pour faire un transfert de soins.
 
 Une fenêtre s'affiche où vous devez renseigner les informations sur l'hôpital où le transfert 
