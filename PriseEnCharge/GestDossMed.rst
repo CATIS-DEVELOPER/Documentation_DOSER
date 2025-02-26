@@ -10,7 +10,7 @@ Juste après la connexion à votre compte, vous aurez accès à une page d’acc
 Ajouter un dossier médical
 ==========================
 
-.. _refProcedureAjoutDossierMedical
+.. _refProcedureAjoutDossierMedical:
 
 Il faut cliquer sur **+** pour avoir accès à l'interface lui permettra d’ajouter des dossiers médicaux.
 Ces dossiers medicaux aiderons à gérer l’hospitalisation du patient, sa prise en
@@ -69,7 +69,7 @@ l’agent de l’hôpital pourra juste consulter, modifier, visualiser sous form
 
 L'image ci-dessous nous présente la liste des opérations que l'on peut effectuer sur un dossier médical pour l'enrichir.
 
-.. _refOperationsDossierMedical
+.. _refOperationsDossierMedical:
 
 .. image:: ../Images/img-hopit/OperationsDossierMedical.jpg
 .. centered::  Opérations sur un dossier médical.
@@ -87,7 +87,7 @@ Les chiffres ci-dessus illustrent les opérations que l'on peut effectuer sur un
 Transférer les soins
 --------------------
 
-Cliquer sur **1** comme présenté sur :doc:`l'image suivante <refOperationsDossierMedical>`, 
+Cliquer sur **1** comme présenté sur :ref:`l'image suivante <refOperationsDossierMedical>`, 
 pour faire un transfert de soins.
 
 Une fenêtre s'affiche où vous devez renseigner les informations sur l'hôpital où le transfert 
@@ -181,7 +181,7 @@ Les actions que nous pouvons effectuer ici sont :
 * La mise à jour des informations sur la prescription
 * La supression de la prescription
 
-.. _refExamsSoins
+.. _refExamsSoins:
 
 .. image:: ../Images/img-hopit/PrescriptionExamenSoins.jpg
 .. centered:: Prescription des examens.
@@ -263,3 +263,4 @@ La description de ces actions est similaires à ceux de :ref:`la prescription ci
 Liste de patients admins dans l'hôpital
 =======================================
 
+Pour 

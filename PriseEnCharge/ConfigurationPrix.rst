@@ -8,7 +8,7 @@ médicaments et de ses différentes catégories de chambres car les prix sont fo
 
 **NB :** Cette configuration se fait une fois
 
-.. _refConfiguration
+.. _refConfiguration:
 
 .. image:: ../Images/img-hopit/InterfaceConfiguration.jpg
 .. centered:: Configuration des produits et services.
@@ -39,7 +39,7 @@ Les actions que nous pouvons effectuer ici sont :
 * La mise à jour des informations sur un examen
 * La supression d'un examen
 
-.. _refExams
+.. _refExams:
 
 .. image:: ../Images/img-hopit/PrixExamen.jpg
 .. centered:: Configuration des examens.
@@ -87,7 +87,7 @@ Les actions que nous pouvons effectuer ici sont :
 * La mise à jour des informations sur un traitement
 * La supression d'un traitement
 
-.. _refTraitement
+.. _refTraitement:
 
 .. image:: ../Images/img-hopit/PrixTraitement.jpg
 .. centered:: Configuration des traitements.
@@ -135,7 +135,7 @@ Les actions que nous pouvons effectuer ici sont :
 * La mise à jour des informations sur un médicament
 * La supression d'un médicament
 
-.. _refMedicament
+.. _refMedicament:
 
 .. image:: ../Images/img-hopit/PrixMedicament.jpg
 .. centered:: Configuration des médicaments.
@@ -183,7 +183,7 @@ Les actions que nous pouvons effectuer ici sont :
 * La mise à jour des informations sur une chambre
 * La supression d'une chambre
 
-.. _refChambre
+.. _refChambre:
 
 .. image:: ../Images/img-hopit/PrixChambre.jpg
 .. centered:: Configuration des chambres.
@@ -221,4 +221,4 @@ L'image ci-dessous est illustrative de ce scénario.
 VISUALISATION DES ICD CODES
 ===========================
 
-
+Pour visualiser
