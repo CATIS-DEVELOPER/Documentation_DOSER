@@ -260,3 +260,6 @@ Les  que nous pouvons effectuer ici sont :
 
 La description de ces actions est similaires à ceux de :ref:`la prescription ci-dessus <refExamsSoins>`.
 
+Liste de patients admins dans l'hôpital
+=======================================
+

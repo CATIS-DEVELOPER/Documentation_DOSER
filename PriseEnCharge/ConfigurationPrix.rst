@@ -218,3 +218,7 @@ L'image ci-dessous est illustrative de ce scénario.
 .. image:: ../Images/img-hopit/SupprimerChambre.jpg
 .. centered:: Supprimer une chambre.
 
+VISUALISATION DES ICD CODES
+===========================
+
+
