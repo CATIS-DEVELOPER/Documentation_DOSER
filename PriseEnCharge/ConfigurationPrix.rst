@@ -221,4 +221,14 @@ L'image ci-dessous est illustrative de ce scénario.
 VISUALISATION DES ICD CODES
 ===========================
 
-Pour visualiser
+Pour visualiser la liste des ICD code veuillez cliquer sur le boutton **ICD Codes** 
+comme indiqué sur l'image ci-dessous.
+
+.. image:: ../Images/img-hopit/InterfaceICD_codes.jpg
+.. centered:: Boutton d'accès à la liste des ICD Codes.
+
+Une fois avoir cliqué sur le boutton **ICD Codes**, vous pouvez visualiser la liste 
+des ICD Codes.
+
+.. image:: ../Images/img-hopit/ListeICD_codes.jpg
+.. centered:: Liste des ICD Codes.

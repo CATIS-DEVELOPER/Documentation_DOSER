@@ -264,3 +264,6 @@ Liste de patients admins dans l'hôpital
 =======================================
 
 Pour 
+
+.. image:: ../Images/img-hopit/InterfacePatientsTransferes.jpg
+.. centered:: Boutton d'accès à la liste des patients transférés.
