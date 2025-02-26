@@ -7,10 +7,10 @@ Juste après la connexion à votre compte, vous aurez accès à une page d’acc
     :name: Page d'accueil agent hopital.
 .. centered:: Page d'accueil agent hopital.
 
+.. _refProcedureAjoutDossierMedical:
+
 Ajouter un dossier médical
 ==========================
-
-.. _refProcedureAjoutDossierMedical:
 
 Il faut cliquer sur **+** pour avoir accès à l'interface lui permettra d’ajouter des dossiers médicaux.
 Ces dossiers medicaux aiderons à gérer l’hospitalisation du patient, sa prise en
@@ -76,13 +76,15 @@ L'image ci-dessous nous présente la liste des opérations que l'on peut effectu
 
 Les chiffres ci-dessus illustrent les opérations que l'on peut effectuer sur un dossier médical comme suit :
 
-**1** Transfert de soins
+**1** :ref:`Transfert de soins <TransfererSoins>`
 
-**2** Modifier le dossier médical
+**2** :ref:`Modifier le dossier médical <ModifierDossierMedical>`
 
-**3** Visualisation sous le format PDF
+**3** :ref:`Visualisation sous le format PDF <VisualisationPDF>`
 
-**4** Ajout du document médical
+**4** :ref:`Ajout du document médical <AjoutDocumentrMedical>`
+
+.. _TransfererSoins:
 
 Transférer les soins
 --------------------
@@ -99,6 +101,7 @@ L'image ci-dessous présente le fenêtre qui doit apparaitre après avoir cliqu�
 .. image:: ../Images/img-hopit/TransfertSoins.jpg
 .. centered::  Transfert de soins.
 
+.. _ModifierDossierMedical:
 
 Modifier le dossier médical
 ---------------------------
@@ -119,6 +122,8 @@ et la seconde présente le boutton d'enregistrement dudit dossier.
 **NB :** Pour des problèmes sur la procédure de remplissage des informations, bien vouloir se reférer à 
 :ref:`la procédure d'ajout d'un dossier médical <refProcedureAjoutDossierMedical>`.
 
+.. _VisualisationPDF:
+
 Visualisation sous le format PDF
 --------------------------------
 
@@ -131,6 +136,8 @@ de téléchargement et d'impression mis en exergue.
 .. image:: ../Images/img-hopit/VisualisationDossierMedical.jpg
 .. centered::  Visualisation du dossier médical sous format PDF.
 
+.. _AjoutDocumentrMedical:
+
 Ajout du document médical
 -------------------------
 
@@ -142,12 +149,12 @@ pour ajouter le document médical. L'image suivante nous présente l'interface q
 
 Le document médical est constitué de :
 
-* Paramètres médicaux
-* Examens des soins
-* Soins taitement
-* Soins médicaments
-* Diagnostics
-* Salle de soins
+* :ref:`Paramètres médicaux <ParametresMedicaux>`
+* :ref:`Examens des soins <ExamensSoins>`
+* :ref:`Soins traitement <SoinsTraitement>`
+* :ref:`Soins médicaments <SoinsMedicaments>`
+* :ref:`Diagnostics <Diagnostics>`
+* :ref:`Salle de soins <SalleDeSoins>`
 
 Toutefois, nous pouvons toujours visualiser les informations du patient en cliquant sur son nom.
 
@@ -155,6 +162,8 @@ Toutefois, nous pouvons toujours visualiser les informations du patient en cliqu
 .. centered::  Informations sur le patient.
 
 Dans toute la suite nous expliquerons comment remplir les éléments du dossier médical.
+
+.. _ParametresMedicaux: 
 
 Paramètre médicaux
 ~~~~~~~~~~~~~~~~~~
@@ -170,6 +179,8 @@ les paramètres entrés.
 
 .. image:: ../Images/img-hopit/SauvegarderParametreMedicaux.jpg
 .. centered::  Sauvegarder des paramètres médicaux.
+
+.. _ExamensSoins:
 
 Examens des soins
 ~~~~~~~~~~~~~~~~~
@@ -216,6 +227,8 @@ L'image ci-dessous est illustrative de ce scénario.
 .. image:: ../Images/img-hopit/SupprimerPrescriptionExamenSoins.jpg
 .. centered:: Supprimer une prescription.
 
+.. _SoinsTraitement:
+
 Soins traitement
 ~~~~~~~~~~~~~~~~
 
@@ -226,6 +239,8 @@ Les actions que nous pouvons effectuer ici sont :
 * La supression de la prescription du traitement
 
 La description de ces actions est similaires à ceux de :ref:`la prescription ci-dessus <refExamsSoins>`.
+
+.. _SoinsMedicaments: 
 
 Soins médicaments
 ~~~~~~~~~~~~~~~~~
@@ -238,6 +253,8 @@ Les actions que nous pouvons effectuer ici sont :
 
 La description de ces actions est similaires à ceux de :ref:`la prescription ci-dessus <refExamsSoins>`.
 
+.. _Diagnostics:
+
 Diagnostics
 ~~~~~~~~~~~
 
@@ -248,6 +265,8 @@ Les actions que nous pouvons effectuer ici sont :
 * La supression de la prescription du diagnostic
 
 La description de ces actions est similaires à ceux de :ref:`la prescription ci-dessus <refExamsSoins>`.
+
+.. _SalleDeSoins:
 
 Salle de soins
 ~~~~~~~~~~~~~~
@@ -260,10 +279,50 @@ Les  que nous pouvons effectuer ici sont :
 
 La description de ces actions est similaires à ceux de :ref:`la prescription ci-dessus <refExamsSoins>`.
 
-Liste de patients admins dans l'hôpital
-=======================================
+Liste de patients transférés dans l'hôpital
+===========================================
 
-Pour 
+Pour avoir la liste des patients transférés et des patients admis dans l'hôpital avec un dossier médical 
+existant, il faut cliquer sur le boutton **Transfert De Soins** comme présenté sur l'image ci-dessous.
 
 .. image:: ../Images/img-hopit/InterfacePatientsTransferes.jpg
 .. centered:: Boutton d'accès à la liste des patients transférés.
+
+Une fois avoir cliqué sur le boutton **Transfert De Soins**, vous pouvez visualiser la liste 
+des patients transférés et des patients admis dans l'hôpital avec un dossier médical.
+
+.. _refListePatientsTransferes:
+
+.. image:: ../Images/img-hopit/ListePatientsTransferes.jpg
+.. centered:: Liste des patients transférés.
+
+Sur l'interface ci-dessus, nous pouvons :
+
+* visualiser Les informations sur le patient
+* consulter ses antécedents médicaux 
+
+Pour visualiser les informations sur le patient transféré, il suffit de cliquer sur son nom comme nous présente 
+:ref:`l'image suivante <refListePatientsTransferes>`.
+
+Vous obtiendrez une intrface similaire à l'image ci-dessous.
+
+.. image:: ../Images/img-hopit/InfosPatientsTransferes.jpg
+.. centered:: Informations du patient transféré.
+
+Pour visualiser les antécedents médicaux du patient transféré, il suffit de cliquer sur le boutton de consultation 
+des antécédents médicaux comme nous présente :ref:`l'image suivante <refListePatientsTransferes>`.
+
+Vous obtiendrez une intrface similaire à l'image ci-dessous.
+
+.. image:: ../Images/img-hopit/AntecedantsPatientsTransferes.jpg
+.. centered:: Antécédants médicaux du patient transféré.
+
+Nous pouvons remarquer que le document médical est constitué de :
+
+* Paramètres médicaux
+* Examens des soins
+* Soins traitement
+* Soins médicaments
+* Diagnostics
+
+**NB :** Pour visualiser chaque section du dossier médical il suffit de cliquer sur la section en question.

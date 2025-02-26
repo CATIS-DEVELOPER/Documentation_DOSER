@@ -16,15 +16,17 @@ médicaments et de ses différentes catégories de chambres car les prix sont fo
 Comme nous pouvons le constater sur l'image ci-dessus, nous avons quatre produits et services principaux 
 sur lesquels nous devons configurer les prix à savoir :
 
-**1. Les examens**
+**1.** :ref:`Les examens <refLesExamens>`
 
-**2. Les traitements**
+**2.** :ref:`Les traitements <refLesTraitements>`
 
-**3. Les médicaments**
+**3.** :ref:`Les médicaments <refLesMedicaments>`
 
-**4. Les chambres**
+**4.** :ref:`Les chambres <refLesChambres>`
 
 Nous présenterons tour à tour comment configurer les prix de ces produits et services.
+
+.. _refLesExamens:
 
 Les examens
 -----------
@@ -74,6 +76,8 @@ L'image ci-dessous est illustrative de ce scénario.
 .. image:: ../Images/img-hopit/SupprimerExamen.jpg
 .. centered:: Supprimer un examen.
 
+.. _refLesTraitements:
+
 Les traitements
 ---------------
 
@@ -122,6 +126,8 @@ L'image ci-dessous est illustrative de ce scénario.
 .. image:: ../Images/img-hopit/SupprimerTraitement.jpg
 .. centered:: Supprimer un traitement.
 
+.. _refLesMedicaments:
+
 Les médicaments
 ---------------
 
@@ -169,6 +175,8 @@ L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/SupprimerMedicament.jpg
 .. centered:: Supprimer un médicament.
+
+.. _refLesChambres:
 
 Les chambres
 ------------
