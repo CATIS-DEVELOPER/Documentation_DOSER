@@ -2,9 +2,13 @@
 ETATS ET DESCRIPTIONS
 =====================
 
-Cette procédure comprend deux étapes : La déclaration de l’accident et la validation de
-l’accident. L’acteur principal de cette procédure est un agent de police ou de gendarmerie
-(Agent collecteur).
+Cette procédure comprend deux étapes : 
+
+* **La déclaration de l’accident :** L’acteur principal de la procédure de déclaration est un agent 
+de police ou de gendarmerie (Agent collecteur).
+
+* **la validation de l’accident :** L’acteur principal de la validation est un agent qui a le droit 
+de valider les déclarations enregistrées
 
 Pour se faire, les différentes étapes à suivre sont les suivantes:
 

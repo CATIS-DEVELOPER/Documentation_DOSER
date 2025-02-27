@@ -1,7 +1,8 @@
 
 Gestion des dossiers médicaux des patients
 ==========================================
-Juste après la connexion à votre compte, vous aurez accès à une page d’accueil où vous sera présenté la liste des dossiers médicaux existants.
+Juste après la connexion à votre compte, vous aurez accès à une page d’accueil où vous sera présenté 
+la liste des dossiers médicaux existants.
 
 .. image:: ../Images/img-hopit/accue_hop.jpg
     :name: Page d'accueil agent hopital.
@@ -16,8 +17,8 @@ Il faut cliquer sur **+** pour avoir accès à l'interface lui permettra d’ajo
 Ces dossiers medicaux aiderons à gérer l’hospitalisation du patient, sa prise en
 charge et assurer la liaison des victimes aux accidents déclarés par l’agent collecteur.
 Ici, lors de l’arrivée d’une victime de l’accident à l’hôpital, 
-l’agent de l’hôpital crée un dossier médical, puis il renseigne les différentes informations sur l’accident et sur le patient. 
-Pour se faire il a plusieurs champs d’informations à renseigner.
+l’agent de l’hôpital crée un dossier médical, puis il renseigne les différentes informations sur 
+l’accident et sur le patient. Pour se faire il a plusieurs champs d’informations à renseigner.
 
 .. image:: ../Images/img-hopit/ajouter_dos.jpg
 .. centered:: Informations basiques.
@@ -62,19 +63,22 @@ visualiser ou cacher les informations du dossier médical.
 Enrichir le dossier médical
 ===========================
 Après l’ajout du dossier médical, l’état du dossier passe à « OPENED » et à ce moment,
-l’agent de l’hôpital pourra juste consulter, modifier, visualiser sous format PDF ou tranférer le dossier médical en question.
+l’agent de l’hôpital pourra juste consulter, modifier, visualiser sous format PDF ou tranférer 
+le dossier médical en question.
 
 .. image:: ../Images/img-hopit/DossierMedicaux.jpg
 .. centered::  Dossiers médicaux & Etats.
 
-L'image ci-dessous nous présente la liste des opérations que l'on peut effectuer sur un dossier médical pour l'enrichir.
+L'image ci-dessous nous présente la liste des opérations que l'on peut effectuer sur un dossier 
+médical pour l'enrichir.
 
 .. _refOperationsDossierMedical:
 
 .. image:: ../Images/img-hopit/OperationsDossierMedical.jpg
 .. centered::  Opérations sur un dossier médical.
 
-Les chiffres ci-dessus illustrent les opérations que l'on peut effectuer sur un dossier médical comme suit :
+Les chiffres ci-dessus illustrent les opérations que l'on peut effectuer sur un dossier médical 
+comme suit :
 
 **1** :ref:`Transfert de soins <TransfererSoins>`
 
@@ -197,8 +201,8 @@ Les actions que nous pouvons effectuer ici sont :
 .. image:: ../Images/img-hopit/PrescriptionExamenSoins.jpg
 .. centered:: Prescription des examens.
 
-Lorsqu'on clique sur **+** pour la prescription d'un examen comme indiqué :ref:`ici <refExamsSoins>`, une fenêtre apparait pour 
-renseigner les informations sur la prescription.
+Lorsqu'on clique sur **+** pour la prescription d'un examen comme indiqué :ref:`ici <refExamsSoins>`, 
+une fenêtre apparait pour renseigner les informations sur la prescription.
 
 Cliquer enfin sur le boutton **Créer** pour valider l'ajout de la prescription.
 L'image ci-dessous est illustrative de ce scénario.

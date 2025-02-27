@@ -1,11 +1,11 @@
 
-Connexion à l’application web COLLECTE DE DONNEES
-=================================================
+Connexion à l’application web de DOSER
+======================================
 Cette procédure est effectuée par l’agent collecteur celui-là qui descend sur les lieux des
 accidents pour obtenir des informations sur l’accident.
 
 Sur la barre de recherche de votre navigateur, entrer l’adresse IP du serveur. Dans notre
-cas, c’est l’adresse **« 51.195.11.202:8098 »**. Puis appuyer la touche « entrer » du
+cas, c’est l’adresse **« 51.195.80.167:8098 »**. Puis appuyer la touche « entrer » du
 clavier.
 
     * **Renseigner vos paramètres de connexion (identifiant et mot de passe)**
