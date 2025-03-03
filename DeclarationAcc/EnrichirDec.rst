@@ -1,164 +1,214 @@
 
 Enrichir la déclaration
 =======================
-Après toute la procédure d’ajout d’un accident, Le statut de l’accident passe à «OPENED» et qui sera afficher dans la liste de déclaration.
+Après toute la procédure d’ajout d’un accident, Le statut de l’accident passe à «OPENED» 
+et qui sera afficher dans la liste de déclaration. 
+:ref:`Cliquez ici pour en savoir plus sur les statuts des déclarations. <knowStatus>`
 
-.. image:: ../Images/img-police1&2/Interface_acc.jpg
+.. image:: ../Images/img-police1&2/Interface_accPolice.jpg
     :name:  Liste de déclarations.
 .. centered::  Liste de déclarations.
 
-Une fois accéder à la liste des déclarations vous apercevrez une liste des déclarations du plus récent au plus ancien. Pour enfin terminer la procédure de déclaration d’accident, cliquer sur « En savoir plus » sur l’accident que vous venez d’ajouter dont le statut est « OPENED » et là vous verrez une liste de tache à effectuer. :ref:`Cliquez ici pour en savoir plus sur les statuts. <knowStatus>`
+En cliquant sur le bouton **Actions** comme présenté plus haut, l'on peut voir la liste 
+des actions possibles sur les déclarations. Ces actions sont :
 
-.. image:: ../Images/img-police1&2/list_decla.jpg
-    :name:  Accueil.
-.. centered::  Accueil.
+* :ref:`Visualiser les détails de la déclaration <refPoliceVisualiserDetails>`
+* :ref:`Avoir le rapport PDF de la déclaration <refPoliceRapportPDF>`
+* :ref:`Avoir le procès verbal de la déclaration <refPoliceProcesVerbal>`
+* :ref:`Modifier la déclaration <refPoliceModifierDeclaration>`
+* :ref:`Ajouter un croquis <refPoliceAjouterCroquisDeclaration>`
+* :ref:`Signer le rapport <refPoliceSignerRapport>`
+
+.. _refPoliceActionsPossiblesDeclaration:
+
+.. image:: ../Images/img-police1&2/PoliceActionsDeclaration.jpg
+.. centered::  Actions possibles sur une déclaration.
+
+.. _refPoliceVisualiserDetails:
+
+Visualiser les détails de la déclaration
+++++++++++++++++++++++++++++++++++++++++
+
+Pour visualiser les détails sur une déclaration, il faut cliquer sur **Détails** dans la liste 
+des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
+**Détails** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, l'interface suivante va s'afficher : 
+
+.. image:: ../Images/img-police1&2/PoliceSectionsDeclaration.jpg
+.. centered::  Les sections d'une déclaration.
+
+Pour chacune des sections suivantes, cliquer sur le nom de la section concernée pour pouvoir 
+visualiser les détails de la section en question. 
+
+.. image:: ../Images/img-police1&2/PoliceDetailsSectionsDeclaration.jpg
+.. centered::  Voir les détails sur la section d'une déclaration.
+
+.. _refPoliceRapportPDF:
+
+Rapport PDF
++++++++++++
+
+Pour avoir le rapport PDF d'une déclaration, il faut cliquer sur **Rapport en PDF** dans la liste 
+des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
+**Rapport en PDF** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, l'interface suivante va s'afficher :
+
+.. _refPoliceProcesVerbal:
+
+Procès verbal
++++++++++++++
+
+Pour avoir le procès verbal d'une déclaration, il faut cliquer sur **Proces verbal** dans la liste 
+des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
+**Proces verbal** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, l'interface suivante va s'afficher :
+
+.. _refPoliceModifierDeclaration:
 
 Modifier la déclaration
 +++++++++++++++++++++++
-En cliquant sur modifier pour la modification de la déclaration, il vous sera présenter une page identique a celle de l’ajout de l’accident dont vous devez cliquer sur différents onglets afin de modifier en fonction de ce que vous voulez.
 
-Modifier une image
-------------------
+Pour modifier une déclaration, il faut cliquer sur **Modifier** dans la liste des actions qu'on 
+peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
+**Modifier** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, l'interface suivante va s'afficher :
 
-.. image:: ../Images/img-police1&2/modif_imag.jpg
-    :name: Modification des images de l'accident.
-.. centered:: Modification des images de l'accident.
+.. image:: ../Images/img-police1&2/PoliceSectionsModifiables.jpg
+.. centered::  Liste des sections modifiables dans une déclaration.
 
-Données GPS
------------
-.. caution:: 
-    Dans la modification de la déclaration, il est totalement impossible de modifier la localisation de l’accident.
+Les sections que nous pouvons modifier sont :
 
-.. image:: ../Images/img-police1&2/donn_GPS_mod.jpg
-    :name: Visualisation des données GPS.
-.. centered:: Visualisation des données GPS.
+* La section liée aux informations sur l'image
+* La localisation
+* Les informations liées à l'accident
+* Les informations liées au lieu et à la route 
+* Les informations liées aux véhicules 
+* Les informations liées aux personnes
 
-Informations sur l'accident
----------------------------
-Ici, il vous suffit juste de modifier à l’endroit où vous avez ajouté ce qu’il ne fallait pas !
+Modifier la section liée aux informations sur l'image
+-----------------------------------------------------
 
-.. image:: ../Images/img-police1&2/acc_inf.jpg
-    :name: Modification des données sur l'accident.
-.. centered:: Modification des données sur l'accident.
+L'image suivante nous montre comment modifier les images existentes ou ajouter une 
+ajouter une image si elle n'existait pas.
 
-Informations sur la route
--------------------------
-Modifier également ici en fonction de vos besoins.
+.. image:: ../Images/img-police1&2/PoliceModifAjoutImage.jpg
+.. centered::  Modifier l'image.
 
-.. image:: ../Images/img-police1&2/rout_inf.jpg
-    :name: Modification des données sur la route.
-.. centered:: Modification des données sur la route.
+Chercher l'image et valider.
 
-Informations sur les véhicules
--------------------------------
-Un tableau de véhicule victime de l’accident vous sera affiché et vous pouvez supprimer un véhicule, modifier les informations des véhicules, ajouter des véhicules.
+Modifier la localisation
+------------------------
 
-.. image:: ../Images/img-police1&2/vehi_inf.jpg
-    :name: Informations sur les véhicules.
-.. centered:: Informations sur les véhicules.
+Nous pouvons ajouter en modifiant entrant la longitude et la latitude ou en sélectionnant sur 
+la carte comme le présente l'image ci-dessous
 
-Après avoir cliqué sur l’icône de modification d’un véhicule, une boite de dialogue vous sera proposée pour ainsi modifier les informations relatives à vos besoins.
+.. image:: ../Images/img-police1&2/PoliceModifLocalisation.jpg 
+.. centered::  Modifier l'image.
 
-.. image:: ../Images/img-police1&2/vehi_modif.jpg
-    :name: Modification d'un véhicule.
-.. centered:: Modification d'un véhicule.
+Modifier les informations liées à l'accident
+--------------------------------------------
 
-Informations sur les accidentés
--------------------------------
-Un tableau de victimes de l’accident vous sera affiché et vous pouvez supprimer une victime, modifier les informations les victimes, ajouter des victimes.
+Modifier cette section consiste juste à renseigner les nouvelles valeurs.
 
-.. image:: ../Images/img-police1&2/acci_inf.jpg
-    :name: Liste des accidentés.
-.. centered:: Liste des accidentés.
+.. image:: ../Images/img-police1&2/PoliceModifInformationsAccident.jpg
+.. centered::  Modifier les informations sur l'accident.
 
-Après avoir cliqué sur l’icône de modification d’une victime, une boite de dialogue vous sera proposée pour ainsi modifier les informations relatives à vos besoins.
+Modifier les informations liées au lieu et à la route
+-----------------------------------------------------
 
-.. image:: ../Images/img-police1&2/accidente_mod.jpg
-    :name: Modification des informations d'une victime.
-.. centered:: Modification des informations d'une victime.
+Modifier cette section consiste juste à renseigner les nouvelles valeurs.
 
-Cliquer sur le bouton **«Mettre à jour»** après la modification de votre déclaration pour enregistrer.
+.. image:: ../Images/img-police1&2/PoliceModifInformationsLieuRoute.jpg 
+.. centered::  Modifier les informations sur le lieu et la route.
 
-Lors de l’enregistrement des informations sur les accidentés, il peut lier un accidenté à un véhicule qui sera pour que plus tard l’assurance puisse prendre en charge les accidentés en fonction des contrats avec les véhicules. La liste des véhicules dont il a entré au préalable lui est présentée pour qu’il puisse lier un accidenté à un véhicule.
+Modifier les informations liées aux véhicules
+---------------------------------------------
 
-.. image:: ../Images/img-police1&2/liaison.png
-    :name: Sélection du véhicule de la victime.
-.. centered:: Sélection du véhicule de la victime.
+Ici le nous pouvons modifier les véhicules de l'ancienne déclaration et ajouter des 
+véhicules à la déclaration.
 
-Lorsque l’agent collecteur ajoute un accidenté, il pourra lier l’accidenté a un patient de l’hopital de telle sorte que lorsqu’il entrera les premiers caractères du nom de l’accidenté, une liste de patients sera proposée en fonction des caractères entrés par l’agent dont il pourra sélectionner.
+.. image:: ../Images/img-police1&2/PoliceModifVehiculeDeclaration.jpg
+.. centered::  Modifier les véhicules de la déclaration.
 
-.. image:: ../Images/img-police1&2/lie_acc.jpg
-    :name: Association d'un victime à un patient.
-.. centered:: Association d'un victime à un patient.
+:ref:`En savoir plus <refPoliceVehiculesConsernes>` sur l'ajout, la supression et 
+la modification des véhicules.
 
-Une boîte de dialogue vous est proposée pour entrer le nom de l’accidenté. Puis
-cliquer sur « associer » pour associer l’accidenté au patient.
+Modifier les informations liées aux personnes
+---------------------------------------------
 
-.. image:: ../Images/img-police1&2/boite_diag.jpg
-    :name: Recherche d'un patient.
-.. centered:: Recherche d'un patient.
+Ici le nous pouvons modifier les personnes enregistrées dans l'ancienne déclaration et ajouter 
+de nouvelles personnes à la déclaration.
 
-Une fois que l’agent collecteur ait associé un accidenté a un patient, il a la possibilité de dissocier ces deux acteurs une fois qu’il se rend compte qu’il a fait une erreur ou qu’il a associé l’accidenté au mauvais patients.
+.. image:: ../Images/img-police1&2/PoliceModifPersonneDeclaration.jpg
+.. centered::  Modifier les véhicules de la déclaration.
 
-.. image:: ../Images/img-police1&2/diss_pat_acc.jpg
-    :name: Annulation de l'association.
-.. centered:: Annulation de l'association.
+:ref:`En savoir plus <refPoliceUsagersConcernes>` sur l'ajout, la supression et 
+la modification des personnes.
 
-Ajouter un croquis
-++++++++++++++++++
-Lorsque vous cliquez sur « Ajoutez le croquis » une interface sera présenter où vous devez faire un croquis du lieu de l’accident soit en l’important de votre tablette ou en le dessinant et ensuite enregistrer votre action.
+Pour lier un accidenté à un patient, nous devons cliquer sur le bouton de liaison présenté ci-dessus, 
+puis nous recherchons le patient en question dans la barre de recherche qui va s'afficher comme suit.
 
-.. image:: ../Images/img-police1&2/import_dess.jpg
-    :name: Choix d'insertion du croquis.
-.. centered:: Choix d'insertion du croquis.
+.. image:: ../Images/img-police1&2/PoliceModifLiaisonAuPatient.jpg
+.. centered::  Liaison de l'accidenté au patient.
 
-Lorsque vous cliquer sur dessiner :
+Une fois que nous avons trouvé le patient en question, nous devons le séclectionnons tout simplement.
 
-.. image:: ../Images/img-police1&2/croq.jpg
-    :name: Dessin d'un croquis.
-.. centered:: Dessin d'un croquis.
+Lorsque nous avons terminé les modifications que nous voulions faire sur la déclaration d'accident, nous 
+devons cliquer sur le bouton **Enregister** en bas de page comme présenté sur l'image ci-dessous.
 
-Constituer le PV
-================
-Pour cette tâche, il vous sera demandé d’entrer certaines informations pour pouvoir vous lier avec l’accident. Après avoir rempli ces différentes informations, cliquer sur « Enregitrer » pour la constitution du PV.
+.. image:: ../Images/img-police1&2/PoliceModificationsEnregistrées.jpg
+.. centered::  Enregister les modifications sur la déclaration.
 
-.. image:: ../Images/img-police1&2/constitu_pv.jpg
-    :name: Constituer un PV.
-.. centered:: Constituer un PV.
+.. _refPoliceAjouterCroquisDeclaration:
 
-Terminer le PV (Signer le PV)
-=============================
-Ici, il faudra juste émettre sa signature sur l’interface qui vous sera proposée et ensuite cliquer sur **« Enregistrer »**.
+Ajout du croquis
+++++++++++++++++
 
-.. image:: ../Images/img-police1&2/term.jpg
-    :name: Signature.
-.. centered:: Signature.
+Pour ajouter un croquis à une déclaration, il faut cliquer sur **Ajouter le croquis** dans la liste 
+des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
+**Ajouter le croquis** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, la fenêtre 
+suivante va s'afficher :
 
-A la fin de cette tâche, le statut de l’accident passe à « READY » et la suite de la déclaration s’effectuera par le supérieur agent collecteur.
+.. _refPoliceModifInsererCroquis:
 
-Actions effectuées par l'agent collecteur en fonction des états de la déclaration
-=================================================================================
-Que le statut soit « ACCEPTED » ou « ACCEPTED Ajouter », l’agent collecteur ne pourra que consulter la déclaration de nouveau.
+.. image:: ../Images/img-police1&2/PoliceEnrichiInterfaceAjoutCroquis.jpg 
+.. centered::  Enregister les modifications sur la déclaration.
 
-.. image:: ../Images/img-police1&2/accepted.jpg
-    :name: Action du collecteur à l'état ACCEPTED
-.. centered:: Action du collecteur à l'état ACCEPTED.
+Comme nous pouvons le constater sur l'image ci-dessus, deux options s'offrent à nous :
 
-Lorsque la déclaration est au statut « REJECTED » ou « REJECTED Ajouter » les actions de cet agent sera de consulter la déclaration, modifier la déclaration, modifier le croquis de l’accident, reconstituer le PV et de signer le PV à la fin.
+* Soit nous dessinons le croquis directement dans l'application
+* Soit nous importons une image de croquis
 
-.. image:: ../Images/img-police1&2/rej_aj.jpg
-    :name: Action du collecteur à l'état REJECTED
-.. centered:: Action du collecteur à l'état REJECTED.
+**Méthode 1 :** Dessiner dans l'application
 
-Lorsque l’agent ajoute un accident, le statut de l’accident passe à « OPENED », mais une fois qu’il a ajouté le croquis de l’accident, son état passe à « OPENED Ajouter » et ses différentes actions qu’il pourra effectuer sont les suivantes mais qui ont été mieux détaillé plus haut dans le document.
+Pour dessiner dans l'application, il faut cliquer sur le bouton **Dessiner** 
+comme illustré dans :ref:`l'image suivante <refPoliceModifInsererCroquis>`. Une fois avoir cliqué, 
+nous sommes redirigé vers l'interface de dessin du croquis
 
-.. image:: ../Images/img-police1&2/open.jpg
-    :name: Action du collecteur à l'état OPENED.
-.. centered:: Action du collecteur à l'état OPENED.
+.. image:: ../Images/img-police1&2/PoliceEnrichifZoneDessin.jpg
+.. centered:: Zone de dessin.
 
-Lorsque l’agent collecteur termine l’élaboration de sa déclaration, l’état de la déclaration passe a « READY » et si le croquis a été ajouté il passe a « READY Ajouter » et l’agent collecteur ne pourra que consulter la déclaration.
+Ne pas oublier d'enregistrer son croquis avec le bouton d'enregistrement présenté dans l'image 
+ci-dessus.
 
-.. image:: ../Images/img-police1&2/ready.jpg
-    :name: ction du collecteur à l'état READY
-.. centered:: Action du collecteur à l'état READY
+**Méthode 2 :** Importer une image
 
+Pour importer l'image du croquis, il faut cliquer sur le bouton d'importation de 
+l'image comme illustré dans :ref:`l'image suivante <refPoliceModifInsererCroquis>`.
+Une fois avoir cliqué sur ce bouton, une fenêtre va s'ouffrir pour vour permettre de 
+recherche de l'image du croquis afin de l'importer.
+
+.. image:: ../Images/img-police1&2/PoliceImporterCroquis.jpg
+.. centered:: Importer l'image du croquis.
+
+.. _refPoliceSignerRapport:
+
+Signer le rapport
++++++++++++++++++
+
+Pour signer le rapport, il faut cliquer sur **Signer le rapport** dans la liste 
+des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
+**Signer le rapport** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, 
+la fenêtre suivante va s'afficher :
+
+.. image:: ../Images/img-police1&2/PoliceEnrichiSigner.jpg
+.. centered:: Signer le rapport.
+
+Signer et enregistrer la signature en cliquant sur le bouton **Enregister** comme présenté 
+sur l'image ci-dessus.
