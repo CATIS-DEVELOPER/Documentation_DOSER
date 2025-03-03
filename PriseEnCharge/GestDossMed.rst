@@ -98,9 +98,9 @@ pour faire un transfert de soins.
 
 Une fenêtre s'affiche où vous devez renseigner les informations sur l'hôpital où le transfert 
 sera opéré, le statut du soin, la méthode de transfert et une description de l'état des soins. 
-Cliquer sur le boutton **Create** pour valider le transfert.
+Cliquer sur le bouton **Create** pour valider le transfert.
 
-L'image ci-dessous présente le fenêtre qui doit apparaitre après avoir cliqué sur le boutton **1**.
+L'image ci-dessous présente le fenêtre qui doit apparaitre après avoir cliqué sur le bouton **1**.
 
 .. image:: ../Images/img-hopit/TransfertSoins.jpg
 .. centered::  Transfert de soins.
@@ -112,10 +112,10 @@ Modifier le dossier médical
 
 Cliquer sur **2** comme présenté sur :ref:`l'image suivante <refOperationsDossierMedical>`, 
 pour modifier les informations précédemment enregistrées sur le dossier médical. Modifier 
-les informations que vous souhaitez modifier puis cliquer sur le boutton **Enregistrer** au bas de la page.
+les informations que vous souhaitez modifier puis cliquer sur le bouton **Enregistrer** au bas de la page.
 
 L'image suivante présente l'interface de modification des informations sur le dossier médical 
-et la seconde présente le boutton d'enregistrement dudit dossier.
+et la seconde présente le bouton d'enregistrement dudit dossier.
 
 .. image:: ../Images/img-hopit/ModificationDossierMedical.jpg
 .. centered::  Modification des informations sur le dossier médical.
@@ -178,7 +178,7 @@ médicaux du patient.
 .. image:: ../Images/img-hopit/ParametreMedicaux.jpg
 .. centered::  Formulaire des paramètres médicaux.
 
-Une fois avoir rempli le formulaire, il faut cliquer sur le boutton **Enregistrer** pour sauvegarder 
+Une fois avoir rempli le formulaire, il faut cliquer sur le bouton **Enregistrer** pour sauvegarder 
 les paramètres entrés.
 
 .. image:: ../Images/img-hopit/SauvegarderParametreMedicaux.jpg
@@ -204,28 +204,28 @@ Les actions que nous pouvons effectuer ici sont :
 Lorsqu'on clique sur **+** pour la prescription d'un examen comme indiqué :ref:`ici <refExamsSoins>`, 
 une fenêtre apparait pour renseigner les informations sur la prescription.
 
-Cliquer enfin sur le boutton **Créer** pour valider l'ajout de la prescription.
+Cliquer enfin sur le bouton **Créer** pour valider l'ajout de la prescription.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/AjoutPrescriptionExamenSoins.jpg
 .. centered:: Ajouter une prescription.
 
-Pour modifier une prescription, nous devons cliquer sur le boutton de modification de la prescription 
+Pour modifier une prescription, nous devons cliquer sur le bouton de modification de la prescription 
 comme présenté sur :ref:`l'image suivante <refExamsSoins>`. Une fenêtre apparaitra pour 
 effectuer la modification sur les précedentes informations de la prescription.
 
-Cliquer enfin sur le boutton **Enregistrer** pour valider la modification de la prescription.
+Cliquer enfin sur le bouton **Enregistrer** pour valider la modification de la prescription.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/ModifierPrescriptionExamenSoins.jpg
 .. centered:: Modifier une prescription.
 
-Pour supprimer une prescription, nous devons cliquer sur le boutton de suppression de la prescription 
+Pour supprimer une prescription, nous devons cliquer sur le bouton de suppression de la prescription 
 comme présenté sur :ref:`l'image suivante <refExamsSoins>`. Une fenêtre apparaitra pour 
 effectuer la suppression dudit examen.
 
-Cliquer enfin sur le boutton **Supprimer** pour valider la suppression de la prescription 
-ou sur le boutton **Annuler** pour annuler la suppression.
+Cliquer enfin sur le bouton **Supprimer** pour valider la suppression de la prescription 
+ou sur le bouton **Annuler** pour annuler la suppression.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/SupprimerPrescriptionExamenSoins.jpg
@@ -287,12 +287,12 @@ Liste de patients transférés dans l'hôpital
 ===========================================
 
 Pour avoir la liste des patients transférés et des patients admis dans l'hôpital avec un dossier médical 
-existant, il faut cliquer sur le boutton **Transfert De Soins** comme présenté sur l'image ci-dessous.
+existant, il faut cliquer sur le bouton **Transfert De Soins** comme présenté sur l'image ci-dessous.
 
 .. image:: ../Images/img-hopit/InterfacePatientsTransferes.jpg
-.. centered:: Boutton d'accès à la liste des patients transférés.
+.. centered:: bouton d'accès à la liste des patients transférés.
 
-Une fois avoir cliqué sur le boutton **Transfert De Soins**, vous pouvez visualiser la liste 
+Une fois avoir cliqué sur le bouton **Transfert De Soins**, vous pouvez visualiser la liste 
 des patients transférés et des patients admis dans l'hôpital avec un dossier médical.
 
 .. _refListePatientsTransferes:
@@ -313,7 +313,7 @@ Vous obtiendrez une intrface similaire à l'image ci-dessous.
 .. image:: ../Images/img-hopit/InfosPatientsTransferes.jpg
 .. centered:: Informations du patient transféré.
 
-Pour visualiser les antécedents médicaux du patient transféré, il suffit de cliquer sur le boutton de consultation 
+Pour visualiser les antécedents médicaux du patient transféré, il suffit de cliquer sur le bouton de consultation 
 des antécédents médicaux comme nous présente :ref:`l'image suivante <refListePatientsTransferes>`.
 
 Vous obtiendrez une intrface similaire à l'image ci-dessous.

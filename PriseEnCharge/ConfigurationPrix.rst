@@ -49,28 +49,28 @@ Les actions que nous pouvons effectuer ici sont :
 Lorsqu'on clique sur **+** pour l'ajout d'un examen comme indiqué :ref:`ici <refExams>`, une fenêtre apparait pour 
 renseigner les informations sur l'examen tel que : Le nom de l'examen et son prix.
 
-Cliquer enfin sur le boutton **Enregistrer** pour valider l'ajout de l'examen.
+Cliquer enfin sur le bouton **Enregistrer** pour valider l'ajout de l'examen.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/AjoutExamen.jpg
 .. centered:: Ajouter un examen.
 
-Pour modifier un examen, nous devons cliquer sur le boutton de modification de l'examen 
+Pour modifier un examen, nous devons cliquer sur le bouton de modification de l'examen 
 comme présenté sur :ref:`l'image suivante <refExams>`. Une fenêtre apparaitra pour 
 effectuer la modification sur les précedentes informations de l'examen.
 
-Cliquer enfin sur le boutton **Enregistrer** pour valider la modification de l'examen.
+Cliquer enfin sur le bouton **Enregistrer** pour valider la modification de l'examen.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/ModifierExamen.jpg
 .. centered:: Modifier un examen.
 
-Pour supprimer un examen, nous devons cliquer sur le boutton de suppression de l'examen 
+Pour supprimer un examen, nous devons cliquer sur le bouton de suppression de l'examen 
 comme présenté sur :ref:`l'image suivante <refExams>`. Une fenêtre apparaitra pour 
 effectuer la suppression dudit examen.
 
-Cliquer enfin sur le boutton **Supprimer** pour valider la suppression de l'examen 
-ou sur le boutton **Annuler** pour annuler la suppression.
+Cliquer enfin sur le bouton **Supprimer** pour valider la suppression de l'examen 
+ou sur le bouton **Annuler** pour annuler la suppression.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/SupprimerExamen.jpg
@@ -99,28 +99,28 @@ Les actions que nous pouvons effectuer ici sont :
 Lorsqu'on clique sur **+** pour l'ajout d'un traitement comme indiqué :ref:`ici <refTraitement>`, une fenêtre apparait pour 
 renseigner les informations sur le traitement tel que : Le nom du traitement et son prix.
 
-Cliquer enfin sur le boutton **Enregistrer** pour valider l'ajout du traitement.
+Cliquer enfin sur le bouton **Enregistrer** pour valider l'ajout du traitement.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/AjoutTraitement.jpg
 .. centered:: Ajouter un traitement.
 
-Pour modifier un traitement, nous devons cliquer sur le boutton de modification du traitement  
+Pour modifier un traitement, nous devons cliquer sur le bouton de modification du traitement  
 comme présenté sur :ref:`l'image suivante <refTraitement>`. Une fenêtre apparaitra pour 
 effectuer la modification sur les précedentes informations du traitement.
 
-Cliquer enfin sur le boutton **Enregistrer** pour valider la modification du traitement.
+Cliquer enfin sur le bouton **Enregistrer** pour valider la modification du traitement.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/ModifierTraitement.jpg
 .. centered:: Modifier un traitement.
 
-Pour supprimer un traitement, nous devons cliquer sur le boutton de suppression du traitement  
+Pour supprimer un traitement, nous devons cliquer sur le bouton de suppression du traitement  
 comme présenté sur :ref:`l'image suivante <refTraitement>`. Une fenêtre apparaitra pour 
 effectuer la suppression dudit traitement.
 
-Cliquer enfin sur le boutton **Supprimer** pour valider la suppression du traitement  
-ou sur le boutton **Annuler** pour annuler la suppression.
+Cliquer enfin sur le bouton **Supprimer** pour valider la suppression du traitement  
+ou sur le bouton **Annuler** pour annuler la suppression.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/SupprimerTraitement.jpg
@@ -149,28 +149,28 @@ Les actions que nous pouvons effectuer ici sont :
 Lorsqu'on clique sur **+** pour l'ajout d'un médicament comme indiqué :ref:`ici <refMedicament>`, une fenêtre apparait pour 
 renseigner les informations sur le médicament tel que : Le nom du médicament et son prix.
 
-Cliquer enfin sur le boutton **Enregistrer** pour valider l'ajout du médicament.
+Cliquer enfin sur le bouton **Enregistrer** pour valider l'ajout du médicament.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/AjoutMedicament.jpg
 .. centered:: Ajouter un médicament.
 
-Pour modifier un médicament, nous devons cliquer sur le boutton de modification du médicament  
+Pour modifier un médicament, nous devons cliquer sur le bouton de modification du médicament  
 comme présenté sur :ref:`l'image suivante <refMedicament>`. Une fenêtre apparaitra pour 
 effectuer la modification sur les précedentes informations du médicament.
 
-Cliquer enfin sur le boutton **Enregistrer** pour valider la modification du médicament.
+Cliquer enfin sur le bouton **Enregistrer** pour valider la modification du médicament.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/ModifierMedicament.jpg
 .. centered:: Modifier un médicament.
 
-Pour supprimer un médicament, nous devons cliquer sur le boutton de suppression du médicament 
+Pour supprimer un médicament, nous devons cliquer sur le bouton de suppression du médicament 
 comme présenté sur :ref:`l'image suivante <refMedicament>`. Une fenêtre apparaitra pour 
 effectuer la suppression dudit médicament.
 
-Cliquer enfin sur le boutton **Supprimer** pour valider la suppression du médicament 
-ou sur le boutton **Annuler** pour annuler la suppression.
+Cliquer enfin sur le bouton **Supprimer** pour valider la suppression du médicament 
+ou sur le bouton **Annuler** pour annuler la suppression.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/SupprimerMedicament.jpg
@@ -199,28 +199,28 @@ Les actions que nous pouvons effectuer ici sont :
 Lorsqu'on clique sur **+** pour l'ajout d'une chambre comme indiqué :ref:`ici <refChambre>`, une fenêtre apparait pour 
 renseigner les informations sur la chambre tel que : Le numéro de la chambre, le service hospitalier concerné et son prix.
 
-Cliquer enfin sur le boutton **Enregistrer** pour valider l'ajout de la chambre.
+Cliquer enfin sur le bouton **Enregistrer** pour valider l'ajout de la chambre.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/AjoutChambre.jpg
 .. centered:: Ajouter une chambre.
 
-Pour modifier une chambre, nous devons cliquer sur le boutton de modification de la chambre 
+Pour modifier une chambre, nous devons cliquer sur le bouton de modification de la chambre 
 comme présenté sur :ref:`l'image suivante <refChambre>`. Une fenêtre apparaitra pour 
 effectuer la modification sur les précedentes informations de la chambre.
 
-Cliquer enfin sur le boutton **Enregistrer** pour valider la modification de la chambre.
+Cliquer enfin sur le bouton **Enregistrer** pour valider la modification de la chambre.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/ModifierChambre.jpg
 .. centered:: Modifier une chambre.
 
-Pour supprimer une chambre, nous devons cliquer sur le boutton de suppression de la chambre 
+Pour supprimer une chambre, nous devons cliquer sur le bouton de suppression de la chambre 
 comme présenté sur :ref:`l'image suivante <refChambre>`. Une fenêtre apparaitra pour 
 effectuer la suppression de ladite chambre.
 
-Cliquer enfin sur le boutton **Supprimer** pour valider la suppression de la chambre 
-ou sur le boutton **Annuler** pour annuler la suppression.
+Cliquer enfin sur le bouton **Supprimer** pour valider la suppression de la chambre 
+ou sur le bouton **Annuler** pour annuler la suppression.
 L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/SupprimerChambre.jpg
@@ -229,13 +229,13 @@ L'image ci-dessous est illustrative de ce scénario.
 VISUALISATION DES ICD CODES
 ===========================
 
-Pour visualiser la liste des ICD code veuillez cliquer sur le boutton **ICD Codes** 
+Pour visualiser la liste des ICD code veuillez cliquer sur le bouton **ICD Codes** 
 comme indiqué sur l'image ci-dessous.
 
 .. image:: ../Images/img-hopit/InterfaceICD_codes.jpg
-.. centered:: Boutton d'accès à la liste des ICD Codes.
+.. centered:: bouton d'accès à la liste des ICD Codes.
 
-Une fois avoir cliqué sur le boutton **ICD Codes**, vous pouvez visualiser la liste 
+Une fois avoir cliqué sur le bouton **ICD Codes**, vous pouvez visualiser la liste 
 des ICD Codes.
 
 .. image:: ../Images/img-hopit/ListeICD_codes.jpg
