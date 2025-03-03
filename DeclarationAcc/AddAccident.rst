@@ -147,7 +147,7 @@ le tableau ci-dessous.
 
 Passer à l'étape qui suit en cliquant sur le bouton **Suivant**.
 
-.. _refPoliceUsagers:
+.. _refPoliceUsagersConcernes:
 
 Usagers concernés
 -----------------
