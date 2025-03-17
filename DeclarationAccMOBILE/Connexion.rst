@@ -1,6 +1,7 @@
 
 Connexion à l’application MOBILE de DOSER
 =========================================
+
 Après l’installation de l’application mobile sur votre handset mobile (téléphone, tablette..)
 Double cliquez sur l’icône de l’application Doser.
 
