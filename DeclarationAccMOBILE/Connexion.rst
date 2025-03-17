@@ -9,7 +9,7 @@ Des écrans de présentations de l’application se présentent. Après lecture 
 
 
 .. image:: ../Images/img-police1&2/EcranDemarageApplicationMobile.jpg
-    :name: Ecran de démarrage de l’application mobile 
+    :align: center
 .. centered:: Ecran de démarrage de l’application mobile
 
 
@@ -17,5 +17,5 @@ A la fin des écrans de présentation l’écran d’authentification s’ouvre 
 
 
 .. image:: ../Images/img-police1&2/EcranDauthentificationApplicationMobile.jpg
-    :name: Ecran d’authentification application mobile 
+    :align: center
 .. centered:: Ecran d’authentification application mobile
