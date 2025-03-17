@@ -1,5 +1,5 @@
-Ajouter d'une déclaration d'accident
-====================================
+Ajouter d'une déclaration d'accident MOBILE
+===========================================
 
 Après avoir entré la clé d’identification qui ne vous est demandé qu’à la première ouverture  vous êtes redirigés vers la page d’accueil où vous pouvez ajouter un nouvel accident 
 
