@@ -24,12 +24,22 @@ Qui êtes vous ?
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: PROCEDURE DE DECLARATION
+   :caption: WEB : PROCEDURE DE DECLARATION
 
-   DeclarationAcc/DeclarationAcc.rst
-   DeclarationAcc/Connexion.rst
-   DeclarationAcc/AddAccident.rst
-   DeclarationAcc/EnrichirDec.rst
+   DeclarationAccWEB/Etats&Description.rst
+   DeclarationAccWEB/Connexion.rst
+   DeclarationAccWEB/AddAccident.rst
+   DeclarationAccWEB/EnrichirDec.rst
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: MOBILE : PROCEDURE DE DECLARATION
+
+   DeclarationAccMOBILE/Etats&Description.rst
+   DeclarationAccMOBILE/Connexion.rst
+   DeclarationAccMOBILE/AddAccident.rst
+   DeclarationAccMOBILE/EnrichirDec.rst
 
 .. toctree::
    :maxdepth: 2
