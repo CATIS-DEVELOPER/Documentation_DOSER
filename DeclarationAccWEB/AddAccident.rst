@@ -34,7 +34,7 @@ L'explication détaillée de la suite de la procédure d'ajout d'une déclaratio
 Agent constatateur
 ------------------
 
-C'est la première section de la déposition à remplir; il s'agit ici de renseigner les 
+C'est la première section de la déclaration à remplir; il s'agit ici de renseigner les 
 informations d'identification de l'agent constatateur ou des agents constatateurs s'ils 
 sont nombreux à faire le constat.
 
