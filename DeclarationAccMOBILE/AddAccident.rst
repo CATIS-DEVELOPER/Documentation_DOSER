@@ -19,18 +19,18 @@ Après avoir cliqué sur **Creer**, plusieurs étapes vous seront présentées p
 Les informations à renseigner dans ces étapes sont les 
 suivantes :
 
-* :ref:`Les informations sur l'agent constatateur <refPoliceAgentConstatateur>`
-* :ref:`La précision de la localisation <refPoliceLocalisation>`
-* :ref:`Les informations sur l'accident <refPoliceInfosAccident>`
-* :ref:`Les informations sur la route <refPoliceRoute>`
-* :ref:`Les véhicules concernés <refPoliceVehiculesConsernes>`
-* :ref:`Les usagers concernés <refPoliceUsagersConcernes>`
-* :ref:`Le croquis <refPoliceCroquis>`
-* :ref:`Une déposition <refPoliceDepositions>
+* :ref:`Les informations sur l'agent constatateur <refPoliceAgentConstatateu>`
+* :ref:`La précision de la localisation <refPoliceLocalisatio>`
+* :ref:`Les informations sur l'accident <refPoliceInfosAcciden>`
+* :ref:`Les informations sur la route <refPoliceRout>`
+* :ref:`Les véhicules concernés <refPoliceVehiculesConserne>`
+* :ref:`Les usagers concernés <refPoliceUsagersConcerne>`
+* :ref:`Le croquis <refPoliceCroqui>`
+* :ref:`Une déposition <refPoliceDeposition>`
 
 L'explication détaillée de la suite de la procédure d'ajout d'une déclaration est la suivante :
 
-.. _refPoliceAgentConstatateur:
+.. _refPoliceAgentConstatateu:
 
 Agent constatateur
 ------------------
@@ -65,7 +65,7 @@ Si le nom n’existe pas encore dans la base de données fais pareil.
 
 Cliquer sur le bouton **Continuer** pour terminer cette étape et passer à l'étape suivante.
 
-.. _refPoliceLocalisation:
+.. _refPoliceLocalisatio:
 
 Localisation 
 ------------
@@ -136,7 +136,7 @@ Ensuite remplir le reste des champs du formulaire :
 
 Passer à l'étape qui suit en cliquant sur le bouton **Continuer**.
 
-.. _refPoliceRoute:
+.. _refPoliceRout:
 
 Route 
 -----
@@ -157,5 +157,110 @@ Remplir les champs du formulaire qui s’ouvre :
     :align: center
 .. centered:: Informations sur la route.
 
-Ensuite cliquer sur le bouton **Continuer**.
-   
+Ensuite cliquer sur le bouton **Continuer** pour l'etape suivante.
+
+.. _refPoliceVehiculesConserne:
+
+Véhicules concernés 
+-------------------
+
+Ici, nous devons renseigner les informations sur les véhicules concernés par 
+l'accident. Pour cela, nous devons cliquer sur le bouton d'ajout comme présenté 
+par l'image ci dessous pour ajouter un véhicule.
+
+.. image:: ../Images/img-police1&2/AjoutDunVehicule.jpg
+    :align: center
+.. centered:: Ajout d’un véhicule
+
+L’ajout du véhicule se fait en deux étapes : **Information du vehicule** , **Information sur l'accident** .
+
+**1. Information sur le vehicule**
+
+Remplir les informations du véhicule dans le formulaire qui s’ouvre de deux façons possibles :
+
+*	Soit en recherchant dans la liste de recherche en haut du formulaire.
+S’il existe le sélectionner va pré remplir tous les champs renseignés
+précédemment et vous n’aurez qu’à compléter ou modifier
+
+*	Soit remplir manuellement toutes les champs du formulaire
+
+.. image:: ../Images/img-police1&2/FormulairedAjoutDunVehiculeInfoVehicule.jpg
+    :align: center
+.. centered:: Formulaire d’ajout du véhicule / information sur le véhicule
+
+   1.	Faire une recherche sur un véhicule préenregistré pour remplir certains champs automatiquement 
+   2.	Ou remplir le formulaire manuellement 
+   3.	Cliquer sur suivant
+
+**2. Information sur l'accident**
+
+Remplir les informations sur le véhicule concernant l’accident fait comme l'indique l'image suivante.
+
+.. image:: ../Images/img-police1&2/FormulairedAjoutDunVehiculeInfoAccident.jpg
+    :align: center
+.. centered:: Formulaire d’ajout du véhicule / information sur l'accident
+
+* **1.** Ajouter les photos 
+     
+        * **A.** Prendre une photo
+
+        * **B.** Selectionner la photo dans la galerie 
+
+        * **C.** Supprimer toutes les photos capturer ou Selectionner
+
+        * **D.** Supprimer une photo
+
+* **2.** Remplir le formulaire manuellement 
+
+* **3.** Cliquer sur **Enregistrer** pour sauvegarder les information. Apres ce clic nous verons le vehicule 
+enregistre et nous avons egalement la posibilite d'ajouter un autre vehicule ou de faire un clic sur **Continuer** pour passer 
+a l'etape suivante.
+
+.. image:: ../Images/img-police1&2/ListeDesVehiculeCrees.jpg
+    :align: center
+.. centered:: Liste des véhicules crées 
+
+* **1.** Liste des véhicules crées 
+* **2.** Ajout d’un nouveau véhicule
+* **3.** Cliquer sur **Continuer** pour passer a l'etape suivante
+
+.. _refPoliceUsagersConcerne:
+
+Usagers accidentées
+-------------------
+
+Ici, nous devons renseigner les informations sur les usagers concernés par 
+l'accident. Pour cela, nous devons cliquer sur le bouton d'ajout comme présenté 
+par l'image ci dessous pour ajouter un usager.
+
+.. image:: ../Images/img-police1&2/AjoutDunAccidente.jpg
+    :align: center
+.. centered:: Ajout d’un accidenté
+
+Remplir les informations de la personne accidentée qui sur le formulaire qui s’ouvre
+
+.. image:: ../Images/img-police1&2/FormulaireDajoutDunAccidente.jpg
+    :align: center
+.. centered:: Formulaire d’ajout des accidentés 
+
+* **1.** Ajouter les photos 
+     
+        * **A.** Prendre une photo
+
+        * **B.** Selectionner la photo dans la galerie 
+
+        * **C.** Supprimer toutes les photos capturer ou Selectionner
+
+        * **D.** Supprimer une photo
+
+* **2.** Remplir le formulaire manuellement 
+
+* **3.** Cliquer sur **Enregistrer** pour sauvegarder les information. Apres ce clic nous verons l'accident declare 
+ et nous avons egalement la posibilite d'ajouter un autre accident ou de faire un clic **Continuer** pour passer 
+a l'etape suivante.
+
+.. image:: ../Images/img-police1&2/ListeDesAccidentCrees.jpg
+    :align: center
+.. centered:: Liste des accidentés  
+
+ Cliquer sur **Continuer** pour passer a l'etape suivante
