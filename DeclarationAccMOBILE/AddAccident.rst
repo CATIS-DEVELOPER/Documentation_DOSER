@@ -260,7 +260,7 @@ Remplir les informations de la personne accidentée qui sur le formulaire qui s�
 
 .. image:: ../Images/img-police1&2/ListeDesAccidentCrees.jpg
     :align: center
-  
+.. centered:: Liste des accidentés  
 
  Cliquer sur **Continuer** pour passer a l'etape suivante
  
@@ -269,7 +269,50 @@ Remplir les informations de la personne accidentée qui sur le formulaire qui s�
 Croquis
 -------
 
-Pour insérer le croquis, deux options s'offrent à nous :
+Lorsque vous cliquez sur « Continuer» une interface sera présentée où vous pouvez  faire un croquis du lieu de 
+l’accident  en le dessinant et ensuite enregistrer votre action 
 
-* Soit nous dessinons le croquis directement dans l'application
-* Soit nous importons une image de croquis
+.. image:: ../Images/img-police1&2/AjoutDunCroquis.jpg
+    :align: center
+.. centered:: Ajout d’un croquis
+
+Cliquer sur **Continuer** pour passer a l'etape suivante 
+
+.. _refPoliceDeposition:
+
+Dépositions 
+-----------
+
+Arriver dans la section de création des dépositions, nous avons l'interface ci-dessous. 
+Ici nous pouvons créer une nouvelle déposition en cliquant sur le bouton d'ajout comme 
+indiqué sur l'image ci-dessous. Nous avons aussi deux champs pour renseigner nos observations 
+ et nos remarques.
+
+.. image:: ../Images/img-police1&2/AccueilDajoutDuneDeposition.jpg
+    :align: center
+.. centered:: Accueil d’ajout d’une déposition 
+
+En cliquant sur le bouton ajouter le formulaire d’ajout des dépositions s’ouvre et remplir comme l'indique l'image suivante.
+
+.. image:: ../Images/img-police1&2/FormulaireDajoutDuneDeposition.jpg
+    :align: center
+.. centered:: Formulaire d’ajout d’une nouvelle déposition 
+
+1.	Remplir le formulaire selon les informations demandées
+2.	Question ajouté 
+   A. Cliquer sur ce bouton pour supprimer
+3.	Cliquer sur ce bouton pour ajouter une question ( Vous pouvez ajouter autant de questions que vous souhaitez dans votre déposition)
+4.	 Cliquer sur ce bouton si vous avez fini pour enregistrer 
+
+Le bouton **enregistrer** vous permet d’enregistrer la déposition et vous revenez à la page d’accueil d’ajout des dépositions avec
+la déposition enregistrée et vous avez la possibilité d’ajouter une autre déposition en cliquant sur le bouton ajouter
+
+.. image:: ../Images/img-police1&2/DuneDepositionCree.jpg
+    :align: center
+.. centered:: Déposition créée 
+
+Un clic sur terminer permet de clôturer la déclaration d’accident et vous ramène a la liste des accidents déclarés 
+
+.. image:: ../Images/img-police1&2/ListeDeclaration.jpg
+    :align: center
+.. centered:: Liste des declarations

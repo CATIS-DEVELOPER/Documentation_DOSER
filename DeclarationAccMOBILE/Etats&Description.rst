@@ -19,7 +19,7 @@ véhicules enregistrés sur l’application.
     :name: Diagramme des états et transitions
 .. centered:: Diagramme des états de la déclaration
 
-.. _knowStatus:
+.. _knowStatu:
 Les différentes descriptions de ces etats sont les suivantes :
 
 .. list-table:: Descriptions des Etats
