@@ -263,9 +263,6 @@ Remplir les informations de la personne accidentée qui sur le formulaire qui s�
 .. centered:: Liste des accidentés  
 
  Cliquer sur **Continuer** pour passer a l'etape suivante
-
-
- 
  .. _refPoliceCroqui:
 
 Croquis
