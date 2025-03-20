@@ -103,6 +103,7 @@ la position sur la carte
 Cliquer sur le bouton **Continuer** pour teminer cette étape et passer 
 à l'étape suivante.
 
+.. _refPoliceInfosAcciden:
 
 Accident  
 --------
@@ -264,3 +265,14 @@ a l'etape suivante.
 .. centered:: Liste des accidentés  
 
  Cliquer sur **Continuer** pour passer a l'etape suivante
+
+
+ .. _refPoliceCroqui:
+
+Croquis
+-------
+
+Pour insérer le croquis, deux options s'offrent à nous :
+
+* Soit nous dessinons le croquis directement dans l'application
+* Soit nous importons une image de croquis
