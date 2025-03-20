@@ -257,8 +257,7 @@ Remplir les informations de la personne accident√©e qui sur le formulaire qui s‚
 * **2.** Remplir le formulaire manuellement 
 
 * **3.** Cliquer sur **Enregistrer** pour sauvegarder les information. Apres ce clic nous verons l'accident declare 
- et nous avons egalement la posibilite d'ajouter un autre accident ou de faire un clic **Continuer** pour passer 
-a l'etape suivante.
+et nous avons egalement la posibilite d'ajouter un autre accident ou de faire un clic **Continuer** pour passer a l'etape suivante.
 
 .. image:: ../Images/img-police1&2/ListeDesAccidentCrees.jpg
     :align: center
@@ -267,6 +266,7 @@ a l'etape suivante.
  Cliquer sur **Continuer** pour passer a l'etape suivante
 
 
+ 
  .. _refPoliceCroqui:
 
 Croquis
