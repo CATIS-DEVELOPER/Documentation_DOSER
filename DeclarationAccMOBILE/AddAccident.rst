@@ -260,6 +260,8 @@ Remplir les informations de la personne accidentée qui sur le formulaire qui s�
 
 .. image:: ../Images/img-police1&2/ListeDesAccidentCrees.jpg
     :align: center
+
+
 .. centered:: Liste des accidentés  
 
  Cliquer sur **Continuer** pour passer a l'etape suivante
