@@ -97,4 +97,11 @@ des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir
 **Déposition** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaratio>`, la fenêtre 
 suivante va s'afficher :
 
+.. image:: ../Images/img-police1&2/AjoutLaDeposition.jpg
+    :align: center
+.. centered::  Ajouter la déposition  
+
+Apres avoir cliquer sur le bouton de creation de la déposition vous allez etre dirige ici
+: :ref:`En savoir plus <refPoliceDeposition>`
+
 
