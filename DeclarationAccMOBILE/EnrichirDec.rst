@@ -17,7 +17,7 @@ que vous venez d’ajouter dont le statut est « **OPENED** » et là vous verre
 * :ref:`Avoir le rapport PDF de la déclaration <refPoliceRapportPD>`
 * :ref:`Avoir le procès verbal de la déclaration <refPoliceProcesVerbal>`
 * :ref:`Modifier la déclaration <refPoliceModifierDeclaration>`
-* :ref:`Ajouter un croquis <refPoliceAjouterCroquisDeclaration>`
+* :ref:`Ajouter un croquis <refPoliceAjouterDeposition>`
 * :ref:`Signer le rapport <refPoliceSignerRapport>`
 
 .. _refPoliceActionsPossiblesDeclaratio:
@@ -69,4 +69,32 @@ modifier les détails puis cliquer sur enregistrer. Une fois avoir cliqué sur
 .. centered::  Modification de la declaration
 
 Cliquer sur **Continuer** pour modifier les 08 rubriques selon les informations convenables 
+
+.. _refPoliceSignerRappor:
+
+Signer le rapport
++++++++++++++++++
+
+Pour signer le rapport, il faut cliquer sur **Signature** dans la liste 
+des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
+**Signature** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaratio>`, 
+la fenêtre suivante va s'afficher :
+
+.. image:: ../Images/img-police1&2/Signature.jpg
+    :align: center
+.. centered::  Signature ajoute 
+
+Signer et enregistrer la signature en cliquant sur le bouton enregister comme présenté 
+sur l'image ci-dessus.
+
+.. _refPoliceAjouterDeposition:
+
+Ajout la déposition
++++++++++++++++++++
+
+Pour ajouter un croquis à une déclaration, il faut cliquer sur **Déposition** dans la liste 
+des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
+**Déposition** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaratio>`, la fenêtre 
+suivante va s'afficher :
+
 
