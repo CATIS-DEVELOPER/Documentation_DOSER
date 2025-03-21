@@ -1,9 +1,11 @@
 
 Validation du PV
 ================
-**« NB : »** Il est bon à savoir que tout policier n'a pas le pouvoir de valider un PV.
+Dans l’interface de présentation des déclarations, certaines déclarations ont le statut « **READY** » .Rendu
+à ce statut le clic sur le bouton “ **Actions** ” permet de consulter la déclaration, consulter le PV et valider.
+Pour valider cette dernière il faut que votre compte de connexion à l’application ait le droit requis pour le
+faire. il faudra cliquer sur le bouton « **Actions** » et ensuite cliquer sur « Validation » comme suit :
 
-Lorsque vous avez le droit, vous verrez sur l’interface de présentation des déclarations, certaines déclarations dont le statut est à **« READY »**. Pour valider cette dernière, il faudra cliquer sur le bouton **« Actions »** et ensuite cliquer sur **« Validation »** comme suit :
 
 .. image:: ../Images/img-police1&2/Valider_pv1.PNG
     :name: Valider le PV
