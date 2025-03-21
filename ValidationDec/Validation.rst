@@ -11,20 +11,15 @@ faire. il faudra cliquer sur le bouton « **Actions** » et ensuite cliquer sur 
     :name: Valider le PV
 .. centered:: Valider le PV
 
-Puis cliquez sur **« Aperçu du PV »**
+Sur l’interface qui lui sera demandée, il devra prendre une décision en fonction du PV de l’accident.
+Lorsqu’il sera question de rejeter la déclaration, il devra choisir « **Annuler** » puis renseigner
+obligatoirement un motif de refus afin que l’agent collecteur soit notifié de la raison prise par son supérieur
+ensuite l’état de la déclaration va passer a « **REJECTED** », mais lorsqu’il sera question d’accepter la
+déclaration il devra choisir « **Accepter** » puis signer, renseigner (facultatif) et confirmer. L’état de la
+déclaration passera à « **ACCEPTED** ».
 
-.. image:: ../Images/img-police1&2/Valider_pv2.PNG
-    :name: Voir l'apperçu du PV
-.. centered:: Voir l'apperçu du PV
-
-cliquez sur **« Validation »**
-
-.. image:: ../Images/img-police1&2/Valider_pv3.PNG
-    :name: Apperçu du PV
-.. centered:: Apperçu du PV
-
-Sur l’interface qui lui sera demandée, il devra prendre une décision en fonction du PV de l’accident. Lorsqu’il sera question de rejeter la déclaration, il devra choisir **« Annuler »** puis renseigner obligatoirement un motif pour choix afin que l’agent collecteur soit notifié de la raison prise par son supérieur ensuite l’etat de la déclaration va passer a **« REJECTED »**, mais lorsque il sera question d’accepter la déclartion il devra choisir **« Accepter »** puis signer, renseigner (facultatif) et confirmer. L’etat de la déclaration passera à **« ACCEPTED »**. 
-
+Pour ce cas nous allons cliquer sur **« Accepter »**
+ 
 .. image:: ../Images/img-police1&2/Valider_pv4.PNG
     :name: Choix de validation
 .. centered:: Choix de validation
@@ -33,15 +28,23 @@ Sur l’interface qui lui sera demandée, il devra prendre une décision en fonc
     :name: Motif
 .. centered:: Motif
 
-Génerer le PV de l'accident
+Enregistrer la signature après acceptation
+
+.. image:: ../Images/img-police1&2/Valider_pv6.PNG
+    :name: Motif
+.. centered:: Enregistrer la signature 
+
+Clôturer le processus
 ===========================
-Après toute cette procédure qui a abouti à une déclaration d’un accident vérifié, il est donc maintenant en la capacité de celui qui a le droit de générer un PV pour l’accident pour ses quelconques besoins.
+Après toute cette procédure qui a abouti à une déclaration d’un accident validé, l’agent collecteur peut créer le
+procès verbal de l’accident.
+Pour cela cliquer sur le bouton d’action des déclarations avec le statut accepted et choisir creer le PV
 
 .. image:: ../Images/img-police1&2/gen_pv.jpg
     :name: Générer PV
 .. centered:: Générer PV
 
-Vous avez donc la possibilité d’imprimer ce PV en cliquant sur **« Imprimer »**.
+Vous avez donc la possibilité d’imprimer ce PV en cliquant sur **« Imprimer »** ou de l'**Enregistrer**.
 
 Actions effectuées par l'agent supérieur collecteur en fonction des états de la déclaration
 ===========================================================================================
