@@ -30,7 +30,7 @@ Pour ce cas nous allons cliquer sur **« Accepter »**
 
 Enregistrer la signature après acceptation
 
-.. image:: ../Images/img-police1&2/Valider_pv6.PNG
+.. image:: ../Images/img-police1&2/Valider_pv6.jpg
     :name: Motif
 .. centered:: Enregistrer la signature 
 
