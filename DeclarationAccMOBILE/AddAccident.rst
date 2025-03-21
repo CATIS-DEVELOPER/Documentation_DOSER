@@ -264,7 +264,7 @@ Remplir les informations de la personne accident√©e qui sur le formulaire qui s‚
 
  Cliquer sur **Continuer** pour passer a l'etape suivante
  
- .. _refPoliceCroqui:
+.. _refPoliceCroqui:
 
 Croquis
 -------
