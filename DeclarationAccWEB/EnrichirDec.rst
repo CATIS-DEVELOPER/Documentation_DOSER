@@ -136,7 +136,7 @@ Ici le nous pouvons modifier les personnes enregistrées dans l'ancienne déclar
 de nouvelles personnes à la déclaration.
 
 .. image:: ../Images/img-police1&2/PoliceModifPersonneDeclaration.jpg
-.. centered::  Modifier les véhicules de la déclaration.
+.. centered::  Modifier les information de la personne de la déclaration.
 
 :ref:`En savoir plus <refPoliceUsagersConcernes>` sur l'ajout, la supression et 
 la modification des personnes.
@@ -153,7 +153,7 @@ Lorsque nous avons terminé les modifications que nous voulions faire sur la dé
 devons cliquer sur le bouton **Enregister** en bas de page comme présenté sur l'image ci-dessous.
 
 .. image:: ../Images/img-police1&2/PoliceModificationsEnregistrées.jpg
-.. centered::  Enregister les modifications sur la déclaration.
+.. centered::  Enregistrer les modifications sur la déclaration.
 
 .. _refPoliceAjouterCroquisDeclaration:
 
