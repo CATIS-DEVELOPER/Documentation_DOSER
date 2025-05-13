@@ -24,6 +24,8 @@ sur lesquels nous devons configurer les prix à savoir :
 
 **4.** :ref:`Les chambres <refLesChambres>`
 
+**5.** :ref:`Service Hospitalier <refServiceHospitalier>`
+
 Nous présenterons tour à tour comment configurer les prix de ces produits et services.
 
 .. _refLesExamens:
@@ -225,6 +227,29 @@ L'image ci-dessous est illustrative de ce scénario.
 
 .. image:: ../Images/img-hopit/SupprimerChambre.jpg
 .. centered:: Supprimer une chambre.
+
+.. _refServiceHospitalier:
+
+Servive Hospitalier
+-------------------
+
+Cliquer sur **5** comme présenté sur :ref:`l'image suivante <refConfiguration>`, 
+pour accéder à l'interface de configuration du service hospitalier.
+
+L'image ci-dessous nous présente l'interface de configuration du service hospitalier.
+Les actions que nous pouvons effectuer ici sont :
+
+* L'ajout d'un service
+* Visualisation des services hospitaliers
+
+Lorsqu'on clique sur **+** pour l'ajout d'un service, une fenêtre apparait pour 
+choisir le service.
+
+Cliquer enfin sur le bouton **Enregistrer** pour valider l'ajout du service.
+
+.. image:: ../Images/img-hopit/AjoutService.jpg
+.. centered:: Ajouter une chambre.
+
 
 VISUALISATION DES ICD CODES
 ===========================
