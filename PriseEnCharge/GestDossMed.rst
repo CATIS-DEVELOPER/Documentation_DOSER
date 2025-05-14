@@ -54,53 +54,43 @@ Enfin cliquer sur le bouton **Enregistrer** pour finaliser l'ajout du dossier m�
 .. image:: ../Images/img-hopit/finaliser_dos.jpg
 .. centered:: Finaliser le dossier médical.
 
-En cliquant sur la zone représentée par **1** sur l'image ci-dessous, nous pouvons 
-visualiser ou cacher les informations du dossier médical.
-
-.. image:: ../Images/img-hopit/Visualiser_dos.jpg
-.. centered:: Visualiser le dossier médical.
 
 Enrichir le dossier médical
 ===========================
 Après l’ajout du dossier médical, l’état du dossier passe à « OPENED » et à ce moment,
-l’agent de l’hôpital pourra juste consulter, modifier, visualiser sous format PDF ou tranférer 
-le dossier médical en question.
+l’agent de l’hôpital pourra faire plusieurs actions.
 
 .. image:: ../Images/img-hopit/DossierMedicaux.jpg
-.. centered::  Dossiers médicaux & Etats.
+.. centered::  Liste des dossiers médicaux & Etat
 
 L'image ci-dessous nous présente la liste des opérations que l'on peut effectuer sur un dossier 
-médical pour l'enrichir.
+médical pour l'enrichir en cliquant sur action.
 
 .. _refOperationsDossierMedical:
 
 .. image:: ../Images/img-hopit/OperationsDossierMedical.jpg
 .. centered::  Opérations sur un dossier médical.
 
-Les chiffres ci-dessus illustrent les opérations que l'on peut effectuer sur un dossier médical 
-comme suit :
+Les opérations que l'on peut effectuer sur un dossier médical sont:
 
-**1** :ref:`Transfert de soins <TransfererSoins>`
+:ref:`Visualiser le dossier médical <VisualiserDossier>`
 
-**2** :ref:`Modifier le dossier médical <ModifierDossierMedical>`
+:ref:`Modifier le dossier médical <ModifierDossierMedical>`
 
-**3** :ref:`Visualisation sous le format PDF <VisualisationPDF>`
+:ref:`Rapport sous le format PDF <RapportPDF>`
 
-**4** :ref:`Ajout du document médical <AjoutDocumentrMedical>`
+:ref:`Ajout du Croquis <AjoutDuCroquis>`
+
+:ref:`Signer le rapport <SignerRapport>`
 
 .. _TransfererSoins:
 
-Transférer les soins
---------------------
+Visualiser le dossier médical
+-----------------------------
 
-Cliquer sur **1** comme présenté sur :ref:`l'image suivante <refOperationsDossierMedical>`, 
-pour faire un transfert de soins.
-
-Une fenêtre s'affiche où vous devez renseigner les informations sur l'hôpital où le transfert 
-sera opéré, le statut du soin, la méthode de transfert et une description de l'état des soins. 
-Cliquer sur le bouton **Create** pour valider le transfert.
-
-L'image ci-dessous présente le fenêtre qui doit apparaitre après avoir cliqué sur le bouton **1**.
+Pour visualiser les détails sur le dossier medical, il faut cliquer sur **Détails** dans la liste 
+des actions qu'on peut effectuer sur un dossier. Une fois avoir cliqué sur 
+**Détails** comme présenté :ref:`ici <refOperationsDossierMedical>`, l'interface suivante va s'afficher :
 
 .. image:: ../Images/img-hopit/TransfertSoins.jpg
 .. centered::  Transfert de soins.
