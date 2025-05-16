@@ -262,10 +262,10 @@ L’image ci-dessous présente le fenêtre qui doit apparaitre après avoir cliq
 .. image:: ../Images/img-hopit/Transfert des soins.jpg
 .. centered::  Transfert des soins.
 
-.. _VisualisationPDF:
+.. _RapportPDF:
 
-Visualisation sous le format PDF
---------------------------------
+Rapport sous le format PDF  
+--------------------------
 
 Cliquer sur **Generer Rapport** comme présenté sur :ref:`l'image suivante <refOperationsDossierMedical>`, 
 pour visualiser le dossier médical sous format PDF.
