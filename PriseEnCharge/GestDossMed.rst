@@ -79,21 +79,17 @@ Les opérations que l'on peut effectuer sur un dossier médical sont:
 
 :ref:`Rapport sous le format PDF <RapportPDF>`
 
-:ref:`Ajout du Croquis <AjoutDuCroquis>`
-
-:ref:`Signer le rapport <SignerRapport>`
-
 .. _TransfererSoins:
 
 Visualiser le dossier médical
 -----------------------------
 
-Pour visualiser les détails sur le dossier medical, il faut cliquer sur **Détails** dans la liste 
+Pour visualiser les détails et ajouter le document medical sur le dossier medical, il faut cliquer sur **Détails** dans la liste 
 des actions qu'on peut effectuer sur un dossier. Une fois avoir cliqué sur 
 **Détails** comme présenté :ref:`ici <refOperationsDossierMedical>`, l'interface suivante va s'afficher :
 
-.. image:: ../Images/img-hopit/TransfertSoins.jpg
-.. centered::  Transfert de soins.
+.. image:: ../Images/img-hopit/InterfaceVisualisation.jpg
+.. centered::  Visualisation des informations.
 
 .. _ModifierDossierMedical:
 
