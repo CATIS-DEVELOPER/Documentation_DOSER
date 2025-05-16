@@ -14,7 +14,6 @@ des actions possibles sur les déclarations. Ces actions sont :
 
 * :ref:`Visualiser les détails de la déclaration <refPoliceVisualiserDetails>`
 * :ref:`Avoir le rapport PDF de la déclaration <refPoliceRapportPDF>`
-* :ref:`Avoir le procès verbal de la déclaration <refPoliceProcesVerbal>`
 * :ref:`Modifier la déclaration <refPoliceModifierDeclaration>`
 * :ref:`Ajouter un croquis <refPoliceAjouterCroquisDeclaration>`
 * :ref:`Signer le rapport <refPoliceSignerRapport>`
@@ -50,15 +49,6 @@ Rapport PDF
 Pour avoir le rapport PDF d'une déclaration, il faut cliquer sur **Rapport en PDF** dans la liste 
 des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
 **Rapport en PDF** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, l'interface suivante va s'afficher :
-
-.. _refPoliceProcesVerbal:
-
-Procès verbal
-+++++++++++++
-
-Pour avoir le procès verbal d'une déclaration, il faut cliquer sur **Proces verbal** dans la liste 
-des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
-**Proces verbal** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, l'interface suivante va s'afficher :
 
 .. _refPoliceModifierDeclaration:
 
@@ -150,7 +140,8 @@ puis nous recherchons le patient en question dans la barre de recherche qui va s
 Une fois que nous avons trouvé le patient en question, nous devons le séclectionnons tout simplement.
 
 Lorsque nous avons terminé les modifications que nous voulions faire sur la déclaration d'accident, nous 
-devons cliquer sur le bouton **Enregister** en bas de page comme présenté sur l'image ci-dessous.
+devons cliquer sur le bouton **Enregister** en haut de page et valider les donnees modifier si vous avez le droit
+ comme présenté sur l'image ci-dessous.
 
 .. image:: ../Images/img-police1&2/PoliceModificationsEnregistrées.jpg
 .. centered::  Enregistrer les modifications sur la déclaration.
@@ -212,3 +203,6 @@ la fenêtre suivante va s'afficher :
 
 Signer et enregistrer la signature en cliquant sur le bouton **Enregister** comme présenté 
 sur l'image ci-dessus.
+
+.. image:: ../Images/img-police1&2/RapportSigner.jpg
+.. centered:: Rapport signé.
