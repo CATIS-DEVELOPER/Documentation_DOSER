@@ -286,7 +286,7 @@ existant, il faut cliquer sur le bouton **Transfert De Soins** comme présenté 
 .. centered:: bouton d'accès à la liste des patients transférés.
 
 Une fois avoir cliqué sur le bouton **Transfert De Soins**, vous pouvez visualiser la liste 
-des patients transférés et des patients admis dans l'hôpital avec un dossier médical.
+des patients transférés dans l'hôpital avec un dossier médical.
 
 .. _refListePatientsTransferes:
 
