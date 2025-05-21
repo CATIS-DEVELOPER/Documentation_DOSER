@@ -1,7 +1,9 @@
  
 Connexion à l’application web COLLECTE DE DONNEES
 =================================================
-Cette procédure est effectuée par les centres hospitaliers proches du lieu de l’accident. C’est à cet effet qu’il pourra lié le(s) patient(s) à un accident déclarer par un agent collecteur ou encore notifier les forces de l’ordre en cas d’accident.
+Cette procédure est effectuée par les centres hospitaliers proches du lieu de l’accident. 
+C’est à cet effet qu’il pourra lié le(s) patient(s) à un accident déclarer par un agent 
+collecteur ou encore notifier les forces de l’ordre en cas d’accident.
 
 Sur la barre de recherche de votre navigateur, entrer l’adresse IP du serveur. Dans notre
 cas, c’est l’adresse **« http://51.195.80.167:8098/ »**. Puis appuyer la touche « entrer » du

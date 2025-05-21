@@ -9,7 +9,7 @@ Bienvenue dans la documentation de DOSER !
 
 Qui êtes vous ?
 
-* :doc:`un agent de police/gendamerie <DeclarationAcc/DeclarationAcc>`
+* :doc:`un agent de police/gendamerie <DeclarationAccWEB/Etats&Description>`
 * :doc:`un(e) medecin/infirmier(ière) <PriseEnCharge/Connexion>`
 * :doc:`un agent d'assurance <Assurance/Connexion>`
 * :doc:`une agence de voyage <Gestion_flotte/Connexion>` (particulier disposant d'une flotte de véhicules)
