@@ -193,16 +193,19 @@ recherche de l'image du croquis afin de l'importer.
 Signer le rapport
 +++++++++++++++++
 
-Pour signer le rapport, il faut cliquer sur **Signer le rapport** dans la liste 
-des actions qu'on peut effectuer sur une déclaration d'accident. Une fois avoir cliqué sur 
-**Signer le rapport** comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, 
-la fenêtre suivante va s'afficher :
+Pour signer le rapport, il faut cliquer sur Signer le rapport dans la liste 
+des actions disponibles pour une déclaration d'accident. Une fois que vous avez cliqué sur 
+Signer le rapport, comme présenté :ref:`ici <refPoliceActionsPossiblesDeclaration>`, 
+la fenêtre suivante s'affiche :
 
 .. image:: ../Images/img-police1&2/PoliceEnrichiSigner.jpg
 .. centered:: Signer le rapport.
 
-Signer et enregistrer la signature en cliquant sur le bouton **Enregister** comme présenté 
+Signez et enregistrez la signature en cliquant sur le bouton **Enregistrer**, comme présenté 
 sur l'image ci-dessus.
 
-.. image:: ../Images/img-police1&2/RapportSigner.jpg
+La déclaration passe au statut **READY** après avoir été signée. Dans ce cas, l'utilisateur peut 
+uniquement consulter les détails et obtenir le rapport en PDF, comme indiqué dans l'image suivante.
+
+.. image:: ../Images/img-police1&2/PoliceRapportSigner.jpg
 .. centered:: Rapport signé.
