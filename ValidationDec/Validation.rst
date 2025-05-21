@@ -34,6 +34,12 @@ Enregistrer la signature après acceptation
     :name: Motif
 .. centered:: Enregistrer la signature 
 
+Statut de la déclaration après validation d'un accepté
+
+.. image:: ../Images/img-police1&2/StatutValide.jpg
+    :name: Motif
+.. centered:: Statut d'un accepté
+
 Clôturer le processus
 ===========================
 Après toute cette procédure qui a abouti à une déclaration d’un accident validé, l’agent collecteur peut créer le
@@ -46,31 +52,53 @@ Pour cela cliquer sur le bouton d’action des déclarations avec le statut acce
 
 Vous avez donc la possibilité d’imprimer ce PV en cliquant sur **« Imprimer »** ou de l'**Enregistrer**.
 
+prenons le cas ou nous allons maintenant sur << **Annuler** >>  
+
+.. image:: ../Images/img-police1&2/ValiderAler_pv4.jpg
+    :name: Choix de validation
+.. centered:: Choix de validation
+
+.. image:: ../Images/img-police1&2/ValiderAler_pv5.jpg
+    :name: Motif
+.. centered:: Motif
+
+Enregistrer la signature après annulation
+
+.. image:: ../Images/img-police1&2/ValiderAler_pv6.jpg
+    :name: Motif
+.. centered:: Enregistrer la signature 
+
+Statut de la déclaration après validation d'un rejeté
+
+.. image:: ../Images/img-police1&2/StatutValideRej.jpg
+    :name: Motif
+.. centered:: Statut d'un rejeté
+
 Actions effectuées par l'agent supérieur collecteur en fonction des états de la déclaration
 ===========================================================================================
-Que le statut soit « ACCEPTED » ou « ACCEPTED Croquis », le supérieur agent collecteur ne pourra que 
+Que le statut soit « **ACCEPTED** » ou « **ACCEPTED Croquis** », le supérieur agent collecteur ne pourra que 
 consulter la déclaration de nouveau.
 
 .. image:: ../Images/img-police1&2/accepted.jpg
     :name: Action du supérieur de l'agent collecteur à l'état ACCEPTED
 .. centered:: Action du supérieur de l'agent collecteur à l'état ACCEPTED
 
-Lorsque la déclaration est au statut « REJECTED » ou « REJECTED Croquis » les actions de cet agent sera 
+Lorsque la déclaration est au statut « **REJECTED** » ou « **REJECTED Croquis** » les actions de cet agent sera 
 de consulter la déclaration et de consulter le PV.
 
 .. image:: ../Images/img-police1&2/rej_sup.jpg
     :name: Action du supérieur de l'agent collecteur à l'état REJECTED
 .. centered:: Action du supérieur de l'agent collecteur à l'état REJECTED
 
-Que le statut soit « OPENED » ou « OPENED Croquis », le supérieur agent collecteur ne pourra que consulter 
+Que le statut soit « **OPENED** » ou « **OPENED Croquis** », le supérieur agent collecteur ne pourra que consulter 
 la déclaration de nouveau. 
 
 .. image:: ../Images/img-police1&2/open_sup.jpg
     :name: Action du supérieur de l'agent collecteur à l'état OPENED
 .. centered:: Action du supérieur de l'agent collecteur à l'état OPENED
 
-Lorsque l’agent collecteur termine l’élaboration de sa déclaration, l’état de la déclaration passe a « READY » 
-et si le croquis a été ajouté il passe a « READY Croquis» et à ce moment le supérieur agent collecteur pourra 
+Lorsque l’agent collecteur termine l’élaboration de sa déclaration, l’état de la déclaration passe a « **READY** » 
+et si le croquis a été ajouté il passe a « **READY Croquis** » et à ce moment le supérieur agent collecteur pourra 
 consulter la déclaration et valider la déclaration.
 
 .. image:: ../Images/img-police1&2/read_sup.jpg
