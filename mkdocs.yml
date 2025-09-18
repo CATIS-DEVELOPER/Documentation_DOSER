@@ -1,0 +1,74 @@
+site_name: DOSER - Sécurité Routière
+site_url: https://documentation-doser.readthedocs.io/
+site_description: Documentation complète du système unifié de gestion des accidents de la route au Cameroun
+
+# Thème Material pour le rendu moderne
+theme:
+  name: material
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Mode sombre
+    - scheme: slate
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Mode clair
+
+# Configuration de la navigation
+nav:
+  - Accueil: index.md
+
+  # Documentation Technique
+  - "1. Développement & Technique":
+      - "1.1. Spécifications Fonctionnelles": developpement/specifications-fonctionnelles.md
+      - "1.2. Architecture Technique": developpement/architecture-technique.md
+      - "1.3. Plan de Sécurité": developpement/plan-securite.md
+
+  - "2. Déploiement & Administration":
+      - "2.1. Guide d'Installation": deployment/guide-installation.md
+      - "2.2. Guide de l'Administrateur": deployment/guide-administrateur.md
+      - "2.3. Procédures de Sauvegarde": deployment/procedures-sauvegarde.md
+
+  # Documentation Utilisateur
+  - "3. Guides par Acteur":
+      - "3.1. Agents Constatateurs": acteurs/agents-constatateurs.md
+      - "3.2. Agents de Validation": acteurs/agents-validation.md
+      - "3.3. Forces de l'Ordre": acteurs/forces-ordre.md
+      - "3.4. Services de Santé": acteurs/services-sante.md
+      - "3.5. Compagnies d'Assurance": acteurs/assurances.md
+
+  - "4. Modules Fonctionnels":
+      - "4.1. Collecte de Données": modules/collecte-donnees.md
+      - "4.2. Validation des Constats": modules/validation-constats.md
+      - "4.3. Analyse et Reporting": modules/analyse-reporting.md
+      - "4.4. Cartographie des Accidents": modules/cartographie-accidents.md
+
+  - "5. Pour les Développeurs":
+      - "5.1. Environnement de Dev": developpers/setup.md
+      - "5.2. Référence API": developpers/api-reference.md
+      - "5.3. Guide de Contribution": developpers/contributing.md
+
+# Extensions pour enrichir le markdown
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
+  - tables
+
+# Plugins
+plugins:
+  - search
