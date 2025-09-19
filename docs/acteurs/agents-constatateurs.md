@@ -32,22 +32,22 @@ L'agent constatateur est responsable de la collecte précise et complète des do
 #### Informations générales
 - **Date et heure** de l'accident (pré-remplie, vérification nécessaire)
 - **Conditions météorologiques** : 
-  - ☀️ Ensoleillé
-  - 🌧️ Pluvieux 
-  - 🌫️ Brumeux
-  - ❄️ Neigeux
+    - ☀️ Ensoleillé
+    - 🌧️ Pluvieux 
+    - 🌫️ Brumeux
+    - ❄️ Neigeux
 - **État de la chaussée** :
-  - Sec
-  - Humide
-  - Enneigée
-  - Verglacée
+    - Sec
+    - Humide
+    - Enneigée
+    - Verglacée
 - **Type d'accident** :
-  - Collision frontale
-  - Collision arrière
-  - Collision latérale
-  - Tonneau
-  - Sortie de route
-  - Piéton heurté
+    - Collision frontale
+    - Collision arrière
+    - Collision latérale
+    - Tonneau
+    - Sortie de route
+    - Piéton heurté
 
 #### Parties impliquées
 
@@ -164,8 +164,9 @@ L'application fonctionne **sans connexion internet** :
 
 ### Support technique
 - **Email** : support@doser.cm
-- **Horaires** : Lundi au Vendredi, 7h-19h
-- **Réponse sous** : 2 heures ouvrables
+- **Hotline dédiée** : +237 XXX XXX XXX
+- **Chat intégré** : Disponible dans la plateforme
+- **Aide contextuel intégré** : Disponible dans la plateforme
 
 ### Urgences sur site
 - **Police** : 117
