@@ -1,3 +1,1 @@
-# Plan de Sécurité
-
-Contenu à compléter...
+# Plan de Sécurité et de Protection des Données\n\n## Politique de gestion des accès RBAC\n\n## Chiffrement des données sensibles\n\n## Conformité RGPD et lois locales\n\n## Procédures de sauvegarde et PRA

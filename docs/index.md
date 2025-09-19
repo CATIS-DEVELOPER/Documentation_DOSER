@@ -29,9 +29,9 @@
 
 Le système intègre les données provenant de :
 - **Forces de l'ordre** (Police, Gendarmerie)
-- **Services de santé** (Hôpitaux, SAMU)
+- **Services de santé** (Hôpitaux)
 - **Compagnies d'assurance**
-- **Services techniques** (Voirie, Transports)
+- **Services techniques** 
 
 ---
 
