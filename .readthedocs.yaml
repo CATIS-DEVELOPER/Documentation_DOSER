@@ -1,0 +1,16 @@
+# Fichier : .readthedocs.yaml
+version: 2
+
+build:
+  os: ubuntu-22.04
+  tools:
+    python: "3.12"
+
+# ⚡ INDIQUE EXPLICITEMENT A READ THE DOCS D'UTILISER MKDOCS
+mkdocs:
+  configuration: mkdocs.yml
+
+# 📦 INSTALLE LES DEPENDANCES (dont mkdocs-material)
+python:
+  install:
+    - requirements: requirements.txt
