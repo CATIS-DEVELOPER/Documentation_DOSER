@@ -1,3 +1,3 @@
-# Accueil DOSER
+# Collecte de Données
 
 Contenu à compléter...

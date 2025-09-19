@@ -1,3 +1,3 @@
-# Accueil DOSER
+# Guide d'Installation
 
 Contenu à compléter...

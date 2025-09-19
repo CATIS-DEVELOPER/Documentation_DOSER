@@ -1,3 +1,3 @@
-# Accueil DOSER
+# Guide de Contribution
 
 Contenu à compléter...

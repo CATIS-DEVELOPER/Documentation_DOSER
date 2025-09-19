@@ -1,5 +1,7 @@
-# Script de génération de la documentation DOSER - Sécurité Routière
+# Script de génération de la documentation DOSER - Sécurité Routière (VERSION CORRIGEE)
 # Exécutez ce script dans le répertoire racine de votre projet
+
+Write-Host "Début de la génération de la documentation..." -ForegroundColor Green
 
 # Création des répertoires
 $directories = @(
@@ -7,7 +9,6 @@ $directories = @(
     "docs/developpement",
     "docs/deployment", 
     "docs/developpers",
-    "docs/guides-utilisateurs",
     "docs/acteurs",
     "docs/modules",
     "docs/assets"
@@ -17,6 +18,8 @@ foreach ($dir in $directories) {
     if (!(Test-Path $dir)) {
         New-Item -ItemType Directory -Path $dir -Force
         Write-Host "Création du répertoire: $dir" -ForegroundColor Green
+    } else {
+        Write-Host "Le répertoire existe déjà: $dir" -ForegroundColor Yellow
     }
 }
 
@@ -98,8 +101,8 @@ plugins:
   - search
 "@
 
-Set-Content -Path "mkdocs.yml" -Value $mkdocsContent
-Write-Host "Création du fichier mkdocs.yml" -ForegroundColor Green
+Set-Content -Path "mkdocs.yml" -Value $mkdocsContent -Force
+Write-Host "Création/mise à jour du fichier mkdocs.yml" -ForegroundColor Green
 
 # Création de la page d'accueil
 $indexContent = @"
@@ -143,8 +146,8 @@ Le système intègre les données provenant de :
 *Pour toute question technique, consultez la [documentation technique](developpement/architecture-technique.md) ou contactez l'équipe support.*
 "@
 
-Set-Content -Path "docs/index.md" -Value $indexContent
-Write-Host "Création de la page d'accueil index.md" -ForegroundColor Green
+Set-Content -Path "docs/index.md" -Value $indexContent -Force
+Write-Host "Création/mise à jour de la page d'accueil index.md" -ForegroundColor Green
 
 # Création des templates pour la documentation technique
 $specsFonctionnelles = @"
@@ -185,7 +188,8 @@ Ce document décrit le fonctionnement de chaque module du système DOSER pour la
 - Dictionnaire de données et métadonnées
 "@
 
-Set-Content -Path "docs/developpement/specifications-fonctionnelles.md" -Value $specsFonctionnelles
+Set-Content -Path "docs/developpement/specifications-fonctionnelles.md" -Value $specsFonctionnelles -Force
+Write-Host "Création de specifications-fonctionnelles.md" -ForegroundColor Green
 
 $architectureTechnique = @"
 # Document d'Architecture Technique (DAT)

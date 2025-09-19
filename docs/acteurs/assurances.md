@@ -1,3 +1,3 @@
-# Accueil DOSER
+# Compagnies d'Assurance
 
 Contenu à compléter...

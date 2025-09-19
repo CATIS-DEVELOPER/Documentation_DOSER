@@ -1,3 +1,3 @@
-# Accueil DOSER
+# Plan de Sécurité
 
 Contenu à compléter...
