@@ -1,11 +1,30 @@
 site_name: DOSER - Sécurité Routière
 site_url: https://documentation-doser.readthedocs.io/
-site_description: Documentation complète du système DOSER
+site_description: Documentation complète du système unifié de gestion des accidents de la route au Cameroun
 
 theme:
   name: material
   logo: assets/logo.png
   favicon: assets/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+  palette:
+    - scheme: default
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/weather-sunny
+        name: Mode sombre
+    - scheme: slate
+      primary: blue
+      accent: red
+      toggle:
+        icon: material/weather-night
+        name: Mode clair
 
 nav:
   - Accueil: index.md
