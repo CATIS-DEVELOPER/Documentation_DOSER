@@ -205,11 +205,11 @@ Pour chaque constat, accès aux sections :
 - [ ] Respect procédures métier
 
 ### 📊 Notation Qualité
-- **Complétude** : [ ] 1 - [ ] 2 - [ ] 3 - [ ] 4 - [ ] 5
-- **Exactitude** : [ ] 1 - [ ] 2 - [ ] 3 - [ ] 4 - [ ] 5
-- **Conformité** : [ ] 1 - [ ] 2 - [ ] 3 - [ ] 4 - [ ] 5
+- **Complétude** 
+- **Exactitude** 
+- **Conformité**  
 
-**Decision finale :** [ ] VALIDE - [ ] REJETE
+**Decision finale :**  VALIDE , REJETE
 
 **Commentaires :**
 ________________________________________________________________
