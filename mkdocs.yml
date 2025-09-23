@@ -29,25 +29,33 @@ theme:
 
 nav:
   - Accueil: index.md
+
   - "1. Développement & Technique":
       - "1.1. Spécifications Fonctionnelles": developpement/specifications-fonctionnelles.md
       - "1.2. Architecture Technique": developpement/architecture-technique.md
       - "1.3. Plan de Sécurité": developpement/plan-securite.md
+      
   - "2. Déploiement & Administration":
       - "2.1. Guide d'Installation": deployment/guide-installation.md
       - "2.2. Guide de l'Administrateur": deployment/guide-administrateur.md
       - "2.3. Procédures de Sauvegarde": deployment/procedures-sauvegarde.md
+
   - "3. Guides par Acteur":
       - "3.1. Agents Constatateurs": acteurs/agents-constatateurs.md
       - "3.2. Agents de Validation": acteurs/agents-validation.md
       - "3.3. Forces de l'Ordre": acteurs/forces-ordre.md
       - "3.4. Services de Santé": acteurs/services-sante.md
       - "3.5. Compagnies d'Assurance": acteurs/assurances.md
+      - "3.6. Administrateurs": acteurs/administrateurs.md
+
   - "4. Modules Fonctionnels":
       - "4.1. Collecte de Données": modules/collecte-donnees.md
       - "4.2. Validation des Constats": modules/validation-constats.md
       - "4.3. Analyse et Reporting": modules/analyse-reporting.md
       - "4.4. Cartographie des Accidents": modules/cartographie-accidents.md
+      - "4.5. Gestion des Utilisateurs": modules/gestion-utilisateurs.md
+      - "4.6. Notifications et Alertes": modules/notifications-alertes.md
+      
   - "5. Pour les Développeurs":
       - "5.1. Environnement de Dev": developpers/setup.md
       - "5.2. Référence API": developpers/api-reference.md
