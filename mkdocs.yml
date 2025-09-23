@@ -16,7 +16,7 @@ theme:
     - search.highlight
   palette:
     - scheme: default
-      primary: rouge
+      primary: red
       accent: red
       toggle:
         icon: material/weather-sunny
