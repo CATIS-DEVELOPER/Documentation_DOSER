@@ -1,0 +1,25 @@
+/* Amélioration des dropdowns */
+.md-tabs__link {
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.md-tabs__link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+/* Dropdown menu */
+.md-tabs__item {
+    position: relative;
+}
+
+.md-tabs__item:hover .md-tabs__dropdown {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}

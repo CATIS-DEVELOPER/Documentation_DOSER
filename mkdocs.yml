@@ -9,12 +9,20 @@ theme:
   features:
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.tabs.integrated
-    - navigation.instant
     - navigation.sections
     - navigation.expand
+    - navigation.expand
+    - navigation.tabs.integrated
+    - navigation.instant
+    - navigation.tracking
+    - navigation.footer
+    - navigation.prune
     - search.suggest
     - search.highlight
+    - search.share
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
   palette:
     - scheme: default
       primary: cyan-bleu vif
@@ -42,13 +50,13 @@ nav:
       - "2.2. Guide de l'Administrateur": deployment/guide-administrateur.md
       - "2.3. Procédures de Sauvegarde": deployment/procedures-sauvegarde.md
 
-  - "3. Guides par Acteur":
-      - "3.1. Agents Constatateurs": acteurs/agents-constatateurs.md
-      - "3.2. Agents de Validation": acteurs/agents-validation.md
-      - "3.3. Forces de l'Ordre": acteurs/forces-ordre.md
-      - "3.4. Services de Santé": acteurs/services-sante.md
-      - "3.5. Compagnies d'Assurance": acteurs/assurances.md
-      - "3.6. Administrateurs": acteurs/administrateurs.md
+  - "3. 👥 Guides par Acteur":
+      - "3.1. 👮 Agents Constatateurs": acteurs/agents-constatateurs.md
+      - "3.2. 🔍 Agents de Validation": acteurs/agents-validation.md
+      - "3.3. 👮 Forces de l'Ordre": acteurs/forces-ordre.md
+      - "3.4. 🏥 Services de Santé": acteurs/services-sante.md
+      - "3.5. 🏢 Compagnies d'Assurance": acteurs/assurances.md
+      - "3.6. 👮 Administrateurs": acteurs/administrateurs.md
 
   - "4. Modules Fonctionnels":
       - "4.1. Collecte de Données": modules/collecte-donnees.md
@@ -58,10 +66,10 @@ nav:
       - "4.5. Gestion des Utilisateurs": modules/gestion-utilisateurs.md
       - "4.6. Notifications et Alertes": modules/notifications-alertes.md
 
-  - "5. Pour les Développeurs":
-      - "5.1. Environnement de Dev": developpers/setup.md
-      - "5.2. Référence API": developpers/api-reference.md
-      - "5.3. Guide de Contribution": developpers/contributing.md
+  - "5. 💻 Pour les Développeurs":
+      - "5.1. 🚀 Environnement de Dev": developpers/setup.md
+      - "5.2. 📚 Référence API": developpers/api-reference.md
+      - "5.3. 🤝 Guide de Contribution": developpers/contributing.md
 
 markdown_extensions:
   - admonition
@@ -74,3 +82,6 @@ markdown_extensions:
 
 plugins:
   - search
+
+extra_css:
+  - assets/css/custom.css
