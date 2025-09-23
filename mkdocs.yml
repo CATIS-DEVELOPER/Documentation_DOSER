@@ -8,7 +8,7 @@ theme:
   favicon: assets/favicon.ico
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
+    ##- navigation.tabs.sticky
     - navigation.tabs.integrate
     - navigation.sections
     - navigation.expand
