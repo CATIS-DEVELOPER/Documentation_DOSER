@@ -23,3 +23,24 @@
     from { opacity: 0; transform: translateY(-10px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* Dropdowns personnalisés */
+.md-header__topic {
+    position: relative;
+}
+
+.md-tabs__item {
+    position: relative;
+}
+
+.md-tabs__item:hover .md-tabs__link::after {
+    content: " ▼";
+    font-size: 0.8em;
+}
+
+/* Amélioration de la navigation */
+.md-nav__item--nested .md-nav__list {
+    border-left: 2px solid var(--md-primary-fg-color);
+    margin-left: 0.5rem;
+    padding-left: 1rem;
+}

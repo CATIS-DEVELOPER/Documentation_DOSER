@@ -82,6 +82,8 @@ markdown_extensions:
 
 plugins:
   - search
+  - git-revision-date-localized:
+      enabled: true
 
 extra_css:
   - assets/css/custom.css

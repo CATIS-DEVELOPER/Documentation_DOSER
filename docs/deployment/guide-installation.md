@@ -1,8 +1,8 @@
 
-#### 2. Dans `docs/deployment/`
+
 
 **Guide d'Installation**
-```markdown
+
 # Guide d'Installation et Déploiement
 
 ## Prérequis Système
