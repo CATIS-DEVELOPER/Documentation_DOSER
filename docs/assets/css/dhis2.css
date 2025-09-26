@@ -1,0 +1,1581 @@
+/*  */
+/* Variables and root */
+/*  */
+
+/* Load font from Open Source CDN, avoiding Google Fonts */
+@import url('https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/inter.min.css');
+
+:root {
+  --grey900: #212934;
+  --grey800: #404b5a;
+  --grey700: #4a5768;
+  --grey600: #6e7a8a;
+  --grey500: #a0adba;
+  --grey400: #d5dde5;
+  --grey300: #e8edf2;
+  --grey200: #f3f5f7;
+  --grey100: #f8f9fa;
+  --grey050: #fbfcfd;
+  --green900: #103713;
+  --green700: #2e7d32;
+  --green100: #e8f5e9;
+  --red900: #330202;
+  --red700: #b71c1c;
+  --red500: #d32f2f;
+  --red100: #ffe5e8;
+  --red050: #fff5f6;
+  --blue900: #093371;
+  --blue700: #1565c0;
+  --blue500: #2196f3;
+  --blue300: #90caf9;
+  --blue200: #c5e3fc;
+  --blue100: #e3f2fd;
+  --blue050: #f5fbff;
+  --teal050: #f1f9f9;
+  --yellow050: #fff8e1;
+  --yellow200: #ffe082;
+
+  --text-base: #051841;
+  --text-muted: #404b5a;
+
+  --action-base: #012c6e;
+  --action-hover: #0040a0;
+  --nav-link-active: #eaedf0;
+
+  --fill-bg: #fff;
+  --fill-bg-100: #f8f9fa;
+  --fill-bg-200: #e8edf2;
+  --fill-bg-300: #d5dde5;
+  --fill-bg-900: #212934;
+
+  --md-default-fg-color: #051841;
+  --md-primary-fg-color: #012c6e;
+
+  --md-primary-fg-color--dark: #90030c;
+  --md-default-bg-color: #fff;
+
+  --md-typeset-color: var(--text-base);
+  --md-typeset-a-color: var(--action-base);
+  --md-code-fg-color: var(--text-muted);
+  --md-code-bg-color: var(--fill-bg-100);
+
+  --md-card-shadow: rgba(64,75,90,0.05);
+  --md-search-bg-color: #000000;
+  --md-search-fg-color: #f8f9fa;
+
+  --tab-menu--active: #333;
+  --tab-menu-bg-1:#111;
+  --tab-menu-bg-2:#222;
+  --tab-menu-bg-3:#333;
+  --tab-menu-bg-4:#444;
+  --tab-menu-folder:#777;
+  --tab-menu-fg:#fff;
+}
+
+[data-md-color-scheme="slate"] {
+  --grey900: #e4dfd8;
+  --grey800: #b4aea6;
+  --grey700: #4a5768;
+  --grey600: #6e7a8a;
+  --grey500: #a0adba;
+  --grey400: #3b3c3d;
+  --grey300: #181a1b;
+  --grey200: #1e2020;
+  --grey100: #1b1e1f;
+  --grey050: #fbfcfd;
+  --green900: #103713;
+  --green700: #2e7d32;
+  --green100: #e8f5e9;
+  --red900: #330202;
+  --red700: #b74949;
+  --red500: #931f1f;
+  --red100: #ffe5e8;
+  --red050: #390006;
+  --blue900: #093371;
+  --blue700: #1565c0;
+  --blue500: #2196f3;
+  --blue300: #90caf9;
+  --blue200: #064172;
+  --blue100: #e3f2fd;
+  --blue050: #021118;
+  --teal050: #f1f9f9;
+  --yellow050: #453500;
+  --yellow200: #8c6900;
+
+  --text-base: #e8e6e3;
+  --text-muted: #b0a99f;
+
+  --action-base: #8fccff;
+  --action-hover: #6aafe7;
+  --nav-link-active: #222526;
+
+  --fill-bg: #181a1b;
+  --fill-bg-100: #1b1e1f;
+  --fill-bg-200: #313232;
+  --fill-bg-300: #36393c;
+  --fill-bg-900: #212934;
+
+  --md-default-fg-color: #ffffff;
+  --md-primary-fg-color: #ffffff;
+
+  --md-primary-fg-color--dark: #90030c;
+  --md-default-bg-color: #181a1b;
+
+  --md-typeset-color: var(--text-base);
+  --md-typeset-a-color: var(--action-base);
+  --md-code-fg-color: var(--text-muted);
+  --md-code-bg-color: var(--fill-bg-100);
+
+  --md-card-shadow: rgba(255,255,255,0.05);
+  --md-search-bg-color: #000000;
+  --md-search-fg-color: #f8f9fa;
+
+  --tab-menu--active: #222;
+  --tab-menu-bg-1:#fff;
+  --tab-menu-bg-2:#eee;
+  --tab-menu-bg-3:#ddd;
+  --tab-menu-bg-4:#ccc;
+  --tab-menu-folder:#666;
+  --tab-menu-fg:#000;
+}
+/*  */
+/* Global rules */
+/*  */
+
+/* Joe's fix for rendering of keys
+.md-typeset kbd {
+	background-color: var(--md-default-bg-color);
+	box-shadow: 0 .1rem 0 .05rem var(--md-default-fg-color--lightest),0 .1rem 0 var(--md-typeset-kbd-border-color),0 -.1rem .2rem var(--md-default-bg-color--light) inset;
+	color: var(--md-default-fg-color);
+}
+*/
+
+.md-banner__inner
+{
+margin:0 !important;
+padding:0 !important;
+}
+
+/* Remove scrollbar hovering */
+.md-sidebar__scrollwrap:hover,
+.md-search__scrollwrap:hover {
+  scrollbar-color: unset;
+}
+
+/* Custom selects */
+/* All credit to Select styling guidance here: https://www.filamentgroup.com/lab/select-css.html*/
+
+select {
+  padding: 0 .5em 0 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: 1px solid transparent;
+  background-color: transparent;
+  font-size: 0.62rem;
+  font-family:inter;
+}
+select::-ms-expand {
+  display: none;
+}
+
+select:focus {
+  box-shadow: 0 0 1px 3px var(--action-hover);
+  outline: none;
+}
+select option {
+  font-weight: normal !important;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+/*  */
+/* Typography */
+/*  */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.md-typeset {
+  font-size: 0.66rem;
+}
+
+.md-typeset p {
+  font-size: 0.66rem;
+  padding-top: 0.1em;
+  padding-bottom: 0.1em;
+}
+
+.md-typeset code {
+  font-size: 80%;
+  word-break: keep-all;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-base) !important;
+  font-weight: 500 !important;
+}
+.md-typeset a {
+  text-decoration: underline;
+}
+.md-typeset a:hover {
+  color: var(--action-hover);
+}
+.md-typeset a:active {
+  color: var(--action-hover);
+}
+
+a.headerlink {
+  color: var(--text-muted);
+  text-decoration: none;
+}
+.md-typeset :target > .headerlink,
+.md-typeset .headerlink:focus,
+.md-typeset .headerlink:hover {
+  color: var(--action-hover);
+}
+.md-typeset p a:visited {
+  color: var(--action-base);
+}
+.md-typeset p a {
+  color: var(--action-hover);
+}
+
+
+/* prevent large preformatted text blocks from breaking layout */
+pre {
+  white-space: pre-wrap; /* css-3 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+}
+
+/*  */
+/* Layout */
+/*  */
+
+.md-grid,
+.md-content {
+  max-width: initial;
+  overflow:visible;
+}
+
+/* Not sure what this does? */
+/* .md-tabs--active ~ .md-main .md-nav {
+  scroll-snap-align: start;
+} */
+
+/* Stop sidebars from squashing */
+.md-sidebar {
+  flex-shrink: 0;
+}
+
+.md-main__inner {
+  margin-top: 0;
+  padding-top: 0;
+}
+.md-header[data-md-state='shadow'] {
+  box-shadow: 0 2px 4px 0 rgba(3, 27, 78, 0.1);
+}
+
+/* Remove container padding and apply it to the inner content */
+@media screen and (min-width: 1219px) {
+  .md-sidebar {
+    padding: 0 0;
+  }
+  .md-content__inner {
+    padding-top: 0;
+  }
+  .md-content__inner::before {
+    height: 0;
+  }
+
+  .d-home {
+    display: none;
+  }
+}
+
+.d-home-toc {
+  display:none;
+}
+
+/*  */
+/* Header bar */
+/*  */
+.md-nav {
+  font-size: 0.62rem;
+}
+/* Hack the tabs to be visible regardless of scroll position */
+.md-tabs[data-md-state='hidden'] {
+  pointer-events: all;
+}
+.md-tabs[data-md-state='hidden'] .md-tabs__link {
+  transform: none;
+  opacity: 1;
+}
+.md-tabs__link {
+  opacity: 1;
+}
+/* make the default tabs hidden */
+.md-container .md-tabs {
+  display: none;
+}
+/* Custom styles for the select in the navbar */
+.md-header__inner select {
+  color: var(--md-primary-bg-color);
+  font-size: 0.7rem;
+  padding: 0;
+  padding-right: .2rem;
+  margin-left: 0.6rem;
+}
+/* style the select options to native on all platforms */
+select option {
+  color: var(--text-base);
+  background-color: var(--fill-bg-100);
+}
+.language-selector-wrap {
+  align-self: center;
+  display: flex;
+  align-items: center;
+}
+.md-header__inner select.language-selector {
+  margin-left: 0.2rem !important;
+}
+
+.language-selector{
+  /* width:4.8em; */
+  padding-right:0px;
+}
+
+.md-nav__item--hidden {
+  display: none;
+}
+
+/* Header styling */
+.md-header__title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0 1.5rem 0 0.5rem !important;
+  width: 18rem;
+  overflow: hidden;
+}
+
+/*  */
+/* Domain top bar */
+/*  */
+
+.md-announce__inner {
+  margin: 0;
+  padding: 0;
+}
+.md-announce {
+  background: black;
+}
+
+.domain-nav-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background: black;
+}
+
+a.domain-nav-item {
+  font-size: 12px;
+  color: var(--grey050);
+  padding: 4px 8px;
+  text-decoration: none;
+  margin-left: 8px;
+  flex-shrink: 0;
+}
+
+a.domain-nav-item:hover {
+  text-decoration: underline;
+  color: var(--grey050);
+}
+
+a.domain-nav-item:after {
+  padding-left: 4px;
+  content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3IiBoZWlnaHQ9IjciIHZpZXdCb3g9IjAgMCA3IDciPgogIDxwYXRoIGZpbGw9IiNGQkZDRkQiIGQ9Ik03LDAgTDcsNCBMNiw0IEw1Ljk5OTQ0NjYxLDEuNzA3IEwxLjM1MzU1MzM5LDYuMzUzNTUzMzkgTDAuNjQ2NDQ2NjA5LDUuNjQ2NDQ2NjEgTDUuMjkyNDQ2NjEsMSBMMywxIEwzLDAgTDcsMCBaIi8+Cjwvc3ZnPgo=');
+}
+
+/*  */
+/* Sidebar, primary */
+/*  */
+
+/* Desktop */
+@media screen and (min-width: 1219px) {
+  .md-sidebar--primary .md-sidebar__scrollwrap {
+    background: var(--fill-bg-100);
+    border-right: 1px solid var(--fill-bg-300);
+    margin: 0 0;
+    padding: 0.2rem 0 0 0;
+  }
+  .md-sidebar--primary .md-nav__link {
+    padding: 0.375rem 0.25rem;
+    margin: 0 0.25rem;
+    border-radius: 3px;
+  }
+  /* remove paddings on nav sides */
+  .md-tabs--active
+    ~ .md-main
+    .md-nav[data-md-level='1']
+    > .md-nav__list
+    > .md-nav__item {
+    padding: 0 0;
+  }
+  /* adjust colors */
+  .md-sidebar--primary .md-nav__link {
+    color: var(--text-muted);
+  }
+  .md-sidebar--primary .md-nav__link:hover {
+    background: var(--nav-link-active);
+  }
+  .md-sidebar--primary a.md-nav__link:hover {
+    color: var(--text-base);
+  }
+  .md-sidebar--primary label.md-nav__link {
+    font-weight: 600;
+  }
+  .md-sidebar--primary .md-nav__link--active {
+    background: var(--nav-link-active);
+    font-weight: 600;
+    color: var(--text-base);
+    border-radius: 0 3px 3px 0;
+    border-left: 2px solid var(--text-muted);
+  }
+  .md-sidebar--primary .md-nav__title {
+    display: none !important;
+  }
+  .md-nav__item--active > label.md-nav__link {
+    color: var(--text-base);
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 1219px) {
+  /* Small screen sidebar */
+  .md-nav__source {
+    display: none;
+  }
+  .md-nav__item {
+    font-weight: 400;
+    color: var(--text-base);
+  }
+  .md-nav__item--active {
+    border-left: 4px solid var(--text-base);
+    background-color: var(--fill-bg-100);
+    color: var(--text-base);
+    font-weight: 500;
+  }
+  .md-nav--primary .md-nav__title {
+    color: var(--text-muted);
+    background-color: var(--fill-bg-200);
+  }
+  .md-nav__item--hidden {
+    display: block;
+  }
+}
+
+/*  */
+/* Sidebar, secondary */
+/*  */
+
+.md-sidebar--secondary .md-sidebar__inner {
+  border-left: 1px solid var(--fill-bg-300);
+}
+
+.md-sidebar--secondary .md-nav__link {
+  position: relative;
+  overflow: visible;
+}
+
+.md-sidebar--secondary .md-nav__link--active::before,
+.md-sidebar--secondary .md-nav__link:active::before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: var(--grey600);
+  position: absolute;
+  top: 6px;
+  left: -8px;
+}
+
+.md-sidebar--secondary .md-nav__link--active,
+.md-sidebar--secondary .md-nav__link:active {
+  background: var(--fill-bg-100);
+  color: var(--text-base);
+  font-weight: 500;
+}
+
+.md-sidebar--secondary .md-nav__link:focus,
+.md-sidebar--secondary .md-nav__link:hover {
+  color: var(--action-hover);
+}
+
+.md-nav__link--index a {
+  cursor:default;
+  font-weight:600;
+}
+
+.md-nav__link--index a:hover,
+a.md-nav__link:hover{
+  text-decoration:underline;
+}
+/* adjust the padding for link-to-headers to account for the new alternate bar */
+.md-typeset h3[id]:target::before,
+.md-typeset h2[id]:target::before,
+.md-typeset h1[id]:target::before {
+  margin-top: 0;
+  padding-top: 100px;
+}
+.md-typeset h3[id]::before,
+.md-typeset h2[id]::before,
+.md-typeset h1[id]::before {
+  margin-top: -4.5rem;
+  padding-top: 4.5rem;
+}
+
+/*  */
+/* Version/Alternate selection bar */
+/*  */
+
+.md-content-alternates {
+  border-bottom: 1px solid var(--fill-bg-300);
+  height: 40px;
+  color: var(--md-default-fg-color);
+  font-size: 0.66rem;
+  padding: 0.5em;
+}
+
+.md-content-alternates select{
+  color: var(--md-default-fg-color) !important;
+}
+
+/* Hack padding to align the alternate selector and give the appearance of a top bar */
+@media screen and (min-width: 959px) {
+  .md-content-alternates {
+    padding-left: 0.8rem;
+    margin: 0 -1.2rem;
+    height: 36px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    background-color: var(--fill-bg-100);
+    border-bottom: 1px solid var(--fill-bg-300);
+    /* stick when scrolling */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 2.4rem;
+    z-index: 1;
+  }
+  .md-sidebar--secondary {
+    padding-top: 0;
+  }
+  .md-sidebar--secondary .md-sidebar__scrollwrap {
+    padding-top: 1.5rem;
+  }
+  .md-sidebar--secondary::before {
+    width: 50vw;
+    height: 36px;
+    display: block;
+    content: '';
+    background-color: var(--fill-bg-100);
+    border-bottom: 1px solid var(--fill-bg-300);
+  }
+}
+
+/* Small screen specific styles */
+@media screen and (max-width: 1219px) {
+  /* alternates bar */
+  .md-content__inner {
+    padding-top: 0;
+  }
+  .md-content__inner::before {
+    height: 0;
+  }
+  .md-content-alternates {
+    padding-left: 0.8rem;
+    margin: 0 -1.2rem;
+    height: 36px;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    background-color: var(--fill-bg-100);
+    border-bottom: 1px solid var(--fill-bg-300);
+    /* stick when scrolling */
+    position: sticky;
+    position: -webkit-sticky;
+    top: 2.4rem;
+    z-index: 1;
+  }
+}
+
+/* Breadcrumb path, not currently in use */
+.breadcrumb {
+  float: left;
+  margin-right: 0.3em;
+  font: inherit;
+  line-height: 1.5em;
+  color: var(--md-default-fg-color);
+}
+.breadcrumb-path {
+  display: none;
+}
+.breadcrumb-path::before {
+  content: '/ ';
+}
+.breadcrumb-select::before {
+  _content: '/ ';
+}
+
+/*  */
+/* Article content */
+/*  */
+
+/* Max content width for readability */
+.md-content {
+  max-width: 54rem;
+  background: var(--fill-bg);
+}
+
+.md-typeset img {
+  margin: 0;
+}
+
+.md-typeset blockquote,
+.md-typeset q {
+  quotes: none;
+}
+
+.md-typeset blockquote:before,
+.md-typeset q:before,
+.md-typeset blockquote:after,
+.md-typeset q:after {
+  content: none;
+}
+
+.md-typeset blockquote {
+  background-color: #fcfcfc;
+  border: 1px solid #dddddd;
+  border-left: 3px solid #aab8c6;
+  margin-bottom: 10px;
+  padding: 5px 5px 10px 40px;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+}
+
+.md-typeset :last-child {
+  margin-bottom: 0;
+}
+
+.md-typeset li blockquote {
+  margin: 0.5em 0 1em;
+}
+
+.md-typeset blockquote p {
+  margin: 5px;
+}
+
+.md-typeset td blockquote {
+  margin: 0px;
+  margin-top: 5px;
+  padding: 5px;
+  padding-top: 35px;
+}
+
+figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  margin: 1em;
+  font-style: italic;
+}
+
+.note,
+.nota,
+.observação,
+.poznámka,
+.注意 {
+  background-image: url(../images/admin/note.png);
+}
+
+.tip,
+.conseil,
+.consejo,
+.truc,
+.dica,
+.astuce,
+.提示 {
+  background-image: url(../images/admin/tip.png);
+}
+
+.important,
+._importante_,
+.importante,
+.důležité,
+.重要 {
+  background-image: url(../images/admin/important.png);
+}
+
+.caution,
+.prudence,
+.precaución,
+.cuidado,
+.pozor,
+.attention{
+  background-image: url(../images/admin/caution.png);
+}
+
+.warning,
+.avertissement,
+.advertencia,
+.aviso,
+.danger,
+.varování,
+.警告{
+  background-image: url(../images/admin/warning.png);
+}
+
+.work_in_progress,
+.tâches_en_cours,
+.trabajo_en_progreso,
+.工作_进度_,
+.工作_进度 {
+  background-image: url(../images/admin/icon-wip.png);
+}
+
+.complete,
+.completo,
+.complet,
+.dokončeno,
+.完成 {
+  background-image: url(../images/admin/icon-complete.png);
+}
+
+.incomplete,
+.incompleto,
+.incomplet,
+.neúplné,
+.不完整 {
+  background-image: url(../images/admin/icon-na.png);
+}
+
+.not_applicable,
+.no_aplicable,
+.non_applicable,
+.não_aplicável,
+.不_适用 {
+  background-image: url(../images/admin/icon-na.png);
+}
+
+.example {
+  background-image: url(../images/admin/example.png);
+}
+
+caption {
+  color: var(--grey700);
+  font-weight: 700;
+  font-size: 0.7rem;
+  font-style: normal;
+  margin: 0 0.4rem;
+  padding: 0.6rem 0;
+}
+
+.md-typeset blockquote {
+  background-color: var(--blue050);
+  border: 1px solid var(--blue200);
+  border-radius: 3px;
+  border-left: normal;
+  margin-top: 32px;
+  margin-bottom: 40px;
+  padding: 6px 16px 12px 52px !important;
+  background-position: 16px 12px;
+  background-repeat: no-repeat;
+  color: var(--grey900);
+}
+
+.md-typeset blockquote.caution,
+.md-typeset blockquote.prudence,
+.md-typeset blockquote.precaución,
+.md-typeset blockquote.cuidado,
+.md-typeset blockquote.attention,
+.md-typeset blockquote.important,
+.md-typeset blockquote.importante,
+.md-typeset blockquote.důležité,
+.md-typeset blockquote.pozor,
+.md-typeset blockquote.重要
+{
+  background-color: var(--yellow050);
+  border: 1px solid var(--yellow200);
+}
+
+.md-typeset blockquote.warning,
+.md-typeset blockquote.avertissement,
+.md-typeset blockquote.advertencia,
+.md-typeset blockquote.aviso,
+.md-typeset blockquote.danger,
+.md-typeset blockquote.varování,
+.md-typeset blockquote.警告{
+  background-color: var(--red050);
+  border: 2px solid var(--red500);
+}
+
+.md-typeset .codehilite {
+  background-color: var(--grey100);
+  border: 1px solid var(--grey200);
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--grey200);
+  color: var(--grey900);
+}
+
+.md-typeset table:not([class]) {
+  font-size: 0.66rem;
+  box-shadow: none;
+  border-radius: 0px;
+  padding: 0 0;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: var(--grey100);
+  box-shadow: inset 0 0.05rem 0 #fff;
+}
+
+.md-typeset__table {
+  border: 1px solid var(--grey300);
+  margin: 0 0.8em;
+}
+
+.md-typeset .md-typeset__table {
+  padding: 0 0;
+}
+
+.md-clipboard::before {
+  color: var(--grey600);
+}
+
+.md-typeset code {
+  box-shadow: 0.29412em 0 0 var(--grey200), -0.29412em 0 0 var(--grey200);
+  background-color: var(--grey200);
+  color: var(--grey800);
+  font-size: 85%;
+  direction: ltr;
+}
+
+.codehilite pre span {
+  white-space: normal;
+}
+
+.codehilite pre {
+  white-space: pre-wrap;
+}
+
+/*  */
+/* Search */
+/*  */
+
+.md-search__input,
+.md-search__icon {
+  background-color: var(--md-search-bg-color);
+  padding-right: 0px;
+  color: var(--md-search-fg-color) !important;
+}
+.md-search__icon[type=reset] {
+    right: 1.5rem;
+    transition: transform 150ms cubic-bezier(0.1, 0.7, 0.1, 1),opacity 150ms;
+    pointer-events: none;
+    color: var(--md-search-fg-color) !important;
+    position: absolute;
+     z-index: 2;
+     opacity:0;
+}
+[data-md-toggle=search]:checked~.md-header .md-search__input:valid~.md-search__icon[type=reset] {
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.md-search-result__meta {
+  color: var(--text-muted);
+  background-color: var(--fill-bg);
+  border-bottom: 1px solid var(--fill-bg-300);
+}
+
+.md-search-result__link:focus,
+.md-search-result__link:hover {
+  background-color: var(--fill-bg-100);
+}
+
+.md-search-result__link:focus .md-search-result__title,
+.md-search-result__link:hover .md-search-result__title {
+  text-decoration: underline;
+}
+
+.md-search-result__title {
+  font-size: 0.75rem;
+  color: var(--text-base);
+}
+
+.md-search-result__teaser {
+  color: var(--text-muted);
+}
+
+.md-search-result__more summary ~ * > * {
+  opacity: unset;
+}
+
+.md-search-result__link:not(:first-child) {
+  padding: 6px 0;
+}
+
+.md-search-result__link:not(:first-child)
+  article.md-search-result__article
+  .md-search-result__title,
+.md-search-result__link:not(:first-child)
+  article.md-search-result__article
+  .md-search-result__teaser {
+  border-left: 2px solid var(--fill-bg-300);
+  padding-left: 8px;
+  margin: 0;
+}
+
+.md-search-result__more summary {
+  color: var(--text-muted);
+  background: var(--fill-bg);
+}
+
+.md-search-result__more summary:focus,
+.md-search-result__more summary:hover {
+  background-color: var(--fill-bg);
+  color: var(--action-hover);
+  text-decoration: underline;
+}
+
+.md-search-result mark {
+  color: unset;
+  background-color: var(--yellow200);
+  font-weight: 500;
+}
+
+.md-search-result__teaser mark {
+  text-decoration: unset;
+}
+
+.md-search-result__more .md-search-result__link {
+  margin-bottom: 12px;
+}
+
+.md-search-result__icon::after {
+  background-color: var(--text-muted);
+}
+
+.md-search-result__context {
+  font-size: smaller;
+  margin-top: 1em;
+  margin-bottom: -0.6em;
+}
+
+.md-search__overlay {
+  background: rgba(33, 43, 54, 0.6);
+}
+
+article.md-search-result__article--document v-tag {
+  display: inline-block;
+}
+
+v-tag {
+  background-color: var(--fill-bg-200);
+  color: var(--text-base);
+  border-radius: 4px;
+  padding: 4px 6px;
+  position: relative;
+  float: right;
+  margin-left: 4px;
+  text-decoration: none;
+  font-size: 0.6rem;
+  font-weight: normal;
+}
+
+v-tag mark {
+  background-color: unset !important;
+}
+
+.md-tag {
+  display:none !important;
+}
+/* Search bar */
+
+.md-search__input::placeholder {
+  color: var(--md-search-fg-color);
+}
+
+.md-search__input {
+  font-size: 0.7rem;
+}
+
+
+.d2-search-filter{
+  font-size: 0.6rem !important;
+  color: var(--grey900) !important;
+  border: 1px solid var(--grey500);
+  padding: 2px 4px !important;
+  border-radius: 4px;
+  margin-left: 2px !important;
+}
+
+.md-search-filter {
+  position:relative;
+  top:0;
+  padding:5px 10px;
+  background:var(--fill-bg-200);
+  color: var(--grey900);
+  font-size:12px;
+}
+
+.md-chips button {
+  align-items: center;
+  padding: 2px 12px;
+  gap: 5px;
+
+  height: 23px;
+  color:var(--grey900);
+
+  /* grey/grey200 */
+
+  background: var(--grey200);
+  border:1px solid  var(--grey400);
+  border-radius: 10px;
+  margin:2px;
+}
+
+.md-chips button.include {
+  background: var(--blue500);
+  color: var(--md-default-bg-color);
+}
+
+.md-chips button.exclude {
+  background: var(--red700);
+  color: var(--md-default-bg-color);
+}
+/*  */
+/* Footer */
+/*  */
+
+.footer-nav-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+a.footer-nav-link {
+  display: flex;
+  color: var(--action-base);
+}
+
+.footer-nav-link-next {
+  margin-left: auto;
+}
+
+.footer-nav-link-previous svg {
+  margin-right: 8px;
+}
+.footer-nav-link-next {
+  text-align: right;
+}
+.footer-nav-link-next svg {
+  margin-left: 8px;
+}
+.footer-nav-link svg path {
+  fill: var(--action-base) !important;
+}
+.md-content__inner > :last-child {
+  margin-bottom: 2rem;
+}
+
+/*  */
+/* Misc. */
+/*  */
+
+/* change to the github icon to the official logo */
+.md-source__icon svg {
+  display: none;
+}
+.md-source__icon {
+  background-image: url(../images/admin/github.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.md-source-date {
+  margin-top:-15px;
+  margin-bottom:20px;
+}
+
+.index-padding {
+  width:100%;
+  height:65px;
+}
+
+/* Style the info cards */
+
+.d_card-container {
+  margin:8px 0;
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+  align-content:flex-start;
+  min-width:0;
+  width:auto;
+}
+
+.d_card {
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--fill-bg-200);
+  box-shadow: 0 2px 4px 0 var(--md-card-shadow);
+  min-width:400px;
+  flex:1 1 13vw;
+  padding:1rem;
+  margin:0px 32px 32px 0px;
+  font-size: 1rem;
+}
+
+.d_card p {
+  font-size: 0.7rem
+}
+
+.d_card p a {
+  font-size: 0.7rem;
+}
+
+p.d_card-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.d_card th {
+  background-color: var(--md-default-bg-color) !important;
+  font-weight: bold;
+}
+
+
+.md-tabs__list {
+  contain:unset !important;
+  overflow: visible !important;
+}
+.md-tabs {
+  overflow: unset !important;
+  padding-top:10px;
+}
+
+
+.md-tabs__list.nav-menu > li > a {
+  height:38px !important;
+  top:-4px;
+  padding:0 15px;
+}
+
+
+.md-tabs__list.nav-menu > li > ul {
+  top:34px !important;
+}
+
+.nav-menu,
+.nav-menu ul,
+.nav-menu li,
+.nav-menu a {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: block;
+  position: relative;
+  height:30px;
+  top:0;
+}
+
+.nav-menu ul {
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: -9999px;
+  z-index: 999;
+  -webkit-transition: opacity .3s;
+  transition: opacity .3s;
+  transition: 0s 0.2s; /* reduce narrow-corridor problem */
+}
+
+.nav-menu li:hover>ul {
+  left: 0;
+  opacity: 1;
+  z-index: 1000;
+  transition: 0s 0.2s; /* reduce narrow-corridor problem */
+}
+
+.nav-menu ul li:hover>ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu li {
+  cursor: default;
+  float: left;
+  white-space: nowrap;
+}
+
+.nav-menu ul li {
+  float: none;
+}
+
+
+/* sub width */
+.nav-menu ul {
+  min-width: 12em;
+}
+
+.nav-menu ul li {
+  margin:0px !important;
+  height:30px;
+}
+.nav-menu ul li a{
+  padding: 3px 10px !important;
+  margin:0px ;
+}
+
+
+/* center */
+
+/* root */
+.nav-menu a {
+  padding:  0 10px;
+  line-height: 25px;
+  text-decoration: none;
+}
+
+/* root: active */
+.nav-menu>li>.nav-active {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* root: hover/persistence */
+.nav-menu a:hover,
+.nav-menu a:focus,
+.nav-menu li:hover a {
+  background: var(--tab-menu-bg-1);
+  color: var(--tab-menu-fg);
+}
+
+/* 2 */
+.nav-menu li li a,
+.nav-menu li:hover li a {
+  padding: 8px 10px;
+  background: var(--tab-menu-bg-1);
+  color: var(--tab-menu-fg);
+}
+
+/* 2: hover/persistence */
+.nav-menu li:hover li a:hover,
+.nav-menu li:hover li a:focus,
+.nav-menu li:hover li:hover a {
+  background: var(--tab-menu-bg-2);
+}
+
+/* 3 */
+.nav-menu li:hover li:hover li a {
+  background: var(--tab-menu-bg-2);
+}
+
+/* 3: hover/persistence */
+.nav-menu li:hover li:hover li a:hover,
+.nav-menu li:hover li:hover li a:focus,
+.nav-menu li:hover li:hover li:hover a {
+  background: var(--tab-menu-bg-3);
+}
+
+/* 4 */
+.nav-menu li:hover li:hover li:hover li a {
+  background: var(--tab-menu-bg-3);
+}
+
+/* 4: hover */
+.nav-menu li:hover li:hover li:hover li a:hover,
+.nav-menu li:hover li:hover li:hover li a:focus {
+  background: var(--tab-menu-bg-4);
+}
+
+.md-tabs__link--active {
+  background: var(--tab-menu--active);
+}
+
+li ul .tabnavp:after {
+  padding-left:4px;
+  content:'>';
+  font-size:smaller;
+  color: var(--tab-menu-folder);
+}
+
+@media (max-width: 600px) {
+  /* make the Kapa ai widget smaller on mobile devices */
+  #kapa-widget-container button {
+    width: 50px !important;
+    height: 50px !important;
+    padding: 0px !important;
+    font-size: smaller !important;
+  }
+  #kapa-widget-container .mantine-Image-root img {
+    width: 1.2rem !important; 
+    height: 1.2rem !important;
+	margin:auto !important;
+  }
+  #kapa-widget-container .mantine-Text-root {
+    font-size: 12px !important; 
+  }
+}
+
+blockquote.nested {
+  background-color: transparent !important;
+  border: none !important;
+  border-left: 2px solid #aab8c6 !important;
+  margin: 0px !important;
+  padding-left: 10px !important;
+  color: var(--grey900);
+  border-radius: 8px !important;
+}
+
+/* ===== Mode sombre : forcer les fonds et couleurs du header (niveau 1) et des tabs (niveau 2) ===== */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-header__inner {
+  background: var(--fill-bg) !important;               /* ex: #181a1b */
+  color: var(--md-default-fg-color) !important;        /* texte clair */
+  box-shadow: none !important;                         /* si tu veux enlever l'ombre */
+}
+
+/* Barre d'onglets / tabs (niveau 2) — plusieurs sélecteurs possibles */
+[data-md-color-scheme="slate"] .md-tabs,
+[data-md-color-scheme="slate"] .md-tabs__list,
+[data-md-color-scheme="slate"] .md-content-alternates,
+[data-md-color-scheme="slate"] .md-nav {
+  background: var(--fill-bg) !important;
+  color: var(--md-default-fg-color) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.04) !important; /* subtil séparateur */
+}
+
+/* Liens, boutons, icônes dans ces barres (assure visibilité) */
+[data-md-color-scheme="slate"] .md-header a,
+[data-md-color-scheme="slate"] .md-header button,
+[data-md-color-scheme="slate"] .md-tabs a,
+[data-md-color-scheme="slate"] .md-content-alternates select {
+  color: var(--md-default-fg-color) !important;
+  fill: currentColor !important; /* pour SVG */
+}
+
+/* Empêcher éléments internes d'avoir un fond blanc forcé */
+[data-md-color-scheme="slate"] .md-header * ,
+[data-md-color-scheme="slate"] .md-tabs * {
+  background-color: transparent !important;
+}
+
+/* ---------- Ajuster hauteur barre supérieure (header) ---------- */
+/* Choisis la hauteur que tu veux : 48px / 44px / 40px etc. */
+.md-header,
+.md-header__inner {
+  height: 28px !important;
+  min-height: 28px !important;
+  line-height: 28px !important; /* centre verticalement le texte */
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  box-sizing: border-box;
+}
+
+/* Ajuster titre/logo pour rester centré verticalement */
+.md-header__title {
+  height: 38px !important;
+  line-height: 38px !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+/* ---------- Ajuster hauteur barre d'onglets (tabs / alternates) ---------- */
+/* Barre des alternates */
+.md-content-alternates {
+  height: 26px !important;
+  line-height: 26px !important;
+}
+
+/* Liens d'onglets */
+.md-tabs__list.nav-menu > li > a,
+.nav-menu, .nav-menu ul li {
+  height: 20px !important; /* hauteur des items */
+  line-height: 20px !important;
+}
+.md-tabs__list.nav-menu > li > a { height: 26px !important; }
+
+/* Si tu changes la hauteur du header, ajuste l'offset sticky des alternates (top) */
+.md-content-alternates {
+  top: 3rem; /* adapte cette valeur si header change (ex: 48px -> 3rem) */
+}
+
+/* ---------- Ajustements pour éviter que le contenu soit caché sous le header ---------- */
+/* Définis ici la hauteur réelle de tes deux barres (header + tabs) */
+:root {
+  --header-height: 48px; /* hauteur de la barre supérieure (ajuste si tu as mis 44/40/50 etc.) */
+  --tabs-height: 36px;   /* hauteur de la barre d'onglets/alternates */
+  --header-total: calc(var(--header-height) + var(--tabs-height));
+}
+
+/* 1) Décaler le conteneur principal pour qu'il commence *après* les 2 barres */
+.md-content__inner {
+  padding-top: calc(var(--header-total)) !important;
+  box-sizing: border-box;
+}
+
+/* 2) Si tu utilises .md-content-alternates sticky, on l'aligne par rapport au header */
+.md-content-alternates {
+  top: var(--header-height) !important; /* s'accroche directement sous la barre supérieure */
+}
+
+/* 3) Décaler la zone de scroll de la sidebar secondaire / scrollwrap (évite qu'elle passe sous le header) */
+.md-sidebar--secondary .md-sidebar__scrollwrap,
+.md-sidebar--primary .md-sidebar__scrollwrap {
+  padding-top: calc(var(--header-total) + 8px) !important; /* petit gap pour respirer */
+}
+
+/* 4) Corriger les ancres (meilleur comportement avec scroll-margin-top) */
+/* Applique un offset de scroll qui empêche les titres d'être cachés par le header */
+.md-typeset h1[id],
+.md-typeset h2[id],
+.md-typeset h3[id],
+.md-typeset h4[id],
+.md-typeset h5[id],
+.md-typeset h6[id] {
+  scroll-margin-top: calc(var(--header-total) + 0.5rem); /* ajuste le +0.5rem si tu veux plus d'espace */
+}
+
+/* 5) Annule les hacks ::before d'ancres plus anciens qui peuvent causer un double-offset */
+.md-typeset h1[id]::before,
+.md-typeset h2[id]::before,
+.md-typeset h3[id]::before,
+.md-typeset h4[id]::before,
+.md-typeset h5[id]::before,
+.md-typeset h6[id]::before {
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  content: none !important;
+  display: none !important;
+}
+
+/* 6) Ajuste la position sticky des alternates si nécessaire (si alternates doit rester sticky sous la barre combinée) */
+@media screen and (min-width: 959px) {
+  .md-content-alternates {
+    top: var(--header-height) !important;
+    z-index: 1;
+  }
+}
+
+/* 7) Ajust visuel : si tu veux que la sidebar commence visuellement *après* le header, utiliser margin-top */
+.md-sidebar--primary,
+.md-sidebar--secondary {
+  margin-top: 0 !important;
+}
+
+/* ---------- Fin des ajustements ---------- */
+
+/* ===== Correction : éviter que le contenu "transparaisse" sous les barres en mode sombre ===== */
+/* Cible uniquement le mode sombre pour ne pas impacter le thème clair */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-header__inner,
+[data-md-color-scheme="slate"] .md-content-alternates,
+[data-md-color-scheme="slate"] .md-tabs,
+[data-md-color-scheme="slate"] .md-tabs__list {
+  /* Fond totalement opaque (utilise la variable sombre déjà définie) */
+  background-color: var(--fill-bg) !important;
+  /* Assure que tout l'arrière-plan est bien rempli (pas de gradient/transparency) */
+  background-image: none !important;
+  /* Pas d'opacité qui rendrait le fond translucide */
+  opacity: 1 !important;
+  /* Empêche les effets visuels (backdrop-filter) de rendre le fond flou/translucide */
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+
+  /* place la barre au dessus du contenu et garde son comportement sticky */
+  position: relative !important;
+  z-index: 9999 !important;
+}
+
+/* Si l'une des barres est sticky, s'assurer qu'elle reste au-dessus du contenu */
+[data-md-color-scheme="slate"] .md-header[style*="position: sticky"],
+[data-md-color-scheme="slate"] .md-content-alternates[style*="position: sticky"] {
+  z-index: 9999 !important;
+}
+
+/* Évite que des éléments enfants aient un fond blanc ou transparent visible */
+[data-md-color-scheme="slate"] .md-header * ,
+[data-md-color-scheme="slate"] .md-tabs * {
+  background-color: transparent !important;
+  /* on ne touche pas aux couleurs du texte/icone ici (déjà gérées ailleurs) */
+}
+
+/* Si tu utilises une ombre sombre, réduire sa transparence pour ne pas laisser transparaître le contenu */
+[data-md-color-scheme="slate"] .md-header[data-md-state='shadow'],
+[data-md-color-scheme="slate"] .md-header__inner[data-md-state='shadow'] {
+  box-shadow: 0 1px 2px rgba(0,0,0,0.5) !important;
+}
+
+/* Optionnel : si le texte du contenu semble encore "passer" visuellement,
+   on renforce le remplissage supérieur du contenu (n'affecte pas le layout si valeurs identiques) */
+[data-md-color-scheme="slate"] .md-content__inner {
+  padding-top: calc(var(--header-height, 48px) + var(--tabs-height, 36px)) !important;
+  /* garde le z-index moins élevé pour le contenu (pour rester derrière le header) */
+  z-index: 1 !important;
+}
+
+
+/* ===== CORRECTION DU SCROLL STICKY - MODE SOMBRE ===== */
+[data-md-color-scheme="slate"] .md-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  background: var(--fill-bg) !important;
+}
+
+[data-md-color-scheme="slate"] .md-tabs,
+[data-md-color-scheme="slate"] .md-content-alternates {
+  position: sticky !important;
+  top: 60px !important; /* Ajustez selon la hauteur de votre header */
+  z-index: 999 !important;
+  background: var(--fill-bg) !important;
+}
+
+/* Assurer l'opacité complète */
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: var(--fill-bg) !important;
+  background-image: none !important;
+  opacity: 1 !important;
+  backdrop-filter: none !important;
+}
+
+/* Correction du z-index pour la superposition */
+[data-md-color-scheme="slate"] .md-main {
+  position: relative;
+  z-index: 1 !important;
+}
+
+[data-md-color-scheme="slate"] .md-content__inner {
+  z-index: 1 !important;
+}

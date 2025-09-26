@@ -33,7 +33,7 @@
     position: relative;
 }
 
-.md-tabs__item:hover .md-tabs__link::after {
+/*.md-tabs__item:hover .md-tabs__link::after {
     content: " ▼";
     font-size: 0.8em;
 }

@@ -1,21 +1,29 @@
-site_name: DOSER - Sécurité Routière
+site_name: ""
 site_url: https://documentation-doser.readthedocs.io/
 site_description: Documentation complète du système unifié de gestion des accidents de la route au Cameroun
+
+extra:
+  dhis2_languages:
+    en: 'English'
+    fr: 'Français'
 
 theme:
   name: material
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
+    - navigation.menutabs
+    - navigation.top
     - navigation.tabs
+    - navigation.indexes
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
-    - navigation.expand
-    - navigation.tabs.integrated
-    - navigation.instant
-    - navigation.tracking
-    - navigation.footer
+    - toc.integration
+    ##- navigation.tabs.integrate
+    ##- navigation.instant
+    ##- navigation.tracking
+    ##- navigation.footer
     - navigation.prune
     - search.suggest
     - search.highlight
@@ -23,9 +31,11 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+    - content.action.edit
+  
   palette:
     - scheme: default
-      primary: cyan-bleu vif
+      primary: blue
       accent: red
       toggle:
         icon: material/weather-sunny
@@ -37,39 +47,51 @@ theme:
         icon: material/weather-night
         name: Mode clair
 
+language: 'fr'
+font: false
+filter:
+    versions:
+      - 'master'
+      - '2.42'
+      - '2.41'
+      - '2.40'
+      - '2.39'
+    categories:
+      - Développement & Technique
+     
 nav:
   - Accueil: index.md
 
-  - "1. Développement & Technique":
-      - "1.1. Spécifications Fonctionnelles": developpement/specifications-fonctionnelles.md
-      - "1.2. Architecture Technique": developpement/architecture-technique.md
-      - "1.3. Plan de Sécurité": developpement/plan-securite.md
+  - " Développement & Technique":
+      - " Spécifications Fonctionnelles": developpement/specifications-fonctionnelles.md
+      - " Architecture Technique": developpement/architecture-technique.md
+      - " Plan de Sécurité": developpement/plan-securite.md
 
-  - "2. Déploiement & Administration":
-      - "2.1. Guide d'Installation": deployment/guide-installation.md
-      - "2.2. Guide de l'Administrateur": deployment/guide-administrateur.md
-      - "2.3. Procédures de Sauvegarde": deployment/procedures-sauvegarde.md
+  - " Déploiement & Administration":
+      - " Guide d'Installation": deployment/guide-installation.md
+      - " Guide de l'Administrateur": deployment/guide-administrateur.md
+      - " Procédures de Sauvegarde": deployment/procedures-sauvegarde.md
 
-  - "3. 👥 Guides par Acteur":
-      - "3.1. 👮 Agents Constatateurs": acteurs/agents-constatateurs.md
-      - "3.2. 🔍 Agents de Validation": acteurs/agents-validation.md
-      - "3.3. 👮 Forces de l'Ordre": acteurs/forces-ordre.md
-      - "3.4. 🏥 Services de Santé": acteurs/services-sante.md
-      - "3.5. 🏢 Compagnies d'Assurance": acteurs/assurances.md
-      - "3.6. 👮 Administrateurs": acteurs/administrateurs.md
+  - " 👥 Guides par Acteur":
+      - "👮 Agents Constatateurs": acteurs/agents-constatateurs.md
+      - "🔍 Agents de Validation": acteurs/agents-validation.md
+      - "👮 Forces de l'Ordre": acteurs/forces-ordre.md
+      - "🏥 Services de Santé": acteurs/services-sante.md
+      - "🏢 Compagnies d'Assurance": acteurs/assurances.md
+      - "👮 Administrateurs": acteurs/administrateurs.md
 
-  - "4. Modules Fonctionnels":
-      - "4.1. Collecte de Données": modules/collecte-donnees.md
-      - "4.2. Validation des Constats": modules/validation-constats.md
-      - "4.3. Analyse et Reporting": modules/analyse-reporting.md
-      - "4.4. Cartographie des Accidents": modules/cartographie-accidents.md
-      - "4.5. Gestion des Utilisateurs": modules/gestion-utilisateurs.md
-      - "4.6. Notifications et Alertes": modules/notifications-alertes.md
+  - " Modules Fonctionnels":
+      - "Collecte de Données": modules/collecte-donnees.md
+      - "Validation des Constats": modules/validation-constats.md
+      - "Analyse et Reporting": modules/analyse-reporting.md
+      - "Cartographie des Accidents": modules/cartographie-accidents.md
+      - "Gestion des Utilisateurs": modules/gestion-utilisateurs.md
+      - "Notifications et Alertes": modules/notifications-alertes.md
 
-  - "5. 💻 Pour les Développeurs":
-      - "5.1. 🚀 Environnement de Dev": developpers/setup.md
-      - "5.2. 📚 Référence API": developpers/api-reference.md
-      - "5.3. 🤝 Guide de Contribution": developpers/contributing.md
+  - " 💻 Pour les Développeurs":
+      - " 🚀 Environnement de Dev": developpers/setup.md
+      - " 📚 Référence API": developpers/api-reference.md
+      - " 🤝 Guide de Contribution": developpers/contributing.md
 
 markdown_extensions:
   - admonition
@@ -84,4 +106,7 @@ plugins:
   - search
 
 extra_css:
-  - assets/css/custom.css
+  ##- assets/css/custom.css
+ - assets/css/dhis2.css
+
+
