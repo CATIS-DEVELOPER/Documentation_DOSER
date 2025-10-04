@@ -9,6 +9,8 @@ extra:
 
 theme:
   name: material
+  custom_dir: docs/overrides
+  language: fr
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
@@ -16,12 +18,12 @@ theme:
     - navigation.top
     - navigation.tabs
     - navigation.indexes
-    - navigation.tabs.sticky
+    #- navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - toc.integration
     ##- navigation.tabs.integrate
-    ##- navigation.instant
+    - navigation.instant
     ##- navigation.tracking
     ##- navigation.footer
     - navigation.prune
@@ -41,7 +43,7 @@ theme:
         icon: material/weather-sunny
         name: Mode sombre
     - scheme: slate
-      primary: blue
+      primary: black
       accent: red
       toggle:
         icon: material/weather-night
@@ -108,5 +110,3 @@ plugins:
 extra_css:
   ##- assets/css/custom.css
  - assets/css/dhis2.css
-
-

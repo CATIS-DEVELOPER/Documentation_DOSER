@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block tabs %}
+<nav class="md-tabs" aria-label="{{ lang.t('nav.title') }}">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      {% for nav_item in nav %}
+      <li class="md-tabs__item{% if nav_item.active %} md-tabs__item--active{% endif %}">
+        <a href="{{ nav_item.url | url }}" class="md-tabs__link">{{ nav_item.title }}</a>
+        {% if nav_item.children %}
+        <nav class="md-nav" aria-label="{{ nav_item.title }}">
+          <ul class="md-nav__list">
+            {% for child in nav_item.children %}
+            <li class="md-nav__item">
+              <a href="{{ child.url | url }}" class="md-nav__link">{{ child.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </nav>
+        {% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>
+{% endblock %}
