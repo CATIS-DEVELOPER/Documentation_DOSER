@@ -82,13 +82,13 @@ nav:
       - "🏢 Compagnies d'Assurance": acteurs/assurances.md
       - "👮 Administrateurs": acteurs/administrateurs.md
 
-  - " Modules Fonctionnels":
-      - "Collecte de Données": modules/collecte-donnees.md
-      - "Validation des Constats": modules/validation-constats.md
-      - "Analyse et Reporting": modules/analyse-reporting.md
-      - "Cartographie des Accidents": modules/cartographie-accidents.md
-      - "Gestion des Utilisateurs": modules/gestion-utilisateurs.md
-      - "Notifications et Alertes": modules/notifications-alertes.md
+  - " 📊 Modules Fonctionnels":
+      - "📱 Collecte de Données": modules/collecte-donnees.md
+      - "✅ Validation des Constats": modules/validation-constats.md
+      - "📈 Analyse et Reporting": modules/analyse-reporting.md
+      - "🗺️ Cartographie des Accidents": modules/cartographie-accidents.md
+      - "🚨 Module VAAR": modules/module-vaar.md
+      - "📊 Statistiques et Métriques": modules/statistiques-metriques.md
 
   - " 💻 Pour les Développeurs":
       - " 🚀 Environnement de Dev": developpers/setup.md

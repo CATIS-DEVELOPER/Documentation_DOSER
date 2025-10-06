@@ -1088,6 +1088,15 @@ p.d_card-title {
   color: var(--md-default-fg-color) !important;
 }
 
+/* Ajustement du contenu principal pour la nouvelle hauteur de header */
+.md-main {
+  margin-top: 0 !important;
+}
+
+.md-content {
+  margin-top: 0 !important;
+}
+
 @media screen and (max-width: 76.25em) {
   .md-tabs__item > .md-nav {
     position: static;
