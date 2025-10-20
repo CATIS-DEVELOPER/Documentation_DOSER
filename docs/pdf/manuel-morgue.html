@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel - Morgue</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: none;
+            margin: 0;
+            padding: 0;
+            font-size: 11pt;
+        }
+        
+        h1 {
+            color: #2c5aa0;
+            border-bottom: 3px solid #2c5aa0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            page-break-before: always;
+        }
+        
+        h1:first-child {
+            page-break-before: avoid;
+        }
+        
+        h2 {
+            color: #3d7cc9;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            color: #4a90e2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+        
+        h4, h5, h6 {
+            color: #5ba0f2;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 10pt;
+        }
+        
+        pre {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #2c5aa0;
+            page-break-inside: avoid;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 9pt;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 10pt;
+        }
+        
+        th {
+            background-color: #2c5aa0;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            page-break-inside: avoid;
+        }
+        
+        blockquote {
+            border-left: 4px solid #2c5aa0;
+            padding-left: 20px;
+            margin-left: 0;
+            color: #666;
+            font-style: italic;
+            page-break-inside: avoid;
+        }
+        
+        ul, ol {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .no-break {
+            page-break-inside: avoid;
+        }
+        
+        /* Styles specifiques pour les emojis et icones */
+        .emoji {
+            font-size: 1.2em;
+        }
+        
+        /* Header et footer */
+        @media print {
+            body {
+                margin-top: 1cm;
+                margin-bottom: 1cm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-break">
+        <h1>Manuel - Morgue</h1>
+        <p><em>Documentation DOSER - Genere le 17/10/2025 a 10:28</em></p>
+        <hr style="border: 1px solid #2c5aa0; margin: 20px 0;">
+    </div>
+    
+    <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""> <head>   <meta charset="utf-8" />   <meta name="generator" content="pandoc" />   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />   <title>Manuel - Morgue</title>   <style>     /* Default styles provided by pandoc.     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.     */     html {       color: #1a1a1a;       background-color: #fdfdfd;     }     body {       margin: 0 auto;       max-width: 36em;       padding-left: 50px;       padding-right: 50px;       padding-top: 50px;       padding-bottom: 50px;       hyphens: auto;       overflow-wrap: break-word;       text-rendering: optimizeLegibility;       font-kerning: normal;     }     @media (max-width: 600px) {       body {         font-size: 0.9em;         padding: 12px;       }       h1 {         font-size: 1.8em;       }     }     @media print {       html {         background-color: white;       }       body {         background-color: transparent;         color: black;         font-size: 12pt;       }       p, h2, h3 {         orphans: 3;         widows: 3;       }       h2, h3, h4 {         page-break-after: avoid;       }     }     p {       margin: 1em 0;     }     a {       color: #1a1a1a;     }     a:visited {       color: #1a1a1a;     }     img {       max-width: 100%;     }     svg {       height: auto;       max-width: 100%;     }     h1, h2, h3, h4, h5, h6 {       margin-top: 1.4em;     }     h5, h6 {       font-size: 1em;       font-style: italic;     }     h6 {       font-weight: normal;     }     ol, ul {       padding-left: 1.7em;       margin-top: 1em;     }     li > ol, li > ul {       margin-top: 0;     }     blockquote {       margin: 1em 0 1em 1.7em;       padding-left: 1em;       border-left: 2px solid #e6e6e6;       color: #606060;     }     code {       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;       font-size: 85%;       margin: 0;       hyphens: manual;     }     pre {       margin: 1em 0;       overflow: auto;     }     pre code {       padding: 0;       overflow: visible;       overflow-wrap: normal;     }     .sourceCode {      background-color: transparent;      overflow: visible;     }     hr {       border: none;       border-top: 1px solid #1a1a1a;       height: 1px;       margin: 1em 0;     }     table {       margin: 1em 0;       border-collapse: collapse;       width: 100%;       overflow-x: auto;       display: block;       font-variant-numeric: lining-nums tabular-nums;     }     table caption {       margin-bottom: 0.75em;     }     tbody {       margin-top: 0.5em;       border-top: 1px solid #1a1a1a;       border-bottom: 1px solid #1a1a1a;     }     th {       border-top: 1px solid #1a1a1a;       padding: 0.25em 0.5em 0.25em 0.5em;     }     td {       padding: 0.125em 0.5em 0.25em 0.5em;     }     header {       margin-bottom: 4em;       text-align: center;     }     #TOC li {       list-style: none;     }     #TOC ul {       padding-left: 1.3em;     }     #TOC > ul {       padding-left: 0;     }     #TOC a:not(:hover) {       text-decoration: none;     }     code{white-space: pre-wrap;}     span.smallcaps{font-variant: small-caps;}     div.columns{display: flex; gap: min(4vw, 1.5em);}     div.column{flex: auto; overflow-x: auto;}     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}     /* The extra [class] is a hack that increases specificity enough to        override a similar rule in reveal.js */     ul.task-list[class]{list-style: none;}     ul.task-list li input[type="checkbox"] {       font-size: inherit;       width: 0.8em;       margin: 0 0.8em 0.2em -1.6em;       vertical-align: middle;     }     .display.math{display: block; text-align: center; margin: 0.5rem auto;}   </style> </head> <body> <header id="title-block-header"> <h1 class="title">Manuel - Morgue</h1> </header> <h1 id="manuel-complet-morgue">?? Manuel Complet : Morgue</h1> <p><strong>Version</strong> : 2.0 | <strong>Derni?re mise ? jour</strong> : 9 octobre 2025</p> <hr /> <h2 id="table-des-matires">?? Table des Mati?res</h2> <ol type="1"> <li><a href="#introduction">Introduction</a></li> <li><a href="#acc?s-et-configuration">Acc?s et Configuration</a></li> <li><a href="#enregistrement-des-corps">Enregistrement des Corps</a></li> <li><a href="#identification-et-liaison">Identification et Liaison</a></li> <li><a href="#certificats-de-d?c?s">Certificats de D?c?s</a></li> <li><a href="#conservation-et-gestion">Conservation et Gestion</a></li> <li><a href="#coordination-multi-services">Coordination Multi-Services</a></li> <li><a href="#proc?dures-sp?ciales">Proc?dures Sp?ciales</a></li> <li><a href="#aspects-l?gaux">Aspects L?gaux</a></li> <li><a href="#annexes">Annexes</a></li> </ol> <hr /> <h2 id="introduction">1. Introduction</h2> <h3 id="rle-de-la-morgue-dans-doser">1.1 R?le de la Morgue dans DOSER</h3> <p>Les morgues sont des acteurs essentiels du syst?me DOSER pour :</p> <ul> <li><strong>Enregistrer</strong> les victimes d?c?d?es dÔÇÖaccidents de la route</li> <li><strong>Identifier</strong> les corps et les lier aux accidents correspondants</li> <li><strong>G?n?rer</strong> les certificats de d?c?s officiels</li> <li><strong>Coordonner</strong> avec les familles, autorit?s et services fun?raires</li> <li><strong>Contribuer</strong> aux statistiques de mortalit? routi?re</li> </ul> <h3 id="objectifs-du-module-morgue">1.2 Objectifs du Module Morgue</h3> <ul> <li>? Centraliser lÔÇÖenregistrement des d?c?s routiers</li> <li>? Faciliter lÔÇÖidentification et la liaison aux accidents</li> <li>? Automatiser la g?n?ration des certificats</li> <li>? Am?liorer la coordination avec tous les acteurs</li> <li>? Respecter la dignit? des d?funts et des familles</li> </ul> <h3 id="utilisateurs-du-module">1.3 Utilisateurs du Module</h3> <ul> <li><strong>Personnel de morgue</strong> : Enregistrement et gestion quotidienne</li> <li><strong>M?decins l?gistes</strong> : Autopsies et causes de d?c?s</li> <li><strong>Administrateurs</strong> : Supervision et statistiques</li> <li><strong>Autorit?s</strong> : Consultation pour enqu?tes</li> </ul> <hr /> <h2 id="accs-et-configuration">2. Acc?s et Configuration</h2> <h3 id="connexion-au-portail">2.1 Connexion au Portail</h3> <p><strong>URL</strong> : https://doser.ditros.org/morgue</p> <p><strong>Identifiants</strong> : - Fournis par votre administrateur DOSER - R?le : ROLE_MORGUE ou ROLE_MEDECIN_LEGISTE - Changement mot de passe obligatoire ? la premi?re connexion</p> <h3 id="configuration-initiale">2.2 Configuration Initiale</h3> <h4 id="informations-tablissement">Informations ?tablissement</h4> <ol type="1"> <li>Menu &gt; <strong>Param?tres</strong> &gt; <strong>Mon ?tablissement</strong></li> <li>Remplissez : <ul> <li>Nom de la morgue</li> <li>Adresse compl?te</li> <li>T?l?phone et email</li> <li>Responsable</li> <li>Capacit? (nombre de places)</li> <li>Horaires dÔÇÖouverture</li> </ul></li> </ol> <h4 id="configuration-des-chambres-froides">Configuration des Chambres Froides</h4> <ol type="1"> <li>Menu &gt; <strong>Configuration</strong> &gt; <strong>Chambres Froides</strong></li> <li>Pour chaque chambre : <ul> <li>Identifiant (A, B, C, etc.)</li> <li>Nombre de compartiments</li> <li>Temp?rature de fonctionnement</li> <li>?tat (op?rationnelle, en maintenance)</li> </ul></li> </ol> <h4 id="paramtres-de-notification">Param?tres de Notification</h4> <ol type="1"> <li>Menu &gt; <strong>Param?tres</strong> &gt; <strong>Notifications</strong></li> <li>Configurez : <ul> <li>Alertes d?passement d?lai conservation</li> <li>Notifications identification r?ussie</li> <li>Rappels certificats ? g?n?rer</li> <li>Alertes capacit? satur?e</li> </ul></li> </ol> <hr /> <h2 id="enregistrement-des-corps">3. Enregistrement des Corps</h2> <h3 id="nouvelle-admission">3.1 Nouvelle Admission</h3> <h4 id="accs-au-formulaire">Acc?s au Formulaire</h4> <ol type="1"> <li>Tableau de bord &gt; <strong>ÔÇ£Nouvelle AdmissionÔÇØ</strong></li> <li>OU : Menu &gt; <strong>Enregistrement</strong> &gt; <strong>Nouveau Corps</strong></li> </ol> <h4 id="informations-darrive-section-1">Informations dÔÇÖArriv?e (Section 1)</h4> <table> <thead> <tr> <th>Champ</th> <th>Type</th> <th>Obligatoire</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>Date arriv?e</td> <td>DateTime</td> <td>Oui</td> <td>Date et heure pr?cises</td> </tr> <tr> <td>Heure arriv?e</td> <td>Time</td> <td>Oui</td> <td>Horodatage exact</td> </tr> <tr> <td>Provenance</td> <td>Liste</td> <td>Oui</td> <td>Lieu/H?pital/Accident</td> </tr> <tr> <td>Moyen transport</td> <td>Liste</td> <td>Oui</td> <td>Ambulance/Fun?raire</td> </tr> <tr> <td>Accompagnant</td> <td>Texte</td> <td>Non</td> <td>Nom personne accompagnante</td> </tr> <tr> <td>Documents</td> <td>Fichier</td> <td>Non</td> <td>Certificat m?dical, etc.</td> </tr> </tbody> </table> <h4 id="tat-du-corps-section-2">?tat du Corps (Section 2)</h4> <table> <thead> <tr> <th>Champ</th> <th>Type</th> <th>Obligatoire</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>?tat g?n?ral</td> <td>Liste</td> <td>Oui</td> <td>Intact/Endommag?/Carbonis?</td> </tr> <tr> <td>Temp?rature</td> <td>Nombre</td> <td>Non</td> <td>Si mesur?e</td> </tr> <tr> <td>Rigidit?</td> <td>Liste</td> <td>Non</td> <td>Absente/Partielle/Compl?te</td> </tr> <tr> <td>Lividit?s</td> <td>Texte</td> <td>Non</td> <td>Description</td> </tr> <tr> <td>D?composition</td> <td>Liste</td> <td>Non</td> <td>Stade si applicable</td> </tr> </tbody> </table> <h4 id="vtements-et-effets-section-3">V?tements et Effets (Section 3)</h4> <ol type="1"> <li><strong>Description v?tements</strong> : <ul> <li>Type (costume, robe, uniforme, etc.)</li> <li>Couleur</li> <li>?tat (intact, d?chir?, tach? de sang)</li> <li>Marques ou inscriptions</li> </ul></li> <li><strong>Objets personnels</strong> : <ul> <li>Documents dÔÇÖidentit? (CNI, passeport)</li> <li>T?l?phone mobile</li> <li>Portefeuille et contenu</li> <li>Bijoux et accessoires</li> <li>Autres effets</li> </ul></li> <li><strong>S?curisation</strong> : <ul> <li>Tous les effets sont inventori?s</li> <li>Photos prises</li> <li>Stockage s?curis?</li> <li>Remise ? la famille avec d?charge</li> </ul></li> </ol> <h3 id="identification">3.2 Identification</h3> <h4 id="corps-identifi">Corps Identifi?</h4> <p><strong>Informations compl?tes</strong> :</p> <table> <thead> <tr> <th>Cat?gorie</th> <th>Champs</th> </tr> </thead> <tbody> <tr> <td><strong>Identit?</strong></td> <td>Nom, pr?noms, date naissance, lieu naissance</td> </tr> <tr> <td><strong>Documents</strong></td> <td>CNI, passeport, permis conduire</td> </tr> <tr> <td><strong>Adresse</strong></td> <td>Domicile habituel</td> </tr> <tr> <td><strong>Famille</strong></td> <td>Contact principal, lien parent?, t?l?phone</td> </tr> <tr> <td><strong>Profession</strong></td> <td>M?tier, employeur</td> </tr> <tr> <td><strong>Nationalit?</strong></td> <td>Camerounaise ou ?trang?re</td> </tr> </tbody> </table> <p><strong>V?rification</strong> : - Confrontation documents/corps - Reconnaissance par famille (si possible) - Empreintes digitales (si syst?me disponible) - Photos dÔÇÖidentification</p> <h4 id="corps-non-identifi">Corps Non Identifi?</h4> <p><strong>Code provisoire</strong> : <code>INCONNU-[REGION]-[DATE]-[NUMERO]</code></p> <p><strong>Description physique d?taill?e</strong> :</p> <table> <thead> <tr> <th>Caract?ristique</th> <th>D?tails ? Noter</th> </tr> </thead> <tbody> <tr> <td><strong>Sexe</strong></td> <td>Masculin/F?minin</td> </tr> <tr> <td><strong>?ge estim?</strong></td> <td>Fourchette (ex: 25-35 ans)</td> </tr> <tr> <td><strong>Taille</strong></td> <td>En cm (mesure pr?cise)</td> </tr> <tr> <td><strong>Poids</strong></td> <td>En kg (estimation)</td> </tr> <tr> <td><strong>Corpulence</strong></td> <td>Mince/Normale/Forte</td> </tr> <tr> <td><strong>Carnation</strong></td> <td>Description</td> </tr> <tr> <td><strong>Cheveux</strong></td> <td>Couleur, longueur, type</td> </tr> <tr> <td><strong>Signes distinctifs</strong></td> <td>Cicatrices, tatouages, malformations</td> </tr> <tr> <td><strong>Dentition</strong></td> <td>?tat, proth?ses, particularit?s</td> </tr> <tr> <td><strong>Autres</strong></td> <td>Tout ?l?ment dÔÇÖidentification</td> </tr> </tbody> </table> <p><strong>Photos</strong> : - Vue dÔÇÖensemble du corps - Visage (plusieurs angles) - Signes distinctifs - Tatouages ou cicatrices - Objets personnels</p> <p><strong>Actions dÔÇÖIdentification</strong> : 1. Recherche dans base personnes disparues 2. Publication avis de recherche (m?dias, r?seaux sociaux) 3. Coordination avec Forces de lÔÇÖOrdre 4. Analyse ADN si n?cessaire 5. Mise ? jour d?s identification</p> <hr /> <h2 id="identification-et-liaison">4. Identification et Liaison</h2> <h3 id="liaison-un-accident">4.1 Liaison ? un Accident</h3> <h4 id="recherche-automatique">Recherche Automatique</h4> <p>Le syst?me DOSER recherche automatiquement : - Accidents du m?me jour - M?me r?gion/ville - Avec victimes d?c?d?es non encore li?es - V?hicules correspondants</p> <p><strong>Suggestions affich?es</strong> : Score de correspondance (%)</p> <h4 id="recherche-manuelle">Recherche Manuelle</h4> <ol type="1"> <li>Cliquez sur <strong>ÔÇ£Lier ? un AccidentÔÇØ</strong></li> <li>Crit?res de recherche : <ul> <li><strong>Num?ro de constat</strong> (si connu)</li> <li><strong>Date</strong> (? 3 jours)</li> <li><strong>Lieu</strong> (rayon 50 km)</li> <li><strong>V?hicule</strong> (immatriculation)</li> <li><strong>Circonstances</strong> (mots-cl?s)</li> </ul></li> <li>R?sultats affich?s avec d?tails</li> <li>S?lectionnez lÔÇÖaccident correspondant</li> <li>Confirmez la liaison</li> </ol> <h4 id="validation-de-la-liaison">Validation de la Liaison</h4> <p>Apr?s liaison, v?rifiez : - ? Coh?rence date/heure - ? Coh?rence lieu - ? Correspondance description - ? Nombre de victimes coh?rent</p> <h3 id="liaison-multiple">4.2 Liaison Multiple</h3> <p>Si plusieurs victimes du m?me accident :</p> <ol type="1"> <li>Le syst?me d?tecte automatiquement</li> <li>Propose de lier tous les corps</li> <li>Affiche les relations (m?me accident)</li> <li>Facilite la coordination familles</li> </ol> <hr /> <h2 id="certificats-de-dcs">5. Certificats de D?c?s</h2> <h3 id="gnration-du-certificat">5.1 G?n?ration du Certificat</h3> <h4 id="prrequis">Pr?requis</h4> <p>Avant de g?n?rer : - ? Corps identifi? (nom complet) - ? Cause du d?c?s d?termin?e - ? Date, heure et lieu de d?c?s connus - ? M?decin l?giste consult? (si n?cessaire)</p> <h4 id="procdure">Proc?dure</h4> <ol type="1"> <li>Ouvrez le dossier du d?funt</li> <li>Onglet <strong>ÔÇ£Certificat de D?c?sÔÇØ</strong></li> <li>Le formulaire est pr?-rempli avec : <ul> <li>Identit? du d?funt</li> <li>Date, heure, lieu du d?c?s</li> <li>Circonstances (accident de la route)</li> <li>Informations de la morgue</li> </ul></li> <li><strong>Compl?tez</strong> : <ul> <li><strong>Cause imm?diate du d?c?s</strong> : Traumatisme cr?nien, h?morragie, etc.</li> <li><strong>Causes ant?c?dentes</strong> : Collision frontale, etc.</li> <li><strong>Autres affections</strong> : Si pertinent</li> <li><strong>Autopsie</strong> : Oui/Non</li> <li><strong>M?decin certificateur</strong> : Nom et signature ?lectronique</li> </ul></li> <li><strong>Validez</strong> : Le certificat est g?n?r? en PDF</li> </ol> <h3 id="distribution-du-certificat">5.2 Distribution du Certificat</h3> <p>Le certificat est automatiquement :</p> <ul> <li>? <strong>Enregistr?</strong> dans le dossier DOSER</li> <li>? <strong>Envoy?</strong> ? lÔÇÖ?tat civil (maire de la commune)</li> <li>? <strong>Disponible</strong> pour la famille (avec autorisation)</li> <li>? <strong>Transmis</strong> ? lÔÇÖassurance (si liaison ?tablie)</li> <li>? <strong>Archiv?</strong> selon les normes l?gales</li> </ul> <h3 id="certificat-provisoire">5.3 Certificat Provisoire</h3> <p>En cas dÔÇÖidentification incertaine :</p> <ol type="1"> <li>G?n?rez un <strong>certificat provisoire</strong></li> <li>Mention ÔÇ£Sous r?serve dÔÇÖidentification d?finitiveÔÇØ</li> <li>Valable pour inhumation dÔÇÖurgence</li> <li>Certificat d?finitif apr?s identification</li> </ol> <hr /> <h2 id="conservation-et-gestion">6. Conservation et Gestion</h2> <h3 id="assignation-des-places">6.1 Assignation des Places</h3> <h4 id="gestion-des-chambres-froides">Gestion des Chambres Froides</h4> <ol type="1"> <li>Menu &gt; <strong>Gestion</strong> &gt; <strong>Chambres Froides</strong></li> <li>Vue dÔÇÖensemble : <ul> <li>Chambres disponibles/occup?es</li> <li>Temp?rature de chaque chambre</li> <li>Alertes techniques</li> </ul></li> </ol> <h4 id="assigner-une-place">Assigner une Place</h4> <ol type="1"> <li>Ouvrez le dossier du corps</li> <li>Section <strong>ÔÇ£ConservationÔÇØ</strong></li> <li>Cliquez sur <strong>ÔÇ£Assigner PlaceÔÇØ</strong></li> <li>S?lectionnez : <ul> <li>Chambre (A, B, C, etc.)</li> <li>Compartiment (num?ro)</li> </ul></li> <li>Le syst?me enregistre : <ul> <li>Date et heure dÔÇÖentr?e</li> <li>Responsable de lÔÇÖassignation</li> <li>Temp?rature initiale</li> </ul></li> </ol> <h4 id="plan-de-la-morgue">Plan de la Morgue</h4> <p>Le syst?me affiche un <strong>plan visuel</strong> : - ?? Places disponibles - ?? Places occup?es - ?? Places r?serv?es - ? Places en maintenance</p> <h3 id="suivi-de-la-conservation">6.2 Suivi de la Conservation</h3> <h4 id="dure-de-conservation">Dur?e de Conservation</h4> <p>Le syst?me calcule automatiquement : - <strong>Dur?e ?coul?e</strong> : Compteur en jours/heures - <strong>D?lai l?gal</strong> : 7 jours (standard) - <strong>Alertes</strong> : - ?? J-2 : Rappel famille - ?? J-1 : Alerte urgente - ?? J+0 : D?passement d?lai</p> <h4 id="contrles-quotidiens">Contr?les Quotidiens</h4> <p>Chaque jour, enregistrez : - <strong>Temp?rature</strong> des chambres - <strong>?tat</strong> du corps (inspection visuelle) - <strong>Incidents</strong> ?ventuels (panne, etc.) - <strong>Maintenance</strong> effectu?e</p> <h3 id="prparation-du-corps">6.3 Pr?paration du Corps</h3> <h4 id="toilette-mortuaire">Toilette Mortuaire</h4> <ol type="1"> <li>Dossier &gt; <strong>ÔÇ£Pr?parationÔÇØ</strong> &gt; <strong>ÔÇ£ToiletteÔÇØ</strong></li> <li>Enregistrez : <ul> <li>Date et heure</li> <li>Personnel effectuant</li> <li>Produits utilis?s</li> <li>Observations</li> </ul></li> </ol> <h4 id="habillage">Habillage</h4> <ol type="1"> <li><strong>ÔÇ£Pr?parationÔÇØ</strong> &gt; <strong>ÔÇ£HabillageÔÇØ</strong></li> <li>Notez : <ul> <li>V?tements fournis (famille/morgue)</li> <li>Description</li> <li>?tat</li> </ul></li> </ol> <h4 id="mise-en-bire">Mise en Bi?re</h4> <ol type="1"> <li><strong>ÔÇ£Pr?parationÔÇØ</strong> &gt; <strong>ÔÇ£Mise en Bi?reÔÇØ</strong></li> <li>D?tails : <ul> <li>Type de cercueil</li> <li>Fourni par (famille/morgue)</li> <li>Date et heure</li> <li>Personnel</li> </ul></li> <li>Changez le statut : <strong>ÔÇ£Pr?t pour RemiseÔÇØ</strong></li> </ol> <hr /> <h2 id="coordination-multi-services">7. Coordination Multi-Services</h2> <h3 id="avec-les-forces-de-lordre">7.1 Avec les Forces de lÔÇÖOrdre</h3> <p><strong>?changes automatiques</strong> : - Notification arriv?e corps accident - Demande num?ro de constat - Partage informations identification - Coordination enqu?tes judiciaires</p> <h3 id="avec-les-hpitaux">7.2 Avec les H?pitaux</h3> <p><strong>Transferts</strong> : - R?ception dossier m?dical - Historique soins prodigu?s - Cause m?dicale du d?c?s - Pr?l?vements effectu?s</p> <h3 id="avec-les-assurances">7.3 Avec les Assurances</h3> <p><strong>Informations partag?es</strong> : - Identit? du d?funt - Circonstances du d?c?s - Certificat de d?c?s - Coordination indemnisations</p> <h3 id="avec-les-familles">7.4 Avec les Familles</h3> <p><strong>Communication</strong> : - Notification identification - Information proc?dures - Coordination remise du corps - Support et accompagnement</p> <hr /> <h2 id="procdures-spciales">8. Proc?dures Sp?ciales</h2> <h3 id="autopsie-mdico-lgale">8.1 Autopsie M?dico-L?gale</h3> <p><strong>Quand</strong> : - D?c?s suspect - Demande autorit?s judiciaires - Cause ind?termin?e - Accident grave/mortel</p> <p><strong>Proc?dure</strong> : 1. Statut : <strong>ÔÇ£Attente AutopsieÔÇØ</strong> 2. Ne pas pr?parer le corps 3. Coordination m?decin l?giste 4. Pr?l?vements si n?cessaires 5. Rapport dÔÇÖautopsie (48-72h) 6. Mise ? jour cause d?c?s 7. Lib?ration du corps</p> <h3 id="personnes-trangres">8.2 Personnes ?trang?res</h3> <p><strong>Proc?dure sp?cifique</strong> :</p> <ol type="1"> <li><strong>Identification nationalit?</strong> : <ul> <li>Passeport, documents voyage</li> <li>Ambassade/consulat du pays</li> </ul></li> <li><strong>Notification consulaire</strong> : <ul> <li>Automatique via DOSER</li> <li>Coordonn?es famille ? lÔÇÖ?tranger</li> <li>Proc?dures rapatriement</li> </ul></li> <li><strong>Documents additionnels</strong> : <ul> <li>Certificat de d?c?s traduit</li> <li>Autorisation de transport</li> <li>Scell?s sanitaires</li> </ul></li> <li><strong>Conservation prolong?e</strong> : <ul> <li>Attente d?cision famille</li> <li>D?lais rapatriement</li> <li>Coordination entreprise fun?raire internationale</li> </ul></li> </ol> <h3 id="enqute-judiciaire">8.3 Enqu?te Judiciaire</h3> <p><strong>Statut</strong> : ÔÇ£Sous Scell?s JudiciairesÔÇØ</p> <p><strong>Restrictions</strong> : - ? Aucune remise sans autorisation juge - ? Pas de pr?paration du corps - ? Acc?s limit? (enqu?teurs uniquement) - ? Conservation prolong?e automatique - ? Tra?abilit? renforc?e</p> <p><strong>Proc?dure</strong> : 1. Notification du juge dÔÇÖinstruction 2. Attente ordonnance de lev?e de corps 3. Coordination avec police scientifique 4. Pr?l?vements pour analyses 5. Lib?ration sur ordre du juge</p> <h3 id="corps-non-rclams">8.4 Corps Non R?clam?s</h3> <p><strong>Apr?s 30 jours</strong> :</p> <ol type="1"> <li>Statut : <strong>ÔÇ£Non R?clam?ÔÇØ</strong></li> <li>Notification pr?fet</li> <li>Publication avis l?gal</li> <li>Attente 15 jours suppl?mentaires</li> <li>Si toujours non r?clam? : <ul> <li>Inhumation administrative</li> <li>Fosse commune ou carr? r?serv?</li> <li>Dossier conserv? 50 ans</li> </ul></li> </ol> <hr /> <h2 id="aspects-lgaux">9. Aspects L?gaux</h2> <h3 id="obligations-lgales">9.1 Obligations L?gales</h3> <h4 id="conservation">Conservation</h4> <ul> <li><strong>D?lai standard</strong> : 7 jours maximum</li> <li><strong>Non identifi?</strong> : 30 jours</li> <li><strong>Enqu?te judiciaire</strong> : Selon ordonnance</li> <li><strong>Rapatriement</strong> : Variable</li> </ul> <h4 id="registres-obligatoires">Registres Obligatoires</h4> <ol type="1"> <li><strong>Registre des entr?es</strong> : <ul> <li>Date, heure, identit?</li> <li>Provenance</li> <li>?tat du corps</li> </ul></li> <li><strong>Registre des sorties</strong> : <ul> <li>Date, heure remise</li> <li>Identit? r?cipiendaire</li> <li>Destination (inhumation, rapatriement)</li> <li>Signature</li> </ul></li> <li><strong>Registre des autopsies</strong> : <ul> <li>Date, m?decin l?giste</li> <li>R?sultats</li> <li>Pr?l?vements</li> </ul></li> </ol> <h4 id="certificats">Certificats</h4> <ul> <li><strong>Obligatoire</strong> pour toute inhumation</li> <li><strong>D?lai</strong> : 24h apr?s d?c?s</li> <li><strong>Validit?</strong> : Permanente</li> <li><strong>Copies</strong> : Famille, mairie, DOSER</li> </ul> <h3 id="confidentialit-et-dignit">9.2 Confidentialit? et Dignit?</h3> <h4 id="respect-du-dfunt">Respect du D?funt</h4> <ul> <li>? Traitement digne et respectueux</li> <li>? Conservation dans conditions appropri?es</li> <li>? Pas de photos non n?cessaires</li> <li>? Acc?s limit? au personnel autoris?</li> </ul> <h4 id="protection-des-donnes">Protection des Donn?es</h4> <ul> <li>?? Informations famille prot?g?es</li> <li>?? Causes de d?c?s confidentielles</li> <li>?? Photos accessibles uniquement pour identification</li> <li>?? Tra?abilit? de tous les acc?s</li> </ul> <h3 id="responsabilits">9.3 Responsabilit?s</h3> <h4 id="responsabilit-de-la-morgue">Responsabilit? de la Morgue</h4> <ul> <li>Identification correcte</li> <li>Conservation appropri?e</li> <li>Respect des d?lais</li> <li>Remise ? la bonne personne</li> <li>Tenue des registres</li> </ul> <h4 id="en-cas-derreur">En Cas dÔÇÖErreur</h4> <ul> <li>Proc?dure de correction</li> <li>Notification imm?diate</li> <li>Rapport dÔÇÖincident</li> <li>Mesures correctives</li> </ul> <hr /> <h2 id="annexes">10. Annexes</h2> <h3 id="annexe-a-codes-dtat">Annexe A : Codes dÔÇÖ?tat</h3> <table> <thead> <tr> <th>Code</th> <th>Statut</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>ARR</td> <td>Arriv?e</td> <td>Corps vient dÔÇÖarriver</td> </tr> <tr> <td>IDE</td> <td>Identifi?</td> <td>Identit? confirm?e</td> </tr> <tr> <td>NON_IDE</td> <td>Non Identifi?</td> <td>Recherche en cours</td> </tr> <tr> <td>AUT</td> <td>Autopsie</td> <td>En attente/en cours</td> </tr> <tr> <td>PREP</td> <td>Pr?par?</td> <td>Pr?t pour remise</td> </tr> <tr> <td>REM</td> <td>Remis</td> <td>Remis ? la famille</td> </tr> <tr> <td>INH</td> <td>Inhum?</td> <td>Inhumation effectu?e</td> </tr> <tr> <td>RAP</td> <td>Rapatri?</td> <td>Rapatri? ? lÔÇÖ?tranger</td> </tr> </tbody> </table> <h3 id="annexe-b-dlais-lgaux">Annexe B : D?lais L?gaux</h3> <table> <thead> <tr> <th>Situation</th> <th>D?lai Conservation</th> <th>Base L?gale</th> </tr> </thead> <tbody> <tr> <td>Standard</td> <td>7 jours</td> <td>Loi sanitaire</td> </tr> <tr> <td>Non identifi?</td> <td>30 jours</td> <td>Code civil</td> </tr> <tr> <td>Enqu?te judiciaire</td> <td>Variable</td> <td>Ordonnance juge</td> </tr> <tr> <td>Rapatriement</td> <td>60 jours max</td> <td>Accord international</td> </tr> <tr> <td>Non r?clam?</td> <td>45 jours</td> <td>Proc?dure administrative</td> </tr> </tbody> </table> <h3 id="annexe-c-contacts-utiles">Annexe C : Contacts Utiles</h3> <p><strong>Autorit?s</strong> : - Pr?fecture : [Contact r?gion] - Mairie (?tat civil) : [Contact commune] - Parquet : [Contact tribunal]</p> <p><strong>Services</strong> : - M?decine l?gale : [Contact] - Police scientifique : [Contact] - Ambassades : [Liste]</p> <p><strong>Support DOSER</strong> : - Email : morgue-support@doser.ditros.org - Hotline : +237 XXX XXX XXX (24/7)</p> <h3 id="annexe-d-modles-de-documents">Annexe D : Mod?les de Documents</h3> <p>Disponibles dans le syst?me : - Certificat de d?c?s - Proc?s-verbal de remise - Inventaire des effets personnels - Demande dÔÇÖautopsie - Avis de recherche</p> <hr /> <p><strong>Vous ma?trisez maintenant le module Morgue de DOSER !</strong> ??</p> <p>Pour questions sp?cifiques : <a href="mailto:morgue-support@doser.ditros.org">Support Morgue</a></p> <hr /> <p><em>Manuel cr?? le : 9 octobre 2025 | Version : 2.0 | Pages : 65</em></p> </body> </html>
+    
+    <div class="page-break" style="margin-top: 50px; text-align: center; color: #666; font-size: 9pt;">
+        <hr style="border: 1px solid #ddd; margin: 20px 0;">
+        <p>Documentation DOSER - Systeme de Gestion des Donnees de Securite Routiere</p>
+        <p>Genere automatiquement le 17/10/2025 a 10:28</p>
+    </div>
+</body>
+</html>

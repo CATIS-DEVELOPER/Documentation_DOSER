@@ -1,3 +1,0 @@
-# Guide de l'Administrateur
-
-Contenu à compléter...

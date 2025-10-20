@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Rapide - Morgue</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: none;
+            margin: 0;
+            padding: 0;
+            font-size: 11pt;
+        }
+        
+        h1 {
+            color: #2c5aa0;
+            border-bottom: 3px solid #2c5aa0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            page-break-before: always;
+        }
+        
+        h1:first-child {
+            page-break-before: avoid;
+        }
+        
+        h2 {
+            color: #3d7cc9;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            color: #4a90e2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+        
+        h4, h5, h6 {
+            color: #5ba0f2;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 10pt;
+        }
+        
+        pre {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #2c5aa0;
+            page-break-inside: avoid;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 9pt;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 10pt;
+        }
+        
+        th {
+            background-color: #2c5aa0;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            page-break-inside: avoid;
+        }
+        
+        blockquote {
+            border-left: 4px solid #2c5aa0;
+            padding-left: 20px;
+            margin-left: 0;
+            color: #666;
+            font-style: italic;
+            page-break-inside: avoid;
+        }
+        
+        ul, ol {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .no-break {
+            page-break-inside: avoid;
+        }
+        
+        /* Styles specifiques pour les emojis et icones */
+        .emoji {
+            font-size: 1.2em;
+        }
+        
+        /* Header et footer */
+        @media print {
+            body {
+                margin-top: 1cm;
+                margin-bottom: 1cm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-break">
+        <h1>Guide Rapide - Morgue</h1>
+        <p><em>Documentation DOSER - Genere le 17/10/2025 a 10:27</em></p>
+        <hr style="border: 1px solid #2c5aa0; margin: 20px 0;">
+    </div>
+    
+    <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""> <head>   <meta charset="utf-8" />   <meta name="generator" content="pandoc" />   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />   <title>Guide Rapide - Morgue</title>   <style>     /* Default styles provided by pandoc.     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.     */     html {       color: #1a1a1a;       background-color: #fdfdfd;     }     body {       margin: 0 auto;       max-width: 36em;       padding-left: 50px;       padding-right: 50px;       padding-top: 50px;       padding-bottom: 50px;       hyphens: auto;       overflow-wrap: break-word;       text-rendering: optimizeLegibility;       font-kerning: normal;     }     @media (max-width: 600px) {       body {         font-size: 0.9em;         padding: 12px;       }       h1 {         font-size: 1.8em;       }     }     @media print {       html {         background-color: white;       }       body {         background-color: transparent;         color: black;         font-size: 12pt;       }       p, h2, h3 {         orphans: 3;         widows: 3;       }       h2, h3, h4 {         page-break-after: avoid;       }     }     p {       margin: 1em 0;     }     a {       color: #1a1a1a;     }     a:visited {       color: #1a1a1a;     }     img {       max-width: 100%;     }     svg {       height: auto;       max-width: 100%;     }     h1, h2, h3, h4, h5, h6 {       margin-top: 1.4em;     }     h5, h6 {       font-size: 1em;       font-style: italic;     }     h6 {       font-weight: normal;     }     ol, ul {       padding-left: 1.7em;       margin-top: 1em;     }     li > ol, li > ul {       margin-top: 0;     }     blockquote {       margin: 1em 0 1em 1.7em;       padding-left: 1em;       border-left: 2px solid #e6e6e6;       color: #606060;     }     code {       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;       font-size: 85%;       margin: 0;       hyphens: manual;     }     pre {       margin: 1em 0;       overflow: auto;     }     pre code {       padding: 0;       overflow: visible;       overflow-wrap: normal;     }     .sourceCode {      background-color: transparent;      overflow: visible;     }     hr {       border: none;       border-top: 1px solid #1a1a1a;       height: 1px;       margin: 1em 0;     }     table {       margin: 1em 0;       border-collapse: collapse;       width: 100%;       overflow-x: auto;       display: block;       font-variant-numeric: lining-nums tabular-nums;     }     table caption {       margin-bottom: 0.75em;     }     tbody {       margin-top: 0.5em;       border-top: 1px solid #1a1a1a;       border-bottom: 1px solid #1a1a1a;     }     th {       border-top: 1px solid #1a1a1a;       padding: 0.25em 0.5em 0.25em 0.5em;     }     td {       padding: 0.125em 0.5em 0.25em 0.5em;     }     header {       margin-bottom: 4em;       text-align: center;     }     #TOC li {       list-style: none;     }     #TOC ul {       padding-left: 1.3em;     }     #TOC > ul {       padding-left: 0;     }     #TOC a:not(:hover) {       text-decoration: none;     }     code{white-space: pre-wrap;}     span.smallcaps{font-variant: small-caps;}     div.columns{display: flex; gap: min(4vw, 1.5em);}     div.column{flex: auto; overflow-x: auto;}     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}     /* The extra [class] is a hack that increases specificity enough to        override a similar rule in reveal.js */     ul.task-list[class]{list-style: none;}     ul.task-list li input[type="checkbox"] {       font-size: inherit;       width: 0.8em;       margin: 0 0.8em 0.2em -1.6em;       vertical-align: middle;     }     .display.math{display: block; text-align: center; margin: 0.5rem auto;}   </style> </head> <body> <header id="title-block-header"> <h1 class="title">Guide Rapide - Morgue</h1> </header> <h1 id="guide-rapide-morgue">?? Guide Rapide : Morgue</h1> <p><strong>Dur?e estim?e</strong> : 10 minutes<br /> <strong>Niveau</strong> : D?butant<br /> <strong>Version</strong> : 2.0</p> <hr /> <h2 id="ce-que-vous-allez-apprendre">?? Ce que vous allez apprendre</h2> <p>? la fin de ce guide, vous saurez :</p> <p>? Enregistrer lÔÇÖarriv?e dÔÇÖun corps suite ? un accident<br /> ? Lier le d?funt ? lÔÇÖaccident correspondant<br /> ? G?n?rer un certificat de d?c?s<br /> ? G?rer la conservation et lÔÇÖidentification<br /> ? Coordonner avec les familles et autorit?s</p> <hr /> <h2 id="tape-1-accs-au-portail-morgue-2-min">?? ?tape 1 : Acc?s au Portail Morgue (2 min)</h2> <h3 id="connexion">Connexion</h3> <ol type="1"> <li>Ouvrez votre navigateur</li> <li>Allez sur : <strong>https://doser.ditros.org/morgue</strong></li> <li>Entrez votre <strong>nom dÔÇÖutilisateur</strong></li> <li>Entrez votre <strong>mot de passe</strong></li> <li>Cliquez sur <strong>Connexion</strong></li> </ol> <h3 id="interface-principale">Interface Principale</h3> <p>Apr?s connexion, vous acc?dez ? : - <strong>Tableau de bord</strong> : Arriv?es du jour, corps en attente - <strong>Enregistrement</strong> : Nouveau corps - <strong>Gestion</strong> : Corps en conservation - <strong>Certificats</strong> : G?n?ration de documents</p> <hr /> <h2 id="tape-2-enregistrer-un-corps-4-min">?? ?tape 2 : Enregistrer un Corps (4 min)</h2> <h3 id="nouvelle-admission">2.1 Nouvelle Admission</h3> <ol type="1"> <li>Sur le tableau de bord, cliquez sur <strong>ÔÇ£Nouvelle AdmissionÔÇØ</strong></li> <li>OU : Menu &gt; <strong>Enregistrement</strong> &gt; <strong>Nouveau Corps</strong></li> </ol> <h3 id="informations-darrive">2.2 Informations dÔÇÖArriv?e</h3> <ol type="1"> <li><strong>Date et heure dÔÇÖarriv?e</strong> : Pr?-remplies (modifiables)</li> <li><strong>Provenance</strong> : <ul> <li>Lieu de lÔÇÖaccident</li> <li>H?pital (si transfert)</li> <li>Service de secours</li> </ul></li> <li><strong>Moyen de transport</strong> : <ul> <li>Ambulance</li> <li>V?hicule fun?raire</li> <li>Autre</li> </ul></li> </ol> <h3 id="tat-du-corps">2.3 ?tat du Corps</h3> <ol type="1"> <li><strong>?tat g?n?ral</strong> : <ul> <li>Intact</li> <li>Partiellement endommag?</li> <li>Carbonis?</li> <li>Non identifiable</li> </ul></li> <li><strong>V?tements et effets personnels</strong> : <ul> <li>Description des v?tements</li> <li>Objets personnels retrouv?s</li> <li>Documents dÔÇÖidentit? (si pr?sents)</li> </ul></li> </ol> <h3 id="identification">2.4 Identification</h3> <p><strong>Si identifi?</strong> : 1. Nom et pr?noms 2. Date de naissance 3. Lieu de naissance 4. Num?ro CNI/Passeport 5. Adresse 6. Contact famille</p> <p><strong>Si non identifi?</strong> : 1. Code provisoire : <code>INCONNU-[DATE]-[HEURE]</code> 2. Description physique : - Sexe - ?ge estim? - Taille approximative - Signes distinctifs 3. Photos dÔÇÖidentification (si autoris?)</p> <p>? <strong>R?sultat</strong> : Un num?ro de dossier morgue est g?n?r?</p> <hr /> <h2 id="tape-3-lier-laccident-2-min">?? ?tape 3 : Lier ? lÔÇÖAccident (2 min)</h2> <h3 id="recherche-de-laccident">Recherche de lÔÇÖAccident</h3> <ol type="1"> <li>Cliquez sur <strong>ÔÇ£Lier ? un AccidentÔÇØ</strong></li> <li>Recherchez par : <ul> <li><strong>Num?ro de constat</strong> (si connu)</li> <li><strong>Date et lieu</strong> de lÔÇÖaccident</li> <li><strong>V?hicule impliqu?</strong> (immatriculation)</li> </ul></li> <li>Le syst?me affiche les accidents correspondants</li> <li>S?lectionnez le bon accident</li> <li>Cliquez sur <strong>ÔÇ£Confirmer la LiaisonÔÇØ</strong></li> </ol> <h3 id="si-accident-non-trouv">Si Accident Non Trouv?</h3> <ol type="1"> <li>Contactez les Forces de lÔÇÖOrdre</li> <li>Demandez le num?ro de constat</li> <li>Cr?ez une note ÔÇ£Liaison en attenteÔÇØ</li> <li>Le syst?me notifiera automatiquement quand le constat sera cr??</li> </ol> <hr /> <h2 id="tape-4-gnrer-le-certificat-de-dcs-2-min">?? ?tape 4 : G?n?rer le Certificat de D?c?s (2 min)</h2> <h3 id="prrequis">Pr?requis</h3> <ul> <li>Corps identifi?</li> <li>Cause du d?c?s d?termin?e (m?decin l?giste)</li> <li>Li? ? un accident</li> </ul> <h3 id="gnration">G?n?ration</h3> <ol type="1"> <li>Ouvrez le dossier du d?funt</li> <li>Cliquez sur <strong>ÔÇ£Certificat de D?c?sÔÇØ</strong></li> <li>V?rifiez les informations pr?-remplies : <ul> <li>Identit? du d?funt</li> <li>Date, heure et lieu du d?c?s</li> <li>Cause du d?c?s</li> <li>Circonstances (accident de la route)</li> </ul></li> <li>Ajoutez les informations manquantes</li> <li>Cliquez sur <strong>ÔÇ£G?n?rer CertificatÔÇØ</strong></li> </ol> <h3 id="distribution">Distribution</h3> <p>Le certificat est : - ? Envoy? automatiquement aux autorit?s (maire) - ? Disponible pour la famille (avec autorisation) - ? Transmis ? lÔÇÖassurance (si liaison ?tablie) - ? Archiv? dans le dossier DOSER</p> <hr /> <h2 id="tape-5-gestion-de-la-conservation">?? ?tape 5 : Gestion de la Conservation</h2> <h3 id="assignation-dune-place">Assignation dÔÇÖune Place</h3> <ol type="1"> <li>Allez dans <strong>ÔÇ£Gestion des PlacesÔÇØ</strong></li> <li>S?lectionnez une chambre froide disponible</li> <li>Notez le num?ro : <ul> <li>Chambre : A, B, C, etc.</li> <li>Compartiment : 1, 2, 3, etc.</li> </ul></li> <li>Le syst?me met ? jour automatiquement</li> </ol> <h3 id="suivi">Suivi</h3> <p>Le syst?me affiche : - <strong>Dur?e de conservation</strong> : Compteur automatique - <strong>Alertes</strong> : Si d?passement du d?lai l?gal (7 jours) - <strong>?tat</strong> : En attente famille, Pr?t inhumation, etc.</p> <h3 id="prparation-du-corps">Pr?paration du Corps</h3> <ol type="1"> <li>Cliquez sur <strong>ÔÇ£Pr?parer pour Fun?raillesÔÇØ</strong></li> <li>Enregistrez les soins effectu?s : <ul> <li>Toilette mortuaire</li> <li>Habillage</li> <li>Mise en bi?re</li> </ul></li> <li>Notez le nom de lÔÇÖentreprise fun?raire</li> <li>Changez le statut : <strong>ÔÇ£Pr?t pour RemiseÔÇØ</strong></li> </ol> <hr /> <h2 id="tape-6-contact-avec-la-famille">???????? ?tape 6 : Contact avec la Famille</h2> <h3 id="enregistrement-contact-famille">Enregistrement Contact Famille</h3> <ol type="1"> <li>Ouvrez le dossier</li> <li>Section <strong>ÔÇ£Famille et ProchesÔÇØ</strong></li> <li>Ajoutez : <ul> <li>Nom du contact principal</li> <li>Lien de parent?</li> <li>Num?ro de t?l?phone</li> <li>Email (optionnel)</li> </ul></li> </ol> <h3 id="notifications-automatiques">Notifications Automatiques</h3> <p>Le syst?me peut envoyer : - SMS : ÔÇ£Corps identifi? et en conservationÔÇØ - Rappels : Retrait du corps - Informations : Proc?dures administratives</p> <h3 id="remise-du-corps">Remise du Corps</h3> <ol type="1"> <li>V?rifiez lÔÇÖidentit? du demandeur</li> <li>V?rifiez lÔÇÖautorisation de remise (pr?fet/maire)</li> <li>Faites signer le registre de remise</li> <li>Enregistrez dans DOSER : <ul> <li>Date et heure de remise</li> <li>Nom du r?cipiendaire</li> <li>Entreprise fun?raire</li> </ul></li> <li>Changez le statut : <strong>ÔÇ£Remis ? la FamilleÔÇØ</strong></li> </ol> <hr /> <h2 id="cas-dusage-pratiques">?? Cas dÔÇÖUsage Pratiques</h2> <h3 id="corps-identifi-famille-prsente">Corps Identifi?, Famille Pr?sente</h3> <p>?? Temps : 10 minutes</p> <ol type="1"> <li>Enregistrement arriv?e</li> <li>Identification avec CNI</li> <li>Liaison ? lÔÇÖaccident</li> <li>G?n?ration certificat de d?c?s</li> <li>Assignation chambre froide</li> <li>Contact famille</li> <li>Pr?paration et remise (24-48h)</li> </ol> <h3 id="corps-non-identifi">Corps Non Identifi?</h3> <p>?? Temps : 15 minutes + suivi</p> <ol type="1"> <li>Enregistrement avec code INCONNU</li> <li>Description physique d?taill?e</li> <li>Photos dÔÇÖidentification</li> <li>Recherche dans dossiers personnes disparues</li> <li>Publication avis de recherche</li> <li>Attente identification</li> <li>Conservation prolong?e</li> </ol> <h3 id="transfert-depuis-hpital">Transfert depuis H?pital</h3> <p>?? Temps : 8 minutes</p> <ol type="1"> <li>R?ception appel h?pital</li> <li>Pr?paration accueil</li> <li>Arriv?e et v?rification documents</li> <li>Enregistrement (identit? d?j? connue)</li> <li>R?cup?ration dossier m?dical</li> <li>Liaison accident (si pas d?j? fait)</li> <li>Certificat et conservation</li> </ol> <hr /> <h2 id="situations-particulires">?? Situations Particuli?res</h2> <h3 id="mdecine-lgale-requise">M?decine L?gale Requise</h3> <p>Si autopsie n?cessaire : 1. Marquez le statut <strong>ÔÇ£Attente AutopsieÔÇØ</strong> 2. Ne pas pr?parer le corps 3. Coordination avec m?decin l?giste 4. Attente r?sultats (48-72h) 5. Mise ? jour cause du d?c?s</p> <h3 id="personne-trangre">Personne ?trang?re</h3> <ol type="1"> <li>Notification consulat/ambassade automatique</li> <li>Documents suppl?mentaires requis</li> <li>Coordination rapatriement si demand?</li> <li>D?lais de conservation prolong?s</li> </ol> <h3 id="litige-ou-enqute-judiciaire">Litige ou Enqu?te Judiciaire</h3> <ol type="1"> <li>Statut <strong>ÔÇ£Sous Scell?s JudiciairesÔÇØ</strong></li> <li>Aucune remise sans autorisation juge</li> <li>Conservation prolong?e</li> <li>Tra?abilit? renforc?e</li> </ol> <hr /> <h2 id="informations-importantes">?? Informations Importantes</h2> <h3 id="dlais-lgaux">D?lais L?gaux</h3> <ul> <li><strong>Conservation standard</strong> : 7 jours</li> <li><strong>Non identifi?</strong> : 30 jours</li> <li><strong>Enqu?te judiciaire</strong> : Variable (ordre du juge)</li> <li><strong>Rapatriement</strong> : Selon pays destination</li> </ul> <h3 id="confidentialit">Confidentialit?</h3> <ul> <li>? Respect strict de la dignit? du d?funt</li> <li>? Acc?s limit? au personnel autoris?</li> <li>? Photos uniquement pour identification</li> <li>? Informations famille prot?g?es</li> </ul> <h3 id="obligations-lgales">Obligations L?gales</h3> <ul> <li>Certificat de d?c?s obligatoire pour inhumation</li> <li>Registre des entr?es/sorties ? jour</li> <li>Conservation dans conditions r?glementaires</li> <li>Notification autorit?s (maire, pr?fet)</li> </ul> <hr /> <h2 id="problmes-frquents">?? Probl?mes Fr?quents</h2> <h3 id="impossible-de-lier-un-accident">Impossible de lier ? un accident</h3> <p><strong>Solution</strong> : 1. V?rifiez que le constat existe 2. Contactez les Forces de lÔÇÖOrdre 3. Cr?ez une note ÔÇ£Liaison en attenteÔÇØ 4. Le syst?me notifiera automatiquement</p> <h3 id="certificat-ne-se-gnre-pas">Certificat ne se g?n?re pas</h3> <p><strong>Solution</strong> : 1. V?rifiez que tous les champs obligatoires sont remplis 2. Assurez-vous que la cause du d?c?s est indiqu?e 3. V?rifiez la liaison ? lÔÇÖaccident 4. Contactez le support si le probl?me persiste</p> <h3 id="famille-ne-reoit-pas-les-notifications">Famille ne re?oit pas les notifications</h3> <p><strong>Solution</strong> : 1. V?rifiez le num?ro de t?l?phone 2. Renvoyez la notification manuellement 3. Contactez la famille par t?l?phone 4. Notez la communication dans le dossier</p> <hr /> <h2 id="pour-aller-plus-loin">?? Pour Aller Plus Loin</h2> <h3 id="manuel-complet">Manuel Complet</h3> <p>?? <a href="../../manuel/morgue.md">Manuel Complet Morgue</a></p> <h3 id="tutoriels">Tutoriels</h3> <ul> <li>?? <a href="../tutoriels/identification-defunt.md">Proc?dures dÔÇÖidentification</a></li> <li>?? <a href="../tutoriels/corps-non-identifies.md">Gestion des cas non identifi?s</a></li> <li>?? <a href="../tutoriels/medecine-legale.md">Coordination avec m?decine l?gale</a></li> </ul> <hr /> <h2 id="besoin-daide">?? Besoin dÔÇÖAide ?</h2> <h3 id="support-morgue">Support Morgue</h3> <ul> <li><strong>?? Email</strong> : morgue-support@doser.ditros.org</li> <li><strong>?? Hotline</strong> : +237 XXX XXX XXX (24/7)</li> <li><strong>?? Chat</strong> : Support technique dans le portail</li> </ul> <h3 id="urgences-et-coordination">Urgences et Coordination</h3> <ul> <li><strong>?? M?decine l?gale</strong> : [Contact r?gion]</li> <li><strong>?? Autorit?s judiciaires</strong> : [Contact r?gion]</li> <li><strong>??? ?tat civil</strong> : [Mairie]</li> </ul> <hr /> <h2 id="checklist">? Checklist</h2> <ul class="task-list"> <li><label><input type="checkbox" />JÔÇÖai acc?d? au portail morgue</label></li> <li><label><input type="checkbox" />Je sais enregistrer lÔÇÖarriv?e dÔÇÖun corps</label></li> <li><label><input type="checkbox" />Je sais lier un d?funt ? un accident</label></li> <li><label><input type="checkbox" />Je sais g?n?rer un certificat de d?c?s</label></li> <li><label><input type="checkbox" />Je connais les proc?dures de conservation</label></li> <li><label><input type="checkbox" />Je sais g?rer le contact avec les familles</label></li> </ul> <hr /> <p><strong>F?licitations ! ??</strong><br /> Vous savez maintenant utiliser DOSER pour la gestion mortuaire !</p> <hr /> <p><em>Guide cr?? le : 9 octobre 2025</em><br /> <em>Derni?re mise ? jour : 9 octobre 2025</em><br /> <em>Version : 2.0</em></p> </body> </html>
+    
+    <div class="page-break" style="margin-top: 50px; text-align: center; color: #666; font-size: 9pt;">
+        <hr style="border: 1px solid #ddd; margin: 20px 0;">
+        <p>Documentation DOSER - Systeme de Gestion des Donnees de Securite Routiere</p>
+        <p>Genere automatiquement le 17/10/2025 a 10:27</p>
+    </div>
+</body>
+</html>

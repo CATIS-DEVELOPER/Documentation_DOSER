@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel - Services de Sante</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: none;
+            margin: 0;
+            padding: 0;
+            font-size: 11pt;
+        }
+        
+        h1 {
+            color: #2c5aa0;
+            border-bottom: 3px solid #2c5aa0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            page-break-before: always;
+        }
+        
+        h1:first-child {
+            page-break-before: avoid;
+        }
+        
+        h2 {
+            color: #3d7cc9;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            color: #4a90e2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+        
+        h4, h5, h6 {
+            color: #5ba0f2;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 10pt;
+        }
+        
+        pre {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #2c5aa0;
+            page-break-inside: avoid;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 9pt;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 10pt;
+        }
+        
+        th {
+            background-color: #2c5aa0;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            page-break-inside: avoid;
+        }
+        
+        blockquote {
+            border-left: 4px solid #2c5aa0;
+            padding-left: 20px;
+            margin-left: 0;
+            color: #666;
+            font-style: italic;
+            page-break-inside: avoid;
+        }
+        
+        ul, ol {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .no-break {
+            page-break-inside: avoid;
+        }
+        
+        /* Styles specifiques pour les emojis et icones */
+        .emoji {
+            font-size: 1.2em;
+        }
+        
+        /* Header et footer */
+        @media print {
+            body {
+                margin-top: 1cm;
+                margin-bottom: 1cm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-break">
+        <h1>Manuel - Services de Sante</h1>
+        <p><em>Documentation DOSER - Genere le 17/10/2025 a 10:28</em></p>
+        <hr style="border: 1px solid #2c5aa0; margin: 20px 0;">
+    </div>
+    
+    <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""> <head>   <meta charset="utf-8" />   <meta name="generator" content="pandoc" />   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />   <title>Manuel - Services de Sante</title>   <style>     /* Default styles provided by pandoc.     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.     */     html {       color: #1a1a1a;       background-color: #fdfdfd;     }     body {       margin: 0 auto;       max-width: 36em;       padding-left: 50px;       padding-right: 50px;       padding-top: 50px;       padding-bottom: 50px;       hyphens: auto;       overflow-wrap: break-word;       text-rendering: optimizeLegibility;       font-kerning: normal;     }     @media (max-width: 600px) {       body {         font-size: 0.9em;         padding: 12px;       }       h1 {         font-size: 1.8em;       }     }     @media print {       html {         background-color: white;       }       body {         background-color: transparent;         color: black;         font-size: 12pt;       }       p, h2, h3 {         orphans: 3;         widows: 3;       }       h2, h3, h4 {         page-break-after: avoid;       }     }     p {       margin: 1em 0;     }     a {       color: #1a1a1a;     }     a:visited {       color: #1a1a1a;     }     img {       max-width: 100%;     }     svg {       height: auto;       max-width: 100%;     }     h1, h2, h3, h4, h5, h6 {       margin-top: 1.4em;     }     h5, h6 {       font-size: 1em;       font-style: italic;     }     h6 {       font-weight: normal;     }     ol, ul {       padding-left: 1.7em;       margin-top: 1em;     }     li > ol, li > ul {       margin-top: 0;     }     blockquote {       margin: 1em 0 1em 1.7em;       padding-left: 1em;       border-left: 2px solid #e6e6e6;       color: #606060;     }     code {       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;       font-size: 85%;       margin: 0;       hyphens: manual;     }     pre {       margin: 1em 0;       overflow: auto;     }     pre code {       padding: 0;       overflow: visible;       overflow-wrap: normal;     }     .sourceCode {      background-color: transparent;      overflow: visible;     }     hr {       border: none;       border-top: 1px solid #1a1a1a;       height: 1px;       margin: 1em 0;     }     table {       margin: 1em 0;       border-collapse: collapse;       width: 100%;       overflow-x: auto;       display: block;       font-variant-numeric: lining-nums tabular-nums;     }     table caption {       margin-bottom: 0.75em;     }     tbody {       margin-top: 0.5em;       border-top: 1px solid #1a1a1a;       border-bottom: 1px solid #1a1a1a;     }     th {       border-top: 1px solid #1a1a1a;       padding: 0.25em 0.5em 0.25em 0.5em;     }     td {       padding: 0.125em 0.5em 0.25em 0.5em;     }     header {       margin-bottom: 4em;       text-align: center;     }     #TOC li {       list-style: none;     }     #TOC ul {       padding-left: 1.3em;     }     #TOC > ul {       padding-left: 0;     }     #TOC a:not(:hover) {       text-decoration: none;     }     code{white-space: pre-wrap;}     span.smallcaps{font-variant: small-caps;}     div.columns{display: flex; gap: min(4vw, 1.5em);}     div.column{flex: auto; overflow-x: auto;}     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}     /* The extra [class] is a hack that increases specificity enough to        override a similar rule in reveal.js */     ul.task-list[class]{list-style: none;}     ul.task-list li input[type="checkbox"] {       font-size: inherit;       width: 0.8em;       margin: 0 0.8em 0.2em -1.6em;       vertical-align: middle;     }     .display.math{display: block; text-align: center; margin: 0.5rem auto;}   </style> </head> <body> <header id="title-block-header"> <h1 class="title">Manuel - Services de Sante</h1> </header> <h1 id="guide-des-services-de-sant">Guide des Services de Sant?</h1> <h2 id="rle-et-responsabilits">?? R?le et Responsabilit?s</h2> <p>Les Services de Sant? (H?pitaux, Services de Secours, SAMU) sont des acteurs essentiels du syst?me DOSER, responsables de la prise en charge m?dicale des victimes dÔÇÖaccidents et de la collecte de donn?es sanitaires cruciales.</p> <h2 id="missions-principales">?? Missions Principales</h2> <ul> <li><strong>Prise en charge</strong> m?dicale des victimes dÔÇÖaccidents</li> <li><strong>Collecte</strong> de donn?es sanitaires via DOSER DATA CAPTURE</li> <li><strong>Coordination</strong> avec les services dÔÇÖurgence</li> <li><strong>Transmission</strong> des informations m?dicales</li> <li><strong>Suivi</strong> de lÔÇÖ?tat des victimes</li> </ul> <h2 id="utilisation-de-doser-data-capture">?? Utilisation de DOSER DATA CAPTURE</h2> <h3 id="cas-dusage-spcifiques">Cas dÔÇÖUsage Sp?cifiques</h3> <h4 id="accueillir-et-dclarer-les-victimes">1. Accueillir et D?clarer les Victimes</h4> <ul> <li><strong>Enregistrement</strong> de lÔÇÖarriv?e des victimes</li> <li><strong>Collecte</strong> des informations n?cessaires pour le traitement</li> <li><strong>Identification</strong> des victimes et de leur ?tat</li> <li><strong>Priorisation</strong> selon la gravit? des blessures</li> </ul> <h4 id="identifier-les-traumatismes">2. Identifier les Traumatismes</h4> <ul> <li><strong>?valuation</strong> et documentation des blessures physiques</li> <li><strong>Classification</strong> des traumatismes par gravit?</li> <li><strong>Localisation</strong> pr?cise des blessures</li> <li><strong>?valuation</strong> de lÔÇÖ?tat g?n?ral des patients</li> </ul> <h4 id="administrer-les-soins-mdicaux">3. Administrer les Soins M?dicaux</h4> <ul> <li><strong>Fourniture</strong> des soins m?dicaux n?cessaires</li> <li><strong>Adaptation</strong> du traitement selon les blessures</li> <li><strong>Coordination</strong> avec les sp?cialistes</li> <li><strong>Suivi</strong> de lÔÇÖ?volution de lÔÇÖ?tat des patients</li> </ul> <h4 id="partager-le-dossier-mdical">4. Partager le Dossier M?dical</h4> <ul> <li><strong>Transmission</strong> des informations m?dicales pertinentes</li> <li><strong>Communication</strong> avec les compagnies dÔÇÖassurance</li> <li><strong>?change</strong> de donn?es avec les autres services</li> <li><strong>Respect</strong> du secret m?dical et de la confidentialit?</li> </ul> <h4 id="produire-des-rapports-statistiques">5. Produire des Rapports Statistiques</h4> <ul> <li><strong>G?n?ration</strong> de rapports sur le nombre de victimes</li> <li><strong>Analyse</strong> des types de blessures les plus fr?quents</li> <li><strong>Statistiques</strong> sur les temps de prise en charge</li> <li><strong>?valuation</strong> de lÔÇÖefficacit? des soins</li> </ul> <h2 id="fonctionnalits-spcialises">?? Fonctionnalit?s Sp?cialis?es</h2> <h3 id="interface-sant">Interface Sant?</h3> <ul> <li><strong>Formulaires</strong> adapt?s aux donn?es m?dicales</li> <li><strong>Templates</strong> de rapports m?dicaux standardis?s</li> <li><strong>Workflows</strong> de validation m?dicale</li> <li><strong>Int?gration</strong> avec les syst?mes hospitaliers</li> </ul> <h3 id="outils-mdicaux">Outils M?dicaux</h3> <ul> <li><strong>Classification</strong> des traumatismes (AIS, ISS)</li> <li><strong>?valuation</strong> de la gravit? des blessures</li> <li><strong>Pr?diction</strong> des risques de complications</li> <li><strong>Recommandations</strong> de traitement</li> </ul> <h3 id="coordination-multi-services">Coordination Multi-Services</h3> <ul> <li><strong>Communication</strong> avec les forces de lÔÇÖordre</li> <li><strong>Coordination</strong> avec les services de secours</li> <li><strong>Transmission</strong> aux compagnies dÔÇÖassurance</li> <li><strong>Suivi</strong> des proc?dures administratives</li> </ul> <h2 id="workflow-oprationnel">?? Workflow Op?rationnel</h2> <h3 id="phase-1-arrive-des-victimes">Phase 1 : Arriv?e des Victimes</h3> <ol type="1"> <li><strong>Accueil</strong> et triage des victimes</li> <li><strong>?valuation</strong> rapide de lÔÇÖ?tat g?n?ral</li> <li><strong>Priorisation</strong> selon la gravit?</li> <li><strong>D?marrage</strong> de lÔÇÖapplication DOSER DATA CAPTURE</li> </ol> <h3 id="phase-2-prise-en-charge-mdicale">Phase 2 : Prise en Charge M?dicale</h3> <ol type="1"> <li><strong>Examen</strong> m?dical approfondi</li> <li><strong>Documentation</strong> des blessures et traumatismes</li> <li><strong>Administration</strong> des soins n?cessaires</li> <li><strong>Coordination</strong> avec les sp?cialistes</li> </ol> <h3 id="phase-3-suivi-et-transmission">Phase 3 : Suivi et Transmission</h3> <ol type="1"> <li><strong>Suivi</strong> de lÔÇÖ?volution de lÔÇÖ?tat des patients</li> <li><strong>Mise ? jour</strong> des informations m?dicales</li> <li><strong>Transmission</strong> des donn?es aux services comp?tents</li> <li><strong>Archivage</strong> des dossiers m?dicaux</li> </ol> <h2 id="cas-particuliers">?? Cas Particuliers</h2> <h3 id="victimes-graves">Victimes Graves</h3> <ul> <li><strong>Prise en charge</strong> prioritaire et intensive</li> <li><strong>Coordination</strong> renforc?e avec les sp?cialistes</li> <li><strong>Documentation</strong> d?taill?e de lÔÇÖ?tat critique</li> <li><strong>Communication</strong> imm?diate avec les familles</li> </ul> <h3 id="accidents-multi-victimes">Accidents Multi-Victimes</h3> <ul> <li><strong>Organisation</strong> des soins en mode catastrophe</li> <li><strong>Coordination</strong> entre plusieurs ?quipes m?dicales</li> <li><strong>Priorisation</strong> des interventions</li> <li><strong>Gestion</strong> des ressources limit?es</li> </ul> <h3 id="dcs-sur-les-lieux">D?c?s sur les Lieux</h3> <ul> <li><strong>Constation</strong> m?dicale du d?c?s</li> <li><strong>Pr?servation</strong> des preuves m?dicales</li> <li><strong>Coordination</strong> avec les services judiciaires</li> <li><strong>Communication</strong> avec les familles</li> </ul> <h2 id="indicateurs-de-performance">?? Indicateurs de Performance</h2> <h3 id="mtriques-mdicales">M?triques M?dicales</h3> <ul> <li><strong>Temps</strong> de prise en charge moyen</li> <li><strong>Taux</strong> de survie des victimes graves</li> <li><strong>Efficacit?</strong> des traitements</li> <li><strong>Satisfaction</strong> des patients et familles</li> </ul> <h3 id="mtriques-oprationnelles">M?triques Op?rationnelles</h3> <ul> <li><strong>Taux</strong> de compl?tude des donn?es m?dicales</li> <li><strong>Qualit?</strong> de la documentation</li> <li><strong>Rapidit?</strong> de transmission des informations</li> <li><strong>Coordination</strong> avec les autres services</li> </ul> <h2 id="confidentialit-et-thique">?? Confidentialit? et ?thique</h2> <h3 id="secret-mdical">Secret M?dical</h3> <ul> <li><strong>Protection</strong> des informations personnelles</li> <li><strong>Respect</strong> de la confidentialit?</li> <li><strong>Autorisation</strong> des patients pour le partage</li> <li><strong>Conformit?</strong> aux r?glementations m?dicales</li> </ul> <h3 id="gestion-des-donnes">Gestion des Donn?es</h3> <ul> <li><strong>Chiffrement</strong> des donn?es sensibles</li> <li><strong>Acc?s</strong> contr?l? et trac?</li> <li><strong>Archivage</strong> s?curis?</li> <li><strong>Suppression</strong> selon les d?lais l?gaux</li> </ul> <h2 id="support-et-formation">?? Support et Formation</h2> <h3 id="ressources-disponibles">Ressources Disponibles</h3> <ul> <li><strong>Formation</strong> m?dicale sp?cialis?e</li> <li><strong>Documentation</strong> technique d?taill?e</li> <li><strong>Support</strong> technique 24/7</li> <li><strong>Communaut?</strong> de professionnels de sant?</li> </ul> <h3 id="contacts">Contacts</h3> <ul> <li><strong>Support technique</strong> : support@doser.cm</li> <li><strong>Formation m?dicale</strong> : formation-sante@doser.cm</li> <li><strong>Urgences m?dicales</strong> : 119 (SAMU)</li> </ul> <hr /> <p><em>Pour plus dÔÇÖinformations sur les proc?dures techniques, consultez le <a href="modules/collecte-donnees.md">guide de lÔÇÖapplication mobile</a>.</em></p> </body> </html>
+    
+    <div class="page-break" style="margin-top: 50px; text-align: center; color: #666; font-size: 9pt;">
+        <hr style="border: 1px solid #ddd; margin: 20px 0;">
+        <p>Documentation DOSER - Systeme de Gestion des Donnees de Securite Routiere</p>
+        <p>Genere automatiquement le 17/10/2025 a 10:28</p>
+    </div>
+</body>
+</html>

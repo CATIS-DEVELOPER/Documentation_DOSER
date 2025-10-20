@@ -1,11 +1,6 @@
-site_name: ""
+site_name: "Documentation DOSER"
 site_url: https://documentation-doser.readthedocs.io/
 site_description: Documentation complète du système unifié de gestion des accidents de la route au Cameroun
-
-extra:
-  dhis2_languages:
-    en: 'English'
-    fr: 'Français'
 
 theme:
   name: material
@@ -14,26 +9,20 @@ theme:
   logo: assets/logo.png
   favicon: assets/favicon.ico
   features:
-    - navigation.menutabs
-    - navigation.top
     - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
     - navigation.indexes
-    #- navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - toc.integration
-    ##- navigation.tabs.integrate
     - navigation.instant
-    ##- navigation.tracking
-    ##- navigation.footer
-    - navigation.prune
+    - navigation.tracking
+    - navigation.expand
+    - toc.follow
     - search.suggest
     - search.highlight
     - search.share
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-    - content.action.edit
   
   palette:
     - scheme: default
@@ -62,51 +51,110 @@ filter:
       - Développement & Technique
      
 nav:
-  - Accueil: index.md
+  - 🏠 Accueil: index.md
+  
+  - 📚 Guides Rapides:
+      - user/quick-start/index.md
+      - Démarrage Rapide:
+          - Agents Constatateurs: user/quick-start/agents-constatateurs.md
+          - Services de Santé: user/quick-start/services-sante.md
+          - Compagnies d'Assurance: user/quick-start/compagnies-assurance.md
+          - Agents de Validation: user/quick-start/agents-validation.md
+          - Administrateurs: user/quick-start/administrateurs.md
+          - Usagers (Grand Public): user/quick-start/usagers.md
+          - Morgue: user/quick-start/morgue.md
+          - Agences de Voyage: user/quick-start/agence-voyage.md
+      - Tutoriels:
+          - user/tutoriels/index.md
+          - Géolocaliser un Accident: user/tutoriels/geolocaliser.md
+          - Créer un Croquis: user/tutoriels/creer-croquis.md
+          - Optimiser les Photos: user/tutoriels/photos-optimales.md
+          - Mode Hors Ligne: user/tutoriels/mode-hors-ligne.md
+  
+  - 📕 Manuels de Référence:
+      - manuel/index.md
+      - Par Rôle:
+          - Agents Constatateurs: manuel/agents-constatateurs.md
+          - Services de Santé: manuel/services-sante.md
+          - Compagnies d'Assurance: manuel/compagnies-assurance.md
+          - Agents de Validation: manuel/agents-validation.md
+          - Administrateurs: manuel/administrateurs.md
+          - Usagers (Grand Public): manuel/usagers.md
+          - Morgue: manuel/morgue.md
+          - Agences de Voyage: manuel/agence-voyage.md
+      - Référence Technique:
+          - Codes d'Erreur: manuel/reference/codes-erreur.md
+          - Glossaire: manuel/reference/glossaire.md
+          - API Reference: manuel/reference/api-reference.md
 
-  - " Développement & Technique":
-      - " Spécifications Fonctionnelles": developpement/specifications-fonctionnelles.md
-      - " Architecture Technique": developpement/architecture-technique.md
-      - " Plan de Sécurité": developpement/plan-securite.md
+  - 📊 Modules Fonctionnels:
+      - Accueil: modules/index.md
+      - Collecte de Données: modules/collecte-donnees.md
+      - Validation: modules/validation-constats.md
+      - Analyse & Reporting: modules/analyse-reporting.md
+      - Cartographie: modules/cartographie-accidents.md
+      - Module VAAR: modules/module-vaar.md
+      - Statistiques: modules/statistiques-metriques.md
+  
+  - 🚀 Guides d'Implémentation:
+      - Accueil: implementation/index.md
+      - Installation: implementation/installation.md
+      - Déploiement: implementation/deployment.md
+      - Maintenance: implementation/maintenance.md
+      - Sauvegarde: implementation/backup-procedures.md
+  
+  - 💻 Documentation Développeur:
+      - Accueil: developer/index.md
+      - Architecture: developer/architecture.md
+      - Spécifications: developer/specifications.md
+      - Sécurité: developer/security-plan.md
+      - Tests: developer/testing-strategy.md
+      - API: developer/api-reference.md
+      - Setup Dev: developer/setup.md
+      - Contribution: developer/contributing.md
+  
 
-  - " Déploiement & Administration":
-      - " Guide d'Installation": deployment/guide-installation.md
-      - " Guide de l'Administrateur": deployment/guide-administrateur.md
-      - " Procédures de Sauvegarde": deployment/procedures-sauvegarde.md
-
-  - " 👥 Guides par Acteur":
-      - "👮 Agents Constatateurs": acteurs/agents-constatateurs.md
-      - "🔍 Agents de Validation": acteurs/agents-validation.md
-      - "👮 Forces de l'Ordre": acteurs/forces-ordre.md
-      - "🏥 Services de Santé": acteurs/services-sante.md
-      - "🏢 Compagnies d'Assurance": acteurs/assurances.md
-      - "👮 Administrateurs": acteurs/administrateurs.md
-
-  - " 📊 Modules Fonctionnels":
-      - "📱 Collecte de Données": modules/collecte-donnees.md
-      - "✅ Validation des Constats": modules/validation-constats.md
-      - "📈 Analyse et Reporting": modules/analyse-reporting.md
-      - "🗺️ Cartographie des Accidents": modules/cartographie-accidents.md
-      - "🚨 Module VAAR": modules/module-vaar.md
-      - "📊 Statistiques et Métriques": modules/statistiques-metriques.md
-
-  - " 💻 Pour les Développeurs":
-      - " 🚀 Environnement de Dev": developpers/setup.md
-      - " 📚 Référence API": developpers/api-reference.md
-      - " 🤝 Guide de Contribution": developpers/contributing.md
-
+# Markdown Extensions
 markdown_extensions:
   - admonition
-  - pymdownx.highlight
-  - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
   - tables
   - attr_list
   - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+# Plugins
 plugins:
-  - search
+  - search:
+      lang: fr
+      separator: '[\s\-\.]+'
 
+# Extra CSS
 extra_css:
-  ##- assets/css/custom.css
  - assets/css/dhis2.css
+
+# Extra
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ditros
+    - icon: fontawesome/solid/envelope
+      link: mailto:contact@ditros.org
+  version:
+    provider: mike

@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel - Agences de Voyage</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: none;
+            margin: 0;
+            padding: 0;
+            font-size: 11pt;
+        }
+        
+        h1 {
+            color: #2c5aa0;
+            border-bottom: 3px solid #2c5aa0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            page-break-before: always;
+        }
+        
+        h1:first-child {
+            page-break-before: avoid;
+        }
+        
+        h2 {
+            color: #3d7cc9;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            color: #4a90e2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+        
+        h4, h5, h6 {
+            color: #5ba0f2;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 10pt;
+        }
+        
+        pre {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #2c5aa0;
+            page-break-inside: avoid;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 9pt;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 10pt;
+        }
+        
+        th {
+            background-color: #2c5aa0;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            page-break-inside: avoid;
+        }
+        
+        blockquote {
+            border-left: 4px solid #2c5aa0;
+            padding-left: 20px;
+            margin-left: 0;
+            color: #666;
+            font-style: italic;
+            page-break-inside: avoid;
+        }
+        
+        ul, ol {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .no-break {
+            page-break-inside: avoid;
+        }
+        
+        /* Styles specifiques pour les emojis et icones */
+        .emoji {
+            font-size: 1.2em;
+        }
+        
+        /* Header et footer */
+        @media print {
+            body {
+                margin-top: 1cm;
+                margin-bottom: 1cm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-break">
+        <h1>Manuel - Agences de Voyage</h1>
+        <p><em>Documentation DOSER - Genere le 17/10/2025 a 10:28</em></p>
+        <hr style="border: 1px solid #2c5aa0; margin: 20px 0;">
+    </div>
+    
+    <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""> <head>   <meta charset="utf-8" />   <meta name="generator" content="pandoc" />   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />   <title>Manuel - Agences de Voyage</title>   <style>     /* Default styles provided by pandoc.     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.     */     html {       color: #1a1a1a;       background-color: #fdfdfd;     }     body {       margin: 0 auto;       max-width: 36em;       padding-left: 50px;       padding-right: 50px;       padding-top: 50px;       padding-bottom: 50px;       hyphens: auto;       overflow-wrap: break-word;       text-rendering: optimizeLegibility;       font-kerning: normal;     }     @media (max-width: 600px) {       body {         font-size: 0.9em;         padding: 12px;       }       h1 {         font-size: 1.8em;       }     }     @media print {       html {         background-color: white;       }       body {         background-color: transparent;         color: black;         font-size: 12pt;       }       p, h2, h3 {         orphans: 3;         widows: 3;       }       h2, h3, h4 {         page-break-after: avoid;       }     }     p {       margin: 1em 0;     }     a {       color: #1a1a1a;     }     a:visited {       color: #1a1a1a;     }     img {       max-width: 100%;     }     svg {       height: auto;       max-width: 100%;     }     h1, h2, h3, h4, h5, h6 {       margin-top: 1.4em;     }     h5, h6 {       font-size: 1em;       font-style: italic;     }     h6 {       font-weight: normal;     }     ol, ul {       padding-left: 1.7em;       margin-top: 1em;     }     li > ol, li > ul {       margin-top: 0;     }     blockquote {       margin: 1em 0 1em 1.7em;       padding-left: 1em;       border-left: 2px solid #e6e6e6;       color: #606060;     }     code {       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;       font-size: 85%;       margin: 0;       hyphens: manual;     }     pre {       margin: 1em 0;       overflow: auto;     }     pre code {       padding: 0;       overflow: visible;       overflow-wrap: normal;     }     .sourceCode {      background-color: transparent;      overflow: visible;     }     hr {       border: none;       border-top: 1px solid #1a1a1a;       height: 1px;       margin: 1em 0;     }     table {       margin: 1em 0;       border-collapse: collapse;       width: 100%;       overflow-x: auto;       display: block;       font-variant-numeric: lining-nums tabular-nums;     }     table caption {       margin-bottom: 0.75em;     }     tbody {       margin-top: 0.5em;       border-top: 1px solid #1a1a1a;       border-bottom: 1px solid #1a1a1a;     }     th {       border-top: 1px solid #1a1a1a;       padding: 0.25em 0.5em 0.25em 0.5em;     }     td {       padding: 0.125em 0.5em 0.25em 0.5em;     }     header {       margin-bottom: 4em;       text-align: center;     }     #TOC li {       list-style: none;     }     #TOC ul {       padding-left: 1.3em;     }     #TOC > ul {       padding-left: 0;     }     #TOC a:not(:hover) {       text-decoration: none;     }     code{white-space: pre-wrap;}     span.smallcaps{font-variant: small-caps;}     div.columns{display: flex; gap: min(4vw, 1.5em);}     div.column{flex: auto; overflow-x: auto;}     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}     /* The extra [class] is a hack that increases specificity enough to        override a similar rule in reveal.js */     ul.task-list[class]{list-style: none;}     ul.task-list li input[type="checkbox"] {       font-size: inherit;       width: 0.8em;       margin: 0 0.8em 0.2em -1.6em;       vertical-align: middle;     }     .display.math{display: block; text-align: center; margin: 0.5rem auto;}   </style> </head> <body> <header id="title-block-header"> <h1 class="title">Manuel - Agences de Voyage</h1> </header> <h1 id="manuel-complet-agences-de-voyage">?? Manuel Complet : Agences de Voyage</h1> <p><strong>Version</strong> : 2.0 | <strong>Derni?re mise ? jour</strong> : 9 octobre 2025</p> <hr /> <h2 id="table-des-matires">?? Table des Mati?res</h2> <ol type="1"> <li><a href="#introduction">Introduction</a></li> <li><a href="#configuration-agence">Configuration Agence</a></li> <li><a href="#gestion-de-la-flotte">Gestion de la Flotte</a></li> <li><a href="#d?claration-daccidents">D?claration dÔÇÖAccidents</a></li> <li><a href="#gestion-des-passagers">Gestion des Passagers</a></li> <li><a href="#statistiques-et-analyse">Statistiques et Analyse</a></li> <li><a href="#coordination-assurances">Coordination Assurances</a></li> <li><a href="#pr?vention-et-s?curit?">Pr?vention et S?curit?</a></li> <li><a href="#conformit?-r?glementaire">Conformit? R?glementaire</a></li> <li><a href="#annexes">Annexes</a></li> </ol> <hr /> <h2 id="introduction">1. Introduction</h2> <h3 id="rle-des-agences-de-voyage-dans-doser">1.1 R?le des Agences de Voyage dans DOSER</h3> <p>Les agences de transport routier sont des acteurs cl?s pour :</p> <ul> <li><strong>D?clarer</strong> les accidents impliquant leurs v?hicules</li> <li><strong>G?rer</strong> les informations sur leurs flottes</li> <li><strong>Coordonner</strong> avec assurances et autorit?s</li> <li><strong>Suivre</strong> la s?curit? de leurs trajets</li> <li><strong>Contribuer</strong> ? lÔÇÖam?lioration de la s?curit? routi?re</li> </ul> <h3 id="types-dagences-concernes">1.2 Types dÔÇÖAgences Concern?es</h3> <ul> <li>?? <strong>Transport interurbain</strong> : Lignes r?guli?res entre villes</li> <li>?? <strong>Transport urbain</strong> : Bus et minibus urbains</li> <li>?? <strong>Taxis et VTC</strong> : Transport individuel</li> <li>?? <strong>Location de v?hicules</strong> : Avec ou sans chauffeur</li> <li>?? <strong>Transport touristique</strong> : Voyages organis?s</li> <li>?? <strong>Transport scolaire</strong> : Ramassage scolaire</li> </ul> <h3 id="avantages-du-module-agences">1.3 Avantages du Module Agences</h3> <ul> <li>? <strong>Centralisation</strong> : Tous vos v?hicules et trajets dans un seul syst?me</li> <li>? <strong>Automatisation</strong> : Notifications assurances automatiques</li> <li>? <strong>Statistiques</strong> : Analyse de votre performance s?curit?</li> <li>? <strong>Conformit?</strong> : Respect des obligations r?glementaires</li> <li>? <strong>Optimisation</strong> : Identification des risques et actions pr?ventives</li> </ul> <hr /> <h2 id="configuration-agence">2. Configuration Agence</h2> <h3 id="informations-de-lagence">2.1 Informations de lÔÇÖAgence</h3> <h4 id="donnes-gnrales">Donn?es G?n?rales</h4> <table> <thead> <tr> <th>Champ</th> <th>Obligatoire</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>Nom commercial</td> <td>Oui</td> <td>Raison sociale</td> </tr> <tr> <td>Num?ro dÔÇÖagr?ment</td> <td>Oui</td> <td>D?livr? par MINT</td> </tr> <tr> <td>RCCM</td> <td>Oui</td> <td>Registre du commerce</td> </tr> <tr> <td>NUI</td> <td>Oui</td> <td>Num?ro unique dÔÇÖidentification</td> </tr> <tr> <td>Adresse si?ge</td> <td>Oui</td> <td>Adresse compl?te</td> </tr> <tr> <td>T?l?phone</td> <td>Oui</td> <td>Ligne principale</td> </tr> <tr> <td>Email</td> <td>Oui</td> <td>Email officiel</td> </tr> </tbody> </table> <h4 id="responsables">Responsables</h4> <ol type="1"> <li><strong>Directeur G?n?ral</strong> : <ul> <li>Nom, t?l?phone, email</li> <li>Responsable l?gal</li> </ul></li> <li><strong>Responsable S?curit?</strong> : <ul> <li>Nom, t?l?phone, email</li> <li>Point de contact DOSER</li> </ul></li> <li><strong>Responsable Flotte</strong> : <ul> <li>Gestion des v?hicules</li> <li>Maintenance</li> </ul></li> </ol> <h4 id="zones-dopration">Zones dÔÇÖOp?ration</h4> <p>D?finissez vos zones de couverture : - R?gions desservies - Principales lignes - Gares/agences secondaires</p> <h3 id="configuration-des-assurances">2.2 Configuration des Assurances</h3> <h4 id="assurance-flotte">Assurance Flotte</h4> <ol type="1"> <li><strong>Compagnie dÔÇÖassurance</strong> : <ul> <li>Nom et contact</li> <li>Num?ro de contrat cadre</li> <li>Date dÔÇÖeffet et ?ch?ance</li> </ul></li> <li><strong>Couvertures</strong> : <ul> <li>Responsabilit? civile</li> <li>Dommages tous accidents</li> <li>Protection passagers</li> <li>Assistance 24/7</li> </ul></li> <li><strong>Plafonds</strong> : <ul> <li>Par victime</li> <li>Par accident</li> <li>Annuel</li> </ul></li> </ol> <h4 id="assurances-spcifiques">Assurances Sp?cifiques</h4> <ul> <li>Transport de marchandises</li> <li>Transport scolaire</li> <li>Transport touristique international</li> </ul> <hr /> <h2 id="gestion-de-la-flotte">3. Gestion de la Flotte</h2> <h3 id="enregistrement-des-vhicules">3.1 Enregistrement des V?hicules</h3> <h4 id="donnes-vhicule">Donn?es V?hicule</h4> <table> <thead> <tr> <th>Cat?gorie</th> <th>Informations</th> </tr> </thead> <tbody> <tr> <td><strong>Identification</strong></td> <td>Immatriculation, ch?ssis, type, marque, mod?le</td> </tr> <tr> <td><strong>Caract?ristiques</strong></td> <td>Nombre places, puissance, carburant, couleur</td> </tr> <tr> <td><strong>Mise en circulation</strong></td> <td>Date, pays dÔÇÖorigine</td> </tr> <tr> <td><strong>?tat</strong></td> <td>Actif, En maintenance, Hors service, Accident?</td> </tr> </tbody> </table> <h4 id="documents-vhicule">Documents V?hicule</h4> <ol type="1"> <li><strong>Carte Grise</strong> : <ul> <li>Upload document</li> <li>Date dÔÇÖ?mission</li> <li>Validit?</li> </ul></li> <li><strong>Assurance</strong> : <ul> <li>Attestation ? jour</li> <li>Date expiration</li> <li>Alertes automatiques 30 jours avant</li> </ul></li> <li><strong>Visite Technique</strong> : <ul> <li>Certificat valide</li> <li>Prochaine ?ch?ance</li> <li>Alertes automatiques</li> </ul></li> <li><strong>Permis de Transport</strong> : <ul> <li>Pour v?hicules &gt; 9 places</li> <li>Renouvelable annuellement</li> </ul></li> </ol> <h3 id="gestion-des-conducteurs">3.2 Gestion des Conducteurs</h3> <h4 id="enregistrement-chauffeur">Enregistrement Chauffeur</h4> <table> <thead> <tr> <th>Information</th> <th>Obligatoire</th> <th>V?rification</th> </tr> </thead> <tbody> <tr> <td>Nom complet</td> <td>Oui</td> <td>CNI</td> </tr> <tr> <td>Date naissance</td> <td>Oui</td> <td>CNI</td> </tr> <tr> <td>Permis conduire</td> <td>Oui</td> <td>Cat?gorie adapt?e</td> </tr> <tr> <td>Date obtention</td> <td>Oui</td> <td>Anciennet? requise</td> </tr> <tr> <td>Expiration permis</td> <td>Oui</td> <td>Alerte automatique</td> </tr> <tr> <td>Num?ro t?l?phone</td> <td>Oui</td> <td>Contact direct</td> </tr> <tr> <td>Adresse</td> <td>Oui</td> <td>Domicile</td> </tr> </tbody> </table> <h4 id="affectation-vhicule-conducteur">Affectation V?hicule-Conducteur</h4> <ol type="1"> <li>Assignez chaque conducteur ? un ou plusieurs v?hicules</li> <li>Le syst?me v?rifie : <ul> <li>Permis adapt? au type de v?hicule</li> <li>Permis valide (pas expir?)</li> <li>Pas de suspension en cours</li> <li>Formation s?curit? ? jour</li> </ul></li> </ol> <h4 id="historique-conducteur">Historique Conducteur</h4> <p>Le syst?me enregistre : - Accidents impliqu?s - Infractions signal?es - Formations suivies - Score de s?curit?</p> <hr /> <h2 id="dclaration-daccidents">4. D?claration dÔÇÖAccidents</h2> <h3 id="dclaration-immdiate">4.1 D?claration Imm?diate</h3> <h4 id="sur-les-lieux-par-le-chauffeur">Sur les Lieux (Par le Chauffeur)</h4> <p>Le chauffeur peut d?clarer via : - <strong>Application mobile DOSER</strong> (si acc?s) - <strong>Appel hotline agence</strong> : Vous d?clarez - <strong>SMS au num?ro d?di?</strong> : Info basiques</p> <h4 id="depuis-lagence">Depuis lÔÇÖAgence</h4> <p>Si inform? par t?l?phone :</p> <ol type="1"> <li><strong>Recueillez</strong> : <ul> <li>Qui appelle (chauffeur, t?moin, autorit?)</li> <li>O? (lieu pr?cis)</li> <li>Quand (heure exacte)</li> <li>Quoi (description rapide)</li> <li>Gravit? (bless?s, d?g?ts)</li> </ul></li> <li><strong>D?clarez imm?diatement</strong> dans DOSER</li> <li><strong>Coordonnez</strong> : <ul> <li>Envoi assistance si n?cessaire</li> <li>Information familles passagers</li> <li>Notification assurance</li> <li>Contact autorit?s</li> </ul></li> </ol> <h3 id="formulaire-dtaill">4.2 Formulaire D?taill?</h3> <h4 id="section-1-vhicule-et-trajet">Section 1 : V?hicule et Trajet</h4> <table> <thead> <tr> <th>Champ</th> <th>D?tails</th> </tr> </thead> <tbody> <tr> <td>V?hicule</td> <td>S?lection dans flotte ou saisie immatriculation</td> </tr> <tr> <td>Conducteur</td> <td>Nom, permis, t?l?phone</td> </tr> <tr> <td>Ligne</td> <td>Num?ro ligne r?guli?re ou ÔÇ£Voyage sp?cialÔÇØ</td> </tr> <tr> <td>Trajet</td> <td>D?part, destination, lieu accident</td> </tr> <tr> <td>KM parcouru</td> <td>Depuis d?part</td> </tr> <tr> <td>?tat v?hicule</td> <td>Avant accident (bon ?tat, probl?me signal?)</td> </tr> </tbody> </table> <h4 id="section-2-circonstances">Section 2 : Circonstances</h4> <ul> <li>Date et heure exactes</li> <li>Conditions m?t?o</li> <li>?tat de la route</li> <li>Visibilit?</li> <li>Type dÔÇÖaccident</li> <li>Cause probable</li> <li>Vitesse approximative</li> <li>Autres v?hicules impliqu?s</li> </ul> <h4 id="section-3-passagers">Section 3 : Passagers</h4> <p>Pour chaque passager :</p> <table> <thead> <tr> <th>Information</th> <th>Obligatoire</th> <th>Note</th> </tr> </thead> <tbody> <tr> <td>Nom complet</td> <td>Oui</td> <td>Selon manifest</td> </tr> <tr> <td>Num?ro si?ge</td> <td>Non</td> <td>Si connu</td> </tr> <tr> <td>?tat</td> <td>Oui</td> <td>Indemne/Bless?/D?c?d?</td> </tr> <tr> <td>Contact</td> <td>Si bless?</td> <td>T?l?phone personnel</td> </tr> <tr> <td>Contact famille</td> <td>Si grave</td> <td>Proche ? pr?venir</td> </tr> <tr> <td>Destination</td> <td>Non</td> <td>O? il allait</td> </tr> <tr> <td>Billet</td> <td>Non</td> <td>Num?ro de billet</td> </tr> </tbody> </table> <p><strong>Import CSV</strong> : Si vous avez le manifest ?lectronique</p> <h4 id="section-4-dgts">Section 4 : D?g?ts</h4> <p><strong>V?hicule de lÔÇÖagence</strong> : - Niveau dÔÇÖendommagement (l?ger, moyen, grave, ?pave) - Zones endommag?es (avant, arri?re, c?t?s, toit) - ?tat de marche (roule, immobilis?, d?truit) - Remorquage n?cessaire (oui/non)</p> <p><strong>Autres v?hicules</strong> : - Nombre - Types - Immatriculations si connues</p> <h4 id="section-5-documentation">Section 5 : Documentation</h4> <ul> <li><strong>Photos obligatoires</strong> : <ul> <li>Vue dÔÇÖensemble sc?ne</li> <li>V?hicule c?t? gauche</li> <li>V?hicule c?t? droit</li> <li>V?hicule avant</li> <li>V?hicule arri?re</li> <li>D?g?ts sp?cifiques</li> <li>Autres v?hicules</li> <li>Croquis ou plan (si possible)</li> </ul></li> <li><strong>Documents</strong> : <ul> <li>Constat amiable (si ?tabli)</li> <li>Rapport police (si disponible)</li> <li>Certificats m?dicaux (passagers)</li> </ul></li> </ul> <h3 id="validation-et-envoi">4.3 Validation et Envoi</h3> <p>Le syst?me v?rifie : - ? V?hicule enregistr? dans votre flotte - ? Conducteur assign? et permis valide - ? Assurance ? jour - ? Toutes les sections compl?tes - ? Photos minimum (5)</p> <p><strong>Envoi</strong> : 1. Cliquez sur <strong>ÔÇ£SoumettreÔÇØ</strong> 2. Num?ro de d?claration g?n?r? 3. Notifications automatiques : - Votre assurance - Assurances tiers - Forces de lÔÇÖOrdre - Familles (si victimes graves)</p> <hr /> <h2 id="gestion-des-passagers">5. Gestion des Passagers</h2> <h3 id="manifest-de-passagers">5.1 Manifest de Passagers</h3> <h4 id="cration-du-manifest">Cr?ation du Manifest</h4> <p>Pour chaque voyage :</p> <ol type="1"> <li>Menu &gt; <strong>Voyages</strong> &gt; <strong>Nouveau Manifest</strong></li> <li>Informations voyage : <ul> <li>Num?ro ligne ou code voyage</li> <li>Date et heure d?part</li> <li>V?hicule utilis?</li> <li>Conducteur</li> <li>Itin?raire complet</li> </ul></li> <li>Liste des passagers : <ul> <li>Manuel : Ajout un par un</li> <li>CSV : Import depuis votre syst?me de billetterie</li> <li>Scan : Scan des billets avec QR code</li> </ul></li> </ol> <h4 id="informations-passager">Informations Passager</h4> <table> <thead> <tr> <th>Champ</th> <th>Source</th> <th>Utilit?</th> </tr> </thead> <tbody> <tr> <td>Nom</td> <td>Billet</td> <td>Identification en cas accident</td> </tr> <tr> <td>T?l?phone</td> <td>R?servation</td> <td>Contact direct</td> </tr> <tr> <td>Num?ro si?ge</td> <td>Billet</td> <td>Localisation dans v?hicule</td> </tr> <tr> <td>Destination</td> <td>Billet</td> <td>Savoir o? il descend</td> </tr> <tr> <td>Contact urgence</td> <td>Optionnel</td> <td>Famille ? pr?venir</td> </tr> </tbody> </table> <h3 id="enregistrement-digital">5.2 Enregistrement Digital</h3> <p><strong>Avantages</strong> : - ? Manifest toujours disponible - ? Recherche rapide en cas dÔÇÖaccident - ? Export pour autorit?s - ? Statistiques de fr?quentation - ? Conformit? r?glementaire</p> <p><strong>Conservation</strong> : 6 mois minimum (obligation l?gale)</p> <hr /> <h2 id="statistiques-et-analyse">6. Statistiques et Analyse</h2> <h3 id="tableau-de-bord-scurit">6.1 Tableau de Bord S?curit?</h3> <h4 id="vue-densemble">Vue dÔÇÖEnsemble</h4> <p>Le dashboard affiche :</p> <p><strong>M?triques Globales</strong> : - Nombre total dÔÇÖaccidents (mois/ann?e) - Taux par km parcouru - Taux par passager-km - ?volution (am?lioration/d?gradation)</p> <p><strong>Comparatifs</strong> : - Votre agence vs moyenne nationale - Votre agence vs agences similaires - ?volution ann?e N vs N-1</p> <p><strong>Alertes</strong> : - ?? Augmentation accidents - ?? Itin?raire ? risque - ?? Conducteur r?current - ?? Performance excellente</p> <h3 id="statistiques-par-dimension">6.2 Statistiques par Dimension</h3> <h4 id="par-vhicule">Par V?hicule</h4> <p>Pour chaque v?hicule : - Nombre dÔÇÖaccidents - Gravit? moyenne - KM parcourus - Taux accident/km - Co?t total r?parations - Disponibilit? (% temps en service)</p> <p><strong>Classement</strong> : - ?? V?hicules les plus s?rs - ?? V?hicules ? probl?mes</p> <h4 id="par-conducteur">Par Conducteur</h4> <p>Pour chaque chauffeur : - Nombre dÔÇÖaccidents - Responsabilit? (oui/non) - KM parcourus - Score de s?curit? (0-100) - Formations suivies - Sanctions/r?compenses</p> <p><strong>Actions</strong> : - Formation renforc?e si score &lt; 50 - Prime de s?curit? si score &gt; 90</p> <h4 id="par-itinraire">Par Itin?raire</h4> <p>Pour chaque ligne : - Tron?ons ? risque - Heures dangereuses - Types dÔÇÖaccidents fr?quents - M?t?o critique - Points dÔÇÖattention</p> <p><strong>Optimisations</strong> : - Horaires ajust?s - Itin?raires alternatifs - Sensibilisation conducteurs</p> <h4 id="par-priode">Par P?riode</h4> <ul> <li>Heures de la journ?e</li> <li>Jours de la semaine</li> <li>Mois de lÔÇÖann?e</li> <li>P?riodes de f?tes</li> <li>Saisons (pluies, harmattan)</li> </ul> <p><strong>Tendances</strong> : - Pic accidents : Nuit, week-end - P?riodes s?res : Matin?e, milieu semaine</p> <h3 id="rapports-automatiques">6.3 Rapports Automatiques</h3> <h4 id="rapport-mensuel">Rapport Mensuel</h4> <p>G?n?ration automatique chaque 1er du mois : - R?sum? du mois ?coul? - Statistiques cl?s - Accidents d?taill?s - Recommandations - Comparatifs</p> <h4 id="rapport-annuel">Rapport Annuel</h4> <p>Bilan complet : - Performance s?curit? ann?e - ?volution sur 3 ans - Classement r?gional/national - Certification s?curit? - Plan dÔÇÖaction ann?e suivante</p> <h4 id="export-personnalis">Export Personnalis?</h4> <ol type="1"> <li>S?lectionnez p?riode</li> <li>Choisissez m?triques</li> <li>Format : PDF, Excel, CSV</li> <li>T?l?chargez ou planifiez envoi automatique</li> </ol> <hr /> <h2 id="coordination-assurances">7. Coordination Assurances</h2> <h3 id="dclaration-automatique">7.1 D?claration Automatique</h3> <p>D?s quÔÇÖun accident est d?clar? :</p> <ul> <li>? Notification instantan?e ? votre assureur</li> <li>? Transmission des informations cl?s</li> <li>? Partage des photos et documents</li> <li>? Cr?ation dossier sinistre</li> </ul> <p><strong>D?lai</strong> : &lt; 1 heure (vs 5 jours manuellement)</p> <h3 id="suivi-des-sinistres">7.2 Suivi des Sinistres</h3> <p>Pour chaque accident, suivez :</p> <table> <thead> <tr> <th>?tape</th> <th>D?lai Moyen</th> <th>Statut DOSER</th> </tr> </thead> <tbody> <tr> <td>D?claration</td> <td>J+0</td> <td>?? D?clar?</td> </tr> <tr> <td>Ouverture dossier</td> <td>J+1</td> <td>?? Pris en charge</td> </tr> <tr> <td>Expertise</td> <td>J+7</td> <td>?? En expertise</td> </tr> <tr> <td>Proposition</td> <td>J+30</td> <td>?? Proposition faite</td> </tr> <tr> <td>R?glement</td> <td>J+45</td> <td>?? R?gl?</td> </tr> </tbody> </table> <h3 id="gestion-multi-assurances">7.3 Gestion Multi-Assurances</h3> <p>Si plusieurs assurances concern?es :</p> <ul> <li><strong>Responsabilit?</strong> : Votre assurance</li> <li><strong>Tiers</strong> : Assurance autre v?hicule</li> <li><strong>Passagers</strong> : Assurances individuelles</li> </ul> <p>Le syst?me coordonne automatiquement tous les acteurs.</p> <hr /> <h2 id="prvention-et-scurit">8. Pr?vention et S?curit?</h2> <h3 id="programme-de-formation-conducteurs">8.1 Programme de Formation Conducteurs</h3> <h4 id="formation-initiale">Formation Initiale</h4> <p>Avant dÔÇÖassigner un conducteur : - ? V?rification permis et anciennet? - ? Formation s?curit? routi?re (2 jours) - ? Formation premiers secours - ? Test pratique sur votre type de v?hicule</p> <h4 id="formation-continue">Formation Continue</h4> <p>Obligatoire annuellement : - Rappel code de la route - Nouvelles r?glementations - Gestion situations dÔÇÖurgence - ?coconduite et maintenance pr?ventive</p> <p><strong>Enregistrement DOSER</strong> : - Dates des formations - Scores obtenus - Certificats upload?s - Validit?</p> <h4 id="formation-suite-accident">Formation Suite ? Accident</h4> <p>Si accident avec responsabilit? : - Formation obligatoire (3 jours) - Analyse de lÔÇÖaccident - Pr?vention r?cidive - Test avant reprise du service</p> <h3 id="maintenance-prventive">8.2 Maintenance Pr?ventive</h3> <h4 id="planning-de-maintenance">Planning de Maintenance</h4> <p>Le syst?me vous aide ? planifier :</p> <table> <thead> <tr> <th>Entretien</th> <th>Fr?quence</th> <th>Alerte</th> </tr> </thead> <tbody> <tr> <td>Vidange</td> <td>5 000 km</td> <td>J-500km</td> </tr> <tr> <td>Freins</td> <td>10 000 km</td> <td>J-1000km</td> </tr> <tr> <td>Pneus</td> <td>40 000 km</td> <td>J-5000km</td> </tr> <tr> <td>Visite technique</td> <td>1 an</td> <td>J-30</td> </tr> </tbody> </table> <h4 id="historique-maintenance">Historique Maintenance</h4> <p>Pour chaque v?hicule : - Toutes les interventions - Pi?ces remplac?es - Co?ts - Garage effectuant - Factures upload?es</p> <p><strong>Analyse</strong> : - V?hicules co?teux en maintenance - Pannes r?currentes - ROI (garde ou renouvelle)</p> <h3 id="analyse-des-risques">8.3 Analyse des Risques</h3> <h4 id="identification-des-facteurs-de-risque">Identification des Facteurs de Risque</h4> <p>Le syst?me identifie :</p> <p><strong>Facteurs V?hicule</strong> : - ?ge moyen flotte - ?tat m?canique - Incidents techniques</p> <p><strong>Facteurs Humains</strong> : - Conducteurs ? risque - Fatigue (heures de conduite) - Formation insuffisante</p> <p><strong>Facteurs Environnementaux</strong> : - Routes dangereuses - Conditions m?t?o - Horaires critiques</p> <h4 id="plan-daction">Plan dÔÇÖAction</h4> <p>Pour chaque risque identifi? : 1. <strong>?valuation</strong> : Probabilit? x Gravit? 2. <strong>Priorisation</strong> : Risques critiques dÔÇÖabord 3. <strong>Actions</strong> : Mesures pr?ventives 4. <strong>Suivi</strong> : Efficacit? des actions</p> <hr /> <h2 id="conformit-rglementaire">9. Conformit? R?glementaire</h2> <h3 id="obligations-lgales">9.1 Obligations L?gales</h3> <h4 id="dclaration-obligatoire">D?claration Obligatoire</h4> <p>Vous DEVEZ d?clarer :</p> <table> <thead> <tr> <th>Type Accident</th> <th>D?lai</th> <th>Autorit?</th> </tr> </thead> <tbody> <tr> <td>Avec d?c?s</td> <td>Imm?diat</td> <td>Police + DOSER</td> </tr> <tr> <td>Avec bless?s</td> <td>24h</td> <td>Police + DOSER</td> </tr> <tr> <td>Mat?riel &gt; 500k</td> <td>48h</td> <td>DOSER</td> </tr> <tr> <td>Multi-v?hicules</td> <td>24h</td> <td>Police + DOSER</td> </tr> </tbody> </table> <h4 id="documents-tenir-jour">Documents ? Tenir ? Jour</h4> <p><strong>Par V?hicule</strong> : - Carte grise (original) - Assurance en cours (photocopie affich?e) - Visite technique valide - Permis de transport (si &gt;9 places)</p> <p><strong>Par Conducteur</strong> : - Permis conduire valide - Certificat m?dical (&lt; 1 an) - Attestation formation s?curit? - Casier judiciaire (&lt; 3 mois)</p> <p><strong>Agence</strong> : - Agr?ment transport - RCCM - Assurance responsabilit? civile - Registre des contr?les</p> <h3 id="inspections-et-contrles">9.2 Inspections et Contr?les</h3> <h4 id="contrles-routiers">Contr?les Routiers</h4> <p>DOSER facilite les contr?les : - QR Code sur chaque v?hicule - Scan par autorit?s - Acc?s imm?diat aux documents digitaux - V?rification instantan?e validit?</p> <h4 id="inspections-agence">Inspections Agence</h4> <p>Lors des inspections administratives : - Export des donn?es DOSER - Preuve de d?claration des accidents - Statistiques de s?curit? - Actions pr?ventives mises en place</p> <h3 id="sanctions-et-rcompenses">9.3 Sanctions et R?compenses</h3> <h4 id="sanctions-possibles">Sanctions Possibles</h4> <ul> <li>Amende en cas de non-d?claration</li> <li>Suspension dÔÇÖagr?ment si r?currence</li> <li>Augmentation primes assurance</li> </ul> <h4 id="rcompenses">R?compenses</h4> <p>DOSER permet dÔÇÖobtenir : - ?? <strong>Badge de S?curit?</strong> : 0 accident grave sur 1 an - ?? <strong>R?duction primes</strong> : JusquÔÇÖ? 20% si bon score - ? <strong>Label Excellence</strong> : Top 10% agences les plus s?res - ?? <strong>Valorisation marketing</strong> : Affichage du score s?curit?</p> <hr /> <h2 id="annexes">10. Annexes</h2> <h3 id="annexe-a-checklist-quotidienne">Annexe A : Checklist Quotidienne</h3> <p><strong>Chaque matin</strong> : - [ ] V?rifier ?tat de la flotte - [ ] Consulter alertes DOSER - [ ] V?rifier assurances ? jour - [ ] Contr?ler manifests du jour - [ ] Briefing s?curit? conducteurs</p> <p><strong>Chaque soir</strong> : - [ ] V?rifier tous les voyages rentr?s - [ ] Consulter incidents du jour - [ ] Mettre ? jour registres - [ ] Planifier maintenance</p> <h3 id="annexe-b-modles-de-documents">Annexe B : Mod?les de Documents</h3> <p>Disponibles en t?l?chargement : - Template manifest passagers (CSV) - Mod?le d?claration assurance - Rapport mensuel de s?curit? - Fiche conducteur - Checklist visite v?hicule</p> <h3 id="annexe-c-rglementation">Annexe C : R?glementation</h3> <p><strong>Textes applicables</strong> : - Loi N? 2012/XXX sur le transport routier - D?cret sur les normes de s?curit? - Code de la route camerounais - R?glementation CEMAC (transport international)</p> <h3 id="annexe-d-contacts-utiles">Annexe D : Contacts Utiles</h3> <p><strong>Autorit?s</strong> : - MINT (Minist?re Transports) : [Contact] - Police Routi?re : 117 - Gendarmerie : 119</p> <p><strong>Assurances</strong> : - [Liste compagnies agr??es transport]</p> <p><strong>Support DOSER</strong> : - Email : agences@doser.ditros.org - Hotline : +237 XXX XXX XXX (8h-18h) - Chat : Portail agences</p> <hr /> <p><strong>Vous ma?trisez maintenant le module Agences de Voyage DOSER !</strong> ??</p> <p>Pour optimiser votre s?curit? routi?re et r?duire vos co?ts, utilisez quotidiennement les statistiques et recommandations.</p> <hr /> <p><em>Manuel cr?? le : 9 octobre 2025 | Version : 2.0 | Pages : 72</em></p> </body> </html>
+    
+    <div class="page-break" style="margin-top: 50px; text-align: center; color: #666; font-size: 9pt;">
+        <hr style="border: 1px solid #ddd; margin: 20px 0;">
+        <p>Documentation DOSER - Systeme de Gestion des Donnees de Securite Routiere</p>
+        <p>Genere automatiquement le 17/10/2025 a 10:28</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide Rapide - Usagers</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: none;
+            margin: 0;
+            padding: 0;
+            font-size: 11pt;
+        }
+        
+        h1 {
+            color: #2c5aa0;
+            border-bottom: 3px solid #2c5aa0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            page-break-before: always;
+        }
+        
+        h1:first-child {
+            page-break-before: avoid;
+        }
+        
+        h2 {
+            color: #3d7cc9;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            color: #4a90e2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+        
+        h4, h5, h6 {
+            color: #5ba0f2;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 10pt;
+        }
+        
+        pre {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #2c5aa0;
+            page-break-inside: avoid;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 9pt;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 10pt;
+        }
+        
+        th {
+            background-color: #2c5aa0;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            page-break-inside: avoid;
+        }
+        
+        blockquote {
+            border-left: 4px solid #2c5aa0;
+            padding-left: 20px;
+            margin-left: 0;
+            color: #666;
+            font-style: italic;
+            page-break-inside: avoid;
+        }
+        
+        ul, ol {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .no-break {
+            page-break-inside: avoid;
+        }
+        
+        /* Styles specifiques pour les emojis et icones */
+        .emoji {
+            font-size: 1.2em;
+        }
+        
+        /* Header et footer */
+        @media print {
+            body {
+                margin-top: 1cm;
+                margin-bottom: 1cm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-break">
+        <h1>Guide Rapide - Usagers</h1>
+        <p><em>Documentation DOSER - Genere le 17/10/2025 a 10:27</em></p>
+        <hr style="border: 1px solid #2c5aa0; margin: 20px 0;">
+    </div>
+    
+    <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""> <head>   <meta charset="utf-8" />   <meta name="generator" content="pandoc" />   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />   <title>Guide Rapide - Usagers</title>   <style>     /* Default styles provided by pandoc.     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.     */     html {       color: #1a1a1a;       background-color: #fdfdfd;     }     body {       margin: 0 auto;       max-width: 36em;       padding-left: 50px;       padding-right: 50px;       padding-top: 50px;       padding-bottom: 50px;       hyphens: auto;       overflow-wrap: break-word;       text-rendering: optimizeLegibility;       font-kerning: normal;     }     @media (max-width: 600px) {       body {         font-size: 0.9em;         padding: 12px;       }       h1 {         font-size: 1.8em;       }     }     @media print {       html {         background-color: white;       }       body {         background-color: transparent;         color: black;         font-size: 12pt;       }       p, h2, h3 {         orphans: 3;         widows: 3;       }       h2, h3, h4 {         page-break-after: avoid;       }     }     p {       margin: 1em 0;     }     a {       color: #1a1a1a;     }     a:visited {       color: #1a1a1a;     }     img {       max-width: 100%;     }     svg {       height: auto;       max-width: 100%;     }     h1, h2, h3, h4, h5, h6 {       margin-top: 1.4em;     }     h5, h6 {       font-size: 1em;       font-style: italic;     }     h6 {       font-weight: normal;     }     ol, ul {       padding-left: 1.7em;       margin-top: 1em;     }     li > ol, li > ul {       margin-top: 0;     }     blockquote {       margin: 1em 0 1em 1.7em;       padding-left: 1em;       border-left: 2px solid #e6e6e6;       color: #606060;     }     code {       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;       font-size: 85%;       margin: 0;       hyphens: manual;     }     pre {       margin: 1em 0;       overflow: auto;     }     pre code {       padding: 0;       overflow: visible;       overflow-wrap: normal;     }     .sourceCode {      background-color: transparent;      overflow: visible;     }     hr {       border: none;       border-top: 1px solid #1a1a1a;       height: 1px;       margin: 1em 0;     }     table {       margin: 1em 0;       border-collapse: collapse;       width: 100%;       overflow-x: auto;       display: block;       font-variant-numeric: lining-nums tabular-nums;     }     table caption {       margin-bottom: 0.75em;     }     tbody {       margin-top: 0.5em;       border-top: 1px solid #1a1a1a;       border-bottom: 1px solid #1a1a1a;     }     th {       border-top: 1px solid #1a1a1a;       padding: 0.25em 0.5em 0.25em 0.5em;     }     td {       padding: 0.125em 0.5em 0.25em 0.5em;     }     header {       margin-bottom: 4em;       text-align: center;     }     #TOC li {       list-style: none;     }     #TOC ul {       padding-left: 1.3em;     }     #TOC > ul {       padding-left: 0;     }     #TOC a:not(:hover) {       text-decoration: none;     }     code{white-space: pre-wrap;}     span.smallcaps{font-variant: small-caps;}     div.columns{display: flex; gap: min(4vw, 1.5em);}     div.column{flex: auto; overflow-x: auto;}     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}     /* The extra [class] is a hack that increases specificity enough to        override a similar rule in reveal.js */     ul.task-list[class]{list-style: none;}     ul.task-list li input[type="checkbox"] {       font-size: inherit;       width: 0.8em;       margin: 0 0.8em 0.2em -1.6em;       vertical-align: middle;     }     .display.math{display: block; text-align: center; margin: 0.5rem auto;}   </style> </head> <body> <header id="title-block-header"> <h1 class="title">Guide Rapide - Usagers</h1> </header> <h1 id="guide-rapide-usagers-grand-public">?? Guide Rapide : Usagers (Grand Public)</h1> <p><strong>Dur?e estim?e</strong> : 8 minutes<br /> <strong>Niveau</strong> : D?butant<br /> <strong>Version</strong> : 2.0</p> <hr /> <h2 id="ce-que-vous-allez-apprendre">?? Ce que vous allez apprendre</h2> <p>? la fin de ce guide, vous saurez :</p> <p>? D?clarer un accident dont vous ?tes t?moin ou victime<br /> ? Suivre lÔÇÖ?volution de votre d?claration<br /> ? Consulter vos droits et d?marches<br /> ? Contacter les services dÔÇÖurgence<br /> ? Obtenir une attestation dÔÇÖaccident</p> <hr /> <h2 id="tape-1-accs-au-portail-citoyen-2-min">?? ?tape 1 : Acc?s au Portail Citoyen (2 min)</h2> <h3 id="premire-visite">Premi?re Visite</h3> <ol type="1"> <li>Allez sur : <strong>https://citoyen.doser.ditros.org</strong></li> <li>Cliquez sur <strong>ÔÇ£D?clarer un AccidentÔÇØ</strong> ou <strong>ÔÇ£Cr?er un CompteÔÇØ</strong></li> </ol> <h3 id="crer-un-compte-optionnel">Cr?er un Compte (Optionnel)</h3> <ol type="1"> <li>Cliquez sur <strong>ÔÇ£SÔÇÖinscrireÔÇØ</strong></li> <li>Remplissez vos informations : <ul> <li>Nom et pr?noms</li> <li>Num?ro de t?l?phone</li> <li>Email (optionnel)</li> </ul></li> <li>Cr?ez un mot de passe</li> <li>Validez votre compte par SMS</li> </ol> <p>?? <strong>Note</strong> : Vous pouvez d?clarer sans compte, mais un compte permet le suivi de vos d?clarations.</p> <hr /> <h2 id="tape-2-dclarer-un-accident-3-min">?? ?tape 2 : D?clarer un Accident (3 min)</h2> <h3 id="en-tant-que-tmoin">En Tant que T?moin</h3> <ol type="1"> <li><p>Cliquez sur <strong>ÔÇ£D?clarer un AccidentÔÇØ</strong></p></li> <li><p>S?lectionnez <strong>ÔÇ£Je suis t?moinÔÇØ</strong></p></li> <li><p><strong>Informations de base</strong> :</p> <ul> <li>Date et heure approximative</li> <li>Lieu (adresse ou description)</li> <li>Type dÔÇÖaccident (collision, pi?ton renvers?, etc.)</li> </ul></li> <li><p><strong>D?tails</strong> (si connus) :</p> <ul> <li>Nombre de v?hicules impliqu?s</li> <li>Nombre de victimes approximatif</li> <li>Gravit? apparente</li> </ul></li> <li><p><strong>Vos coordonn?es</strong> :</p> <ul> <li>Nom (optionnel)</li> <li>T?l?phone pour contact</li> <li>Email (optionnel)</li> </ul></li> <li><p><strong>Photos</strong> (si possible) :</p> <ul> <li>Vue dÔÇÖensemble de la sc?ne</li> <li>V?hicules impliqu?s</li> <li>Cliquez sur ÔÇ£Ajouter PhotosÔÇØ</li> </ul></li> <li><p><strong>Envoyez</strong> la d?claration</p></li> </ol> <h3 id="en-tant-que-victime">En Tant que Victime</h3> <ol type="1"> <li>S?lectionnez <strong>ÔÇ£Je suis victimeÔÇØ</strong></li> <li>Remplissez les m?mes informations que ci-dessus</li> <li><strong>Ajoutez</strong> : <ul> <li>Votre r?le (conducteur, passager, pi?ton)</li> <li>?tat de sant? (indemne, bless?)</li> <li>V?hicule impliqu? (si applicable)</li> </ul></li> </ol> <p>? <strong>R?sultat</strong> : Vous recevez un num?ro de d?claration par SMS/email</p> <hr /> <h2 id="tape-3-contacter-les-urgences-1-min">?? ?tape 3 : Contacter les Urgences (1 min)</h2> <h3 id="numros-durgence">Num?ros dÔÇÖUrgence</h3> <p>Le portail affiche directement :</p> <ul> <li>?? <strong>Police</strong> : 117</li> <li>?? <strong>Ambulance</strong> : 119</li> <li>?? <strong>Pompiers</strong> : 118</li> </ul> <p><strong>Boutons dÔÇÖappel direct</strong> disponibles sur mobile.</p> <h3 id="golocalisation-partage">G?olocalisation Partag?e</h3> <ol type="1"> <li>Activez la g?olocalisation</li> <li>Cliquez sur <strong>ÔÇ£Partager ma PositionÔÇØ</strong></li> <li>Les services dÔÇÖurgence re?oivent vos coordonn?es exactes</li> </ol> <hr /> <h2 id="tape-4-suivre-votre-dclaration-1-min">?? ?tape 4 : Suivre Votre D?claration (1 min)</h2> <h3 id="avec-compte">Avec Compte</h3> <ol type="1"> <li>Connectez-vous</li> <li>Allez dans <strong>ÔÇ£Mes D?clarationsÔÇØ</strong></li> <li>Consultez le statut : <ul> <li>?? En attente de v?rification</li> <li>?? V?rifi?e et enregistr?e</li> <li>?? Constat officiel ?tabli</li> <li>?? Cl?tur?e</li> </ul></li> </ol> <h3 id="sans-compte">Sans Compte</h3> <ol type="1"> <li>Cliquez sur <strong>ÔÇ£Suivre une D?clarationÔÇØ</strong></li> <li>Entrez votre <strong>num?ro de d?claration</strong></li> <li>Entrez votre <strong>num?ro de t?l?phone</strong></li> </ol> <hr /> <h2 id="tape-5-obtenir-une-attestation-1-min">?? ?tape 5 : Obtenir une Attestation (1 min)</h2> <h3 id="pour-les-victimes">Pour les Victimes</h3> <p>Si vous ?tes victime enregistr?e :</p> <ol type="1"> <li>Allez dans <strong>ÔÇ£Mes D?clarationsÔÇØ</strong></li> <li>Cliquez sur la d?claration concern?e</li> <li>Cliquez sur <strong>ÔÇ£T?l?charger AttestationÔÇØ</strong></li> <li>LÔÇÖattestation contient : <ul> <li>Num?ro de constat officiel</li> <li>Date et lieu de lÔÇÖaccident</li> <li>Votre r?le (victime/t?moin)</li> <li>QR code de v?rification</li> </ul></li> </ol> <p>?? <strong>Usage</strong> : Pour assurance, employeur, d?marches administratives</p> <hr /> <h2 id="cas-dusage-pratiques">?? Cas dÔÇÖUsage Pratiques</h2> <h3 id="accident-dont-je-suis-tmoin">Accident dont je suis t?moin</h3> <p>?? Temps : 5 minutes</p> <ol type="1"> <li>JÔÇÖacc?de au portail citoyen</li> <li>Je clique ÔÇ£D?clarer un AccidentÔÇØ</li> <li>Je s?lectionne ÔÇ£T?moinÔÇØ</li> <li>Je remplis lieu, date, heure</li> <li>Je prends 2-3 photos</li> <li>JÔÇÖenvoie</li> <li>Je re?ois num?ro de d?claration</li> </ol> <h3 id="accident-dont-je-suis-victime">Accident dont je suis victime</h3> <p>?? Temps : 7 minutes</p> <ol type="1"> <li>JÔÇÖacc?de au portail</li> <li>Je s?lectionne ÔÇ£VictimeÔÇØ</li> <li>Je remplis informations personnelles</li> <li>Je d?cris lÔÇÖaccident</li> <li>JÔÇÖajoute photos de mes blessures/d?g?ts</li> <li>JÔÇÖenvoie</li> <li>Je suis dirig? vers services appropri?s</li> </ol> <h3 id="suivi-de-mon-dossier">Suivi de mon dossier</h3> <p>?? Temps : 2 minutes</p> <ol type="1"> <li>Je me connecte</li> <li>ÔÇ£Mes D?clarationsÔÇØ</li> <li>Je consulte le statut</li> <li>Je t?l?charge lÔÇÖattestation si disponible</li> </ol> <hr /> <h2 id="informations-utiles">?? Informations Utiles</h2> <h3 id="vos-droits-en-cas-daccident">Vos Droits en Cas dÔÇÖAccident</h3> <p>Le portail citoyen vous informe sur :</p> <ul> <li><strong>Droits des victimes</strong> : Indemnisation, soins m?dicaux</li> <li><strong>D?marches assurance</strong> : Comment d?clarer ? votre assureur</li> <li><strong>Aide juridique</strong> : O? obtenir de lÔÇÖaide l?gale</li> <li><strong>Suivi m?dical</strong> : Centres de soins disponibles</li> </ul> <h3 id="vie-prive-et-confidentialit">Vie Priv?e et Confidentialit?</h3> <ul> <li>? Vos donn?es personnelles sont prot?g?es</li> <li>? Vous choisissez ce que vous partagez</li> <li>? Vous pouvez d?clarer anonymement (t?moin)</li> <li>? Acc?s s?curis? ? vos d?clarations</li> </ul> <hr /> <h2 id="problmes-frquents">?? Probl?mes Fr?quents</h2> <h3 id="je-narrive-pas-uploader-mes-photos">Je nÔÇÖarrive pas ? uploader mes photos</h3> <p><strong>Solution</strong> : 1. V?rifiez la taille (max 5 MB par photo) 2. Formats accept?s : JPG, PNG 3. Utilisez le WiFi si possible 4. Compressez les photos si n?cessaire</p> <h3 id="je-nai-pas-reu-mon-numro-de-dclaration">Je nÔÇÖai pas re?u mon num?ro de d?claration</h3> <p><strong>Solution</strong> : 1. V?rifiez vos SMS/emails 2. V?rifiez le num?ro de t?l?phone saisi 3. Cliquez sur ÔÇ£Renvoyer le codeÔÇØ 4. Contactez le support si probl?me persiste</p> <h3 id="ma-dclaration-napparat-pas">Ma d?claration nÔÇÖappara?t pas</h3> <p><strong>Solution</strong> : 1. Attendez quelques minutes (synchronisation) 2. Rafra?chissez la page (F5) 3. V?rifiez que vous ?tes connect? au bon compte 4. Utilisez ÔÇ£Suivre une D?clarationÔÇØ avec votre num?ro</p> <hr /> <h2 id="pour-aller-plus-loin">?? Pour Aller Plus Loin</h2> <h3 id="manuel-complet">Manuel Complet</h3> <p>Pour une documentation exhaustive : ?? <a href="../../manuel/usagers.md">Manuel Complet Usagers</a></p> <h3 id="tutoriels">Tutoriels</h3> <ul> <li>?? <a href="../tutoriels/photos-declaration.md">Prendre des photos utiles pour la d?claration</a></li> <li>?? <a href="../tutoriels/conduite-tenir-accident.md">Que faire en cas dÔÇÖaccident</a></li> </ul> <h3 id="ressources-utiles">Ressources Utiles</h3> <ul> <li>?? Code de la route camerounais</li> <li>?? Droits et devoirs des usagers</li> <li>?? Contacts utiles (assurances, avocats)</li> </ul> <hr /> <h2 id="besoin-daide">?? Besoin dÔÇÖAide ?</h2> <h3 id="support-citoyen">Support Citoyen</h3> <ul> <li><strong>?? Email</strong> : citoyen@doser.ditros.org</li> <li><strong>?? Hotline</strong> : +237 XXX XXX XXX (8h-18h)</li> <li><strong>?? Chat</strong> : Disponible sur le portail</li> </ul> <h3 id="en-cas-durgence">En Cas dÔÇÖUrgence</h3> <ul> <li><strong>?? Police</strong> : 117</li> <li><strong>?? Ambulance</strong> : 119</li> <li><strong>?? Pompiers</strong> : 118</li> </ul> <hr /> <h2 id="checklist">? Checklist</h2> <p>Avant de quitter ce guide :</p> <ul class="task-list"> <li><label><input type="checkbox" />JÔÇÖai acc?d? au portail citoyen</label></li> <li><label><input type="checkbox" />JÔÇÖai cr?? un compte (optionnel)</label></li> <li><label><input type="checkbox" />Je sais d?clarer un accident</label></li> <li><label><input type="checkbox" />Je connais les num?ros dÔÇÖurgence</label></li> <li><label><input type="checkbox" />Je sais suivre ma d?claration</label></li> <li><label><input type="checkbox" />Je sais obtenir une attestation</label></li> </ul> <hr /> <p><strong>F?licitations ! ??</strong><br /> Vous savez maintenant utiliser le portail citoyen DOSER !</p> <hr /> <p><em>Guide cr?? le : 9 octobre 2025</em><br /> <em>Derni?re mise ? jour : 9 octobre 2025</em><br /> <em>Version : 2.0</em></p> </body> </html>
+    
+    <div class="page-break" style="margin-top: 50px; text-align: center; color: #666; font-size: 9pt;">
+        <hr style="border: 1px solid #ddd; margin: 20px 0;">
+        <p>Documentation DOSER - Systeme de Gestion des Donnees de Securite Routiere</p>
+        <p>Genere automatiquement le 17/10/2025 a 10:27</p>
+    </div>
+</body>
+</html>

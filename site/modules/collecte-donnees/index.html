@@ -1,0 +1,3798 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation complète du système unifié de gestion des accidents de la route au Cameroun">
+      
+      
+      
+        <link rel="canonical" href="https://documentation-doser.readthedocs.io/modules/collecte-donnees/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../validation-constats/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Collecte de Données - Documentation DOSER</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/css/dhis2.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#module-de-collecte-de-donnees-doser-data-capture" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../.." title="Documentation DOSER" class="md-header__button md-logo" aria-label="Documentation DOSER" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation DOSER
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Collecte de Données
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mode sombre" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mode clair" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🏠 Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../user/quick-start/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  📚 Guides Rapides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../manuel/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  📕 Manuels de Référence
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  📊 Modules Fonctionnels
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../implementation/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🚀 Guides d'Implémentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../developer/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  💻 Documentation Développeur
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+<nav class="md-tabs" aria-label="nav.title">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">🏠 Accueil</a>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">📚 Guides Rapides</a>
+        
+        <nav class="md-nav" aria-label="📚 Guides Rapides">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../user/quick-start/" class="md-nav__link">🚀 Guides Rapides DOSER</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../.." class="md-nav__link">Démarrage Rapide</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../.." class="md-nav__link">Tutoriels</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">📕 Manuels de Référence</a>
+        
+        <nav class="md-nav" aria-label="📕 Manuels de Référence">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../manuel/" class="md-nav__link">Manuel Utilisateur DOSER</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../.." class="md-nav__link">Par Rôle</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../.." class="md-nav__link">Référence Technique</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../.." class="md-tabs__link">📊 Modules Fonctionnels</a>
+        
+        <nav class="md-nav" aria-label="📊 Modules Fonctionnels">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../" class="md-nav__link">Accueil</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="./" class="md-nav__link">Collecte de Données</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../validation-constats/" class="md-nav__link">Validation</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../analyse-reporting/" class="md-nav__link">Analyse & Reporting</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../cartographie-accidents/" class="md-nav__link">Cartographie</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../module-vaar/" class="md-nav__link">Module VAAR</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../statistiques-metriques/" class="md-nav__link">Statistiques</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">🚀 Guides d'Implémentation</a>
+        
+        <nav class="md-nav" aria-label="🚀 Guides d'Implémentation">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../implementation/" class="md-nav__link">Accueil</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../implementation/installation/" class="md-nav__link">Installation</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../implementation/deployment/" class="md-nav__link">Déploiement</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../implementation/maintenance/" class="md-nav__link">Maintenance</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../implementation/backup-procedures/" class="md-nav__link">Sauvegarde</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../.." class="md-tabs__link">💻 Documentation Développeur</a>
+        
+        <nav class="md-nav" aria-label="💻 Documentation Développeur">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../developer/" class="md-nav__link">Accueil</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../developer/architecture/" class="md-nav__link">Architecture</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../developer/specifications/" class="md-nav__link">Spécifications</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../developer/security-plan/" class="md-nav__link">Sécurité</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../developer/testing-strategy/" class="md-nav__link">Tests</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../developer/api-reference/" class="md-nav__link">API</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../developer/setup/" class="md-nav__link">Setup Dev</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../developer/contributing/" class="md-nav__link">Contribution</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Documentation DOSER" class="md-nav__button md-logo" aria-label="Documentation DOSER" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    Documentation DOSER
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🏠 Accueil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../user/quick-start/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    📚 Guides Rapides
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            📚 Guides Rapides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Démarrage Rapide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Démarrage Rapide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/quick-start/agents-constatateurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents Constatateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/quick-start/services-sante/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services de Santé
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/quick-start/compagnies-assurance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compagnies d'Assurance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/quick-start/agents-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents de Validation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/quick-start/administrateurs.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administrateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/quick-start/usagers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usagers (Grand Public)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/quick-start/morgue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Morgue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/quick-start/agence-voyage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agences de Voyage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../user/tutoriels/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Tutoriels
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tutoriels
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/tutoriels/geolocaliser/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Géolocaliser un Accident
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/tutoriels/creer-croquis.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Créer un Croquis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/tutoriels/photos-optimales.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Optimiser les Photos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user/tutoriels/mode-hors-ligne.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mode Hors Ligne
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../manuel/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    📕 Manuels de Référence
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            📕 Manuels de Référence
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Par Rôle
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Par Rôle
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/agents-constatateurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents Constatateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/services-sante/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services de Santé
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/compagnies-assurance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compagnies d'Assurance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/agents-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents de Validation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/administrateurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administrateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/usagers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usagers (Grand Public)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/morgue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Morgue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/agence-voyage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agences de Voyage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Référence Technique
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Référence Technique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/reference/codes-erreur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Codes d'Erreur
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/reference/glossaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossaire
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../manuel/reference/api-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    📊 Modules Fonctionnels
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            📊 Modules Fonctionnels
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Collecte de Données
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Collecte de Données
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vue-densemble" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vue d'ensemble
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Objectifs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#application-mobile-doser-data-capture" class="md-nav__link">
+    <span class="md-ellipsis">
+      📱 Application Mobile DOSER DATA CAPTURE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📱 Application Mobile DOSER DATA CAPTURE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resume-des-fonctionnalites-cles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Résumé des Fonctionnalités Clés
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Résumé des Fonctionnalités Clés">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-connexion-et-securite" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Connexion et Sécurité
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Connexion et Sécurité">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acces-rapide-et-securise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accès Rapide et Sécurisé
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#securite-et-acces-base-sur-les-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sécurité et Accès Basé sur les Rôles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-interface-et-personnalisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Interface et Personnalisation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Interface et Personnalisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-adaptative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration Adaptative
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-navigation-et-fluidite" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Navigation et Fluidité
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Navigation et Fluidité">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#experience-utilisateur-optimisee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expérience Utilisateur Optimisée
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-mode-hors-ligne-dabord-et-la-synchronisation-intelligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Le "Mode Hors Ligne d'abord" et la Synchronisation Intelligente
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 Le &#34;Mode Hors Ligne d&#39;abord&#34; et la Synchronisation Intelligente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stockage-et-fonctionnement-hors-ligne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stockage et Fonctionnement Hors Ligne
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synchronisation-configurable-et-intelligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synchronisation Configurable et Intelligente
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suivi-et-processus-de-collecte" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 Suivi et Processus de Collecte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔍 Suivi et Processus de Collecte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tableau-de-bord-et-suivi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableau de Bord et Suivi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detection-de-doublons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Détection de Doublons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architecture-evolutive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Architecture Évolutive
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architecture Évolutive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collecte-multimedia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collecte Multimédia
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-adaptees-aux-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interfaces Adaptées aux Rôles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formulaires-de-collecte" class="md-nav__link">
+    <span class="md-ellipsis">
+      📋 Formulaires de Collecte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📋 Formulaires de Collecte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#informations-generales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informations Générales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vehicules-impliques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Véhicules Impliqués
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personnes-concernees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personnes Concernées
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation-visuelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation Visuelle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fonctionnalites-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔧 Fonctionnalités Techniques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔧 Fonctionnalités Techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#geolocalisation-avancee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Géolocalisation Avancée
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synchronisation-intelligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synchronisation Intelligente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestion-des-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestion des Médias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cas-dutilisation-par-acteur" class="md-nav__link">
+    <span class="md-ellipsis">
+      👥 Cas d'Utilisation par Acteur
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👥 Cas d&#39;Utilisation par Acteur">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pour-la-policegendarmerie" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚔 Pour la Police/Gendarmerie
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚔 Pour la Police/Gendarmerie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflow-operationnel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Opérationnel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fonctionnalites-specifiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fonctionnalités Spécifiques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pour-les-hopitaux-et-les-morgues" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏥 Pour les Hôpitaux et les Morgues
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏥 Pour les Hôpitaux et les Morgues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflow-operationnel_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Opérationnel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fonctionnalites-specifiques_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fonctionnalités Spécifiques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agents-dassurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agents d'Assurance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualite-des-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Qualité des Données
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Qualité des Données">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#controles-automatiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrôles Automatiques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controles-manuels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrôles Manuels
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#securite-et-confidentialite" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔒 Sécurité et Confidentialité
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔒 Sécurité et Confidentialité">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#protection-des-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protection des Données
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestion-des-acces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestion des Accès
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metriques-et-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Métriques et Performance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📈 Métriques et Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#indicateurs-de-qualite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicateurs de Qualité
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indicateurs-dusage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicateurs d'Usage
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evolutions-futures" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Évolutions Futures
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Évolutions Futures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ameliorations-prevues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Améliorations Prévues
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nouvelles-fonctionnalites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nouvelles Fonctionnalités
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#synthese-et-benefices" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Synthèse et Bénéfices
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📝 Synthèse et Bénéfices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principaux-avantages-de-doser-data-capture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principaux Avantages de DOSER DATA CAPTURE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principaux Avantages de DOSER DATA CAPTURE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pour-les-forces-de-lordre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pour les Forces de l'Ordre
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pour-le-personnel-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pour le Personnel Médical
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pour-tous-les-utilisateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pour Tous les Utilisateurs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../validation-constats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analyse-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Analyse & Reporting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cartographie-accidents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cartographie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../module-vaar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Module VAAR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../statistiques-metriques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Statistiques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../implementation/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    🚀 Guides d'Implémentation
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            🚀 Guides d'Implémentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../implementation/installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../implementation/deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Déploiement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../implementation/maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maintenance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../implementation/backup-procedures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sauvegarde
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../developer/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    💻 Documentation Développeur
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            💻 Documentation Développeur
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/specifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spécifications
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/security-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sécurité
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/testing-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tests
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/api-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setup Dev
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer/contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#vue-densemble" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vue d'ensemble
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Objectifs
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#application-mobile-doser-data-capture" class="md-nav__link">
+    <span class="md-ellipsis">
+      📱 Application Mobile DOSER DATA CAPTURE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📱 Application Mobile DOSER DATA CAPTURE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resume-des-fonctionnalites-cles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Résumé des Fonctionnalités Clés
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Résumé des Fonctionnalités Clés">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-connexion-et-securite" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Connexion et Sécurité
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Connexion et Sécurité">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#acces-rapide-et-securise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accès Rapide et Sécurisé
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#securite-et-acces-base-sur-les-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sécurité et Accès Basé sur les Rôles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-interface-et-personnalisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Interface et Personnalisation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Interface et Personnalisation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-adaptative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration Adaptative
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-navigation-et-fluidite" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Navigation et Fluidité
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Navigation et Fluidité">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#experience-utilisateur-optimisee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Expérience Utilisateur Optimisée
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#le-mode-hors-ligne-dabord-et-la-synchronisation-intelligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Le "Mode Hors Ligne d'abord" et la Synchronisation Intelligente
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 Le &#34;Mode Hors Ligne d&#39;abord&#34; et la Synchronisation Intelligente">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#stockage-et-fonctionnement-hors-ligne" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stockage et Fonctionnement Hors Ligne
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synchronisation-configurable-et-intelligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synchronisation Configurable et Intelligente
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#suivi-et-processus-de-collecte" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 Suivi et Processus de Collecte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔍 Suivi et Processus de Collecte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tableau-de-bord-et-suivi" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableau de Bord et Suivi
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#detection-de-doublons" class="md-nav__link">
+    <span class="md-ellipsis">
+      Détection de Doublons
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#architecture-evolutive" class="md-nav__link">
+    <span class="md-ellipsis">
+      Architecture Évolutive
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Architecture Évolutive">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#collecte-multimedia" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collecte Multimédia
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interfaces-adaptees-aux-roles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interfaces Adaptées aux Rôles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formulaires-de-collecte" class="md-nav__link">
+    <span class="md-ellipsis">
+      📋 Formulaires de Collecte
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📋 Formulaires de Collecte">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#informations-generales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Informations Générales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vehicules-impliques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Véhicules Impliqués
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personnes-concernees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Personnes Concernées
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#documentation-visuelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Documentation Visuelle
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fonctionnalites-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔧 Fonctionnalités Techniques
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔧 Fonctionnalités Techniques">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#geolocalisation-avancee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Géolocalisation Avancée
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#synchronisation-intelligente" class="md-nav__link">
+    <span class="md-ellipsis">
+      Synchronisation Intelligente
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestion-des-medias" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestion des Médias
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cas-dutilisation-par-acteur" class="md-nav__link">
+    <span class="md-ellipsis">
+      👥 Cas d'Utilisation par Acteur
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👥 Cas d&#39;Utilisation par Acteur">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pour-la-policegendarmerie" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚔 Pour la Police/Gendarmerie
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚔 Pour la Police/Gendarmerie">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflow-operationnel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Opérationnel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fonctionnalites-specifiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fonctionnalités Spécifiques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pour-les-hopitaux-et-les-morgues" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏥 Pour les Hôpitaux et les Morgues
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏥 Pour les Hôpitaux et les Morgues">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#workflow-operationnel_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Opérationnel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fonctionnalites-specifiques_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Fonctionnalités Spécifiques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#agents-dassurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Agents d'Assurance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qualite-des-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Qualité des Données
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Qualité des Données">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#controles-automatiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrôles Automatiques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#controles-manuels" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrôles Manuels
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#securite-et-confidentialite" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔒 Sécurité et Confidentialité
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔒 Sécurité et Confidentialité">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#protection-des-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      Protection des Données
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestion-des-acces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gestion des Accès
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metriques-et-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Métriques et Performance
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📈 Métriques et Performance">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#indicateurs-de-qualite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicateurs de Qualité
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#indicateurs-dusage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Indicateurs d'Usage
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#evolutions-futures" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚀 Évolutions Futures
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀 Évolutions Futures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ameliorations-prevues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Améliorations Prévues
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nouvelles-fonctionnalites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Nouvelles Fonctionnalités
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#synthese-et-benefices" class="md-nav__link">
+    <span class="md-ellipsis">
+      📝 Synthèse et Bénéfices
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📝 Synthèse et Bénéfices">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#principaux-avantages-de-doser-data-capture" class="md-nav__link">
+    <span class="md-ellipsis">
+      Principaux Avantages de DOSER DATA CAPTURE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Principaux Avantages de DOSER DATA CAPTURE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pour-les-forces-de-lordre" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pour les Forces de l'Ordre
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pour-le-personnel-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pour le Personnel Médical
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pour-tous-les-utilisateurs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pour Tous les Utilisateurs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="module-de-collecte-de-donnees-doser-data-capture">Module de Collecte de Données - DOSER DATA CAPTURE</h1>
+<h2 id="vue-densemble">Vue d'ensemble</h2>
+<p>L'<strong>application mobile DOSER DATA CAPTURE</strong> est un outil essentiel au cœur du système de gestion des données de sécurité routière DOSER. Conçue pour une utilisation sur le terrain, elle permet la collecte, la validation et la synchronisation des données d'accidents, même dans des environnements sans connexion Internet stable. Cette application regroupe des fonctionnalités de collecte pour les forces de l'ordre (Police/Gendarmerie) et pour le personnel médical (Hôpitaux/Morgues), en s'adaptant à leurs besoins spécifiques.</p>
+<h2 id="objectifs">🎯 Objectifs</h2>
+<ul>
+<li><strong>Standardiser</strong> la collecte de données d'accidents sur le terrain</li>
+<li><strong>Faciliter</strong> la saisie multimédia en temps réel par tous les acteurs</li>
+<li><strong>Assurer</strong> la qualité et la cohérence des données avec validation intégrée</li>
+<li><strong>Permettre</strong> le travail hors-ligne avec synchronisation intelligente</li>
+<li><strong>Adapter</strong> l'interface aux besoins spécifiques de chaque type d'utilisateur</li>
+</ul>
+<h2 id="application-mobile-doser-data-capture">📱 Application Mobile DOSER DATA CAPTURE</h2>
+<h3 id="resume-des-fonctionnalites-cles">Résumé des Fonctionnalités Clés</h3>
+<h4 id="1-connexion-et-securite">1. Connexion et Sécurité</h4>
+<h5 id="acces-rapide-et-securise">Accès Rapide et Sécurisé</h5>
+<ul>
+<li><strong>Connexion rapide par QR Code</strong> : Les utilisateurs peuvent se connecter en scannant un code QR, qui renseigne instantanément l'adresse du serveur. Les informations de connexion précédentes sont mémorisées pour plus de commodité.</li>
+<li><strong>Verrouillage PIN</strong> : L'application peut être verrouillée par un code PIN à 4 chiffres après la connexion, protégeant ainsi les données sensibles entre les sessions.</li>
+<li><strong>Prise en charge multi-comptes</strong> : Un même appareil peut gérer et permettre de basculer entre plusieurs comptes utilisateur DOSER.</li>
+<li><strong>Authentification biométrique</strong> (empreinte, reconnaissance faciale) pour une sécurité renforcée</li>
+<li><strong>Chiffrement</strong> des données sensibles au repos et en transit</li>
+</ul>
+<h5 id="securite-et-acces-base-sur-les-roles">Sécurité et Accès Basé sur les Rôles</h5>
+<ul>
+<li><strong>Respect des autorisations</strong> : L'application garantit le respect des autorisations des utilisateurs et des rôles définis</li>
+<li><strong>Stockage local sécurisé</strong> : Protection des informations sensibles sur l'appareil</li>
+<li><strong>Audit trail complet</strong> : Traçabilité de toutes les actions effectuées</li>
+<li><strong>Expiration automatique</strong> des sessions pour éviter les accès non autorisés</li>
+</ul>
+<h4 id="2-interface-et-personnalisation">2. Interface et Personnalisation</h4>
+<h5 id="configuration-adaptative">Configuration Adaptative</h5>
+<ul>
+<li><strong>Configuration personnalisable</strong> : L'apparence des programmes (icônes et couleurs) est configurable depuis le serveur, ce qui permet d'adapter l'interface aux besoins spécifiques des différents acteurs.</li>
+<li><strong>Saisie visuelle des données</strong> : L'utilisation d'icônes et de couleurs pour les options de saisie rend le processus plus intuitif, ce qui est particulièrement utile pour les utilisateurs sur le terrain.</li>
+<li><strong>Prise en charge linguistique</strong> : L'application offre une traduction complète de l'interface et des métadonnées, permettant une utilisation multilingue.</li>
+<li><strong>Thèmes adaptés</strong> : Interfaces spécifiques pour chaque type d'acteur (Forces de l'ordre, Personnel médical, Assurances)</li>
+</ul>
+<h4 id="3-navigation-et-fluidite">3. Navigation et Fluidité</h4>
+<h5 id="experience-utilisateur-optimisee">Expérience Utilisateur Optimisée</h5>
+<ul>
+<li><strong>Écran d'accueil unifié</strong> : Tous les programmes et formulaires de saisie de données d'accidents sont intégrés dans un seul écran d'accueil, affiché avec leurs icônes et couleurs respectives pour une navigation simplifiée.</li>
+<li><strong>Actions contextuelles</strong> : Les boutons et actions disponibles s'adaptent automatiquement en fonction du formulaire de collecte en cours.</li>
+<li><strong>Indicateurs d'exhaustivité</strong> : Des indicateurs en temps réel guident les utilisateurs pour s'assurer que toutes les sections d'un formulaire sont complètes.</li>
+<li><strong>Workflows intuitifs</strong> : Processus de saisie guidé étape par étape pour éviter les erreurs</li>
+</ul>
+<h2 id="le-mode-hors-ligne-dabord-et-la-synchronisation-intelligente">🔄 Le "Mode Hors Ligne d'abord" et la Synchronisation Intelligente</h2>
+<p>L'un des <strong>principes fondamentaux</strong> de l'application est sa capacité à fonctionner de manière fiable hors ligne.</p>
+<h3 id="stockage-et-fonctionnement-hors-ligne">Stockage et Fonctionnement Hors Ligne</h3>
+<ul>
+<li><strong>Stockage local fiable</strong> : Toutes les données nécessaires (formulaires, informations des personnes et véhicules impliqués, etc.) sont stockées localement sur l'appareil. Cela permet aux utilisateurs de travailler sans interruption, même sans connexion Internet.</li>
+<li><strong>Architecture "Offline-First"</strong> : La saisie, la validation et la gestion des données sont possibles sans connexion. Les utilisateurs peuvent travailler en mode déconnecté et synchroniser les informations dès qu'un réseau est disponible.</li>
+<li><strong>Indicateur de statut</strong> : Affichage en temps réel de l'état de la connexion et du mode de fonctionnement</li>
+</ul>
+<h3 id="synchronisation-configurable-et-intelligente">Synchronisation Configurable et Intelligente</h3>
+<ul>
+<li><strong>Synchronisation configurable</strong> : Les administrateurs peuvent définir la quantité de données à synchroniser depuis le serveur. Les données sont mises en cache localement pour une recherche rapide.</li>
+<li><strong>Détection automatique</strong> : L'application détecte automatiquement la disponibilité du réseau et déclenche la synchronisation</li>
+<li><strong>Synchronisation progressive</strong> : Upload prioritaire des données critiques (informations de base) avant les médias volumineux</li>
+<li><strong>Gestion des erreurs</strong> : L'application affiche clairement le statut de la synchronisation (terminée, en échec ou en attente) et permet aux utilisateurs de relancer la synchronisation si nécessaire.</li>
+<li><strong>Gestion des conflits</strong> : Résolution intelligente des conflits de données lors de la synchronisation</li>
+<li><strong>Historique</strong> : Traçabilité complète de toutes les synchronisations effectuées</li>
+</ul>
+<h2 id="suivi-et-processus-de-collecte">🔍 Suivi et Processus de Collecte</h2>
+<p>L'application simplifie le suivi des cas et des événements grâce à des fonctionnalités avancées :</p>
+<h3 id="tableau-de-bord-et-suivi">Tableau de Bord et Suivi</h3>
+<ul>
+<li><strong>Tableau de bord de suivi</strong> : Les utilisateurs disposent d'un tableau de bord pour suivre les relations entre les différents éléments de l'accident (personnes, véhicules), même en mode hors ligne.</li>
+<li><strong>Vue d'ensemble</strong> : Visualisation rapide de l'état de complétude de chaque section du formulaire</li>
+<li><strong>Alertes contextuelles</strong> : Notifications pour les champs obligatoires manquants ou les incohérences détectées</li>
+</ul>
+<h3 id="detection-de-doublons">Détection de Doublons</h3>
+<ul>
+<li><strong>Recherche automatique de doublons</strong> : Lors de la saisie d'informations sur de nouvelles personnes ou de nouveaux véhicules, l'application vérifie automatiquement les doublons dans les données stockées localement (en mode hors ligne) ou sur le serveur (en mode en ligne).</li>
+<li><strong>Vérification intelligente</strong> : Algorithmes de correspondance floue pour identifier les entrées similaires</li>
+<li><strong>Fusion des données</strong> : Possibilité de fusionner les doublons détectés tout en préservant l'intégrité des données</li>
+</ul>
+<h3 id="architecture-evolutive">Architecture Évolutive</h3>
+<ul>
+<li><strong>Évolutive et Modulaire</strong> : L'application peut être adaptée à différents programmes et déploiements à l'échelle nationale, avec une interface personnalisable en fonction des besoins de chaque acteur.</li>
+<li><strong>Extensibilité</strong> : Ajout facile de nouveaux formulaires et types de données sans modification du code de base</li>
+<li><strong>Interopérabilité</strong> : Standards ouverts pour l'échange de données avec d'autres systèmes</li>
+</ul>
+<h4 id="collecte-multimedia">Collecte Multimédia</h4>
+<ul>
+<li><strong>Photos</strong> de la scène d'accident sous tous les angles avec compression automatique</li>
+<li><strong>Croquis</strong> interactifs créés directement dans l'application</li>
+<li><strong>Géolocalisation</strong> précise (GPS, GLONASS, Galileo) avec vérification de cohérence</li>
+<li><strong>Enregistrements audio</strong> des témoignages avec horodatage</li>
+</ul>
+<h4 id="interfaces-adaptees-aux-roles">Interfaces Adaptées aux Rôles</h4>
+<ul>
+<li><strong>Forces de l'Ordre</strong> : Constatations et procédures judiciaires</li>
+<li><strong>Personnel de Santé</strong> : Données médicales et état des victimes</li>
+<li><strong>Agents d'Assurance</strong> : Évaluation des dommages</li>
+<li><strong>Services de Secours</strong> : Coordination des interventions</li>
+</ul>
+<h2 id="formulaires-de-collecte">📋 Formulaires de Collecte</h2>
+<h3 id="informations-generales">Informations Générales</h3>
+<ul>
+<li><strong>Date et heure</strong> de l'accident</li>
+<li><strong>Lieu précis</strong> (adresse + coordonnées GPS)</li>
+<li><strong>Conditions météorologiques</strong></li>
+<li><strong>État de la chaussée</strong></li>
+<li><strong>Type d'accident</strong> (collision, sortie de route, etc.)</li>
+</ul>
+<h3 id="vehicules-impliques">Véhicules Impliqués</h3>
+<ul>
+<li><strong>Immatriculation</strong> (saisie manuelle ou scan)</li>
+<li><strong>Type de véhicule</strong> (voiture, moto, camion, etc.)</li>
+<li><strong>Marque et modèle</strong></li>
+<li><strong>Couleur et caractéristiques</strong></li>
+<li><strong>Degré d'endommagement</strong></li>
+<li><strong>Informations d'assurance</strong></li>
+</ul>
+<h3 id="personnes-concernees">Personnes Concernées</h3>
+<ul>
+<li><strong>Rôle</strong> (conducteur, passager, piéton, témoin)</li>
+<li><strong>État</strong> (indemne, blessé léger, blessé grave, décédé)</li>
+<li><strong>Informations personnelles</strong> (nom, téléphone, adresse)</li>
+<li><strong>Informations médicales</strong> (type de blessures, orientation)</li>
+</ul>
+<h3 id="documentation-visuelle">Documentation Visuelle</h3>
+<ul>
+<li><strong>Photos de la scène</strong> (vue d'ensemble, détails)</li>
+<li><strong>Photos des véhicules</strong> (dégâts, position)</li>
+<li><strong>Photos des victimes</strong> (si autorisé)</li>
+<li><strong>Croquis de l'accident</strong> (position des véhicules, sens de circulation)</li>
+<li><strong>Documents officiels</strong> (permis, carte grise, assurance)</li>
+</ul>
+<h2 id="fonctionnalites-techniques">🔧 Fonctionnalités Techniques</h2>
+<h3 id="geolocalisation-avancee">Géolocalisation Avancée</h3>
+<ul>
+<li><strong>Précision</strong> &lt; 5 mètres</li>
+<li><strong>Modes de localisation</strong> : GPS, réseau, WiFi</li>
+<li><strong>Vérification</strong> de la cohérence géographique</li>
+<li><strong>Adresse automatique</strong> générée depuis les coordonnées</li>
+</ul>
+<h3 id="synchronisation-intelligente">Synchronisation Intelligente</h3>
+<ul>
+<li><strong>Détection automatique</strong> de la connectivité</li>
+<li><strong>Synchronisation progressive</strong> des données</li>
+<li><strong>Gestion des conflits</strong> de données</li>
+<li><strong>Historique</strong> des synchronisations</li>
+</ul>
+<h3 id="gestion-des-medias">Gestion des Médias</h3>
+<ul>
+<li><strong>Compression automatique</strong> des images</li>
+<li><strong>Optimisation</strong> de la qualité/taille</li>
+<li><strong>Stockage temporaire</strong> local</li>
+<li><strong>Upload prioritaire</strong> des données critiques</li>
+</ul>
+<h2 id="cas-dutilisation-par-acteur">👥 Cas d'Utilisation par Acteur</h2>
+<h3 id="pour-la-policegendarmerie">🚔 Pour la Police/Gendarmerie</h3>
+<p>L'application mobile DOSER DATA CAPTURE transforme la manière dont les forces de l'ordre gèrent les accidents sur le terrain.</p>
+<h4 id="workflow-operationnel">Workflow Opérationnel</h4>
+<ol>
+<li><strong>Arrivée sur les lieux</strong> et sécurisation de la zone</li>
+<li><strong>Saisie en temps réel</strong> des données sur smartphone/tablette</li>
+<li><strong>Géolocalisation automatique</strong> des coordonnées précises</li>
+<li><strong>Documentation photographique</strong> : scène, véhicules, dommages</li>
+<li><strong>Collecte complète</strong> : caractéristiques accident, véhicules, personnes</li>
+<li><strong>Recueil</strong> des témoignages avec enregistrements audio</li>
+<li><strong>Validation hors ligne</strong> : contrôles de cohérence en temps réel</li>
+<li><strong>Finalisation</strong> et synchronisation dès que le réseau est disponible</li>
+</ol>
+<h4 id="fonctionnalites-specifiques">Fonctionnalités Spécifiques</h4>
+<ul>
+<li><strong>Saisie immédiate</strong> sur les lieux sans attendre le retour au bureau</li>
+<li><strong>GPS intégré</strong> pour analyse des points noirs</li>
+<li><strong>Caméra</strong> pour preuves numériques (photos/vidéos)</li>
+<li><strong>Croquis interactifs</strong> de la scène d'accident</li>
+<li><strong>Identification</strong> des conducteurs, passagers, témoins</li>
+<li><strong>Validation automatique</strong> des données critiques</li>
+</ul>
+<h3 id="pour-les-hopitaux-et-les-morgues">🏥 Pour les Hôpitaux et les Morgues</h3>
+<p>Pour le personnel médical, l'application web ou mobile de DOSER permet de rationaliser l'accueil et l'enregistrement des victimes.</p>
+<h4 id="workflow-operationnel_1">Workflow Opérationnel</h4>
+<ol>
+<li><strong>Accueil et triage</strong> des victimes arrivant aux urgences</li>
+<li><strong>Enregistrement</strong> des paramètres médicaux vitaux</li>
+<li><strong>Documentation</strong> des blessures et traumatismes</li>
+<li><strong>Saisie</strong> des soins prodigués et traitements administrés</li>
+<li><strong>Liaison</strong> avec l'identifiant unique de l'accident</li>
+<li><strong>Coordination</strong> avec les autres acteurs (police, assurances)</li>
+<li><strong>Suivi</strong> de l'évolution de l'état des victimes</li>
+<li><strong>Production</strong> de rapports et certificats médicaux</li>
+</ol>
+<h4 id="fonctionnalites-specifiques_1">Fonctionnalités Spécifiques</h4>
+<ul>
+<li><strong>Enregistrement</strong> des informations cruciales sur les victimes</li>
+<li><strong>Centralisation</strong> des dossiers par identifiant unique d'accident</li>
+<li><strong>Suivi post-accident</strong> de l'état de chaque victime</li>
+<li><strong>Liaison</strong> des fiches médicales entre différents hôpitaux</li>
+<li><strong>Information</strong> automatique des assurances</li>
+<li><strong>Gestion des cas mortels</strong> : identification, préparation, certificats de décès</li>
+<li><strong>Respect du secret médical</strong> avec accès sécurisé</li>
+</ul>
+<h3 id="agents-dassurance">Agents d'Assurance</h3>
+<ol>
+<li><strong>Évaluation</strong> des dommages matériels et corporels</li>
+<li><strong>Vérification</strong> des polices d'assurance</li>
+<li><strong>Documentation</strong> photographique des dégâts</li>
+<li><strong>Estimation</strong> des coûts de réparation</li>
+<li><strong>Transmission</strong> aux compagnies d'assurance</li>
+</ol>
+<h2 id="qualite-des-donnees">📊 Qualité des Données</h2>
+<h3 id="controles-automatiques">Contrôles Automatiques</h3>
+<ul>
+<li><strong>Validation</strong> des formats (immatriculations, téléphones)</li>
+<li><strong>Cohérence</strong> des dates et heures</li>
+<li><strong>Complétude</strong> des champs obligatoires</li>
+<li><strong>Géolocalisation</strong> dans les limites du territoire</li>
+</ul>
+<h3 id="controles-manuels">Contrôles Manuels</h3>
+<ul>
+<li><strong>Vérification</strong> de la cohérence des informations</li>
+<li><strong>Validation</strong> de la qualité des photos</li>
+<li><strong>Contrôle</strong> de la précision des croquis</li>
+<li><strong>Vérification</strong> des témoignages</li>
+</ul>
+<h2 id="securite-et-confidentialite">🔒 Sécurité et Confidentialité</h2>
+<h3 id="protection-des-donnees">Protection des Données</h3>
+<ul>
+<li><strong>Chiffrement</strong> AES-256 des données sensibles</li>
+<li><strong>Authentification</strong> forte des utilisateurs</li>
+<li><strong>Audit trail</strong> complet des actions</li>
+<li><strong>Conformité</strong> RGPD et réglementations locales</li>
+</ul>
+<h3 id="gestion-des-acces">Gestion des Accès</h3>
+<ul>
+<li><strong>Rôles</strong> et permissions granulaires</li>
+<li><strong>Expiration</strong> automatique des sessions</li>
+<li><strong>Révocation</strong> des accès en cas de problème</li>
+<li><strong>Monitoring</strong> des accès suspects</li>
+</ul>
+<h2 id="metriques-et-performance">📈 Métriques et Performance</h2>
+<h3 id="indicateurs-de-qualite">Indicateurs de Qualité</h3>
+<ul>
+<li><strong>Taux de complétude</strong> des formulaires</li>
+<li><strong>Qualité</strong> des photos et croquis</li>
+<li><strong>Précision</strong> de la géolocalisation</li>
+<li><strong>Temps</strong> de saisie moyen</li>
+</ul>
+<h3 id="indicateurs-dusage">Indicateurs d'Usage</h3>
+<ul>
+<li><strong>Nombre</strong> de constats saisis</li>
+<li><strong>Taux</strong> d'utilisation hors-ligne</li>
+<li><strong>Fréquence</strong> de synchronisation</li>
+<li><strong>Satisfaction</strong> des utilisateurs</li>
+</ul>
+<h2 id="evolutions-futures">🚀 Évolutions Futures</h2>
+<h3 id="ameliorations-prevues">Améliorations Prévues</h3>
+<ul>
+<li><strong>Reconnaissance vocale</strong> pour la saisie mains-libres</li>
+<li><strong>IA</strong> pour l'optimisation des formulaires et suggestions contextuelles</li>
+<li><strong>Réalité augmentée</strong> pour les croquis 3D de la scène</li>
+<li><strong>Intégration</strong> avec les capteurs IoT des véhicules connectés</li>
+</ul>
+<h3 id="nouvelles-fonctionnalites">Nouvelles Fonctionnalités</h3>
+<ul>
+<li><strong>Mode collaboratif</strong> multi-utilisateurs en temps réel</li>
+<li><strong>Templates</strong> personnalisables par région ou type d'accident</li>
+<li><strong>Workflows</strong> adaptatifs selon le contexte</li>
+<li><strong>Analytics</strong> en temps réel et tableaux de bord interactifs</li>
+</ul>
+<h2 id="synthese-et-benefices">📝 Synthèse et Bénéfices</h2>
+<h3 id="principaux-avantages-de-doser-data-capture">Principaux Avantages de DOSER DATA CAPTURE</h3>
+<p>En intégrant ces fonctionnalités, l'application DOSER DATA CAPTURE assure une <strong>collecte de données plus rapide, plus fiable et plus complète</strong>, permettant aux autorités de disposer d'informations précises et actualisées pour mieux comprendre et prévenir les accidents de la route.</p>
+<h4 id="pour-les-forces-de-lordre">Pour les Forces de l'Ordre</h4>
+<p>✅ Remplacement des fiches papier par un processus numérique
+✅ Saisie en temps réel sur le terrain
+✅ Géolocalisation précise pour analyse des points noirs
+✅ Documentation photographique et preuves numériques
+✅ Validation automatique des données</p>
+<h4 id="pour-le-personnel-medical">Pour le Personnel Médical</h4>
+<p>✅ Rationalisation de l'accueil et de l'enregistrement des victimes
+✅ Centralisation des dossiers par identifiant unique
+✅ Suivi post-accident et coordination inter-hôpitaux
+✅ Gestion complète des cas mortels (morgues)
+✅ Partage sécurisé avec les autres acteurs</p>
+<h4 id="pour-tous-les-utilisateurs">Pour Tous les Utilisateurs</h4>
+<p>✅ <strong>Mode hors-ligne fiable</strong> : Travail sans interruption même sans connexion
+✅ <strong>Synchronisation intelligente</strong> : Upload automatique dès que le réseau est disponible
+✅ <strong>Interface personnalisée</strong> : Adaptée aux besoins de chaque acteur
+✅ <strong>Multi-comptes</strong> : Gestion de plusieurs utilisateurs sur un même appareil
+✅ <strong>Sécurité renforcée</strong> : Verrouillage PIN, chiffrement, audit trail
+✅ <strong>Détection de doublons</strong> : Évite les saisies redondantes
+✅ <strong>Architecture évolutive</strong> : Déploiement à l'échelle nationale</p>
+<hr />
+<p><em>Pour plus d'informations sur l'installation et la configuration, consultez le <a href="deployment/guide-installation.md">guide d'installation</a>.</em>
+<em>Pour découvrir les autres modules du système DOSER, consultez l'<a href="../">index des modules</a>.</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/ditros" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:contact@ditros.org" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.indexes", "navigation.instant", "navigation.tracking", "navigation.expand", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

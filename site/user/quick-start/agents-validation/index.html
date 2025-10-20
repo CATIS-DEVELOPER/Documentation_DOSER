@@ -1,0 +1,4089 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation complète du système unifié de gestion des accidents de la route au Cameroun">
+      
+      
+      
+        <link rel="canonical" href="https://documentation-doser.readthedocs.io/user/quick-start/agents-validation/">
+      
+      
+        <link rel="prev" href="../compagnies-assurance/">
+      
+      
+        <link rel="next" href="../usagers/">
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Agents de Validation - Documentation DOSER</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/dhis2.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guide-rapide-agents-validateurs" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../.." title="Documentation DOSER" class="md-header__button md-logo" aria-label="Documentation DOSER" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation DOSER
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Agents de Validation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mode sombre" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mode clair" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🏠 Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  📚 Guides Rapides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../manuel/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  📕 Manuels de Référence
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../modules/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  📊 Modules Fonctionnels
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../implementation/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🚀 Guides d'Implémentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../developer/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  💻 Documentation Développeur
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+<nav class="md-tabs" aria-label="nav.title">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">🏠 Accueil</a>
+        
+      </li>
+      
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../.." class="md-tabs__link">📚 Guides Rapides</a>
+        
+        <nav class="md-nav" aria-label="📚 Guides Rapides">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../" class="md-nav__link">🚀 Guides Rapides DOSER</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../.." class="md-nav__link">Démarrage Rapide</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../.." class="md-nav__link">Tutoriels</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">📕 Manuels de Référence</a>
+        
+        <nav class="md-nav" aria-label="📕 Manuels de Référence">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../../manuel/" class="md-nav__link">Manuel Utilisateur DOSER</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../.." class="md-nav__link">Par Rôle</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../.." class="md-nav__link">Référence Technique</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">📊 Modules Fonctionnels</a>
+        
+        <nav class="md-nav" aria-label="📊 Modules Fonctionnels">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/" class="md-nav__link">Accueil</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/collecte-donnees/" class="md-nav__link">Collecte de Données</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/validation-constats/" class="md-nav__link">Validation</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/analyse-reporting/" class="md-nav__link">Analyse & Reporting</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/cartographie-accidents/" class="md-nav__link">Cartographie</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/module-vaar/" class="md-nav__link">Module VAAR</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/statistiques-metriques/" class="md-nav__link">Statistiques</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">🚀 Guides d'Implémentation</a>
+        
+        <nav class="md-nav" aria-label="🚀 Guides d'Implémentation">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/" class="md-nav__link">Accueil</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/installation/" class="md-nav__link">Installation</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/deployment/" class="md-nav__link">Déploiement</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/maintenance/" class="md-nav__link">Maintenance</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/backup-procedures/" class="md-nav__link">Sauvegarde</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">💻 Documentation Développeur</a>
+        
+        <nav class="md-nav" aria-label="💻 Documentation Développeur">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/" class="md-nav__link">Accueil</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/architecture/" class="md-nav__link">Architecture</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/specifications/" class="md-nav__link">Spécifications</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/security-plan/" class="md-nav__link">Sécurité</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/testing-strategy/" class="md-nav__link">Tests</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/api-reference/" class="md-nav__link">API</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/setup/" class="md-nav__link">Setup Dev</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/contributing/" class="md-nav__link">Contribution</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Documentation DOSER" class="md-nav__button md-logo" aria-label="Documentation DOSER" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    Documentation DOSER
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🏠 Accueil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    📚 Guides Rapides
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            📚 Guides Rapides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Démarrage Rapide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Démarrage Rapide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agents-constatateurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents Constatateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../services-sante/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services de Santé
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compagnies-assurance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compagnies d'Assurance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Agents de Validation
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents de Validation
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ce-que-vous-allez-apprendre" class="md-nav__link">
+    <span class="md-ellipsis">
+      📋 Ce que vous allez apprendre
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#votre-role-en-tant-quagent-validateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Votre Rôle en Tant qu'Agent Validateur
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acces-a-la-plateforme-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 Accès à la Plateforme de Validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💻 Accès à la Plateforme de Validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-pc-requise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration PC Requise
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connexion-a-linterface-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connexion à l'Interface Web
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interface-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Interface de Validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Interface de Validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tableau-de-bord-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableau de Bord Principal
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-complet-avec-captures-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎬 Workflow Complet avec Captures d'Écran
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎬 Workflow Complet avec Captures d&#39;Écran">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vue-densemble-du-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vue d'Ensemble du Workflow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-detaille-par-ecrans" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Détaillé par Écrans
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow Détaillé par Écrans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ecran-1-connexion-a-linterface-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 1 : Connexion à l'Interface Web
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-2-tableau-de-bord-des-declarations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 2 : Tableau de Bord des Déclarations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-3-selection-dune-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 3 : Sélection d'une Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-4-consultation-detaillee-du-constat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 4 : Consultation Détaillée du Constat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-5-verification-des-photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 5 : Vérification des Photos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-6-consultation-du-croquis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 6 : Consultation du Croquis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-7-lecture-du-proces-verbal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 7 : Lecture du Procès-Verbal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-8-checklist-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 8 : Checklist de Validation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-9-decision-accepter-la-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 9 : Décision - Accepter la Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-10-decision-rejeter-la-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 10 : Décision - Rejeter la Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-11-confirmation-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 11 : Confirmation de Validation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-12-confirmation-de-rejet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 12 : Confirmation de Rejet
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#processus-de-validation-en-5-etapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 Processus de Validation en 5 Étapes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔍 Processus de Validation en 5 Étapes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-selectionner-une-declaration-a-valider" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Sélectionner une Déclaration à Valider
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-examiner-les-informations-generales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Examiner les Informations Générales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-3-verifier-la-qualite-du-constat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 3 : Vérifier la Qualité du Constat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-4-prendre-une-decision" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 4 : Prendre une Décision
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Étape 4 : Prendre une Décision">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#option-a-accepter-la-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option A : ✅ Accepter la Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#option-b-rejeter-la-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option B : ❌ Rejeter la Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-5-suivi-et-statistiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 5 : Suivi et Statistiques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indicateurs-de-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Indicateurs de Performance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vos-droits-et-limites" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚖️ Vos Droits et Limites
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚖️ Vos Droits et Limites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ce-que-vous-pouvez-faire" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Ce que vous POUVEZ faire :
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ce-que-vous-ne-pouvez-pas-faire" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❌ Ce que vous NE POUVEZ PAS faire :
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temps-de-traitement-recommandes" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⏱️ Temps de Traitement Recommandés
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cas-particuliers" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚨 Cas Particuliers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚨 Cas Particuliers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#accidents-avec-blesses-graves-ou-deces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accidents avec Blessés Graves ou Décès
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suspicion-de-fraude" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suspicion de Fraude
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#donnees-manquantes-ou-corrompues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Données Manquantes ou Corrompues
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problemes-frequents-et-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Problèmes Fréquents et Solutions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚠️ Problèmes Fréquents et Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#je-ne-vois-aucune-declaration-a-valider" class="md-nav__link">
+    <span class="md-ellipsis">
+      Je ne vois aucune déclaration à valider
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-signature-ne-senregistre-pas" class="md-nav__link">
+    <span class="md-ellipsis">
+      La signature ne s'enregistre pas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#je-ne-peux-pas-rejeter-une-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Je ne peux pas rejeter une déclaration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pour-aller-plus-loin" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Pour Aller Plus Loin
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📚 Pour Aller Plus Loin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#manuel-complet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manuel Complet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ressources-complementaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ressources Complémentaires
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#besoin-daide" class="md-nav__link">
+    <span class="md-ellipsis">
+      🆘 Besoin d'Aide ?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🆘 Besoin d&#39;Aide ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#support-technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Support Technique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contacts-utiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contacts Utiles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Checklist de Validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✅ Checklist de Validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#verifications-obligatoires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vérifications Obligatoires
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#points-de-vigilance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Points de Vigilance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decision-finale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Décision Finale
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../administrateurs.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administrateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usagers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usagers (Grand Public)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../morgue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Morgue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agence-voyage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agences de Voyage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../tutoriels/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Tutoriels
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tutoriels
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutoriels/geolocaliser/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Géolocaliser un Accident
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutoriels/creer-croquis.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Créer un Croquis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutoriels/photos-optimales.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Optimiser les Photos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutoriels/mode-hors-ligne.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mode Hors Ligne
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../manuel/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    📕 Manuels de Référence
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            📕 Manuels de Référence
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Par Rôle
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Par Rôle
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/agents-constatateurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents Constatateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/services-sante/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services de Santé
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/compagnies-assurance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compagnies d'Assurance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/agents-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents de Validation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/administrateurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administrateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/usagers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usagers (Grand Public)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/morgue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Morgue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/agence-voyage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agences de Voyage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Référence Technique
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Référence Technique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/reference/codes-erreur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Codes d'Erreur
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/reference/glossaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossaire
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/reference/api-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../modules/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    📊 Modules Fonctionnels
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            📊 Modules Fonctionnels
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/collecte-donnees/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Collecte de Données
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/validation-constats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/analyse-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Analyse & Reporting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/cartographie-accidents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cartographie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/module-vaar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Module VAAR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/statistiques-metriques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Statistiques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../implementation/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    🚀 Guides d'Implémentation
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            🚀 Guides d'Implémentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../implementation/installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../implementation/deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Déploiement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../implementation/maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maintenance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../implementation/backup-procedures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sauvegarde
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../developer/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    💻 Documentation Développeur
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            💻 Documentation Développeur
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/specifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spécifications
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/security-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sécurité
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/testing-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tests
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/api-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setup Dev
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ce-que-vous-allez-apprendre" class="md-nav__link">
+    <span class="md-ellipsis">
+      📋 Ce que vous allez apprendre
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#votre-role-en-tant-quagent-validateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎯 Votre Rôle en Tant qu'Agent Validateur
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#acces-a-la-plateforme-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      💻 Accès à la Plateforme de Validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💻 Accès à la Plateforme de Validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-pc-requise" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration PC Requise
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connexion-a-linterface-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connexion à l'Interface Web
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interface-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Interface de Validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Interface de Validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tableau-de-bord-principal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tableau de Bord Principal
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-complet-avec-captures-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎬 Workflow Complet avec Captures d'Écran
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎬 Workflow Complet avec Captures d&#39;Écran">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vue-densemble-du-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vue d'Ensemble du Workflow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-detaille-par-ecrans" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Détaillé par Écrans
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow Détaillé par Écrans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ecran-1-connexion-a-linterface-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 1 : Connexion à l'Interface Web
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-2-tableau-de-bord-des-declarations" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 2 : Tableau de Bord des Déclarations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-3-selection-dune-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 3 : Sélection d'une Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-4-consultation-detaillee-du-constat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 4 : Consultation Détaillée du Constat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-5-verification-des-photos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 5 : Vérification des Photos
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-6-consultation-du-croquis" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 6 : Consultation du Croquis
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-7-lecture-du-proces-verbal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 7 : Lecture du Procès-Verbal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-8-checklist-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 8 : Checklist de Validation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-9-decision-accepter-la-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 9 : Décision - Accepter la Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-10-decision-rejeter-la-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 10 : Décision - Rejeter la Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-11-confirmation-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 11 : Confirmation de Validation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-12-confirmation-de-rejet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 12 : Confirmation de Rejet
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#processus-de-validation-en-5-etapes" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔍 Processus de Validation en 5 Étapes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔍 Processus de Validation en 5 Étapes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#etape-1-selectionner-une-declaration-a-valider" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 1 : Sélectionner une Déclaration à Valider
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-2-examiner-les-informations-generales" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 2 : Examiner les Informations Générales
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-3-verifier-la-qualite-du-constat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 3 : Vérifier la Qualité du Constat
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-4-prendre-une-decision" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 4 : Prendre une Décision
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Étape 4 : Prendre une Décision">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#option-a-accepter-la-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option A : ✅ Accepter la Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#option-b-rejeter-la-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Option B : ❌ Rejeter la Déclaration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etape-5-suivi-et-statistiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Étape 5 : Suivi et Statistiques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indicateurs-de-performance" class="md-nav__link">
+    <span class="md-ellipsis">
+      📈 Indicateurs de Performance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vos-droits-et-limites" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚖️ Vos Droits et Limites
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚖️ Vos Droits et Limites">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ce-que-vous-pouvez-faire" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Ce que vous POUVEZ faire :
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ce-que-vous-ne-pouvez-pas-faire" class="md-nav__link">
+    <span class="md-ellipsis">
+      ❌ Ce que vous NE POUVEZ PAS faire :
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#temps-de-traitement-recommandes" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⏱️ Temps de Traitement Recommandés
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cas-particuliers" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚨 Cas Particuliers
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚨 Cas Particuliers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#accidents-avec-blesses-graves-ou-deces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accidents avec Blessés Graves ou Décès
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#suspicion-de-fraude" class="md-nav__link">
+    <span class="md-ellipsis">
+      Suspicion de Fraude
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#donnees-manquantes-ou-corrompues" class="md-nav__link">
+    <span class="md-ellipsis">
+      Données Manquantes ou Corrompues
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problemes-frequents-et-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Problèmes Fréquents et Solutions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚠️ Problèmes Fréquents et Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#je-ne-vois-aucune-declaration-a-valider" class="md-nav__link">
+    <span class="md-ellipsis">
+      Je ne vois aucune déclaration à valider
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#la-signature-ne-senregistre-pas" class="md-nav__link">
+    <span class="md-ellipsis">
+      La signature ne s'enregistre pas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#je-ne-peux-pas-rejeter-une-declaration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Je ne peux pas rejeter une déclaration
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pour-aller-plus-loin" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Pour Aller Plus Loin
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📚 Pour Aller Plus Loin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#manuel-complet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manuel Complet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ressources-complementaires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ressources Complémentaires
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#besoin-daide" class="md-nav__link">
+    <span class="md-ellipsis">
+      🆘 Besoin d'Aide ?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🆘 Besoin d&#39;Aide ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#support-technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Support Technique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contacts-utiles" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contacts Utiles
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-de-validation" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Checklist de Validation
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="✅ Checklist de Validation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#verifications-obligatoires" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vérifications Obligatoires
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#points-de-vigilance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Points de Vigilance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decision-finale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Décision Finale
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="guide-rapide-agents-validateurs">🚀 Guide Rapide : Agents Validateurs</h1>
+<p><strong>Durée estimée</strong> : 10 minutes<br />
+<strong>Niveau</strong> : Intermédiaire<br />
+<strong>Version</strong> : 2.0</p>
+<hr />
+<h2 id="ce-que-vous-allez-apprendre">📋 Ce que vous allez apprendre</h2>
+<p>À la fin de ce guide, vous saurez :</p>
+<p>✅ Accéder à l'interface web de validation<br />
+✅ Consulter les déclarations en attente (statut READY)<br />
+✅ Examiner et analyser un constat d'accident<br />
+✅ Valider ou rejeter une déclaration avec justification<br />
+✅ Suivre les indicateurs de qualité  </p>
+<hr />
+<h2 id="votre-role-en-tant-quagent-validateur">🎯 Votre Rôle en Tant qu'Agent Validateur</h2>
+<p>En tant qu'agent validateur, vous êtes le <strong>garant de la qualité</strong> des déclarations d'accidents. Votre mission :</p>
+<p>🔍 <strong>Contrôler</strong> la conformité des constats selon les standards établis<br />
+✅ <strong>Vérifier</strong> l'exactitude et la complétude des informations<br />
+👍 <strong>Valider</strong> ou ❌ <strong>Rejeter</strong> les constats avec justifications appropriées<br />
+🤝 <strong>Coordonner</strong> avec les agents constatateurs pour les corrections<br />
+📊 <strong>Assurer</strong> la qualité des données pour les statistiques nationales  </p>
+<hr />
+<h2 id="acces-a-la-plateforme-de-validation">💻 Accès à la Plateforme de Validation</h2>
+<h3 id="configuration-pc-requise">Configuration PC Requise</h3>
+<table>
+<thead>
+<tr>
+<th>Composant</th>
+<th>Spécification Minimale</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Processeur</strong></td>
+<td>Intel Core i5 CPU 2.30 GHz</td>
+</tr>
+<tr>
+<td><strong>RAM</strong></td>
+<td>8 Go</td>
+</tr>
+<tr>
+<td><strong>Système</strong></td>
+<td>Windows 10 64 bits</td>
+</tr>
+<tr>
+<td><strong>Espace disque</strong></td>
+<td>300 Go</td>
+</tr>
+<tr>
+<td><strong>Navigateur</strong></td>
+<td>Chrome, Firefox, Edge (dernière version)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="connexion-a-linterface-web">Connexion à l'Interface Web</h3>
+<ol>
+<li><strong>Ouvrir votre navigateur</strong> (Chrome, Firefox ou Edge recommandés)</li>
+<li><strong>Entrer l'adresse</strong> : <code>http://51.195.80.167:8098</code></li>
+<li><strong>Renseigner vos identifiants</strong> :</li>
+<li>Identifiant (fourni par votre hiérarchie)</li>
+<li>Mot de passe</li>
+<li><strong>Cliquer sur "CONNEXION"</strong></li>
+</ol>
+<p>⚠️ <strong>Important</strong> : Votre compte doit avoir les <strong>droits de validateur</strong> pour accéder aux fonctionnalités de validation.</p>
+<hr />
+<h2 id="interface-de-validation">📊 Interface de Validation</h2>
+<h3 id="tableau-de-bord-principal">Tableau de Bord Principal</h3>
+<p>Après connexion, vous accédez au <strong>tableau de bord de validation</strong> qui affiche :</p>
+<p>📋 <strong>Constats en attente</strong> : Liste des déclarations avec le statut <strong>READY</strong> (prêtes pour validation)<br />
+⏱️ <strong>Priorisation automatique</strong> basée sur :
+- Ancienneté du constat
+- Gravité de l'accident (mortel &gt; blessés graves &gt; matériel)
+- Complexité du dossier</p>
+<p>📈 <strong>Indicateurs qualité</strong> en temps réel :
+- Nombre de constats validés aujourd'hui
+- Taux d'acceptation/rejet
+- Temps moyen de traitement</p>
+<hr />
+<h2 id="workflow-complet-avec-captures-decran">🎬 Workflow Complet avec Captures d'Écran</h2>
+<h3 id="vue-densemble-du-workflow">Vue d'Ensemble du Workflow</h3>
+<pre class="mermaid"><code>graph TD
+    A[💻 Connexion Web] --&gt; B[📋 Liste des Déclarations READY]
+    B --&gt; C[🔍 Sélectionner une Déclaration]
+    C --&gt; D[📖 Examiner le Constat]
+    D --&gt; E{Décision}
+    E --&gt;|✅ Accepter| F[✍️ Signer]
+    E --&gt;|❌ Rejeter| G[📝 Motif Obligatoire]
+    F --&gt; H[📤 Validation Confirmée]
+    G --&gt; I[📤 Rejet Confirmé]
+
+    H --&gt; J[📊 Statistiques Mises à Jour]
+    I --&gt; K[🔔 Notification Agent]</code></pre>
+<h3 id="workflow-detaille-par-ecrans">Workflow Détaillé par Écrans</h3>
+<h4 id="ecran-1-connexion-a-linterface-web">Écran 1 : Connexion à l'Interface Web</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>│  🔐 DOSER - Connexion Validateur                   │
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│                                                      │
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│  Serveur: http://51.195.80.167:8098                │
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│                                                      │
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│  Identifiant: [_________________________]          │
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│  Mot de passe: [_________________________]         │
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│                                                      │
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│  [🔑 Se connecter]                                 │
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│                                                      │
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│  ⚠️ Accès réservé aux agents validateurs           │
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-2-tableau-de-bord-des-declarations">Écran 2 : Tableau de Bord des Déclarations</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>┌─────────────────────────────────────────────────────────────────┐
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>│  📊 Tableau de Bord Validateur - Agent: DUPONT Jean            │
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>│                                                                  │
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>│  📈 Statistiques du Jour:                                       │
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>│  ✅ Validées: 12  |  ❌ Rejetées: 3  |  ⏱️ Temps moyen: 18min │
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>│                                                                  │
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>│  📋 Déclarations en Attente (READY): 8                         │
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>│  ┌──────────────────────────────────────────────────────────┐  │
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>│  │ Réf.      | Date       | Type        | Priorité | Actions│  │
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>│  ├──────────────────────────────────────────────────────────┤  │
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>│  │ ACC-2025-001 | 15/10 14h | 🚨 Mortel  | CRITIQUE | [▶]  │  │
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>│  │ ACC-2025-002 | 15/10 15h | 🤕 Blessés | HAUTE    | [▶]  │  │
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>│  │ ACC-2025-003 | 15/10 16h | 🚗 Matériel| NORMALE  | [▶]  │  │
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>│  │ ACC-2025-004 | 14/10 18h | 🚗 Matériel| NORMALE  | [▶]  │  │
+<a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>│  └──────────────────────────────────────────────────────────┘  │
+<a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>│                                                                  │
+<a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>│  [🔄 Rafraîchir]  [📊 Rapports]  [⚙️ Paramètres]              │
+<a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>└─────────────────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-3-selection-dune-declaration">Écran 3 : Sélection d'une Déclaration</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>│  📋 Déclaration ACC-2025-001                        │
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>│  🚨 PRIORITÉ CRITIQUE - Accident Mortel             │
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>│                                                      │
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>│  📍 Lieu: Yaoundé, Route Nationale 1                │
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>│  📅 Date: 15/10/2025 à 14h30                        │
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>│  👮 Agent: MBARGA Paul (Brigade Yaoundé-Centre)     │
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>│  📤 Soumis le: 15/10/2025 à 16h45                   │
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>│                                                      │
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>│  ┌─────────────────────────────────────────────┐   │
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>│  │ Actions Disponibles:                        │   │
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>│  │                                              │   │
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>│  │  [🔍 Consulter]  [✅ Valider]  [❌ Rejeter] │   │
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>│  └─────────────────────────────────────────────┘   │
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-4-consultation-detaillee-du-constat">Écran 4 : Consultation Détaillée du Constat</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>┌─────────────────────────────────────────────────────────────────┐
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>│  📖 Consultation Détaillée - ACC-2025-001                       │
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>│  ═══════════════════════════════════════════════════════════════│
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>│                                                                  │
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>│  📋 INFORMATIONS GÉNÉRALES                                      │
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>│  ├─ Date/Heure: 15/10/2025 à 14h30                             │
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>│  ├─ Lieu: RN1, PK 12, Yaoundé                                  │
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>│  ├─ Coordonnées GPS: 3.8480° N, 11.5021° E ✅                  │
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>│  ├─ Météo: Ensoleillé, Chaussée sèche                          │
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>│  └─ Visibilité: Bonne                                           │
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>│                                                                  │
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>│  🚗 VÉHICULES IMPLIQUÉS (2)                                     │
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>│  ├─ Véhicule A: Toyota Camry, LT-1234-YA                       │
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>│  │  └─ Photos: [📷][📷][📷][📷] ✅                             │
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>│  └─ Véhicule B: Moto Yamaha, LT-5678-YA                        │
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>│     └─ Photos: [📷][📷][📷] ✅                                  │
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a>│                                                                  │
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a>│  👥 PERSONNES IMPLIQUÉES (3)                                    │
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a>│  ├─ Conducteur A: NKOMO Jean, 45 ans, Indemne                  │
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a>│  ├─ Conducteur B: ATEBA Marie, 28 ans, Décédée 💀              │
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a>│  └─ Témoin: FOTSO Paul, 52 ans                                 │
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a>│                                                                  │
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a>│  🎨 CROQUIS: [Voir le croquis] ✅                               │
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a>│  📝 PROCÈS-VERBAL: [Lire le PV] ✅                              │
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a>│  🗣️ DÉPOSITIONS: 3 dépositions enregistrées ✅                 │
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a>│                                                                  │
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a>│  ═══════════════════════════════════════════════════════════════│
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a>│  [⬅️ Retour]  [✅ Accepter]  [❌ Rejeter]                       │
+<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a>└─────────────────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-5-verification-des-photos">Écran 5 : Vérification des Photos</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>│  📸 Galerie Photos - Véhicule A                     │
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>│                                                      │
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>│  ┌──────────┐ ┌──────────┐ ┌──────────┐           │
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>│  │ [Photo 1]│ │ [Photo 2]│ │ [Photo 3]│           │
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>│  │  Avant   │ │  Arrière │ │ Côté G.  │           │
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>│  │  ✅ Net  │ │  ✅ Net  │ │  ✅ Net  │           │
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>│  └──────────┘ └──────────┘ └──────────┘           │
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>│                                                      │
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>│  ┌──────────┐                                       │
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>│  │ [Photo 4]│  Métadonnées:                        │
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>│  │ Côté D.  │  📅 15/10/2025 14:35                 │
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>│  │  ✅ Net  │  📍 GPS: 3.8480° N, 11.5021° E       │
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>│  └──────────┘  📷 Samsung Galaxy S21                │
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>│                                                      │
+<a id="__codelineno-4-16" name="__codelineno-4-16" href="#__codelineno-4-16"></a>│  ✅ Toutes les photos sont exploitables             │
+<a id="__codelineno-4-17" name="__codelineno-4-17" href="#__codelineno-4-17"></a>│                                                      │
+<a id="__codelineno-4-18" name="__codelineno-4-18" href="#__codelineno-4-18"></a>│  [⬅️ Retour]  [➡️ Suivant]                         │
+<a id="__codelineno-4-19" name="__codelineno-4-19" href="#__codelineno-4-19"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-6-consultation-du-croquis">Écran 6 : Consultation du Croquis</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>│  🎨 Croquis de l&#39;Accident                           │
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>│                                                      │
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>│              N (Nord)                                │
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>│               ↑                                      │
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>│               │                                      │
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>│    ┌──────────┴──────────┐                         │
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>│    │    Route RN1        │                         │
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>│    │                     │                         │
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>│    │     🚗→             │  Véhicule A              │
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>│    │        ↘            │  (Toyota Camry)          │
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>│    │          ↘          │                         │
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>│    │            🏍💥     │  Point d&#39;impact          │
+<a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a>│    │              ↓      │                         │
+<a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a>│    │              ⚰️     │  Victime (Moto)          │
+<a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a>│    │                     │                         │
+<a id="__codelineno-5-17" name="__codelineno-5-17" href="#__codelineno-5-17"></a>│    └─────────────────────┘                         │
+<a id="__codelineno-5-18" name="__codelineno-5-18" href="#__codelineno-5-18"></a>│                                                      │
+<a id="__codelineno-5-19" name="__codelineno-5-19" href="#__codelineno-5-19"></a>│  Légende:                                           │
+<a id="__codelineno-5-20" name="__codelineno-5-20" href="#__codelineno-5-20"></a>│  🚗 = Véhicule A (sens Est→Ouest)                  │
+<a id="__codelineno-5-21" name="__codelineno-5-21" href="#__codelineno-5-21"></a>│  🏍 = Véhicule B (Moto, sens Sud→Nord)             │
+<a id="__codelineno-5-22" name="__codelineno-5-22" href="#__codelineno-5-22"></a>│  💥 = Point d&#39;impact                                │
+<a id="__codelineno-5-23" name="__codelineno-5-23" href="#__codelineno-5-23"></a>│  ⚰️ = Position victime décédée                      │
+<a id="__codelineno-5-24" name="__codelineno-5-24" href="#__codelineno-5-24"></a>│                                                      │
+<a id="__codelineno-5-25" name="__codelineno-5-25" href="#__codelineno-5-25"></a>│  ✅ Croquis clair et proportionnel                  │
+<a id="__codelineno-5-26" name="__codelineno-5-26" href="#__codelineno-5-26"></a>│                                                      │
+<a id="__codelineno-5-27" name="__codelineno-5-27" href="#__codelineno-5-27"></a>│  [⬅️ Retour]  [➡️ Suivant]                         │
+<a id="__codelineno-5-28" name="__codelineno-5-28" href="#__codelineno-5-28"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-7-lecture-du-proces-verbal">Écran 7 : Lecture du Procès-Verbal</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>│  📝 Procès-Verbal d&#39;Accident                        │
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>│                                                      │
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>│  Nous, MBARGA Paul, Agent de Police, certifions     │
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>│  que le 15 octobre 2025 à 14h30, nous avons été     │
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>│  appelés sur les lieux d&#39;un accident de la          │
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>│  circulation survenu au PK 12 de la RN1.            │
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>│                                                      │
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>│  CIRCONSTANCES:                                      │
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>│  Le véhicule A (Toyota Camry, LT-1234-YA) circulait│
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>│  d&#39;Est en Ouest à vitesse modérée. Au niveau du     │
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>│  carrefour, une motocycliste (Yamaha, LT-5678-YA)   │
+<a id="__codelineno-6-13" name="__codelineno-6-13" href="#__codelineno-6-13"></a>│  a débouché brusquement du Sud sans respecter le    │
+<a id="__codelineno-6-14" name="__codelineno-6-14" href="#__codelineno-6-14"></a>│  stop. Collision latérale. La conductrice de la     │
+<a id="__codelineno-6-15" name="__codelineno-6-15" href="#__codelineno-6-15"></a>│  moto a été éjectée et est décédée sur le coup.     │
+<a id="__codelineno-6-16" name="__codelineno-6-16" href="#__codelineno-6-16"></a>│                                                      │
+<a id="__codelineno-6-17" name="__codelineno-6-17" href="#__codelineno-6-17"></a>│  CONSTATATIONS:                                      │
+<a id="__codelineno-6-18" name="__codelineno-6-18" href="#__codelineno-6-18"></a>│  - Traces de freinage du véhicule A: 8 mètres       │
+<a id="__codelineno-6-19" name="__codelineno-6-19" href="#__codelineno-6-19"></a>│  - Panneau STOP visible et en bon état              │
+<a id="__codelineno-6-20" name="__codelineno-6-20" href="#__codelineno-6-20"></a>│  - Aucune trace d&#39;alcoolémie (test négatif)         │
+<a id="__codelineno-6-21" name="__codelineno-6-21" href="#__codelineno-6-21"></a>│  - Conditions météo favorables                       │
+<a id="__codelineno-6-22" name="__codelineno-6-22" href="#__codelineno-6-22"></a>│                                                      │
+<a id="__codelineno-6-23" name="__codelineno-6-23" href="#__codelineno-6-23"></a>│  TÉMOIGNAGES:                                        │
+<a id="__codelineno-6-24" name="__codelineno-6-24" href="#__codelineno-6-24"></a>│  M. FOTSO Paul confirme que la moto n&#39;a pas         │
+<a id="__codelineno-6-25" name="__codelineno-6-25" href="#__codelineno-6-25"></a>│  marqué l&#39;arrêt au stop.                            │
+<a id="__codelineno-6-26" name="__codelineno-6-26" href="#__codelineno-6-26"></a>│                                                      │
+<a id="__codelineno-6-27" name="__codelineno-6-27" href="#__codelineno-6-27"></a>│  ✅ PV complet et détaillé                          │
+<a id="__codelineno-6-28" name="__codelineno-6-28" href="#__codelineno-6-28"></a>│                                                      │
+<a id="__codelineno-6-29" name="__codelineno-6-29" href="#__codelineno-6-29"></a>│  [⬅️ Retour]  [➡️ Suivant]                         │
+<a id="__codelineno-6-30" name="__codelineno-6-30" href="#__codelineno-6-30"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-8-checklist-de-validation">Écran 8 : Checklist de Validation</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>│  ✅ Checklist de Validation                         │
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>│                                                      │
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>│  COMPLÉTUDE:                                         │
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>│  ✅ Tous les champs obligatoires remplis            │
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>│  ✅ Photos présentes et exploitables (7/7)          │
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>│  ✅ Croquis clair et proportionnel                  │
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>│  ✅ Documents légaux lisibles                       │
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>│  ✅ Procès-verbal complet                           │
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>│                                                      │
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>│  COHÉRENCE:                                          │
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>│  ✅ Photos correspondent aux descriptions           │
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>│  ✅ Heure cohérente avec luminosité                 │
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>│  ✅ GPS cohérent avec photos de lieu                │
+<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>│  ✅ Témoignages concordants                         │
+<a id="__codelineno-7-16" name="__codelineno-7-16" href="#__codelineno-7-16"></a>│  ✅ Aucune contradiction détectée                   │
+<a id="__codelineno-7-17" name="__codelineno-7-17" href="#__codelineno-7-17"></a>│                                                      │
+<a id="__codelineno-7-18" name="__codelineno-7-18" href="#__codelineno-7-18"></a>│  CONFORMITÉ:                                         │
+<a id="__codelineno-7-19" name="__codelineno-7-19" href="#__codelineno-7-19"></a>│  ✅ Procédures respectées                           │
+<a id="__codelineno-7-20" name="__codelineno-7-20" href="#__codelineno-7-20"></a>│  ✅ Grille d&#39;évaluation appliquée                   │
+<a id="__codelineno-7-21" name="__codelineno-7-21" href="#__codelineno-7-21"></a>│  ✅ Réglementation respectée                        │
+<a id="__codelineno-7-22" name="__codelineno-7-22" href="#__codelineno-7-22"></a>│                                                      │
+<a id="__codelineno-7-23" name="__codelineno-7-23" href="#__codelineno-7-23"></a>│  SCORE QUALITÉ: 95/100 ⭐⭐⭐⭐⭐                    │
+<a id="__codelineno-7-24" name="__codelineno-7-24" href="#__codelineno-7-24"></a>│                                                      │
+<a id="__codelineno-7-25" name="__codelineno-7-25" href="#__codelineno-7-25"></a>│  [⬅️ Retour]  [✅ Accepter]  [❌ Rejeter]          │
+<a id="__codelineno-7-26" name="__codelineno-7-26" href="#__codelineno-7-26"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-9-decision-accepter-la-declaration">Écran 9 : Décision - Accepter la Déclaration</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-8-2" name="__codelineno-8-2" href="#__codelineno-8-2"></a>│  ✅ Validation de la Déclaration ACC-2025-001       │
+<a id="__codelineno-8-3" name="__codelineno-8-3" href="#__codelineno-8-3"></a>│                                                      │
+<a id="__codelineno-8-4" name="__codelineno-8-4" href="#__codelineno-8-4"></a>│  Vous êtes sur le point d&#39;ACCEPTER cette           │
+<a id="__codelineno-8-5" name="__codelineno-8-5" href="#__codelineno-8-5"></a>│  déclaration. Cette action est définitive.          │
+<a id="__codelineno-8-6" name="__codelineno-8-6" href="#__codelineno-8-6"></a>│                                                      │
+<a id="__codelineno-8-7" name="__codelineno-8-7" href="#__codelineno-8-7"></a>│  Commentaire (facultatif):                          │
+<a id="__codelineno-8-8" name="__codelineno-8-8" href="#__codelineno-8-8"></a>│  ┌─────────────────────────────────────────────┐   │
+<a id="__codelineno-8-9" name="__codelineno-8-9" href="#__codelineno-8-9"></a>│  │ Excellent travail. Constat très complet,    │   │
+<a id="__codelineno-8-10" name="__codelineno-8-10" href="#__codelineno-8-10"></a>│  │ photos de qualité, PV détaillé. Procédures  │   │
+<a id="__codelineno-8-11" name="__codelineno-8-11" href="#__codelineno-8-11"></a>│  │ parfaitement respectées.                     │   │
+<a id="__codelineno-8-12" name="__codelineno-8-12" href="#__codelineno-8-12"></a>│  └─────────────────────────────────────────────┘   │
+<a id="__codelineno-8-13" name="__codelineno-8-13" href="#__codelineno-8-13"></a>│                                                      │
+<a id="__codelineno-8-14" name="__codelineno-8-14" href="#__codelineno-8-14"></a>│  ✍️ Signature Électronique:                        │
+<a id="__codelineno-8-15" name="__codelineno-8-15" href="#__codelineno-8-15"></a>│  ┌─────────────────────────────────────────────┐   │
+<a id="__codelineno-8-16" name="__codelineno-8-16" href="#__codelineno-8-16"></a>│  │                                              │   │
+<a id="__codelineno-8-17" name="__codelineno-8-17" href="#__codelineno-8-17"></a>│  │         [Zone de signature tactile]         │   │
+<a id="__codelineno-8-18" name="__codelineno-8-18" href="#__codelineno-8-18"></a>│  │              Jean DUPONT                     │   │
+<a id="__codelineno-8-19" name="__codelineno-8-19" href="#__codelineno-8-19"></a>│  │                                              │   │
+<a id="__codelineno-8-20" name="__codelineno-8-20" href="#__codelineno-8-20"></a>│  └─────────────────────────────────────────────┘   │
+<a id="__codelineno-8-21" name="__codelineno-8-21" href="#__codelineno-8-21"></a>│                                                      │
+<a id="__codelineno-8-22" name="__codelineno-8-22" href="#__codelineno-8-22"></a>│  [❌ Annuler]  [✅ Confirmer la Validation]        │
+<a id="__codelineno-8-23" name="__codelineno-8-23" href="#__codelineno-8-23"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-10-decision-rejeter-la-declaration">Écran 10 : Décision - Rejeter la Déclaration</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-9-2" name="__codelineno-9-2" href="#__codelineno-9-2"></a>│  ❌ Rejet de la Déclaration ACC-2025-003            │
+<a id="__codelineno-9-3" name="__codelineno-9-3" href="#__codelineno-9-3"></a>│                                                      │
+<a id="__codelineno-9-4" name="__codelineno-9-4" href="#__codelineno-9-4"></a>│  Vous êtes sur le point de REJETER cette           │
+<a id="__codelineno-9-5" name="__codelineno-9-5" href="#__codelineno-9-5"></a>│  déclaration. L&#39;agent devra la corriger.           │
+<a id="__codelineno-9-6" name="__codelineno-9-6" href="#__codelineno-9-6"></a>│                                                      │
+<a id="__codelineno-9-7" name="__codelineno-9-7" href="#__codelineno-9-7"></a>│  ⚠️ Motif du Rejet (OBLIGATOIRE):                  │
+<a id="__codelineno-9-8" name="__codelineno-9-8" href="#__codelineno-9-8"></a>│  ┌─────────────────────────────────────────────┐   │
+<a id="__codelineno-9-9" name="__codelineno-9-9" href="#__codelineno-9-9"></a>│  │ - Photos manquantes du véhicule B (arrière  │   │
+<a id="__codelineno-9-10" name="__codelineno-9-10" href="#__codelineno-9-10"></a>│  │   et côté droit)                             │   │
+<a id="__codelineno-9-11" name="__codelineno-9-11" href="#__codelineno-9-11"></a>│  │ - Certificat médical non joint pour la      │   │
+<a id="__codelineno-9-12" name="__codelineno-9-12" href="#__codelineno-9-12"></a>│  │   victime Monsieur ATEBA                     │   │
+<a id="__codelineno-9-13" name="__codelineno-9-13" href="#__codelineno-9-13"></a>│  │ - Croquis imprécis : échelle non respectée, │   │
+<a id="__codelineno-9-14" name="__codelineno-9-14" href="#__codelineno-9-14"></a>│  │   positions des véhicules peu claires       │   │
+<a id="__codelineno-9-15" name="__codelineno-9-15" href="#__codelineno-9-15"></a>│  │ - PV incomplet : absence de description des │   │
+<a id="__codelineno-9-16" name="__codelineno-9-16" href="#__codelineno-9-16"></a>│  │   traces de freinage                         │   │
+<a id="__codelineno-9-17" name="__codelineno-9-17" href="#__codelineno-9-17"></a>│  │                                              │   │
+<a id="__codelineno-9-18" name="__codelineno-9-18" href="#__codelineno-9-18"></a>│  │ Merci de compléter ces éléments avant       │   │
+<a id="__codelineno-9-19" name="__codelineno-9-19" href="#__codelineno-9-19"></a>│  │ re-soumission.                               │   │
+<a id="__codelineno-9-20" name="__codelineno-9-20" href="#__codelineno-9-20"></a>│  └─────────────────────────────────────────────┘   │
+<a id="__codelineno-9-21" name="__codelineno-9-21" href="#__codelineno-9-21"></a>│                                                      │
+<a id="__codelineno-9-22" name="__codelineno-9-22" href="#__codelineno-9-22"></a>│  [❌ Annuler]  [📤 Confirmer le Rejet]             │
+<a id="__codelineno-9-23" name="__codelineno-9-23" href="#__codelineno-9-23"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-11-confirmation-de-validation">Écran 11 : Confirmation de Validation</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-10-2" name="__codelineno-10-2" href="#__codelineno-10-2"></a>│  ✅ VALIDATION CONFIRMÉE                            │
+<a id="__codelineno-10-3" name="__codelineno-10-3" href="#__codelineno-10-3"></a>│                                                      │
+<a id="__codelineno-10-4" name="__codelineno-10-4" href="#__codelineno-10-4"></a>│  La déclaration ACC-2025-001 a été validée avec    │
+<a id="__codelineno-10-5" name="__codelineno-10-5" href="#__codelineno-10-5"></a>│  succès !                                           │
+<a id="__codelineno-10-6" name="__codelineno-10-6" href="#__codelineno-10-6"></a>│                                                      │
+<a id="__codelineno-10-7" name="__codelineno-10-7" href="#__codelineno-10-7"></a>│  📊 Résumé:                                         │
+<a id="__codelineno-10-8" name="__codelineno-10-8" href="#__codelineno-10-8"></a>│  ├─ Statut: ACCEPTED ✅                             │
+<a id="__codelineno-10-9" name="__codelineno-10-9" href="#__codelineno-10-9"></a>│  ├─ Validé par: Jean DUPONT                        │
+<a id="__codelineno-10-10" name="__codelineno-10-10" href="#__codelineno-10-10"></a>│  ├─ Date: 15/10/2025 à 17:15                       │
+<a id="__codelineno-10-11" name="__codelineno-10-11" href="#__codelineno-10-11"></a>│  └─ Temps de traitement: 18 minutes                │
+<a id="__codelineno-10-12" name="__codelineno-10-12" href="#__codelineno-10-12"></a>│                                                      │
+<a id="__codelineno-10-13" name="__codelineno-10-13" href="#__codelineno-10-13"></a>│  📤 Actions automatiques:                           │
+<a id="__codelineno-10-14" name="__codelineno-10-14" href="#__codelineno-10-14"></a>│  ✅ Notification envoyée à l&#39;agent MBARGA Paul     │
+<a id="__codelineno-10-15" name="__codelineno-10-15" href="#__codelineno-10-15"></a>│  ✅ Transmission aux assurances                     │
+<a id="__codelineno-10-16" name="__codelineno-10-16" href="#__codelineno-10-16"></a>│  ✅ Intégration statistiques nationales             │
+<a id="__codelineno-10-17" name="__codelineno-10-17" href="#__codelineno-10-17"></a>│  ✅ Archivage en lecture seule                     │
+<a id="__codelineno-10-18" name="__codelineno-10-18" href="#__codelineno-10-18"></a>│                                                      │
+<a id="__codelineno-10-19" name="__codelineno-10-19" href="#__codelineno-10-19"></a>│  📈 Vos statistiques du jour:                       │
+<a id="__codelineno-10-20" name="__codelineno-10-20" href="#__codelineno-10-20"></a>│  Validées: 13  |  Rejetées: 3  |  Taux: 81%        │
+<a id="__codelineno-10-21" name="__codelineno-10-21" href="#__codelineno-10-21"></a>│                                                      │
+<a id="__codelineno-10-22" name="__codelineno-10-22" href="#__codelineno-10-22"></a>│  [🏠 Retour à l&#39;accueil]  [➡️ Déclaration suivante]│
+<a id="__codelineno-10-23" name="__codelineno-10-23" href="#__codelineno-10-23"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-12-confirmation-de-rejet">Écran 12 : Confirmation de Rejet</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>┌─────────────────────────────────────────────────────┐
+<a id="__codelineno-11-2" name="__codelineno-11-2" href="#__codelineno-11-2"></a>│  ❌ REJET CONFIRMÉ                                  │
+<a id="__codelineno-11-3" name="__codelineno-11-3" href="#__codelineno-11-3"></a>│                                                      │
+<a id="__codelineno-11-4" name="__codelineno-11-4" href="#__codelineno-11-4"></a>│  La déclaration ACC-2025-003 a été rejetée.        │
+<a id="__codelineno-11-5" name="__codelineno-11-5" href="#__codelineno-11-5"></a>│                                                      │
+<a id="__codelineno-11-6" name="__codelineno-11-6" href="#__codelineno-11-6"></a>│  📊 Résumé:                                         │
+<a id="__codelineno-11-7" name="__codelineno-11-7" href="#__codelineno-11-7"></a>│  ├─ Statut: REJECTED ❌                             │
+<a id="__codelineno-11-8" name="__codelineno-11-8" href="#__codelineno-11-8"></a>│  ├─ Rejeté par: Jean DUPONT                        │
+<a id="__codelineno-11-9" name="__codelineno-11-9" href="#__codelineno-11-9"></a>│  ├─ Date: 15/10/2025 à 17:30                       │
+<a id="__codelineno-11-10" name="__codelineno-11-10" href="#__codelineno-11-10"></a>│  └─ Temps de traitement: 15 minutes                │
+<a id="__codelineno-11-11" name="__codelineno-11-11" href="#__codelineno-11-11"></a>│                                                      │
+<a id="__codelineno-11-12" name="__codelineno-11-12" href="#__codelineno-11-12"></a>│  📤 Actions automatiques:                           │
+<a id="__codelineno-11-13" name="__codelineno-11-13" href="#__codelineno-11-13"></a>│  ✅ Notification envoyée à l&#39;agent MBARGA Paul     │
+<a id="__codelineno-11-14" name="__codelineno-11-14" href="#__codelineno-11-14"></a>│  ✅ Motif du rejet transmis                        │
+<a id="__codelineno-11-15" name="__codelineno-11-15" href="#__codelineno-11-15"></a>│  ✅ Déclaration retournée au statut OPENED         │
+<a id="__codelineno-11-16" name="__codelineno-11-16" href="#__codelineno-11-16"></a>│  ✅ Historique des rejets mis à jour              │
+<a id="__codelineno-11-17" name="__codelineno-11-17" href="#__codelineno-11-17"></a>│                                                      │
+<a id="__codelineno-11-18" name="__codelineno-11-18" href="#__codelineno-11-18"></a>│  📈 Vos statistiques du jour:                       │
+<a id="__codelineno-11-19" name="__codelineno-11-19" href="#__codelineno-11-19"></a>│  Validées: 13  |  Rejetées: 4  |  Taux: 76%        │
+<a id="__codelineno-11-20" name="__codelineno-11-20" href="#__codelineno-11-20"></a>│                                                      │
+<a id="__codelineno-11-21" name="__codelineno-11-21" href="#__codelineno-11-21"></a>│  [🏠 Retour à l&#39;accueil]  [➡️ Déclaration suivante]│
+<a id="__codelineno-11-22" name="__codelineno-11-22" href="#__codelineno-11-22"></a>└─────────────────────────────────────────────────────┘
+</code></pre></div>
+<hr />
+<h2 id="processus-de-validation-en-5-etapes">🔍 Processus de Validation en 5 Étapes</h2>
+<h3 id="etape-1-selectionner-une-declaration-a-valider">Étape 1 : Sélectionner une Déclaration à Valider</h3>
+<ol>
+<li>Dans la <strong>liste des déclarations</strong>, identifier celles avec le statut <strong>READY</strong></li>
+<li>Les déclarations sont triées par priorité (accidents graves en premier)</li>
+<li><strong>Cliquer sur le bouton "Actions"</strong> à droite de la déclaration</li>
+<li><strong>Sélectionner "Validation"</strong> dans le menu déroulant</li>
+</ol>
+<h3 id="etape-2-examiner-les-informations-generales">Étape 2 : Examiner les Informations Générales</h3>
+<p>Une interface détaillée s'affiche avec toutes les informations :</p>
+<p><strong>📋 En-tête de la Déclaration :</strong>
+- Numéro de référence unique
+- Date et heure de l'accident
+- Lieu précis (région, département, arrondissement)
+- Agent constatateur responsable
+- Date de création et de soumission</p>
+<p><strong>🚗 Véhicules Impliqués :</strong>
+- Liste complète avec photos
+- Immatriculations et documents (carte grise, assurance)
+- Dommages observés
+- Position sur le croquis</p>
+<p><strong>👥 Personnes Impliquées :</strong>
+- Conducteurs, passagers, piétons, témoins
+- Documents d'identité (CNI, permis de conduire)
+- État (indemne, blessé, décédé)
+- Certificats médicaux (si applicable)</p>
+<h3 id="etape-3-verifier-la-qualite-du-constat">Étape 3 : Vérifier la Qualité du Constat</h3>
+<p><strong>Points de Vigilance Obligatoires :</strong></p>
+<p>✅ <strong>Complétude</strong> :
+- Tous les champs obligatoires sont remplis
+- Photos présentes et exploitables
+- Documents légaux lisibles et valides
+- Croquis clair et compréhensible</p>
+<p>✅ <strong>Cohérence</strong> :
+- Correspondance entre les descriptions écrites et les photos
+- Cohérence temporelle (heure de l'accident vs conditions lumineuses)
+- Cohérence spatiale (localisation GPS vs photos de lieu)
+- Vraisemblance des témoignages</p>
+<p>✅ <strong>Conformité</strong> :
+- Respect des procédures établies
+- Application des grilles d'évaluation
+- Adéquation avec la réglementation locale</p>
+<p><strong>🔴 Signaux d'Alerte (Rejet Probable) :</strong>
+- Photos floues ou manquantes
+- Incohérences flagrantes entre témoignages
+- Données GPS erronées
+- Documents illisibles ou suspects
+- Procès-verbal incomplet</p>
+<h3 id="etape-4-prendre-une-decision">Étape 4 : Prendre une Décision</h3>
+<p>Vous avez <strong>deux options</strong> :</p>
+<h4 id="option-a-accepter-la-declaration">Option A : ✅ Accepter la Déclaration</h4>
+<p><strong>Quand accepter ?</strong>
+- Constat complet, cohérent et conforme
+- Toutes les informations nécessaires sont présentes
+- Qualité des preuves (photos, documents) satisfaisante</p>
+<p><strong>Procédure :</strong>
+1. <strong>Cliquer sur le bouton "Accepter"</strong>
+2. <strong>Ajouter un commentaire</strong> (facultatif) :
+   - Féliciter l'agent pour la qualité du travail
+   - Encourager les bonnes pratiques
+   - Exemple : "Excellent travail, photos très claires et croquis précis"
+3. <strong>Dessiner votre signature</strong> sur l'interface tactile
+4. <strong>Cliquer sur "Enregistrer"</strong> pour confirmer</p>
+<p><strong>Résultat :</strong>
+- Le statut passe à <strong>ACCEPTED</strong> ✅
+- La déclaration est transmise aux systèmes en aval (assurances, statistiques)
+- L'agent constatateur reçoit une notification de validation
+- La déclaration devient consultable en lecture seule</p>
+<h4 id="option-b-rejeter-la-declaration">Option B : ❌ Rejeter la Déclaration</h4>
+<p><strong>Quand rejeter ?</strong>
+- Constat incomplet ou incohérent
+- Informations manquantes ou erronées
+- Qualité insuffisante des preuves
+- Non-conformité aux procédures</p>
+<p><strong>Procédure :</strong>
+1. <strong>Cliquer sur le bouton "Annuler"</strong> ou "Rejeter"
+2. <strong>Renseigner OBLIGATOIREMENT un motif de refus</strong> détaillé et constructif :</p>
+<p><strong>Exemples de motifs de rejet :</strong>
+- ❌ "Photos manquantes du véhicule B (arrière et côté droit)"
+- ❌ "Incohérence : accident déclaré à 14h mais photos montrent un coucher de soleil"
+- ❌ "Données GPS erronées - localisation incohérente avec les photos"
+- ❌ "Certificat médical manquant pour la victime Monsieur X"
+- ❌ "Procès-verbal incomplet - absence de description des circonstances"
+- ❌ "Croquis illisible - échelle non respectée, positions imprécises"
+- ❌ "Témoignages contradictoires non clarifiés"</p>
+<ol>
+<li><strong>Cliquer sur "Enregistrer"</strong> pour confirmer le rejet</li>
+</ol>
+<p><strong>Résultat :</strong>
+- Le statut passe à <strong>REJECTED</strong> ❌
+- L'agent constatateur reçoit une notification immédiate avec le motif
+- La déclaration retourne au statut <strong>OPENED</strong> pour modifications
+- L'agent peut corriger et re-soumettre</p>
+<h3 id="etape-5-suivi-et-statistiques">Étape 5 : Suivi et Statistiques</h3>
+<p>Après validation ou rejet :</p>
+<p><strong>Pour les déclarations ACCEPTED :</strong>
+- Transmission automatique aux systèmes downstream
+- Intégration dans les statistiques nationales
+- Consultation en lecture seule uniquement</p>
+<p><strong>Pour les déclarations REJECTED :</strong>
+- Notification automatique à l'agent constatateur
+- Historique des rejets conservé pour suivi qualité
+- Possibilité de re-soumission après corrections</p>
+<hr />
+<h2 id="indicateurs-de-performance">📈 Indicateurs de Performance</h2>
+<p>Le système suit automatiquement vos performances :</p>
+<table>
+<thead>
+<tr>
+<th>Indicateur</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Taux de validation</strong></td>
+<td>% de déclarations acceptées vs rejetées</td>
+</tr>
+<tr>
+<td><strong>Temps de traitement</strong></td>
+<td>Délai moyen entre soumission et validation</td>
+</tr>
+<tr>
+<td><strong>Motifs de rejet</strong></td>
+<td>Catégorisation des problèmes récurrents</td>
+</tr>
+<tr>
+<td><strong>Qualité par agent</strong></td>
+<td>Performance de chaque agent constatateur</td>
+</tr>
+<tr>
+<td><strong>Tendances</strong></td>
+<td>Évolution de la qualité dans le temps</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="vos-droits-et-limites">⚖️ Vos Droits et Limites</h2>
+<h3 id="ce-que-vous-pouvez-faire">✅ Ce que vous POUVEZ faire :</h3>
+<ul>
+<li>Voir toutes les déclarations de votre organisation</li>
+<li>Valider (accepter ou refuser) les déclarations au statut READY</li>
+<li>Commenter vos décisions</li>
+<li>Consulter l'historique complet de chaque déclaration</li>
+<li>Générer des rapports de qualité</li>
+</ul>
+<h3 id="ce-que-vous-ne-pouvez-pas-faire">❌ Ce que vous NE POUVEZ PAS faire :</h3>
+<ul>
+<li>Modifier directement une déclaration (seul l'agent constatateur peut le faire)</li>
+<li>Supprimer une déclaration validée</li>
+<li>Valider vos propres déclarations (si vous êtes aussi agent constatateur)</li>
+</ul>
+<hr />
+<h2 id="temps-de-traitement-recommandes">⏱️ Temps de Traitement Recommandés</h2>
+<table>
+<thead>
+<tr>
+<th>Type d'Accident</th>
+<th>Temps Recommandé</th>
+<th>Priorité</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Accident matériel simple</strong></td>
+<td>10-15 minutes</td>
+<td>Normale</td>
+</tr>
+<tr>
+<td><strong>Accident avec blessés légers</strong></td>
+<td>15-20 minutes</td>
+<td>Moyenne</td>
+</tr>
+<tr>
+<td><strong>Accident avec blessés graves</strong></td>
+<td>20-30 minutes</td>
+<td>Haute</td>
+</tr>
+<tr>
+<td><strong>Accident mortel</strong></td>
+<td>30-45 minutes</td>
+<td><strong>Critique</strong></td>
+</tr>
+<tr>
+<td><strong>Accident multi-véhicules (&gt;3)</strong></td>
+<td>30-45 minutes</td>
+<td>Haute</td>
+</tr>
+</tbody>
+</table>
+<p>⚠️ <strong>Important</strong> : La <strong>qualité prime sur la rapidité</strong>. Prenez le temps nécessaire pour une validation rigoureuse.</p>
+<hr />
+<h2 id="cas-particuliers">🚨 Cas Particuliers</h2>
+<h3 id="accidents-avec-blesses-graves-ou-deces">Accidents avec Blessés Graves ou Décès</h3>
+<ul>
+<li><strong>Validation prioritaire</strong> sous 2 heures maximum</li>
+<li><strong>Double validation</strong> obligatoire (par deux validateurs différents)</li>
+<li><strong>Coordination</strong> avec services judiciaires si nécessaire</li>
+<li><strong>Vérification renforcée</strong> des certificats médicaux et procédures</li>
+</ul>
+<h3 id="suspicion-de-fraude">Suspicion de Fraude</h3>
+<p><strong>Indicateurs de fraude :</strong>
+- Incohérences temporelles ou spatiales
+- Témoignages contradictoires
+- Documents falsifiés ou illisibles
+- Dommages non cohérents avec la description</p>
+<p><strong>Procédure :</strong>
+1. Marquer "Suspicion de fraude"
+2. Alerter automatiquement les superviseurs
+3. Conserver toutes les preuves numériques
+4. Ne pas valider - escalader immédiatement</p>
+<h3 id="donnees-manquantes-ou-corrompues">Données Manquantes ou Corrompues</h3>
+<p><strong>Photos manquantes :</strong>
+- Contact immédiat avec l'agent constatateur
+- Demande de reprise des photos si possible
+- Notation de la non-conformité</p>
+<p><strong>Données techniques erronées :</strong>
+- Vérification des métadonnées GPS
+- Recoupement avec données externes
+- Correction manuelle si justifiée et documentée</p>
+<hr />
+<h2 id="problemes-frequents-et-solutions">⚠️ Problèmes Fréquents et Solutions</h2>
+<h3 id="je-ne-vois-aucune-declaration-a-valider">Je ne vois aucune déclaration à valider</h3>
+<p><strong>Solutions</strong> :
+1. Vérifiez que vous avez les droits de validateur
+2. Vérifiez qu'il y a des déclarations au statut READY
+3. Rafraîchissez la page (F5)
+4. Contactez le support technique</p>
+<h3 id="la-signature-ne-senregistre-pas">La signature ne s'enregistre pas</h3>
+<p><strong>Solutions</strong> :
+1. Vérifiez que vous avez bien dessiné la signature
+2. Essayez avec un autre navigateur
+3. Vérifiez votre connexion Internet
+4. Videz le cache du navigateur</p>
+<h3 id="je-ne-peux-pas-rejeter-une-declaration">Je ne peux pas rejeter une déclaration</h3>
+<p><strong>Solutions</strong> :
+1. Vérifiez que vous avez renseigné un motif de rejet
+2. Le motif doit contenir au moins 10 caractères
+3. Vérifiez que la déclaration est bien au statut READY</p>
+<hr />
+<h2 id="pour-aller-plus-loin">📚 Pour Aller Plus Loin</h2>
+<h3 id="manuel-complet">Manuel Complet</h3>
+<p>Pour une documentation exhaustive de toutes les fonctionnalités :
+📕 <a href="../../../manuel/agents-validation/">Manuel Complet des Agents Validateurs</a></p>
+<h3 id="ressources-complementaires">Ressources Complémentaires</h3>
+<ul>
+<li>📖 <a href="../../../manuel/agents-validation/#grille-dévaluation-standardisée">Grille d'évaluation standardisée</a></li>
+<li>📖 <a href="../../../manuel/agents-validation/#procédures-spécialisées">Procédures spécialisées</a></li>
+<li>📖 <a href="../../../manuel/agents-validation/#gestion-des-cas-sensibles">Gestion des cas sensibles</a></li>
+</ul>
+<hr />
+<h2 id="besoin-daide">🆘 Besoin d'Aide ?</h2>
+<h3 id="support-technique">Support Technique</h3>
+<ul>
+<li><strong>📧 Email</strong> : support@doser.cm</li>
+<li><strong>📞 Hotline</strong> : +237 XXX XXX XXX (24/7)</li>
+<li><strong>💬 Chat</strong> : Disponible dans l'application</li>
+</ul>
+<h3 id="contacts-utiles">Contacts Utiles</h3>
+<ul>
+<li><strong>👨‍🏫 Formation</strong> : formation@ditros.org</li>
+<li><strong>🐛 Signaler un bug</strong> : bugs@ditros.org</li>
+<li><strong>💡 Suggestions</strong> : feedback@ditros.org</li>
+</ul>
+<hr />
+<h2 id="checklist-de-validation">✅ Checklist de Validation</h2>
+<p>Avant de valider une déclaration, assurez-vous que :</p>
+<h3 id="verifications-obligatoires">Vérifications Obligatoires</h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Tous les champs obligatoires sont complétés</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Photos présentes et exploitables (minimum 4 par véhicule)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Cohérence temporelle et spatiale vérifiée</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Documents légaux lisibles et valides</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Croquis clair et compréhensible</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Procès-verbal complet et détaillé</li>
+</ul>
+<h3 id="points-de-vigilance">Points de Vigilance</h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Correspondance photos/descriptions</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Témoignages concordants</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Absence de contradictions flagrantes</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Respect des procédures métier</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Données GPS cohérentes avec le lieu</li>
+</ul>
+<h3 id="decision-finale">Décision Finale</h3>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Décision prise : <strong>ACCEPTER</strong> ✅ ou <strong>REJETER</strong> ❌</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Commentaire ajouté (obligatoire si rejet)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Signature apposée</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Validation confirmée</li>
+</ul>
+<hr />
+<p><strong>Félicitations ! 🎉</strong><br />
+Vous êtes maintenant prêt à valider les déclarations d'accidents dans DOSER !</p>
+<p><strong>Prochaine étape</strong> : Consultez le <a href="../../../manuel/agents-validation/">Manuel Complet</a> pour découvrir toutes les fonctionnalités avancées.</p>
+<hr />
+<p><em>Guide créé le : 15 octobre 2025</em><br />
+<em>Dernière mise à jour : 15 octobre 2025</em><br />
+<em>Version : 2.0</em></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/ditros" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:contact@ditros.org" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.indexes", "navigation.instant", "navigation.tracking", "navigation.expand", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>

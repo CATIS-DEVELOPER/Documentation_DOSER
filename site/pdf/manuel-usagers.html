@@ -1,0 +1,165 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manuel - Usagers</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 2cm;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: none;
+            margin: 0;
+            padding: 0;
+            font-size: 11pt;
+        }
+        
+        h1 {
+            color: #2c5aa0;
+            border-bottom: 3px solid #2c5aa0;
+            padding-bottom: 10px;
+            margin-top: 0;
+            page-break-before: always;
+        }
+        
+        h1:first-child {
+            page-break-before: avoid;
+        }
+        
+        h2 {
+            color: #3d7cc9;
+            margin-top: 25px;
+            margin-bottom: 15px;
+            page-break-after: avoid;
+        }
+        
+        h3 {
+            color: #4a90e2;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            page-break-after: avoid;
+        }
+        
+        h4, h5, h6 {
+            color: #5ba0f2;
+            margin-top: 15px;
+            margin-bottom: 8px;
+            page-break-after: avoid;
+        }
+        
+        p {
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 10pt;
+        }
+        
+        pre {
+            background: #f8f8f8;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border-left: 4px solid #2c5aa0;
+            page-break-inside: avoid;
+            font-family: 'Consolas', 'Monaco', monospace;
+            font-size: 9pt;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 15px 0;
+            page-break-inside: avoid;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            font-size: 10pt;
+        }
+        
+        th {
+            background-color: #2c5aa0;
+            color: white;
+            font-weight: bold;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            page-break-inside: avoid;
+        }
+        
+        blockquote {
+            border-left: 4px solid #2c5aa0;
+            padding-left: 20px;
+            margin-left: 0;
+            color: #666;
+            font-style: italic;
+            page-break-inside: avoid;
+        }
+        
+        ul, ol {
+            margin-bottom: 15px;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 5px;
+        }
+        
+        .page-break {
+            page-break-before: always;
+        }
+        
+        .no-break {
+            page-break-inside: avoid;
+        }
+        
+        /* Styles specifiques pour les emojis et icones */
+        .emoji {
+            font-size: 1.2em;
+        }
+        
+        /* Header et footer */
+        @media print {
+            body {
+                margin-top: 1cm;
+                margin-bottom: 1cm;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="no-break">
+        <h1>Manuel - Usagers</h1>
+        <p><em>Documentation DOSER - Genere le 17/10/2025 a 10:28</em></p>
+        <hr style="border: 1px solid #2c5aa0; margin: 20px 0;">
+    </div>
+    
+    <!DOCTYPE html> <html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang=""> <head>   <meta charset="utf-8" />   <meta name="generator" content="pandoc" />   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />   <title>Manuel - Usagers</title>   <style>     /* Default styles provided by pandoc.     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.     */     html {       color: #1a1a1a;       background-color: #fdfdfd;     }     body {       margin: 0 auto;       max-width: 36em;       padding-left: 50px;       padding-right: 50px;       padding-top: 50px;       padding-bottom: 50px;       hyphens: auto;       overflow-wrap: break-word;       text-rendering: optimizeLegibility;       font-kerning: normal;     }     @media (max-width: 600px) {       body {         font-size: 0.9em;         padding: 12px;       }       h1 {         font-size: 1.8em;       }     }     @media print {       html {         background-color: white;       }       body {         background-color: transparent;         color: black;         font-size: 12pt;       }       p, h2, h3 {         orphans: 3;         widows: 3;       }       h2, h3, h4 {         page-break-after: avoid;       }     }     p {       margin: 1em 0;     }     a {       color: #1a1a1a;     }     a:visited {       color: #1a1a1a;     }     img {       max-width: 100%;     }     svg {       height: auto;       max-width: 100%;     }     h1, h2, h3, h4, h5, h6 {       margin-top: 1.4em;     }     h5, h6 {       font-size: 1em;       font-style: italic;     }     h6 {       font-weight: normal;     }     ol, ul {       padding-left: 1.7em;       margin-top: 1em;     }     li > ol, li > ul {       margin-top: 0;     }     blockquote {       margin: 1em 0 1em 1.7em;       padding-left: 1em;       border-left: 2px solid #e6e6e6;       color: #606060;     }     code {       font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;       font-size: 85%;       margin: 0;       hyphens: manual;     }     pre {       margin: 1em 0;       overflow: auto;     }     pre code {       padding: 0;       overflow: visible;       overflow-wrap: normal;     }     .sourceCode {      background-color: transparent;      overflow: visible;     }     hr {       border: none;       border-top: 1px solid #1a1a1a;       height: 1px;       margin: 1em 0;     }     table {       margin: 1em 0;       border-collapse: collapse;       width: 100%;       overflow-x: auto;       display: block;       font-variant-numeric: lining-nums tabular-nums;     }     table caption {       margin-bottom: 0.75em;     }     tbody {       margin-top: 0.5em;       border-top: 1px solid #1a1a1a;       border-bottom: 1px solid #1a1a1a;     }     th {       border-top: 1px solid #1a1a1a;       padding: 0.25em 0.5em 0.25em 0.5em;     }     td {       padding: 0.125em 0.5em 0.25em 0.5em;     }     header {       margin-bottom: 4em;       text-align: center;     }     #TOC li {       list-style: none;     }     #TOC ul {       padding-left: 1.3em;     }     #TOC > ul {       padding-left: 0;     }     #TOC a:not(:hover) {       text-decoration: none;     }     code{white-space: pre-wrap;}     span.smallcaps{font-variant: small-caps;}     div.columns{display: flex; gap: min(4vw, 1.5em);}     div.column{flex: auto; overflow-x: auto;}     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}     /* The extra [class] is a hack that increases specificity enough to        override a similar rule in reveal.js */     ul.task-list[class]{list-style: none;}     ul.task-list li input[type="checkbox"] {       font-size: inherit;       width: 0.8em;       margin: 0 0.8em 0.2em -1.6em;       vertical-align: middle;     }     .display.math{display: block; text-align: center; margin: 0.5rem auto;}   </style> </head> <body> <header id="title-block-header"> <h1 class="title">Manuel - Usagers</h1> </header> <h1 id="manuel-complet-usagers-grand-public">?? Manuel Complet : Usagers (Grand Public)</h1> <p><strong>Version</strong> : 2.0 | <strong>Derni?re mise ? jour</strong> : 9 octobre 2025</p> <hr /> <h2 id="table-des-matires">?? Table des Mati?res</h2> <ol type="1"> <li><a href="#introduction">Introduction</a></li> <li><a href="#portail-citoyen-doser">Portail Citoyen DOSER</a></li> <li><a href="#d?clarer-un-accident">D?clarer un Accident</a></li> <li><a href="#suivre-une-d?claration">Suivre une D?claration</a></li> <li><a href="#droits-et-d?marches">Droits et D?marches</a></li> <li><a href="#attestations-et-documents">Attestations et Documents</a></li> <li><a href="#statistiques-et-pr?vention">Statistiques et Pr?vention</a></li> <li><a href="#faq-et-support">FAQ et Support</a></li> </ol> <hr /> <h2 id="introduction">1. Introduction</h2> <h3 id="propos-de-ce-manuel">1.1 ? Propos de ce Manuel</h3> <p>Ce manuel complet sÔÇÖadresse aux <strong>citoyens camerounais</strong> et ? toute personne souhaitant utiliser le portail citoyen DOSER pour d?clarer un accident, suivre une d?claration ou consulter des informations de s?curit? routi?re.</p> <h3 id="objectifs-du-portail-citoyen">1.2 Objectifs du Portail Citoyen</h3> <p>Le portail citoyen DOSER permet aux usagers de :</p> <ul> <li><strong>Participer activement</strong> ? la s?curit? routi?re en signalant les accidents</li> <li><strong>Acc?der ? leurs droits</strong> et conna?tre les d?marches ? suivre</li> <li><strong>Suivre leurs d?clarations</strong> en temps r?el</li> <li><strong>Obtenir des attestations</strong> pour leurs d?marches administratives</li> <li><strong>Consulter les statistiques</strong> de s?curit? routi?re</li> </ul> <h3 id="qui-peut-utiliser-le-portail">1.3 Qui Peut Utiliser le Portail ?</h3> <ul> <li>? <strong>T?moins</strong> dÔÇÖaccidents de la route</li> <li>? <strong>Victimes</strong> dÔÇÖaccidents (conducteurs, passagers, pi?tons)</li> <li>? <strong>Proches</strong> de victimes</li> <li>? <strong>Tout citoyen</strong> souhaitant signaler un danger routier</li> </ul> <h3 id="garanties-et-confidentialit">1.4 Garanties et Confidentialit?</h3> <p>Le portail DOSER garantit :</p> <ul> <li>?? <strong>Protection des donn?es personnelles</strong> (conformit? RGPD)</li> <li>?? <strong>Anonymat possible</strong> pour les t?moins</li> <li>?? <strong>S?curisation</strong> des informations sensibles</li> <li>?? <strong>Droit ? lÔÇÖoubli</strong> (suppression sur demande)</li> </ul> <hr /> <h2 id="portail-citoyen-doser">2. Portail Citoyen DOSER</h2> <h3 id="accs-au-portail">2.1 Acc?s au Portail</h3> <p><strong>URL</strong> : https://citoyen.doser.ditros.org</p> <p><strong>Compatibilit?</strong> : - ?? Ordinateurs (Windows, Mac, Linux) - ?? Smartphones (Android, iOS) - ?? Tablettes - ?? Tous navigateurs modernes (Chrome, Firefox, Safari, Edge)</p> <h3 id="crer-un-compte">2.2 Cr?er un Compte</h3> <h4 id="avantages-dun-compte">Avantages dÔÇÖun Compte</h4> <ul> <li>? Suivi de toutes vos d?clarations</li> <li>? Historique consultable</li> <li>? Notifications automatiques</li> <li>? T?l?chargement dÔÇÖattestations</li> <li>? Acc?s ? des statistiques personnalis?es</li> </ul> <h4 id="procdure-dinscription">Proc?dure dÔÇÖInscription</h4> <ol type="1"> <li>Cliquez sur <strong>ÔÇ£SÔÇÖinscrireÔÇØ</strong></li> <li>Remplissez le formulaire : <ul> <li><strong>Nom et pr?noms</strong> (obligatoire)</li> <li><strong>Num?ro de t?l?phone</strong> (obligatoire - validation par SMS)</li> <li><strong>Email</strong> (optionnel mais recommand?)</li> <li><strong>Date de naissance</strong> (pour v?rification dÔÇÖ?ge)</li> </ul></li> <li>Cr?ez un <strong>mot de passe</strong> : <ul> <li>Minimum 8 caract?res</li> <li>Au moins 1 majuscule, 1 chiffre</li> </ul></li> <li>Acceptez les <strong>conditions dÔÇÖutilisation</strong></li> <li>Cliquez sur <strong>ÔÇ£Cr?er mon CompteÔÇØ</strong></li> <li><strong>Validez par SMS</strong> : <ul> <li>Vous recevez un code ? 6 chiffres</li> <li>Entrez le code dans les 5 minutes</li> </ul></li> <li>Votre compte est activ? !</li> </ol> <h3 id="connexion">2.3 Connexion</h3> <ol type="1"> <li>Allez sur https://citoyen.doser.ditros.org</li> <li>Cliquez sur <strong>ÔÇ£Se ConnecterÔÇØ</strong></li> <li>Entrez votre <strong>num?ro de t?l?phone</strong> ou <strong>email</strong></li> <li>Entrez votre <strong>mot de passe</strong></li> <li>Cliquez sur <strong>ÔÇ£ConnexionÔÇØ</strong></li> </ol> <p><strong>Option ÔÇ£Se souvenir de moiÔÇØ</strong> : Garde la session active 30 jours</p> <h3 id="interface-principale">2.4 Interface Principale</h3> <p>Apr?s connexion, vous acc?dez ? :</p> <h4 id="tableau-de-bord">Tableau de Bord</h4> <ul> <li>?? R?sum? de vos d?clarations</li> <li>?? Notifications r?centes</li> <li>?? Statistiques de votre r?gion</li> <li>?? Acc?s rapide aux urgences</li> </ul> <h4 id="menu-principal">Menu Principal</h4> <ul> <li>?? <strong>D?clarer un Accident</strong> : Nouvelle d?claration</li> <li>?? <strong>Mes D?clarations</strong> : Historique et suivi</li> <li>?? <strong>Mes Attestations</strong> : Documents t?l?chargeables</li> <li>?? <strong>Statistiques</strong> : S?curit? routi?re</li> <li>?? <strong>Param?tres</strong> : Configuration compte</li> <li>?? <strong>Aide</strong> : Support et FAQ</li> </ul> <hr /> <h2 id="dclarer-un-accident">3. D?clarer un Accident</h2> <h3 id="types-de-dclaration">3.1 Types de D?claration</h3> <h4 id="tmoin-daccident">3.1.1 T?moin dÔÇÖAccident</h4> <p><strong>Quand</strong> : Vous avez assist? ? un accident</p> <p><strong>Informations requises</strong> : - Lieu et heure (approximatifs accept?s) - Description de ce que vous avez vu - Photos si possible - Vos coordonn?es (optionnel si anonyme)</p> <p><strong>Utilit?</strong> : - Alerte les autorit?s rapidement - Compl?te les informations officielles - Aide ? la reconstruction des faits</p> <h4 id="victime-daccident">3.1.2 Victime dÔÇÖAccident</h4> <p><strong>Quand</strong> : Vous ?tes impliqu? dans lÔÇÖaccident</p> <p><strong>Informations requises</strong> : - Vos informations personnelles compl?tes - Votre r?le (conducteur, passager, pi?ton) - ?tat de sant? - V?hicule impliqu? (si applicable) - Photos des d?g?ts/blessures</p> <p><strong>Utilit?</strong> : - Enregistrement officiel de votre implication - Base pour d?marches assurance - Attestation pour employeur/?cole</p> <h4 id="proche-de-victime">3.1.3 Proche de Victime</h4> <p><strong>Quand</strong> : Un membre de votre famille est victime</p> <p><strong>Informations requises</strong> : - Identit? de la victime - Votre lien de parent? - Informations sur lÔÇÖaccident (si connues) - Vos coordonn?es</p> <p><strong>Utilit?</strong> : - Obtenir des informations - Suivre lÔÇÖ?tat de la victime - Coordonner avec h?pitaux/assurances</p> <h3 id="formulaire-de-dclaration-dtaill">3.2 Formulaire de D?claration D?taill?</h3> <h4 id="section-1-informations-gnrales-obligatoire">Section 1 : Informations G?n?rales (Obligatoire)</h4> <table> <thead> <tr> <th>Champ</th> <th>Type</th> <th>Obligatoire</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>Date</td> <td>Date</td> <td>Oui</td> <td>Date de lÔÇÖaccident</td> </tr> <tr> <td>Heure</td> <td>Heure</td> <td>Oui</td> <td>Heure approximative</td> </tr> <tr> <td>Lieu</td> <td>Texte</td> <td>Oui</td> <td>Adresse ou description</td> </tr> <tr> <td>Type</td> <td>Liste</td> <td>Oui</td> <td>Type dÔÇÖaccident</td> </tr> <tr> <td>Gravit?</td> <td>Liste</td> <td>Non</td> <td>Estimation gravit?</td> </tr> </tbody> </table> <h4 id="section-2-votre-implication">Section 2 : Votre Implication</h4> <table> <thead> <tr> <th>Champ</th> <th>Type</th> <th>Obligatoire</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>R?le</td> <td>Liste</td> <td>Oui</td> <td>T?moin/Victime/Proche</td> </tr> <tr> <td>?tat</td> <td>Liste</td> <td>Si victime</td> <td>Indemne/Bless?/Grave</td> </tr> <tr> <td>V?hicule</td> <td>Texte</td> <td>Si conducteur</td> <td>Immatriculation</td> </tr> </tbody> </table> <h4 id="section-3-description">Section 3 : Description</h4> <table> <thead> <tr> <th>Champ</th> <th>Type</th> <th>Obligatoire</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>Description</td> <td>Texte long</td> <td>Oui</td> <td>Ce qui sÔÇÖest pass?</td> </tr> <tr> <td>Cause</td> <td>Liste</td> <td>Non</td> <td>Cause apparente</td> </tr> <tr> <td>Conditions</td> <td>Liste</td> <td>Non</td> <td>M?t?o, visibilit?</td> </tr> </tbody> </table> <h4 id="section-4-mdias">Section 4 : M?dias</h4> <table> <thead> <tr> <th>Type</th> <th>Nombre</th> <th>Taille Max</th> <th>Format</th> </tr> </thead> <tbody> <tr> <td>Photos</td> <td>0-10</td> <td>5 MB</td> <td>JPG, PNG</td> </tr> <tr> <td>Vid?os</td> <td>0-2</td> <td>50 MB</td> <td>MP4</td> </tr> </tbody> </table> <h4 id="section-5-vos-coordonnes">Section 5 : Vos Coordonn?es</h4> <table> <thead> <tr> <th>Champ</th> <th>Type</th> <th>Obligatoire</th> <th>Description</th> </tr> </thead> <tbody> <tr> <td>Nom</td> <td>Texte</td> <td>Non*</td> <td>Anonyme possible</td> </tr> <tr> <td>T?l?phone</td> <td>T?l</td> <td>Oui</td> <td>Pour suivi</td> </tr> <tr> <td>Email</td> <td>Email</td> <td>Non</td> <td>Notifications</td> </tr> </tbody> </table> <p>*Obligatoire si victime, optionnel si t?moin</p> <h3 id="validation-et-envoi">3.3 Validation et Envoi</h3> <p>Avant lÔÇÖenvoi, le syst?me v?rifie :</p> <ul> <li>? Champs obligatoires remplis</li> <li>? Format des donn?es correct</li> <li>? Photos/vid?os dans les limites</li> <li>? Coh?rence des informations</li> </ul> <p><strong>Bouton ÔÇ£EnvoyerÔÇØ</strong> devient actif quand tout est OK.</p> <h3 id="confirmation">3.4 Confirmation</h3> <p>Apr?s envoi, vous recevez :</p> <ol type="1"> <li><strong>Num?ro de d?claration</strong> : Format <code>DEC-2025-XXXXXX</code></li> <li><strong>SMS de confirmation</strong> (si t?l?phone fourni)</li> <li><strong>Email de confirmation</strong> (si email fourni)</li> <li><strong>QR Code</strong> : Pour suivi rapide</li> </ol> <p>?? <strong>Conservez ce num?ro</strong> pour suivre votre d?claration !</p> <hr /> <h2 id="suivre-une-dclaration">4. Suivre une D?claration</h2> <h3 id="statuts-de-dclaration">4.1 Statuts de D?claration</h3> <table> <thead> <tr> <th>Statut</th> <th>Ic?ne</th> <th>Description</th> <th>D?lai Moyen</th> </tr> </thead> <tbody> <tr> <td>Re?ue</td> <td>??</td> <td>En attente v?rification</td> <td>0-2h</td> </tr> <tr> <td>V?rifi?e</td> <td>??</td> <td>Valid?e par mod?rateur</td> <td>2-24h</td> </tr> <tr> <td>Constat ?tabli</td> <td>??</td> <td>Constat officiel cr??</td> <td>1-3 jours</td> </tr> <tr> <td>Cl?tur?e</td> <td>?</td> <td>Dossier finalis?</td> <td>Variable</td> </tr> <tr> <td>Rejet?e</td> <td>??</td> <td>Non valide (raison fournie)</td> <td>1-24h</td> </tr> </tbody> </table> <h3 id="suivi-avec-compte">4.2 Suivi avec Compte</h3> <ol type="1"> <li>Connectez-vous</li> <li>Menu &gt; <strong>ÔÇ£Mes D?clarationsÔÇØ</strong></li> <li>Liste de toutes vos d?clarations</li> <li>Cliquez sur une d?claration pour d?tails : <ul> <li>Statut actuel</li> <li>Historique des changements</li> <li>Constat officiel (si disponible)</li> <li>Messages des autorit?s</li> </ul></li> </ol> <h3 id="suivi-sans-compte">4.3 Suivi sans Compte</h3> <ol type="1"> <li>Page dÔÇÖaccueil &gt; <strong>ÔÇ£Suivre une D?clarationÔÇØ</strong></li> <li>Entrez votre <strong>num?ro de d?claration</strong></li> <li>Entrez votre <strong>num?ro de t?l?phone</strong></li> <li>Cliquez sur <strong>ÔÇ£ConsulterÔÇØ</strong></li> </ol> <p>OU scannez le <strong>QR Code</strong> re?u par SMS</p> <h3 id="notifications">4.4 Notifications</h3> <p>Vous ?tes notifi? automatiquement (SMS/Email) quand :</p> <ul> <li>? Votre d?claration est v?rifi?e</li> <li>? Un constat officiel est ?tabli</li> <li>? Des informations compl?mentaires sont demand?es</li> <li>? Le dossier est cl?tur?</li> <li>? Votre d?claration est rejet?e (avec raison)</li> </ul> <hr /> <h2 id="droits-et-dmarches">5. Droits et D?marches</h2> <h3 id="droits-des-victimes">5.1 Droits des Victimes</h3> <h4 id="si-vous-tes-bless">Si Vous ?tes Bless?</h4> <p>Vous avez droit ? :</p> <ul> <li>?? <strong>Soins m?dicaux</strong> : Prise en charge par assurance responsable</li> <li>?? <strong>Indemnisation</strong> : Dommages corporels et pr?judices</li> <li>?? <strong>V?hicule de remplacement</strong> : Si votre v?hicule est immobilis?</li> <li>?? <strong>Assistance juridique</strong> : Aide pour d?marches l?gales</li> <li>?? <strong>Attestations</strong> : Pour employeur, ?cole, etc.</li> </ul> <h4 id="si-vous-tes-responsable">Si Vous ?tes Responsable</h4> <p>Vos obligations :</p> <ul> <li>?? <strong>D?clarer ? votre assurance</strong> : Sous 5 jours ouvr?s</li> <li>?? <strong>Coop?rer</strong> avec les enqu?tes</li> <li>?? <strong>Assumer</strong> les r?parations (via assurance)</li> <li>?? <strong>Respecter</strong> les proc?dures judiciaires si applicable</li> </ul> <h3 id="dmarches-assurance">5.2 D?marches Assurance</h3> <h4 id="tape-1-dclaration-votre-assureur">?tape 1 : D?claration ? Votre Assureur</h4> <p><strong>D?lai</strong> : 5 jours ouvr?s maximum</p> <p><strong>Documents n?cessaires</strong> : - Attestation DOSER (t?l?chargeable) - Constat amiable (si ?tabli) - Photos des d?g?ts - Devis de r?paration</p> <p><strong>Comment</strong> : 1. T?l?chargez votre attestation DOSER 2. Contactez votre assureur (t?l?phone, agence, en ligne) 3. Fournissez le num?ro de constat DOSER 4. Suivez les instructions de votre assureur</p> <h4 id="tape-2-expertise">?tape 2 : Expertise</h4> <ul> <li>LÔÇÖassurance mandate un expert</li> <li>Rendez-vous pour constater les d?g?ts</li> <li>Photos et ?valuation</li> <li>Rapport dÔÇÖexpertise (7-15 jours)</li> </ul> <h4 id="tape-3-indemnisation">?tape 3 : Indemnisation</h4> <ul> <li>Proposition dÔÇÖindemnisation</li> <li>Acceptation ou n?gociation</li> <li>Paiement (virement, ch?que)</li> <li>D?lai moyen : 30-60 jours</li> </ul> <h3 id="dmarches-administratives">5.3 D?marches Administratives</h3> <h4 id="pour-lemployeur">Pour lÔÇÖEmployeur</h4> <p>Si accident pendant trajet travail :</p> <ul> <li>?? Attestation DOSER</li> <li>?? Certificat m?dical (si bless?)</li> <li>?? Arr?t de travail (si n?cessaire)</li> </ul> <h4 id="pour-lcoleuniversit">Pour lÔÇÖ?cole/Universit?</h4> <p>Si ?tudiant impliqu? :</p> <ul> <li>?? Attestation DOSER</li> <li>?? Justificatif dÔÇÖabsence</li> <li>?? Certificat m?dical</li> </ul> <h4 id="pour-dmarches-lgales">Pour D?marches L?gales</h4> <ul> <li>?? Constat officiel DOSER</li> <li>?? Attestation de victime</li> <li>?? Photos et preuves</li> <li>?? Coordonn?es des t?moins</li> </ul> <hr /> <h2 id="attestations-et-documents">6. Attestations et Documents</h2> <h3 id="types-dattestations">6.1 Types dÔÇÖAttestations</h3> <h4 id="attestation-de-dclaration">Attestation de D?claration</h4> <p><strong>Contenu</strong> : - Num?ro de d?claration - Date et lieu de lÔÇÖaccident - Votre r?le (t?moin/victime) - Date de d?claration - QR Code de v?rification</p> <p><strong>Usage</strong> : Preuve que vous avez d?clar?</p> <h4 id="attestation-de-victime">Attestation de Victime</h4> <p><strong>Contenu</strong> : - Identit? compl?te - Num?ro de constat officiel - Circonstances de lÔÇÖaccident - ?tat de sant? d?clar? - V?hicule impliqu?</p> <p><strong>Usage</strong> : Assurance, employeur, d?marches l?gales</p> <h4 id="constat-officiel-copie">Constat Officiel (Copie)</h4> <p><strong>Contenu</strong> : - Rapport complet des Forces de lÔÇÖOrdre - Tous les d?tails de lÔÇÖaccident - Responsabilit?s ?tablies - Croquis et photos officiels</p> <p><strong>Usage</strong> : Proc?dures judiciaires, assurances</p> <h3 id="tlcharger-vos-documents">6.2 T?l?charger vos Documents</h3> <ol type="1"> <li>Connectez-vous</li> <li>Menu &gt; <strong>ÔÇ£Mes AttestationsÔÇØ</strong></li> <li>S?lectionnez le document</li> <li>Cliquez sur <strong>ÔÇ£T?l?charger PDFÔÇØ</strong></li> <li>Le document est sign? ?lectroniquement</li> </ol> <h3 id="vrification-dauthenticit">6.3 V?rification dÔÇÖAuthenticit?</h3> <p>Chaque document contient un <strong>QR Code</strong> :</p> <ol type="1"> <li>Scannez le QR Code</li> <li>Vous ?tes redirig? vers la page de v?rification</li> <li>Le syst?me confirme lÔÇÖauthenticit?</li> <li>Affiche les d?tails du document</li> </ol> <hr /> <h2 id="statistiques-et-prvention">7. Statistiques et Pr?vention</h2> <h3 id="consulter-les-statistiques">7.1 Consulter les Statistiques</h3> <p>Le portail offre :</p> <h4 id="statistiques-nationales">Statistiques Nationales</h4> <ul> <li>Nombre dÔÇÖaccidents (jour/mois/ann?e)</li> <li>R?partition par gravit?</li> <li>Tendances et ?volution</li> <li>Comparaisons r?gionales</li> </ul> <h4 id="statistiques-rgionales">Statistiques R?gionales</h4> <ul> <li>Accidents dans votre r?gion</li> <li>Points noirs identifi?s</li> <li>Heures ? risque</li> <li>Types dÔÇÖaccidents fr?quents</li> </ul> <h4 id="carte-interactive">Carte Interactive</h4> <ul> <li>Visualisation g?ographique</li> <li>Filtres (p?riode, gravit?, type)</li> <li>Zoom sur votre quartier</li> <li>Heatmap des zones dangereuses</li> </ul> <h3 id="prvention-et-sensibilisation">7.2 Pr?vention et Sensibilisation</h3> <h4 id="campagnes-de-sensibilisation">Campagnes de Sensibilisation</h4> <p>Le portail diffuse : - ?? Vid?os de pr?vention - ?? Actualit?s s?curit? routi?re - ?? Chiffres cl?s du mois - ?? Conseils de prudence</p> <h4 id="alertes-zones-dangereuses">Alertes Zones Dangereuses</h4> <p>Activez les notifications pour : - ?? Points noirs pr?s de chez vous - ?? Conditions m?t?o dangereuses - ?? Travaux et d?viations - ?? ?v?nements ? risque (f?tes, grands d?parts)</p> <h3 id="signaler-un-danger">7.3 Signaler un Danger</h3> <p>Vous pouvez signaler :</p> <ul> <li>?? <strong>Nid de poule</strong> dangereux</li> <li>?? <strong>Feu de signalisation</strong> d?fectueux</li> <li>?? <strong>Panneau</strong> manquant ou illisible</li> <li>?? <strong>V?g?tation</strong> obstruant la visibilit?</li> <li>?? <strong>?clairage</strong> public d?faillant</li> </ul> <p><strong>Proc?dure</strong> : 1. Menu &gt; <strong>ÔÇ£Signaler un DangerÔÇØ</strong> 2. Type de danger 3. Localisation (GPS ou adresse) 4. Photo du danger 5. Description 6. Envoyer</p> <p>Les services techniques sont automatiquement notifi?s.</p> <hr /> <h2 id="faq-et-support">8. FAQ et Support</h2> <h3 id="questions-frquentes">8.1 Questions Fr?quentes</h3> <p><strong>Q : Ma d?claration est-elle anonyme ?</strong><br /> R : Oui, si vous ?tes t?moin. Seul votre num?ro de t?l?phone est requis pour le suivi. Si vous ?tes victime, vos informations sont n?cessaires mais prot?g?es.</p> <p><strong>Q : Combien de temps pour obtenir le constat officiel ?</strong><br /> R : 1 ? 3 jours en moyenne, selon la complexit? et la charge de travail des autorit?s.</p> <p><strong>Q : Puis-je modifier ma d?claration apr?s envoi ?</strong><br /> R : Oui, dans les 24h. Apr?s, contactez le support pour modification.</p> <p><strong>Q : Mon attestation est-elle valable l?galement ?</strong><br /> R : Oui, les attestations DOSER sont reconnues officiellement et peuvent ?tre v?rifi?es via QR Code.</p> <p><strong>Q : Que faire si je ne suis pas satisfait du traitement ?</strong><br /> R : Contactez le support citoyen. Vous pouvez aussi d?poser une r?clamation formelle.</p> <h3 id="support-citoyen">8.2 Support Citoyen</h3> <p><strong>Email</strong> : citoyen@doser.ditros.org<br /> <strong>Hotline</strong> : +237 XXX XXX XXX (Lun-Ven 8h-18h)<br /> <strong>Chat</strong> : Disponible sur le portail (9h-17h)</p> <h3 id="urgences">8.3 Urgences</h3> <p><strong>En cas dÔÇÖaccident, appelez dÔÇÖabord les urgences !</strong></p> <ul> <li>?? <strong>Police</strong> : 117</li> <li>?? <strong>Ambulance/SAMU</strong> : 119</li> <li>?? <strong>Pompiers</strong> : 118</li> </ul> <p><strong>Puis</strong> d?clarez sur DOSER pour le suivi officiel.</p> <hr /> <h2 id="annexes">Annexes</h2> <h3 id="annexe-a-glossaire-usagers">Annexe A : Glossaire Usagers</h3> <ul> <li><strong>Constat</strong> : Document officiel ?tabli par les autorit?s</li> <li><strong>D?claration</strong> : Votre signalement citoyen</li> <li><strong>Attestation</strong> : Document certifiant votre d?claration</li> <li><strong>QR Code</strong> : Code-barres pour v?rification rapide</li> </ul> <h3 id="annexe-b-modles-de-documents">Annexe B : Mod?les de Documents</h3> <p>Disponibles en t?l?chargement : - Mod?le de d?claration ? lÔÇÖassurance - Lettre type pour employeur - Demande dÔÇÖindemnisation</p> <h3 id="annexe-c-contacts-utiles">Annexe C : Contacts Utiles</h3> <ul> <li><strong>DITROS</strong> : Direction des Transports Routiers</li> <li><strong>Assurances</strong> : Liste des compagnies agr??es</li> <li><strong>Aide juridique</strong> : Ordre des avocats</li> <li><strong>Associations</strong> : Victimes de la route</li> </ul> <hr /> <p><strong>Vous ?tes maintenant expert du portail citoyen DOSER !</strong> ??</p> <p>Pour des questions sp?cifiques, consultez la <a href="../faq/usagers.md">FAQ compl?te</a> ou contactez le support.</p> <hr /> <p><em>Manuel cr?? le : 9 octobre 2025</em><br /> <em>Derni?re mise ? jour : 9 octobre 2025</em><br /> <em>Version : 2.0 | Pages : 45</em></p> </body> </html>
+    
+    <div class="page-break" style="margin-top: 50px; text-align: center; color: #666; font-size: 9pt;">
+        <hr style="border: 1px solid #ddd; margin: 20px 0;">
+        <p>Documentation DOSER - Systeme de Gestion des Donnees de Securite Routiere</p>
+        <p>Genere automatiquement le 17/10/2025 a 10:28</p>
+    </div>
+</body>
+</html>

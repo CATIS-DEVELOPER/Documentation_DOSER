@@ -1,0 +1,4759 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation complète du système unifié de gestion des accidents de la route au Cameroun">
+      
+      
+      
+        <link rel="canonical" href="https://documentation-doser.readthedocs.io/user/quick-start/services-sante/">
+      
+      
+        <link rel="prev" href="../agents-constatateurs/">
+      
+      
+        <link rel="next" href="../compagnies-assurance/">
+      
+      
+      <link rel="icon" href="../../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.20">
+    
+    
+      
+        <title>Services de Santé - Documentation DOSER</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.e53b48f4.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/dhis2.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#guide-rapide-services-de-sante" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../.." title="Documentation DOSER" class="md-header__button md-logo" aria-label="Documentation DOSER" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Documentation DOSER
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Services de Santé
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="red"  aria-label="Mode sombre"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Mode sombre" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Mode clair"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Mode clair" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  🏠 Accueil
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  📚 Guides Rapides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../manuel/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  📕 Manuels de Référence
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../modules/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  📊 Modules Fonctionnels
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../implementation/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  🚀 Guides d'Implémentation
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../developer/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  💻 Documentation Développeur
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+<nav class="md-tabs" aria-label="nav.title">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">🏠 Accueil</a>
+        
+      </li>
+      
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../.." class="md-tabs__link">📚 Guides Rapides</a>
+        
+        <nav class="md-nav" aria-label="📚 Guides Rapides">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../" class="md-nav__link">🚀 Guides Rapides DOSER</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../.." class="md-nav__link">Démarrage Rapide</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../.." class="md-nav__link">Tutoriels</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">📕 Manuels de Référence</a>
+        
+        <nav class="md-nav" aria-label="📕 Manuels de Référence">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../../manuel/" class="md-nav__link">Manuel Utilisateur DOSER</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../.." class="md-nav__link">Par Rôle</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../.." class="md-nav__link">Référence Technique</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">📊 Modules Fonctionnels</a>
+        
+        <nav class="md-nav" aria-label="📊 Modules Fonctionnels">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/" class="md-nav__link">Accueil</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/collecte-donnees/" class="md-nav__link">Collecte de Données</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/validation-constats/" class="md-nav__link">Validation</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/analyse-reporting/" class="md-nav__link">Analyse & Reporting</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/cartographie-accidents/" class="md-nav__link">Cartographie</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/module-vaar/" class="md-nav__link">Module VAAR</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../modules/statistiques-metriques/" class="md-nav__link">Statistiques</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">🚀 Guides d'Implémentation</a>
+        
+        <nav class="md-nav" aria-label="🚀 Guides d'Implémentation">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/" class="md-nav__link">Accueil</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/installation/" class="md-nav__link">Installation</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/deployment/" class="md-nav__link">Déploiement</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/maintenance/" class="md-nav__link">Maintenance</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../implementation/backup-procedures/" class="md-nav__link">Sauvegarde</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+      <li class="md-tabs__item">
+        <a href="../../.." class="md-tabs__link">💻 Documentation Développeur</a>
+        
+        <nav class="md-nav" aria-label="💻 Documentation Développeur">
+          <ul class="md-nav__list">
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/" class="md-nav__link">Accueil</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/architecture/" class="md-nav__link">Architecture</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/specifications/" class="md-nav__link">Spécifications</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/security-plan/" class="md-nav__link">Sécurité</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/testing-strategy/" class="md-nav__link">Tests</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/api-reference/" class="md-nav__link">API</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/setup/" class="md-nav__link">Setup Dev</a>
+            </li>
+            
+            <li class="md-nav__item">
+              <a href="../../../developer/contributing/" class="md-nav__link">Contribution</a>
+            </li>
+            
+          </ul>
+        </nav>
+        
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Documentation DOSER" class="md-nav__button md-logo" aria-label="Documentation DOSER" data-md-component="logo">
+      
+  <img src="../../../assets/logo.png" alt="logo">
+
+    </a>
+    Documentation DOSER
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    🏠 Accueil
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    📚 Guides Rapides
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            📚 Guides Rapides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Démarrage Rapide
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Démarrage Rapide
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agents-constatateurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents Constatateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Services de Santé
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services de Santé
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ce-que-vous-allez-apprendre" class="md-nav__link">
+    <span class="md-ellipsis">
+      📋 Ce que vous allez apprendre
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-complet-avec-captures-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎬 Workflow Complet avec Captures d'Écran
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎬 Workflow Complet avec Captures d&#39;Écran">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vue-densemble-du-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vue d'Ensemble du Workflow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-detaille-par-ecrans" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Détaillé par Écrans
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow Détaillé par Écrans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ecran-1-connexion-au-portail-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 1 : Connexion au Portail Web
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-2-configuration-initiale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 2 : Configuration Initiale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-3-creation-dossier-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 3 : Création Dossier Médical
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-4-enrichissement-du-dossier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 4 : Enrichissement du Dossier
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-5-prescription-dexamens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 5 : Prescription d'Examens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-6-generation-de-rapports" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 6 : Génération de Rapports
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-7-application-mobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 7 : Application Mobile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-8-saisie-rapide-mobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 8 : Saisie Rapide Mobile
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparaison-des-workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparaison des Workflows
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etats-des-dossiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      États des Dossiers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#points-de-controle-qualite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Points de Contrôle Qualité
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-1-acces-au-portail-2-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Étape 1 : Accès au Portail (2 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🌐 Étape 1 : Accès au Portail (2 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connexion-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connexion Web
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#premiere-connexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Première Connexion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-initiale-premiere-utilisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration Initiale (Première Utilisation)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration Initiale (Première Utilisation)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-des-produits-et-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration des Produits et Services
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualisation-des-codes-icd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visualisation des Codes ICD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-mobile-alternative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interface Mobile (Alternative)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-2-creer-un-dossier-medical-5-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏥 Étape 2 : Créer un Dossier Médical (5 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏥 Étape 2 : Créer un Dossier Médical (5 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-acceder-au-formulaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Accéder au Formulaire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-informations-basiques-du-patient" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Informations Basiques du Patient
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-ajout-des-contacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Ajout des Contacts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-enregistrement" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Enregistrement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-liaison-avec-laccident" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Liaison avec l'Accident
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-3-saisir-les-donnees-medicales-4-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🩺 Étape 3 : Saisir les Données Médicales (4 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🩺 Étape 3 : Saisir les Données Médicales (4 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-triage-et-evaluation-initiale" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Triage et Évaluation Initiale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-traumatismes-et-blessures" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Traumatismes et Blessures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-soins-prodigues" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Soins Prodigués
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-enrichissement-du-dossier-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Enrichissement du Dossier Médical
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Enrichissement du Dossier Médical">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prescription-des-examens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prescription des Examens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prescription-des-traitements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prescription des Traitements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prescription-des-medicaments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prescription des Médicaments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagnostics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#affectation-a-une-salle-de-soins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Affectation à une Salle de Soins
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-4-identifier-les-compagnies-dassurance-2-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏢 Étape 4 : Identifier les Compagnies d'Assurance (2 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏢 Étape 4 : Identifier les Compagnies d&#39;Assurance (2 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-informations-dassurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Informations d'Assurance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-verification-des-vehicules" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Vérification des Véhicules
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-5-partage-des-informations-1-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔗 Étape 5 : Partage des Informations (1 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔗 Étape 5 : Partage des Informations (1 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avec-les-assurances" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avec les Assurances
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avec-dautres-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avec d'Autres Services
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-6-transfert-inter-hospitalier-3-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Étape 6 : Transfert Inter-Hospitalier (3 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 Étape 6 : Transfert Inter-Hospitalier (3 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-procedure-de-transfert" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 Procédure de Transfert
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-suivi-des-patients-transferes" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2 Suivi des Patients Transférés
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-7-generation-des-rapports-2-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      📄 Étape 7 : Génération des Rapports (2 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📄 Étape 7 : Génération des Rapports (2 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-generation-du-rapport-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1 Génération du Rapport Médical
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-modification-du-dossier-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.2 Modification du Dossier Médical
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-8-production-de-factures-medicales-2-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      💰 Étape 8 : Production de Factures Médicales (2 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💰 Étape 8 : Production de Factures Médicales (2 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-generation-automatique" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1 Génération Automatique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-detail-des-couts" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.2 Détail des Coûts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-envoi-a-lassurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.3 Envoi à l'Assurance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-7-respect-de-la-confidentialite-1-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 Étape 7 : Respect de la Confidentialité (1 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔐 Étape 7 : Respect de la Confidentialité (1 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#secret-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secret Médical
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonnes-pratiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bonnes Pratiques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedures-durgence" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚨 Procédures d'Urgence
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚨 Procédures d&#39;Urgence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cas-critique-p1-urgence-vitale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cas Critique (P1 - Urgence Vitale)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#victime-inconsciente-etat-grave" class="md-nav__link">
+    <span class="md-ellipsis">
+      Victime Inconsciente (État Grave)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accident-multi-victimes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accident Multi-Victimes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cas-dusage-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Cas d'Usage Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Cas d&#39;Usage Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#victime-consciente-blessures-legeres" class="md-nav__link">
+    <span class="md-ellipsis">
+      Victime Consciente (Blessures Légères)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#victime-moderement-blessee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Victime Modérément Blessée
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cas-mortel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cas Mortel
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problemes-frequents-et-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Problèmes Fréquents et Solutions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚠️ Problèmes Fréquents et Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#je-ne-trouve-pas-laccident-correspondant" class="md-nav__link">
+    <span class="md-ellipsis">
+      Je ne trouve pas l'accident correspondant
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-signes-vitaux-ne-se-saisissent-pas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les signes vitaux ne se saisissent pas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-lors-du-partage-avec-lassurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Erreur lors du partage avec l'assurance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pour-aller-plus-loin" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Pour Aller Plus Loin
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📚 Pour Aller Plus Loin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#manuel-complet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manuel Complet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutoriels-specifiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutoriels Spécifiques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formation-continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formation Continue
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#besoin-daide" class="md-nav__link">
+    <span class="md-ellipsis">
+      🆘 Besoin d'Aide ?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🆘 Besoin d&#39;Aide ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#support-technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Support Technique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contacts-medicaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contacts Médicaux
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-de-demarrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Checklist de Démarrage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#note-sur-les-captures-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      📸 Note sur les Captures d'Écran
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../compagnies-assurance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compagnies d'Assurance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agents-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents de Validation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../administrateurs.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administrateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usagers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usagers (Grand Public)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../morgue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Morgue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../agence-voyage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agences de Voyage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../tutoriels/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    Tutoriels
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tutoriels
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutoriels/geolocaliser/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Géolocaliser un Accident
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutoriels/creer-croquis.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Créer un Croquis
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutoriels/photos-optimales.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Optimiser les Photos
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tutoriels/mode-hors-ligne.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Mode Hors Ligne
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../manuel/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    📕 Manuels de Référence
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            📕 Manuels de Référence
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Par Rôle
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Par Rôle
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/agents-constatateurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents Constatateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/services-sante/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Services de Santé
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/compagnies-assurance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Compagnies d'Assurance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/agents-validation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agents de Validation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/administrateurs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Administrateurs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/usagers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Usagers (Grand Public)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/morgue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Morgue
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/agence-voyage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Agences de Voyage
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Référence Technique
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Référence Technique
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/reference/codes-erreur/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Codes d'Erreur
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/reference/glossaire/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossaire
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../manuel/reference/api-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API Reference
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../modules/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    📊 Modules Fonctionnels
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            📊 Modules Fonctionnels
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/collecte-donnees/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Collecte de Données
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/validation-constats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Validation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/analyse-reporting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Analyse & Reporting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/cartographie-accidents/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cartographie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/module-vaar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Module VAAR
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../modules/statistiques-metriques/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Statistiques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../implementation/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    🚀 Guides d'Implémentation
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            🚀 Guides d'Implémentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../implementation/installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../implementation/deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Déploiement
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../implementation/maintenance/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Maintenance
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../implementation/backup-procedures/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sauvegarde
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../developer/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    💻 Documentation Développeur
+    
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            💻 Documentation Développeur
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/architecture/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Architecture
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/specifications/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Spécifications
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/security-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Sécurité
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/testing-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Tests
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/api-reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    API
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Setup Dev
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../developer/contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Contribution
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ce-que-vous-allez-apprendre" class="md-nav__link">
+    <span class="md-ellipsis">
+      📋 Ce que vous allez apprendre
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflow-complet-avec-captures-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      🎬 Workflow Complet avec Captures d'Écran
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🎬 Workflow Complet avec Captures d&#39;Écran">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vue-densemble-du-workflow" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vue d'Ensemble du Workflow
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#workflow-detaille-par-ecrans" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflow Détaillé par Écrans
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflow Détaillé par Écrans">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ecran-1-connexion-au-portail-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 1 : Connexion au Portail Web
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-2-configuration-initiale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 2 : Configuration Initiale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-3-creation-dossier-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 3 : Création Dossier Médical
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-4-enrichissement-du-dossier" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 4 : Enrichissement du Dossier
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-5-prescription-dexamens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 5 : Prescription d'Examens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-6-generation-de-rapports" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 6 : Génération de Rapports
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-7-application-mobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 7 : Application Mobile
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ecran-8-saisie-rapide-mobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      Écran 8 : Saisie Rapide Mobile
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparaison-des-workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparaison des Workflows
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#etats-des-dossiers" class="md-nav__link">
+    <span class="md-ellipsis">
+      États des Dossiers
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#points-de-controle-qualite" class="md-nav__link">
+    <span class="md-ellipsis">
+      Points de Contrôle Qualité
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-1-acces-au-portail-2-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🌐 Étape 1 : Accès au Portail (2 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🌐 Étape 1 : Accès au Portail (2 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#connexion-web" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connexion Web
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#premiere-connexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Première Connexion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#configuration-initiale-premiere-utilisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration Initiale (Première Utilisation)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Configuration Initiale (Première Utilisation)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#configuration-des-produits-et-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      Configuration des Produits et Services
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualisation-des-codes-icd" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visualisation des Codes ICD
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#interface-mobile-alternative" class="md-nav__link">
+    <span class="md-ellipsis">
+      Interface Mobile (Alternative)
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-2-creer-un-dossier-medical-5-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏥 Étape 2 : Créer un Dossier Médical (5 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏥 Étape 2 : Créer un Dossier Médical (5 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-acceder-au-formulaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.1 Accéder au Formulaire
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-informations-basiques-du-patient" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.2 Informations Basiques du Patient
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-ajout-des-contacts" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.3 Ajout des Contacts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-enregistrement" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Enregistrement
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-liaison-avec-laccident" class="md-nav__link">
+    <span class="md-ellipsis">
+      2.4 Liaison avec l'Accident
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-3-saisir-les-donnees-medicales-4-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🩺 Étape 3 : Saisir les Données Médicales (4 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🩺 Étape 3 : Saisir les Données Médicales (4 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-triage-et-evaluation-initiale" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.1 Triage et Évaluation Initiale
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-traumatismes-et-blessures" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.2 Traumatismes et Blessures
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-soins-prodigues" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.3 Soins Prodigués
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#34-enrichissement-du-dossier-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      3.4 Enrichissement du Dossier Médical
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3.4 Enrichissement du Dossier Médical">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prescription-des-examens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prescription des Examens
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prescription-des-traitements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prescription des Traitements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#prescription-des-medicaments" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prescription des Médicaments
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagnostics" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagnostics
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#affectation-a-une-salle-de-soins" class="md-nav__link">
+    <span class="md-ellipsis">
+      Affectation à une Salle de Soins
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-4-identifier-les-compagnies-dassurance-2-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🏢 Étape 4 : Identifier les Compagnies d'Assurance (2 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🏢 Étape 4 : Identifier les Compagnies d&#39;Assurance (2 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#41-informations-dassurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.1 Informations d'Assurance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#42-verification-des-vehicules" class="md-nav__link">
+    <span class="md-ellipsis">
+      4.2 Vérification des Véhicules
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-5-partage-des-informations-1-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔗 Étape 5 : Partage des Informations (1 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔗 Étape 5 : Partage des Informations (1 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#avec-les-assurances" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avec les Assurances
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#avec-dautres-services" class="md-nav__link">
+    <span class="md-ellipsis">
+      Avec d'Autres Services
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-6-transfert-inter-hospitalier-3-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔄 Étape 6 : Transfert Inter-Hospitalier (3 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔄 Étape 6 : Transfert Inter-Hospitalier (3 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#61-procedure-de-transfert" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.1 Procédure de Transfert
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#62-suivi-des-patients-transferes" class="md-nav__link">
+    <span class="md-ellipsis">
+      6.2 Suivi des Patients Transférés
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-7-generation-des-rapports-2-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      📄 Étape 7 : Génération des Rapports (2 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📄 Étape 7 : Génération des Rapports (2 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#71-generation-du-rapport-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.1 Génération du Rapport Médical
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#72-modification-du-dossier-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      7.2 Modification du Dossier Médical
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-8-production-de-factures-medicales-2-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      💰 Étape 8 : Production de Factures Médicales (2 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="💰 Étape 8 : Production de Factures Médicales (2 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-generation-automatique" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.1 Génération Automatique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-detail-des-couts" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.2 Détail des Coûts
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-envoi-a-lassurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      8.3 Envoi à l'Assurance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#etape-7-respect-de-la-confidentialite-1-min" class="md-nav__link">
+    <span class="md-ellipsis">
+      🔐 Étape 7 : Respect de la Confidentialité (1 min)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🔐 Étape 7 : Respect de la Confidentialité (1 min)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#secret-medical" class="md-nav__link">
+    <span class="md-ellipsis">
+      Secret Médical
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bonnes-pratiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Bonnes Pratiques
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#procedures-durgence" class="md-nav__link">
+    <span class="md-ellipsis">
+      🚨 Procédures d'Urgence
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚨 Procédures d&#39;Urgence">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cas-critique-p1-urgence-vitale" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cas Critique (P1 - Urgence Vitale)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#victime-inconsciente-etat-grave" class="md-nav__link">
+    <span class="md-ellipsis">
+      Victime Inconsciente (État Grave)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#accident-multi-victimes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Accident Multi-Victimes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cas-dusage-standards" class="md-nav__link">
+    <span class="md-ellipsis">
+      📊 Cas d'Usage Standards
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📊 Cas d&#39;Usage Standards">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#victime-consciente-blessures-legeres" class="md-nav__link">
+    <span class="md-ellipsis">
+      Victime Consciente (Blessures Légères)
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#victime-moderement-blessee" class="md-nav__link">
+    <span class="md-ellipsis">
+      Victime Modérément Blessée
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cas-mortel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cas Mortel
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#problemes-frequents-et-solutions" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚠️ Problèmes Fréquents et Solutions
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="⚠️ Problèmes Fréquents et Solutions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#je-ne-trouve-pas-laccident-correspondant" class="md-nav__link">
+    <span class="md-ellipsis">
+      Je ne trouve pas l'accident correspondant
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#les-signes-vitaux-ne-se-saisissent-pas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les signes vitaux ne se saisissent pas
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#erreur-lors-du-partage-avec-lassurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Erreur lors du partage avec l'assurance
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pour-aller-plus-loin" class="md-nav__link">
+    <span class="md-ellipsis">
+      📚 Pour Aller Plus Loin
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="📚 Pour Aller Plus Loin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#manuel-complet" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manuel Complet
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tutoriels-specifiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tutoriels Spécifiques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#formation-continue" class="md-nav__link">
+    <span class="md-ellipsis">
+      Formation Continue
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#besoin-daide" class="md-nav__link">
+    <span class="md-ellipsis">
+      🆘 Besoin d'Aide ?
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🆘 Besoin d&#39;Aide ?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#support-technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      Support Technique
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contacts-medicaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contacts Médicaux
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#checklist-de-demarrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✅ Checklist de Démarrage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#note-sur-les-captures-decran" class="md-nav__link">
+    <span class="md-ellipsis">
+      📸 Note sur les Captures d'Écran
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="guide-rapide-services-de-sante">🚀 Guide Rapide : Services de Santé</h1>
+<p><strong>Durée estimée</strong> : 12 minutes<br />
+<strong>Niveau</strong> : Débutant<br />
+<strong>Version</strong> : 2.0</p>
+<hr />
+<h2 id="ce-que-vous-allez-apprendre">📋 Ce que vous allez apprendre</h2>
+<p>À la fin de ce guide, vous saurez :</p>
+<p>✅ Accéder au portail DOSER Services de Santé<br />
+✅ Configurer les produits et services (première utilisation)<br />
+✅ Créer un dossier médical complet<br />
+✅ Enrichir le dossier avec examens, traitements et diagnostics<br />
+✅ Gérer les transferts inter-hospitaliers<br />
+✅ Générer des rapports et factures<br />
+✅ Respecter la confidentialité médicale  </p>
+<h2 id="workflow-complet-avec-captures-decran">🎬 Workflow Complet avec Captures d'Écran</h2>
+<h3 id="vue-densemble-du-workflow">Vue d'Ensemble du Workflow</h3>
+<pre class="mermaid"><code>graph TD
+    A[🌐 Connexion Portail] --&gt; B[⚙️ Configuration Services]
+    B --&gt; C[📚 Consultation Codes ICD]
+    C --&gt; D[👤 Création Dossier Médical]
+    D --&gt; E[🩺 Enrichissement Dossier]
+    E --&gt; F[💊 Prescriptions Médicales]
+    F --&gt; G[🏠 Affectation Salle]
+    G --&gt; H[🏢 Identification Assurance]
+    H --&gt; I[🔄 Transfert Inter-Hospitalier]
+    I --&gt; J[📄 Génération Rapports]
+    J --&gt; K[💰 Production Factures]
+    K --&gt; L[🔒 Archivage Sécurisé]
+
+    M[📱 App Mobile] --&gt; N[🔍 QR Code]
+    N --&gt; O[👤 Saisie Rapide Patient]
+    O --&gt; P[📈 Signes Vitaux]
+    P --&gt; Q[🩹 Classification Blessures]
+    Q --&gt; R[📤 Synchronisation]
+    R --&gt; E</code></pre>
+<h3 id="workflow-detaille-par-ecrans">Workflow Détaillé par Écrans</h3>
+<h4 id="ecran-1-connexion-au-portail-web">Écran 1 : Connexion au Portail Web</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>┌─────────────────────────────────────┐
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>│  🌐 DOSER - Services de Santé      │
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>│                                     │
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>│  Serveur: http://51.195.80.167:8098│
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>│                                     │
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>│  Identifiant: [________________]   │
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>│  Mot de passe: [________________]  │
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>│                                     │
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>│  [🔑 CONNEXION]                    │
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>│                                     │
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>│  Statut: 🟢 Prêt                   │
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>└─────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-2-configuration-initiale">Écran 2 : Configuration Initiale</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>┌─────────────────────────────────────┐
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>│  ⚙️ Configuration Services          │
+<a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>│                                     │
+<a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>│  🏥 Hôpital                        │
+<a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>│  ├── [🔬 Examens]                  │
+<a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>│  ├── [💊 Traitements]              │
+<a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>│  ├── [💉 Médicaments]              │
+<a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>│  ├── [🏠 Chambres]                 │
+<a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>│  └── [🏥 Services]                 │
+<a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>│                                     │
+<a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>│  [📚 Codes ICD]                    │
+<a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>│                                     │
+<a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>│  Statut: ⚠️ Configuration requise   │
+<a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>└─────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-3-creation-dossier-medical">Écran 3 : Création Dossier Médical</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>┌─────────────────────────────────────┐
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>│  📋 Nouveau Dossier Médical        │
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>│                                     │
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>│  Informations Patient:             │
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>│  Nom: [Jean MARTIN        ]        │
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>│  Prénom: [Pierre          ]        │
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>│  Âge: [45 ans]                     │
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>│  Téléphone: [+237 6XX XX XX]       │
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>│                                     │
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a>│  Contexte Accident:                │
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>│  Date: [17/10/2025]                │
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a>│  Mode: [Conducteur ▼]              │
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a>│                                     │
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a>│  [✅ Enregistrer] [❌ Annuler]      │
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a>└─────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-4-enrichissement-du-dossier">Écran 4 : Enrichissement du Dossier</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>┌─────────────────────────────────────┐
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>│  🩺 Dossier: Jean MARTIN - Pierre   │
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>│                                     │
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>│  Actions: [Détails] [Modifier]     │
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>│                                     │
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>│  📊 Sections:                      │
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>│  ├── 📈 Paramètres médicaux        │
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>│  ├── 🔬 Examens des soins          │
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>│  ├── 💊 Traitements                │
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>│  ├── 💉 Médicaments                │
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>│  ├── 🩺 Diagnostics                │
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a>│  └── 🏠 Salle de soins             │
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a>│                                     │
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a>│  Statut: 🟢 OPENED                 │
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a>└─────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-5-prescription-dexamens">Écran 5 : Prescription d'Examens</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>┌─────────────────────────────────────┐
+<a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>│  🔬 Examens des Soins              │
+<a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>│                                     │
+<a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>│  [+ Prescrire Examen]              │
+<a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>│                                     │
+<a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>│  Type: [Radio thorax ▼]            │
+<a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>│  Date: [17/10/2025]                │
+<a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>│  Observations: [Fracture côte]     │
+<a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>│                                     │
+<a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>│  [✅ Enregistrer] [❌ Annuler]      │
+<a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>│                                     │
+<a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>│  📋 Examens prescrits:             │
+<a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>│  • Radio thorax - 17/10/2025       │
+<a id="__codelineno-4-14" name="__codelineno-4-14" href="#__codelineno-4-14"></a>│  • Scanner crânien - 17/10/2025    │
+<a id="__codelineno-4-15" name="__codelineno-4-15" href="#__codelineno-4-15"></a>└─────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-6-generation-de-rapports">Écran 6 : Génération de Rapports</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>┌─────────────────────────────────────┐
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>│  📄 Génération de Rapport          │
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>│                                     │
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>│  Patient: Jean MARTIN - Pierre     │
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>│  Date: 17/10/2025                  │
+<a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>│                                     │
+<a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>│  📋 Contenu:                       │
+<a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>│  ✅ Informations personnelles      │
+<a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>│  ✅ Paramètres médicaux            │
+<a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>│  ✅ Examens réalisés               │
+<a id="__codelineno-5-11" name="__codelineno-5-11" href="#__codelineno-5-11"></a>│  ✅ Traitements administrés        │
+<a id="__codelineno-5-12" name="__codelineno-5-12" href="#__codelineno-5-12"></a>│  ✅ Médicaments prescrits          │
+<a id="__codelineno-5-13" name="__codelineno-5-13" href="#__codelineno-5-13"></a>│  ✅ Diagnostics                    │
+<a id="__codelineno-5-14" name="__codelineno-5-14" href="#__codelineno-5-14"></a>│                                     │
+<a id="__codelineno-5-15" name="__codelineno-5-15" href="#__codelineno-5-15"></a>│  [📄 Générer PDF] [👁️ Prévisualiser]│
+<a id="__codelineno-5-16" name="__codelineno-5-16" href="#__codelineno-5-16"></a>└─────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-7-application-mobile">Écran 7 : Application Mobile</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>┌─────────────────────────────────────┐
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>│  📱 DOSER DATA CAPTURE             │
+<a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>│  Version 2.0 - Services de Santé   │
+<a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>│                                     │
+<a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>│  [👤 Nouveau Patient]              │
+<a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a>│  [🔍 Rechercher Patient]           │
+<a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a>│  [📊 Dossiers Ouverts]             │
+<a id="__codelineno-6-8" name="__codelineno-6-8" href="#__codelineno-6-8"></a>│  [🔄 Synchronisation]              │
+<a id="__codelineno-6-9" name="__codelineno-6-9" href="#__codelineno-6-9"></a>│                                     │
+<a id="__codelineno-6-10" name="__codelineno-6-10" href="#__codelineno-6-10"></a>│  Statut: 📶 Hors ligne             │
+<a id="__codelineno-6-11" name="__codelineno-6-11" href="#__codelineno-6-11"></a>│  Sync: 15/20 dossiers              │
+<a id="__codelineno-6-12" name="__codelineno-6-12" href="#__codelineno-6-12"></a>└─────────────────────────────────────┘
+</code></pre></div>
+<h4 id="ecran-8-saisie-rapide-mobile">Écran 8 : Saisie Rapide Mobile</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>┌─────────────────────────────────────┐
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>│  📋 Nouveau Patient                 │
+<a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>│                                     │
+<a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>│  Nom: [Jean MARTIN        ]        │
+<a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>│  Prénom: [Pierre          ]        │
+<a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>│  Âge: [45 ans]                     │
+<a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>│  Sexe: [M] [F]                     │
+<a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>│                                     │
+<a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>│  🚗 Mode de déplacement:           │
+<a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>│  [Conducteur] [Passager] [Piéton]  │
+<a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>│                                     │
+<a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>│  📍 Lieu accident: [GPS activé]    │
+<a id="__codelineno-7-13" name="__codelineno-7-13" href="#__codelineno-7-13"></a>│                                     │
+<a id="__codelineno-7-14" name="__codelineno-7-14" href="#__codelineno-7-14"></a>│  [✅ Enregistrer] [❌ Annuler]      │
+<a id="__codelineno-7-15" name="__codelineno-7-15" href="#__codelineno-7-15"></a>└─────────────────────────────────────┘
+</code></pre></div>
+<h3 id="comparaison-des-workflows">Comparaison des Workflows</h3>
+<table>
+<thead>
+<tr>
+<th>Aspect</th>
+<th>Interface Web</th>
+<th>Application Mobile</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Durée</strong></td>
+<td>31 minutes</td>
+<td>7 minutes</td>
+</tr>
+<tr>
+<td><strong>Complétude</strong></td>
+<td>Dossier complet</td>
+<td>Saisie essentielle</td>
+</tr>
+<tr>
+<td><strong>Fonctionnalités</strong></td>
+<td>Toutes disponibles</td>
+<td>Fonctions de base</td>
+</tr>
+<tr>
+<td><strong>Contexte</strong></td>
+<td>Bureau/Poste fixe</td>
+<td>Terrain/Urgence</td>
+</tr>
+<tr>
+<td><strong>Configuration</strong></td>
+<td>Requise</td>
+<td>Pré-configurée</td>
+</tr>
+<tr>
+<td><strong>Rapports</strong></td>
+<td>PDF détaillés</td>
+<td>Synchronisation</td>
+</tr>
+<tr>
+<td><strong>Transfert</strong></td>
+<td>Inter-hospitalier</td>
+<td>Liaison accident</td>
+</tr>
+</tbody>
+</table>
+<h3 id="etats-des-dossiers">États des Dossiers</h3>
+<p>🟢 <strong>OPENED (Ouvert)</strong>
+- Dossier créé et en cours de traitement
+- Modifications possibles
+- Enrichissement en cours
+- Actions : Consulter, Modifier, Enrichir</p>
+<p>🟡 <strong>IN_PROGRESS (En cours)</strong>
+- Traitement médical en cours
+- Prescriptions actives
+- Suivi régulier
+- Actions : Mettre à jour, Suivre</p>
+<p>🔵 <strong>TRANSFERRED (Transféré)</strong>
+- Patient transféré vers autre établissement
+- Dossier transmis
+- Suivi externe
+- Actions : Consulter, Suivre</p>
+<p>🔴 <strong>CLOSED (Fermé)</strong>
+- Traitement terminé
+- Dossier finalisé
+- Archivage sécurisé
+- Actions : Consulter, Archiver</p>
+<p>⚫ <strong>DECEASED (Décédé)</strong>
+- Patient décédé
+- Code OMS enregistré
+- Certificat de décès
+- Actions : Consulter, Transmettre</p>
+<h3 id="points-de-controle-qualite">Points de Contrôle Qualité</h3>
+<p><strong>📋 Vérifications Obligatoires :</strong>
+- ✅ Informations patient complètes
+- ✅ Mode de déplacement enregistré
+- ✅ Signes vitaux saisis
+- ✅ Classification des blessures (AIS)
+- ✅ Codes ICD pour diagnostics
+- ✅ Informations d'assurance
+- ✅ Respect de la confidentialité</p>
+<p><strong>🔍 Contrôles de Cohérence :</strong>
+- ✅ Cohérence des dates (accident vs admission)
+- ✅ Logique des prescriptions
+- ✅ Correspondance patient-accident
+- ✅ Complétude des transferts
+- ✅ Validation des codes OMS</p>
+<p><strong>📊 Indicateurs de Performance :</strong>
+- 📈 Temps de prise en charge
+- 📈 Taux de complétude des dossiers
+- 📈 Rapidité de synchronisation
+- 📈 Qualité des données
+- 📈 Satisfaction utilisateur</p>
+<hr />
+<h2 id="etape-1-acces-au-portail-2-min">🌐 Étape 1 : Accès au Portail (2 min)</h2>
+<h3 id="connexion-web">Connexion Web</h3>
+<ol>
+<li>Ouvrez votre navigateur (Chrome, Firefox, Edge)</li>
+<li>Allez sur : <strong>http://51.195.80.167:8098</strong></li>
+<li>Sélectionnez le module <strong>"Services de Santé"</strong></li>
+<li>Entrez votre <strong>nom d'utilisateur</strong> (format : matricule ou nom d'utilisateur)</li>
+<li>Entrez votre <strong>mot de passe</strong></li>
+<li>Cliquez sur <strong>Connexion</strong></li>
+</ol>
+<h3 id="premiere-connexion">Première Connexion</h3>
+<p>Lors de votre première connexion :</p>
+<ol>
+<li>Vous devez <strong>changer votre mot de passe</strong></li>
+<li>Créez un mot de passe fort (min. 12 caractères)</li>
+<li>Activez l'<strong>authentification à deux facteurs</strong> (recommandé)</li>
+<li>Configurez vos <strong>préférences</strong> de notification</li>
+<li>Complétez votre <strong>profil médical</strong></li>
+</ol>
+<h3 id="configuration-initiale-premiere-utilisation">Configuration Initiale (Première Utilisation)</h3>
+<p><strong>⚠️ Important :</strong> Cette configuration ne se fait qu'une seule fois !</p>
+<h4 id="configuration-des-produits-et-services">Configuration des Produits et Services</h4>
+<ol>
+<li><strong>Accéder au menu</strong> Hôpital</li>
+<li><strong>Configurer les examens</strong> : Hôpital &gt; Examen</li>
+<li>Cliquer sur "+" pour ajouter</li>
+<li>Renseigner nom et prix</li>
+<li>Enregistrer</li>
+<li><strong>Configurer les traitements</strong> : Hôpital &gt; Traitement</li>
+<li>Même procédure que pour les examens</li>
+<li><strong>Configurer les médicaments</strong> : Hôpital &gt; Médicament</li>
+<li>Même procédure que pour les examens</li>
+<li><strong>Configurer les chambres</strong> : Hôpital &gt; Chambre</li>
+<li>Renseigner numéro, service et prix</li>
+<li><strong>Configurer les services</strong> : Hôpital &gt; Service</li>
+<li>Ajouter les services hospitaliers</li>
+</ol>
+<h4 id="visualisation-des-codes-icd">Visualisation des Codes ICD</h4>
+<ol>
+<li><strong>Cliquer sur le bouton</strong> "ICD Codes"</li>
+<li><strong>Consulter</strong> la liste complète des codes</li>
+<li><strong>Utiliser</strong> les codes appropriés pour les diagnostics</li>
+</ol>
+<h3 id="interface-mobile-alternative">Interface Mobile (Alternative)</h3>
+<p>Pour une utilisation sur mobile/tablette :</p>
+<ol>
+<li><strong>Téléchargez</strong> l'application DOSER DATA CAPTURE</li>
+<li><strong>Scannez</strong> le code QR de votre établissement</li>
+<li><strong>Connectez-vous</strong> avec vos identifiants</li>
+<li><strong>Sélectionnez</strong> le profil "Services de Santé"</li>
+</ol>
+<p>✓ <strong>Résultat attendu</strong> : Vous êtes sur le tableau de bord Services de Santé</p>
+<hr />
+<h2 id="etape-2-creer-un-dossier-medical-5-min">🏥 Étape 2 : Créer un Dossier Médical (5 min)</h2>
+<h3 id="21-acceder-au-formulaire">2.1 Accéder au Formulaire</h3>
+<ol>
+<li>Sur le tableau de bord, cliquez sur l'<strong>icône d'ajout d'un dossier médical</strong></li>
+<li>OU : Menu &gt; <strong>Hôpital</strong> &gt; <strong>Nouveau Dossier</strong></li>
+</ol>
+<h3 id="22-informations-basiques-du-patient">2.2 Informations Basiques du Patient</h3>
+<ol>
+<li><strong>Données personnelles</strong> :</li>
+<li>Nom et prénoms</li>
+<li>Date de naissance</li>
+<li>Sexe</li>
+<li>Adresse</li>
+<li>
+<p>Téléphone</p>
+</li>
+<li>
+<p><strong>Informations médicales</strong> :</p>
+</li>
+<li>Groupe sanguin</li>
+<li>Allergies connues</li>
+<li>Antécédents médicaux</li>
+<li>
+<p>Traitements en cours</p>
+</li>
+<li>
+<p><strong>Contexte de l'accident</strong> :</p>
+</li>
+<li>Date et heure de l'accident</li>
+<li>Lieu de l'accident</li>
+<li>Mode de déplacement (obligatoire)</li>
+<li>Circonstances de l'accident</li>
+</ol>
+<h3 id="23-ajout-des-contacts">2.3 Ajout des Contacts</h3>
+<ol>
+<li><strong>Cliquer sur "+"</strong> pour ajouter un contact</li>
+<li><strong>Renseigner</strong> les coordonnées du contact</li>
+<li><strong>Valider</strong> en cliquant sur "Ajouter"</li>
+<li><strong>Répéter</strong> pour tous les contacts nécessaires</li>
+</ol>
+<h3 id="24-enregistrement">2.4 Enregistrement</h3>
+<ul>
+<li>Cliquer sur <strong>"Enregistrer"</strong> pour finaliser la création du dossier</li>
+<li>Le dossier passe à l'état <strong>"OPENED"</strong></li>
+</ul>
+<p>💡 <strong>Important</strong> : Si la victime est inconsciente et non identifiée, utilisez le code "INCONNU-[DATE]-[HEURE]"</p>
+<h3 id="24-liaison-avec-laccident">2.4 Liaison avec l'Accident</h3>
+<ol>
+<li>Cliquez sur <strong>"Lier à un Accident"</strong></li>
+<li>Recherchez par :</li>
+<li>Numéro de constat</li>
+<li>Date et lieu</li>
+<li>
+<p>Véhicule impliqué</p>
+</li>
+<li>
+<p>Sélectionnez l'accident correspondant</p>
+</li>
+<li>Le système crée automatiquement le lien</li>
+</ol>
+<p>✓ <strong>Résultat attendu</strong> : La victime est enregistrée et liée à l'accident</p>
+<hr />
+<h2 id="etape-3-saisir-les-donnees-medicales-4-min">🩺 Étape 3 : Saisir les Données Médicales (4 min)</h2>
+<h3 id="31-triage-et-evaluation-initiale">3.1 Triage et Évaluation Initiale</h3>
+<ol>
+<li><strong>Niveau de gravité</strong> (Échelle de triage) :</li>
+<li>🔴 Urgence absolue (P1)</li>
+<li>🟠 Urgence relative (P2)</li>
+<li>🟡 Peu urgent (P3)</li>
+<li>
+<p>🟢 Non urgent (P4)</p>
+</li>
+<li>
+<p><strong>Signes vitaux</strong> :</p>
+</li>
+<li>Tension artérielle</li>
+<li>Fréquence cardiaque</li>
+<li>Saturation O2</li>
+<li>Température</li>
+<li>Score de Glasgow (si applicable)</li>
+</ol>
+<h3 id="32-traumatismes-et-blessures">3.2 Traumatismes et Blessures</h3>
+<ol>
+<li>Cliquez sur <strong>"Ajouter Traumatisme"</strong></li>
+<li>Sélectionnez la <strong>localisation</strong> :</li>
+<li>Tête</li>
+<li>Cou</li>
+<li>Thorax</li>
+<li>Abdomen</li>
+<li>Membres supérieurs</li>
+<li>Membres inférieurs</li>
+<li>
+<p>Multiple</p>
+</li>
+<li>
+<p>Type de blessure :</p>
+</li>
+<li>Contusion</li>
+<li>Fracture</li>
+<li>Plaie</li>
+<li>Brûlure</li>
+<li>Traumatisme crânien</li>
+<li>
+<p>Autre</p>
+</li>
+<li>
+<p><strong>Gravité</strong> (AIS - Abbreviated Injury Scale) :</p>
+</li>
+<li>1 = Mineure</li>
+<li>2 = Modérée</li>
+<li>3 = Sérieuse</li>
+<li>4 = Sévère</li>
+<li>5 = Critique</li>
+<li>6 = Maximale</li>
+</ol>
+<h3 id="33-soins-prodigues">3.3 Soins Prodigués</h3>
+<ol>
+<li><strong>Examens réalisés</strong> :</li>
+<li>Radio</li>
+<li>Scanner</li>
+<li>IRM</li>
+<li>Échographie</li>
+<li>
+<p>Analyses sanguines</p>
+</li>
+<li>
+<p><strong>Traitements administrés</strong> :</p>
+</li>
+<li>Médicaments (nom, dosage)</li>
+<li>Interventions chirurgicales</li>
+<li>Soins infirmiers</li>
+<li>
+<p>Rééducation</p>
+</li>
+<li>
+<p><strong>Évolution</strong> :</p>
+</li>
+<li>Stable</li>
+<li>Amélioration</li>
+<li>Aggravation</li>
+<li>Décès</li>
+</ol>
+<h3 id="34-enrichissement-du-dossier-medical">3.4 Enrichissement du Dossier Médical</h3>
+<p><strong>Accès :</strong> Cliquer sur "Détails" dans la liste des actions</p>
+<h4 id="prescription-des-examens">Prescription des Examens</h4>
+<ol>
+<li><strong>Cliquer sur "+"</strong> pour prescrire un examen</li>
+<li><strong>Renseigner</strong> : Type d'examen, date, observations</li>
+<li><strong>Cliquer sur "Enregistrer"</strong> pour valider</li>
+</ol>
+<h4 id="prescription-des-traitements">Prescription des Traitements</h4>
+<ol>
+<li><strong>Cliquer sur "+"</strong> pour prescrire un traitement</li>
+<li><strong>Renseigner</strong> : Nom, dosage, fréquence, durée</li>
+<li><strong>Cliquer sur "Enregistrer"</strong> pour valider</li>
+</ol>
+<h4 id="prescription-des-medicaments">Prescription des Médicaments</h4>
+<ol>
+<li><strong>Cliquer sur "+"</strong> pour prescrire un médicament</li>
+<li><strong>Renseigner</strong> : Nom, dosage, posologie, durée</li>
+<li><strong>Cliquer sur "Enregistrer"</strong> pour valider</li>
+</ol>
+<h4 id="diagnostics">Diagnostics</h4>
+<ol>
+<li><strong>Cliquer sur "+"</strong> pour prescrire un diagnostic</li>
+<li><strong>Utiliser les codes ICD</strong> appropriés</li>
+<li><strong>Renseigner</strong> : Code ICD, description, date</li>
+<li><strong>Cliquer sur "Enregistrer"</strong> pour valider</li>
+</ol>
+<h4 id="affectation-a-une-salle-de-soins">Affectation à une Salle de Soins</h4>
+<ol>
+<li><strong>Cliquer sur "+"</strong> pour créer une affectation</li>
+<li><strong>Renseigner</strong> : Numéro de chambre, service, date d'admission</li>
+<li><strong>Cliquer sur "Enregistrer"</strong> pour valider</li>
+</ol>
+<p><strong>Actions disponibles pour chaque section :</strong>
+- <strong>Modifier</strong> : Cliquer sur "Modifier", ajuster, enregistrer
+- <strong>Supprimer</strong> : Cliquer sur "Supprimer", confirmer</p>
+<p>✓ <strong>Résultat attendu</strong> : Le dossier médical est enrichi et complet</p>
+<hr />
+<h2 id="etape-4-identifier-les-compagnies-dassurance-2-min">🏢 Étape 4 : Identifier les Compagnies d'Assurance (2 min)</h2>
+<h3 id="41-informations-dassurance">4.1 Informations d'Assurance</h3>
+<ol>
+<li><strong>Nom de la compagnie</strong> :</li>
+<li>Assurance maladie</li>
+<li>Assurance auto</li>
+<li>
+<p>Assurance complémentaire</p>
+</li>
+<li>
+<p><strong>Numéro de police</strong> :</p>
+</li>
+<li>Référence du contrat</li>
+<li>
+<p>Numéro de sinistre</p>
+</li>
+<li>
+<p><strong>Contact assureur</strong> :</p>
+</li>
+<li>Téléphone</li>
+<li>Email</li>
+<li>
+<p>Adresse</p>
+</li>
+<li>
+<p><strong>Plafond de prise en charge</strong> :</p>
+</li>
+<li>Montant maximum</li>
+<li>Conditions particulières</li>
+</ol>
+<h3 id="42-verification-des-vehicules">4.2 Vérification des Véhicules</h3>
+<ol>
+<li><strong>Informations véhicule</strong> :</li>
+<li>Marque et modèle</li>
+<li>Numéro d'immatriculation</li>
+<li>
+<p>État des dommages</p>
+</li>
+<li>
+<p><strong>Conducteur</strong> :</p>
+</li>
+<li>Identité</li>
+<li>Permis de conduire</li>
+<li>Statut d'assurance</li>
+</ol>
+<hr />
+<h2 id="etape-5-partage-des-informations-1-min">🔗 Étape 5 : Partage des Informations (1 min)</h2>
+<h3 id="avec-les-assurances">Avec les Assurances</h3>
+<ol>
+<li>Menu &gt; <strong>Partage</strong> &gt; <strong>Assurances</strong></li>
+<li>Vérifiez la <strong>police d'assurance</strong> de la victime</li>
+<li>Sélectionnez les informations à partager :</li>
+<li>✓ Diagnostic</li>
+<li>✓ Soins reçus</li>
+<li>✓ Pronostic</li>
+<li>✓ Factures détaillées</li>
+<li>
+<p>✗ Dossier médical complet (respect secret médical)</p>
+</li>
+<li>
+<p>Cliquez sur <strong>"Envoyer à l'Assurance"</strong></p>
+</li>
+</ol>
+<h3 id="avec-dautres-services">Avec d'Autres Services</h3>
+<ol>
+<li><strong>Transfert vers autre hôpital</strong> :</li>
+<li>Menu &gt; Transfert</li>
+<li>Sélectionnez l'établissement</li>
+<li>Joignez le dossier médical</li>
+<li>
+<p>Envoyez</p>
+</li>
+<li>
+<p><strong>Notification aux autorités</strong> :</p>
+</li>
+<li>Pour les cas graves/mortels</li>
+<li>Le système notifie automatiquement</li>
+</ol>
+<p>✓ <strong>Résultat attendu</strong> : Les informations nécessaires sont partagées en toute sécurité</p>
+<hr />
+<h2 id="etape-6-transfert-inter-hospitalier-3-min">🔄 Étape 6 : Transfert Inter-Hospitalier (3 min)</h2>
+<h3 id="61-procedure-de-transfert">6.1 Procédure de Transfert</h3>
+<ol>
+<li><strong>Cliquer sur le bouton "Transférer"</strong></li>
+<li><strong>Renseigner</strong> les informations :</li>
+<li>Hôpital de destination</li>
+<li>État des soins</li>
+<li>Méthode de transfert</li>
+<li>Description de l'état du patient</li>
+<li><strong>Cliquer sur "Enregistrer"</strong> pour valider le transfert</li>
+</ol>
+<h3 id="62-suivi-des-patients-transferes">6.2 Suivi des Patients Transférés</h3>
+<ol>
+<li><strong>Cliquer sur "Transfert de Soins"</strong></li>
+<li><strong>Consulter</strong> la liste des patients transférés</li>
+<li><strong>Suivre</strong> l'évolution des dossiers</li>
+</ol>
+<hr />
+<h2 id="etape-7-generation-des-rapports-2-min">📄 Étape 7 : Génération des Rapports (2 min)</h2>
+<h3 id="71-generation-du-rapport-medical">7.1 Génération du Rapport Médical</h3>
+<ol>
+<li><strong>Cliquer sur "Générer Rapport"</strong></li>
+<li><strong>Télécharger</strong> la version PDF complète</li>
+<li><strong>Imprimer</strong> directement depuis l'interface</li>
+</ol>
+<h3 id="72-modification-du-dossier-medical">7.2 Modification du Dossier Médical</h3>
+<ol>
+<li><strong>Cliquer sur l'icône "Modifier"</strong></li>
+<li><strong>Ajuster</strong> les champs nécessaires</li>
+<li><strong>Cliquer sur "Enregistrer"</strong> pour valider les modifications</li>
+</ol>
+<hr />
+<h2 id="etape-8-production-de-factures-medicales-2-min">💰 Étape 8 : Production de Factures Médicales (2 min)</h2>
+<h3 id="81-generation-automatique">8.1 Génération Automatique</h3>
+<ol>
+<li>Menu &gt; <strong>Facturation</strong> &gt; <strong>Nouvelle Facture</strong></li>
+<li>Sélectionnez le <strong>patient</strong> concerné</li>
+<li>Vérifiez les <strong>soins prodigués</strong> :</li>
+<li>Consultations</li>
+<li>Examens</li>
+<li>Médicaments</li>
+<li>Hospitalisation</li>
+<li>Interventions</li>
+</ol>
+<h3 id="82-detail-des-couts">8.2 Détail des Coûts</h3>
+<p><strong>Soins Médicaux :</strong>
+- Consultation : [Montant]
+- Examen radiologique : [Montant]
+- Analyses biologiques : [Montant]</p>
+<p><strong>Médicaments :</strong>
+- [Nom du médicament] : [Quantité] x [Prix unitaire]
+- [Nom du médicament] : [Quantité] x [Prix unitaire]</p>
+<p><strong>Hospitalisation :</strong>
+- Chambre : [Nombre de jours] x [Prix/jour]
+- Repas : [Nombre] x [Prix unitaire]
+- Soins infirmiers : [Nombre] x [Prix unitaire]</p>
+<h3 id="83-envoi-a-lassurance">8.3 Envoi à l'Assurance</h3>
+<ol>
+<li><strong>Vérification</strong> des informations d'assurance</li>
+<li><strong>Calcul</strong> de la prise en charge</li>
+<li><strong>Génération</strong> de la facture</li>
+<li><strong>Envoi</strong> automatique à l'assureur</li>
+<li><strong>Suivi</strong> du remboursement</li>
+</ol>
+<p>✓ <strong>Résultat attendu</strong> : Facture générée et envoyée à l'assurance</p>
+<hr />
+<h2 id="etape-7-respect-de-la-confidentialite-1-min">🔐 Étape 7 : Respect de la Confidentialité (1 min)</h2>
+<h3 id="secret-medical">Secret Médical</h3>
+<p>L'application DOSER protège automatiquement :</p>
+<ul>
+<li>✅ <strong>Chiffrement</strong> de toutes les données sensibles</li>
+<li>✅ <strong>Accès basé sur les rôles</strong> (vous ne voyez que ce dont vous avez besoin)</li>
+<li>✅ <strong>Traçabilité</strong> (toutes les consultations sont enregistrées)</li>
+<li>✅ <strong>Anonymisation</strong> pour les statistiques</li>
+</ul>
+<h3 id="bonnes-pratiques">Bonnes Pratiques</h3>
+<ol>
+<li><strong>Ne partagez JAMAIS</strong> vos identifiants</li>
+<li><strong>Déconnectez-vous</strong> après chaque session</li>
+<li><strong>Verrouillez votre écran</strong> si vous vous absentez</li>
+<li><strong>Vérifiez</strong> que vous êtes seul avant d'afficher des données sensibles</li>
+<li><strong>Ne partagez</strong> que les informations strictement nécessaires</li>
+</ol>
+<p>⚠️ <strong>Attention</strong> : Toute violation du secret médical est tracée et peut faire l'objet de sanctions.</p>
+<hr />
+<h2 id="procedures-durgence">🚨 Procédures d'Urgence</h2>
+<h3 id="cas-critique-p1-urgence-vitale">Cas Critique (P1 - Urgence Vitale)</h3>
+<p>⏱️ <strong>Temps cible : 3 minutes maximum</strong></p>
+<p><strong>Actions Immédiates :</strong>
+1. <strong>Évaluation</strong> des fonctions vitales (ABC)
+2. <strong>Stabilisation</strong> d'urgence
+3. <strong>Alerte</strong> automatique des spécialistes
+4. <strong>Enregistrement</strong> minimal dans DOSER
+5. <strong>Communication</strong> avec l'équipe de réanimation</p>
+<p><strong>Enregistrement DOSER (après stabilisation) :</strong>
+- Nom : "URGENCE-[HEURE]"
+- Gravité : P1 (Urgence absolue)
+- Signes vitaux : Tous les paramètres
+- Traumatismes : Classification AIS
+- Soins : Médicaments d'urgence</p>
+<h3 id="victime-inconsciente-etat-grave">Victime Inconsciente (État Grave)</h3>
+<p>⏱️ <strong>Temps estimé : 8-10 minutes</strong></p>
+<p><strong>Procédure :</strong>
+1. <strong>Évaluation</strong> neurologique (Score de Glasgow)
+2. <strong>Stabilisation</strong> des fonctions vitales
+3. <strong>Enregistrement</strong> complet dans DOSER
+4. <strong>Coordination</strong> avec neurochirurgie
+5. <strong>Communication</strong> avec les familles</p>
+<h3 id="accident-multi-victimes">Accident Multi-Victimes</h3>
+<p>⏱️ <strong>Temps estimé : 15-20 minutes</strong></p>
+<p><strong>Organisation :</strong>
+1. <strong>Déclenchement</strong> du plan blanc
+2. <strong>Triage</strong> des victimes (P1, P2, P3, P4)
+3. <strong>Enregistrement</strong> groupé dans DOSER
+4. <strong>Coordination</strong> des équipes
+5. <strong>Communication</strong> centralisée</p>
+<h2 id="cas-dusage-standards">📊 Cas d'Usage Standards</h2>
+<h3 id="victime-consciente-blessures-legeres">Victime Consciente (Blessures Légères)</h3>
+<p>⏱️ <strong>Temps estimé : 5 minutes</strong></p>
+<p><strong>Procédure :</strong>
+1. Enregistrer la victime
+2. Lier à l'accident
+3. Saisir signes vitaux
+4. Enregistrer blessures (contusions)
+5. Soins prodigués
+6. Sortie</p>
+<h3 id="victime-moderement-blessee">Victime Modérément Blessée</h3>
+<p>⏱️ <strong>Temps estimé : 7-8 minutes</strong></p>
+<ol>
+<li>Enregistrer comme "INCONNU"</li>
+<li>Triage P1 (urgence absolue)</li>
+<li>Signes vitaux critiques</li>
+<li>Traumatismes multiples</li>
+<li>Soins intensifs</li>
+<li>Mise à jour régulière de l'état</li>
+<li>Identification ultérieure</li>
+</ol>
+<h3 id="cas-mortel">Cas Mortel</h3>
+<p>⏱️ <strong>Temps estimé : 10-15 minutes</strong></p>
+<p><strong>Procédure d'Enregistrement :</strong>
+1. <strong>Constation</strong> médicale du décès
+2. <strong>Enregistrement</strong> de l'heure du décès
+3. <strong>Identification</strong> de la cause probable
+4. <strong>Code OMS</strong> (CIM-10) :
+   - <strong>V01-V09</strong> : Piéton blessé
+   - <strong>V10-V19</strong> : Cycliste blessé
+   - <strong>V20-V29</strong> : Motocycliste blessé
+   - <strong>V40-V49</strong> : Occupant automobile
+   - <strong>V50-V59</strong> : Occupant camionnette
+   - <strong>V60-V69</strong> : Occupant véhicule lourd
+   - <strong>V70-V79</strong> : Occupant autobus
+   - <strong>V80-V89</strong> : Autre transport terrestre</p>
+<ol>
+<li><strong>Documentation</strong> médicale complète</li>
+<li><strong>Coordination</strong> avec les autorités</li>
+<li><strong>Communication</strong> avec les familles</li>
+</ol>
+<p><strong>Codes OMS Principaux :</strong>
+- <strong>V01-V99</strong> : Accidents de transport
+- <strong>V01-V09</strong> : Piétons blessés
+- <strong>V10-V19</strong> : Cyclistes blessés
+- <strong>V20-V29</strong> : Motocyclistes blessés
+- <strong>V40-V49</strong> : Automobilistes blessés</p>
+<p><strong>Actions Complémentaires :</strong>
+- Notification automatique aux autorités
+- Préparation du certificat de décès
+- Contact avec la famille
+- Transfert vers la morgue</p>
+<hr />
+<h2 id="problemes-frequents-et-solutions">⚠️ Problèmes Fréquents et Solutions</h2>
+<h3 id="je-ne-trouve-pas-laccident-correspondant">Je ne trouve pas l'accident correspondant</h3>
+<p><strong>Solution</strong> :
+1. Élargissez les critères de recherche
+2. Vérifiez l'orthographe du lieu
+3. Recherchez par plage de dates
+4. Contactez les Forces de l'Ordre pour le numéro de constat</p>
+<h3 id="les-signes-vitaux-ne-se-saisissent-pas">Les signes vitaux ne se saisissent pas</h3>
+<p><strong>Solution</strong> :
+1. Vérifiez votre connexion Internet
+2. Actualisez la page (F5)
+3. Utilisez un autre navigateur
+4. Contactez le support technique</p>
+<h3 id="erreur-lors-du-partage-avec-lassurance">Erreur lors du partage avec l'assurance</h3>
+<p><strong>Solution</strong> :
+1. Vérifiez que la police d'assurance est renseignée
+2. Assurez-vous d'avoir les autorisations nécessaires
+3. Vérifiez votre connexion
+4. Réessayez dans quelques minutes</p>
+<hr />
+<h2 id="pour-aller-plus-loin">📚 Pour Aller Plus Loin</h2>
+<h3 id="manuel-complet">Manuel Complet</h3>
+<p>📕 <a href="../../../manuel/services-sante/">Manuel Complet des Services de Santé</a></p>
+<h3 id="tutoriels-specifiques">Tutoriels Spécifiques</h3>
+<ul>
+<li>📖 <a href="../tutoriels/traumatismes-complexes.md">Gérer les traumatismes complexes</a></li>
+<li>📖 <a href="../tutoriels/echelle-ais.md">Utiliser l'échelle AIS correctement</a></li>
+<li>📖 <a href="../tutoriels/procedure-deces.md">Procédure en cas de décès</a></li>
+</ul>
+<h3 id="formation-continue">Formation Continue</h3>
+<ul>
+<li>🎓 Formations médicales spécialisées</li>
+<li>🎥 Webinaires mensuels</li>
+<li>📞 Support médical : support-sante@ditros.org</li>
+</ul>
+<hr />
+<h2 id="besoin-daide">🆘 Besoin d'Aide ?</h2>
+<h3 id="support-technique">Support Technique</h3>
+<ul>
+<li><strong>📧 Email</strong> : support-sante@ditros.org</li>
+<li><strong>📞 Urgences</strong> : +237 XXX XXX XXX (24/7)</li>
+<li><strong>💬 Chat</strong> : Disponible dans le portail</li>
+</ul>
+<h3 id="contacts-medicaux">Contacts Médicaux</h3>
+<ul>
+<li><strong>🩺 Coordination médicale</strong> : coordination@ditros.org</li>
+<li><strong>🐛 Signaler un problème</strong> : bugs-sante@ditros.org</li>
+<li><strong>💡 Suggestions</strong> : feedback-sante@ditros.org</li>
+</ul>
+<hr />
+<h2 id="checklist-de-demarrage">✅ Checklist de Démarrage</h2>
+<p>Avant de quitter ce guide, assurez-vous d'avoir :</p>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Accédé au portail DOSER Services de Santé</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Configuré les produits et services (examens, traitements, médicaments, chambres)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Consulté la liste des codes ICD</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Créé un dossier médical complet</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Enrichi le dossier avec examens, traitements, médicaments et diagnostics</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Testé le transfert inter-hospitalier</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Généré un rapport médical PDF</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Modifié un dossier médical existant</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Identifié les compagnies d'assurance</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Testé la production de factures médicales</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Compris l'enregistrement des codes OMS pour les décès</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Compris les règles de confidentialité</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Testé le partage avec une assurance (en mode test)</li>
+</ul>
+<hr />
+<p><strong>Félicitations ! 🎉</strong><br />
+Vous êtes maintenant prêt à utiliser DOSER pour enregistrer et gérer les victimes d'accidents !</p>
+<hr />
+<p><em>Guide créé le : 9 octobre 2025</em><br />
+<em>Dernière mise à jour : 17 octobre 2025</em><br />
+<em>Version : 7.0 - Vue d'ensemble structurée comme guide agent constatateur</em></p>
+<hr />
+<h2 id="note-sur-les-captures-decran">📸 Note sur les Captures d'Écran</h2>
+<p><strong>Les captures d'écran présentées dans ce guide sont des représentations visuelles de l'interface DOSER. Elles montrent :</strong></p>
+<ul>
+<li>✅ <strong>L'apparence réelle</strong> des écrans et formulaires</li>
+<li>✅ <strong>Les boutons et menus</strong> disponibles</li>
+<li>✅ <strong>Le flux de navigation</strong> entre les sections</li>
+<li>✅ <strong>Les champs de saisie</strong> et options de sélection</li>
+<li>✅ <strong>Les actions possibles</strong> à chaque étape</li>
+</ul>
+<p><strong>Pour une expérience optimale :</strong>
+- 📱 <strong>Testez</strong> chaque étape avec l'application réelle
+- 🔄 <strong>Pratiquez</strong> les workflows sur des données de test
+- 📚 <strong>Consultez</strong> le manuel complet pour plus de détails
+- 🆘 <strong>Contactez</strong> le support en cas de difficulté</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/ditros" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="mailto:contact@ditros.org" target="_blank" rel="noopener" title="" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4l208 156a48 48 0 0 0 57.6 0l208-156c12.1-9.1 19.2-23.3 19.2-38.4 0-26.5-21.5-48-48-48zM0 196v188c0 35.3 28.7 64 64 64h384c35.3 0 64-28.7 64-64V196L313.6 344.8c-34.1 25.6-81.1 25.6-115.2 0z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.indexes", "navigation.instant", "navigation.tracking", "navigation.expand", "toc.follow", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../../../assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": {"provider": "mike"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.f55a23d4.min.js"></script>
+      
+    
+  </body>
+</html>
