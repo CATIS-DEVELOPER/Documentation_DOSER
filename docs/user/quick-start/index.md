@@ -6,7 +6,7 @@ Bienvenue dans les **guides rapides** de la plateforme DOSER. Ces guides vous pe
 
 ## 🎯 Qu'est-ce qu'un Guide Rapide ?
 
-Un guide rapide est un **tutoriel pratique de 10-20 pages** conçu pour :
+Un guide rapide est un **document pratique de 10-20 pages** conçu pour :
 
 - ✅ **Démarrer rapidement** (15-20 minutes de lecture)
 - ✅ **Apprendre par la pratique** (instructions pas-à-pas)
@@ -196,23 +196,13 @@ Une fois que vous maîtrisez les bases, consultez les **manuels complets** pour 
 - 📕 [Manuel Complet : Compagnies d'Assurance](../../manuel/compagnies-assurance.md) (70 pages)
 - 📕 [Manuel de Référence Complète](../../manuel/index.md)
 
-### Tutoriels Pratiques
-
-Pour approfondir des tâches spécifiques :
-
-- 📖 [Géolocaliser un accident avec précision](../tutoriels/geolocaliser.md)
-- 📖 [Créer un croquis professionnel](../tutoriels/creer-croquis.md)
-- 📖 [Optimiser la prise de photos](../tutoriels/photos-optimales.md)
-- 📖 [Gérer un accident complexe](../tutoriels/accidents-complexes.md)
-- 📖 [Tous les tutoriels →](../tutoriels/index.md)
-
 ---
 
 ## 🎓 Formations et Support
 
 ### Formations Disponibles
 
-- **🎥 Vidéos tutoriels** : Bibliothèque de vidéos par rôle
+- **🎥 Vidéos** : Bibliothèque de vidéos par rôle
 - **👨‍🏫 Formations en présentiel** : Sessions organisées par région
 - **📱 Formations mobiles** : Directement sur le terrain
 - **🎓 Certifications** : Validez vos compétences DOSER
@@ -238,7 +228,7 @@ Pour approfondir des tâches spécifiques :
 ### Niveau 2 : Intermédiaire (3-5 heures)
 
 1. ✅ Consulter le manuel complet de référence
-2. ✅ Suivre 2-3 tutoriels pratiques
+2. ✅ Consulter les manuels complets
 3. ✅ Pratiquer sur des cas réels simples
 4. ✅ Participer à une formation en ligne
 
@@ -327,7 +317,7 @@ Vous pouvez également télécharger chaque guide individuellement :
 Si vous rencontrez des difficultés avec les guides rapides :
 
 1. **Consultez la FAQ** : La plupart des questions ont déjà une réponse
-2. **Regardez les vidéos** : Les tutoriels vidéos complètent les guides
+2. **Regardez les vidéos** : Les vidéos complètent les guides
 3. **Contactez le support** : Notre équipe est là pour vous aider
 4. **Rejoignez la communauté** : Échangez avec d'autres utilisateurs
 

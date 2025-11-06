@@ -790,12 +790,6 @@ L'application DOSER protège automatiquement :
 
 📕 [Manuel Complet des Services de Santé](../../manuel/services-sante.md)
 
-### Tutoriels Spécifiques
-
-- 📖 [Gérer les traumatismes complexes](../tutoriels/traumatismes-complexes.md)
-- 📖 [Utiliser l'échelle AIS correctement](../tutoriels/echelle-ais.md)
-- 📖 [Procédure en cas de décès](../tutoriels/procedure-deces.md)
-
 ### Formation Continue
 
 - 🎓 Formations médicales spécialisées

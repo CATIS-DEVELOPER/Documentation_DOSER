@@ -63,13 +63,9 @@ nav:
           - Administrateurs: user/quick-start/administrateurs.md
           - Usagers (Grand Public): user/quick-start/usagers.md
           - Morgue: user/quick-start/morgue.md
+          - Services de Secours: user/quick-start/services-secours.md
+          - Centre d'Analyse: user/quick-start/centre-analyse.md
           - Agences de Voyage: user/quick-start/agence-voyage.md
-      - Tutoriels:
-          - user/tutoriels/index.md
-          - Géolocaliser un Accident: user/tutoriels/geolocaliser.md
-          - Créer un Croquis: user/tutoriels/creer-croquis.md
-          - Optimiser les Photos: user/tutoriels/photos-optimales.md
-          - Mode Hors Ligne: user/tutoriels/mode-hors-ligne.md
   
   - 📕 Manuels de Référence:
       - manuel/index.md
@@ -81,6 +77,8 @@ nav:
           - Administrateurs: manuel/administrateurs.md
           - Usagers (Grand Public): manuel/usagers.md
           - Morgue: manuel/morgue.md
+          - Services de Secours: manuel/services-secours.md
+          - Centre d'Analyse: manuel/centre-analyse.md
           - Agences de Voyage: manuel/agence-voyage.md
       - Référence Technique:
           - Codes d'Erreur: manuel/reference/codes-erreur.md

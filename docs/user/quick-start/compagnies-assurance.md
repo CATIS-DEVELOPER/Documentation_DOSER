@@ -666,7 +666,7 @@ Ces acteurs collectent les données sur le terrain, puis les compagnies d'assura
 ### Formation et Assistance
 - 🎓 **Formation** : formation-assurance@doser.cm
 - 👥 **Mentorat** : Accompagnement personnalisé
-- 📚 **Documentation** : Guides et tutoriels
+- 📚 **Documentation** : Guides
 - 🎥 **Vidéos** : Formations en ligne
 
 ---

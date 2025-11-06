@@ -10,11 +10,308 @@
 
 À la fin de ce guide, vous saurez :
 
-✅ Enregistrer l'arrivée d'un corps suite à un accident  
-✅ Lier le défunt à l'accident correspondant  
-✅ Générer un certificat de décès  
-✅ Gérer la conservation et l'identification  
-✅ Coordonner avec les familles et autorités  
+✅ Accueillir et enregistrer les corps des victimes d'accidents  
+✅ Identifier les victimes décédées (documents, description physique)  
+✅ Réaliser les examens cliniques (liaisons cutanées, examens des organes)  
+✅ Effectuer les autopsies médico-légales  
+✅ Analyser les substances psychoactives  
+✅ Classer les accidents mortels de la route  
+✅ Établir les certificats de décès  
+✅ Documenter les circonstances du décès  
+✅ Coordonner avec les autorités judiciaires  
+✅ Gérer les transports et la communication avec les familles  
+
+---
+
+## 🎬 Workflow Complet avec Captures d'Écran
+
+### Vue d'Ensemble du Workflow
+
+```mermaid
+graph TD
+    A[⚰️ Corps Arrivé] --> B[📝 Enregistrement]
+    B --> C[🔍 Identification]
+    C --> D[🧪 Examens Cliniques]
+    D --> E[🔬 Analyses Toxicologiques]
+    E --> F[🔗 Liaison Accident]
+    F --> G[📊 Classement Mortel]
+    G --> H[📝 Documentation Circonstances]
+    H --> I[📄 Certificat Décès]
+    I --> J[🏥 Conservation]
+    J --> K[👨‍👩‍👧 Remise Famille]
+    
+    L[⚖️ Autopsie Requise] --> M[🔬 Rapport Médico-Légal]
+    M --> N[📊 Coordination Autorités]
+    N --> I
+    
+    O[🚚 Transport Demandé] --> P[✅ Autorisation Vérifiée]
+    P --> Q[🚚 Transport Organisé]
+    Q --> K
+    
+    R[📊 Archivage] --> S[📈 Rapports Statistiques]
+```
+
+### Workflow Détaillé par Écrans
+
+#### Écran 1 : Connexion au Portail
+
+```
+┌─────────────────────────────────────────────────────┐
+│  ⚰️ DOSER - Portail Morgue                         │
+│                                                     │
+│  Identifiant: [________________]                   │
+│  Mot de passe: [________________]                 │
+│                                                     │
+│  [🔑 CONNEXION]                                    │
+│                                                     │
+│  Rôle: Médecin Légiste / Expert Judiciaire         │
+│  Établissement: Morgue Centre - Douala             │
+└─────────────────────────────────────────────────────┘
+```
+
+#### Écran 2 : Tableau de Bord
+
+```
+┌─────────────────────────────────────────────────────┐
+│  📊 Tableau de Bord - Morgue                      │
+│                                                     │
+│  📥 Arrivées aujourd'hui: 3                        │
+│  ⏳ Corps en attente: 2                            │
+│  🔍 Non identifiés: 1                              │
+│  📄 Certificats à générer: 1                       │
+│                                                     │
+│  [➕ Nouvelle Admission]                           │
+│  [📋 Corps en Conservation]                        │
+│  [📄 Certificats]                                  │
+│  [📊 Statistiques]                                 │
+│                                                     │
+│  🚨 Alertes:                                       │
+│  • 1 corps dépasse le délai légal                  │
+│  • 2 autopsies en attente                          │
+└─────────────────────────────────────────────────────┘
+```
+
+#### Écran 3 : Nouvelle Admission
+
+```
+┌─────────────────────────────────────────────────────┐
+│  ➕ Nouvelle Admission                             │
+│                                                     │
+│  📅 Date arrivée: [15/10/2025]                     │
+│  ⏰ Heure: [14:30]                                 │
+│                                                     │
+│  📍 Provenance:                                    │
+│  ○ Lieu accident  ● Hôpital  ○ Service secours   │
+│  Hôpital: [Hôpital Central Douala ▼]              │
+│                                                     │
+│  🚚 Moyen transport:                               │
+│  [Ambulance ▼]                                     │
+│                                                     │
+│  👤 Accompagnant:                                  │
+│  [Dr. MARTIN Jean]                                 │
+│                                                     │
+│  📄 Documents joints:                              │
+│  [➕ Ajouter Document]                             │
+│                                                     │
+│  [❌ Annuler]  [➡️ Suivant: État du Corps]        │
+└─────────────────────────────────────────────────────┘
+```
+
+#### Écran 4 : Identification
+
+```
+┌─────────────────────────────────────────────────────┐
+│  🔍 Identification de la Victime                   │
+│                                                     │
+│  Statut:                                           │
+│  ● Identifié  ○ Non identifié                     │
+│                                                     │
+│  👤 Informations Personnelles:                     │
+│  Nom: [KOUAM]                                      │
+│  Prénoms: [Jean Paul]                              │
+│  Date naissance: [15/03/1985]                      │
+│  Lieu naissance: [Douala]                          │
+│  CNI: [123456789]                                  │
+│                                                     │
+│  📞 Contact Famille:                               │
+│  Nom: [KOUAM Marie]                                │
+│  Lien: [Épouse ▼]                                  │
+│  Téléphone: [+237 6XX XXX XXX]                    │
+│                                                     │
+│  💡 Aide les services de recherche                 │
+│                                                     │
+│  [❌ Retour]  [➡️ Suivant: Examens]                │
+└─────────────────────────────────────────────────────┘
+```
+
+#### Écran 5 : Examens Cliniques
+
+```
+┌─────────────────────────────────────────────────────┐
+│  🧪 Examens Cliniques                             │
+│                                                     │
+│  📋 Évaluation des Liaisons Cutanées:              │
+│  ┌───────────────────────────────────────────────┐ │
+│  │  Plaie 1:                                    │ │
+│  │  Localisation: [Front, région temporale]     │ │
+│  │  Type: [Contusion]  Dimensions: [5x3 cm]     │ │
+│  │  [📷 Photo]                                   │ │
+│  └───────────────────────────────────────────────┘ │
+│  [➕ Ajouter Plaie]                                │
+│                                                     │
+│  🫀 Examens des Organes:                           │
+│  ┌───────────────────────────────────────────────┐ │
+│  │  Observations:                                │ │
+│  │  [Traumatisme crânien visible...]             │ │
+│  │  [___________________________________]        │ │
+│  └───────────────────────────────────────────────┘ │
+│                                                     │
+│  💡 Aide à comprendre les circonstances            │
+│                                                     │
+│  [❌ Retour]  [➡️ Suivant: Analyses]              │
+└─────────────────────────────────────────────────────┘
+```
+
+#### Écran 6 : Analyses Toxicologiques
+
+```
+┌─────────────────────────────────────────────────────┐
+│  🔬 Analyses des Substances Psychoactives         │
+│                                                     │
+│  📊 Résultats d'Analyse:                          │
+│  ┌───────────────────────────────────────────────┐ │
+│  │  Type: [Alcoolémie ▼]                         │ │
+│  │  Résultat: [0.8 g/L]                          │ │
+│  │  Laboratoire: [Labo Central Douala]           │ │
+│  │  Date résultats: [16/10/2025]                 │ │
+│  │  [📎 Joindre Rapport]                         │ │
+│  └───────────────────────────────────────────────┘ │
+│                                                     │
+│  [➕ Ajouter Analyse]                              │
+│                                                     │
+│  Types disponibles:                                │
+│  • Alcoolémie                                      │
+│  • Drogues                                         │
+│  • Médicaments                                     │
+│  • Autres substances                               │
+│                                                     │
+│  [❌ Retour]  [➡️ Suivant: Liaison Accident]      │
+└─────────────────────────────────────────────────────┘
+```
+
+#### Écran 7 : Liaison à l'Accident
+
+```
+┌─────────────────────────────────────────────────────┐
+│  🔗 Lier à un Accident DOSER                      │
+│                                                     │
+│  🔍 Recherche:                                      │
+│  Numéro constat: [CON-2025-005678]                │
+│  OU                                                │
+│  Date: [15/10/2025]  Lieu: [Douala-Centre]       │
+│                                                     │
+│  ┌───────────────────────────────────────────────┐ │
+│  │  ✅ Accident Trouvé                           │ │
+│  │  CON-2025-005678                              │ │
+│  │  📅 15/10/2025 à 14:25                        │ │
+│  │  📍 Douala, Carrefour Akwa                    │ │
+│  │  🚗 Collision frontale                        │ │
+│  │  Score correspondance: 95%                    │ │
+│  └───────────────────────────────────────────────┘ │
+│                                                     │
+│  📊 Classement Automatique:                        │
+│  ✅ Accident mortel                                │
+│  ✅ Type: Collision                                │
+│  ✅ Gravité: 1 décès                               │
+│                                                     │
+│  [❌ Annuler]  [✅ Confirmer Liaison]              │
+└─────────────────────────────────────────────────────┘
+```
+
+#### Écran 8 : Documentation des Circonstances
+
+```
+┌─────────────────────────────────────────────────────┐
+│  📝 Documentation des Circonstances du Décès      │
+│                                                     │
+│  📋 Détails de l'Accident:                         │
+│  [Informations fournies par la police...]         │
+│  [___________________________________]            │
+│  [___________________________________]            │
+│                                                     │
+│  🔍 Circonstances:                                 │
+│  [Comment le décès s'est produit...]              │
+│  [___________________________________]            │
+│                                                     │
+│  🌍 Contexte:                                      │
+│  Météo: [Pluie ▼]  Route: [Mouillée ▼]           │
+│  Visibilité: [Bonne ▼]                            │
+│                                                     │
+│  📊 Rapport Base de Données:                       │
+│  ✅ Enregistré automatiquement                    │
+│  ✅ Partagé avec autorités                        │
+│  ✅ Utilisé pour statistiques                     │
+│                                                     │
+│  [❌ Retour]  [✅ Enregistrer]                    │
+└─────────────────────────────────────────────────────┘
+```
+
+#### Écran 9 : Génération Certificat de Décès
+
+```
+┌─────────────────────────────────────────────────────┐
+│  📄 Certificat de Décès                           │
+│                                                     │
+│  👤 Défunt: KOUAM Jean Paul                        │
+│  📅 Date décès: 15/10/2025 à 14:25                │
+│  📍 Lieu: Douala, Carrefour Akwa                  │
+│                                                     │
+│  ⚕️ Cause du Décès:                               │
+│  Cause immédiate: [Traumatisme crânien]           │
+│  Causes antécédentes: [Collision frontale]        │
+│                                                     │
+│  🔬 Autopsie:                                      │
+│  ○ Effectuée  ● Non effectuée                     │
+│                                                     │
+│  👨‍⚕️ Médecin Certificateur:                      │
+│  [Dr. MARTIN Jean - Médecin Légiste]             │
+│  [✍️ Signature Électronique]                      │
+│                                                     │
+│  📤 Distribution:                                  │
+│  ✅ État civil (maire)                            │
+│  ✅ Famille                                        │
+│  ✅ Assurance                                      │
+│                                                     │
+│  [❌ Annuler]  [✅ Générer Certificat]            │
+└─────────────────────────────────────────────────────┘
+```
+
+#### Écran 10 : Coordination Autorités Judiciaires
+
+```
+┌─────────────────────────────────────────────────────┐
+│  ⚖️ Coordination avec Autorités Judiciaires      │
+│                                                     │
+│  📋 Informations Fournies:                         │
+│  ┌───────────────────────────────────────────────┐ │
+│  │  ✅ Rapport médico-légal                      │ │
+│  │  ✅ Cause du décès                            │ │
+│  │  ✅ Analyses toxicologiques                   │ │
+│  │  ✅ Documentation circonstances               │ │
+│  └───────────────────────────────────────────────┘ │
+│                                                     │
+│  📞 Demandes en Cours:                             │
+│  • Police: Rapport complet (en attente)            │
+│  • Procureur: Autopsie requise                     │
+│                                                     │
+│  🔒 Statut Judiciaire:                             │
+│  ○ Sous scellés  ● Normal                         │
+│                                                     │
+│  💡 En tant qu'expert auprès des tribunaux        │
+│                                                     │
+│  [📤 Envoyer Rapport]  [📋 Voir Demandes]         │
+└─────────────────────────────────────────────────────┘
+```
 
 ---
 
@@ -90,9 +387,59 @@ Après connexion, vous accédez à :
 
 ✓ **Résultat** : Un numéro de dossier morgue est généré
 
+💡 **Important** : L'identification aide les services de recherche à retrouver les proches des victimes.
+
 ---
 
-## 🔗 Étape 3 : Lier à l'Accident (2 min)
+## 🔬 Étape 2bis : Examens Cliniques (3 min)
+
+### Évaluation des Liaisons Cutanées
+
+1. Ouvrez le dossier du corps
+2. Section **"Examens Cliniques"** > **"Liaisons Cutanées"**
+3. Documentez :
+   - **Plaies** : Localisation, type, dimensions
+   - **Contusions** : Zones touchées, aspect
+   - **Lésions** : Description détaillée
+   - **Photos** : Prise de photos médico-légales si nécessaire
+
+### Examens des Organes
+
+1. Section **"Examens des Organes"**
+2. Documentez les observations :
+   - **Organes visibles** : État, lésions
+   - **Traumatismes internes** : Si visibles
+   - **Observations médicales** : Notes détaillées
+3. Enregistrez les résultats
+
+💡 **Note** : Ces examens aident à comprendre les circonstances ayant conduit à la mort.
+
+---
+
+## 🧪 Étape 2ter : Analyse des Substances Psychoactives (2 min)
+
+### Enregistrement des Analyses
+
+1. Section **"Analyses Toxicologiques"**
+2. Documentez les résultats :
+   - **Type d'analyse** : Alcool, drogues, médicaments
+   - **Résultats** : Concentrations détectées
+   - **Laboratoire** : Nom du laboratoire effectuant l'analyse
+   - **Date des résultats** : Date de réception
+3. Liez les résultats au rapport médico-légal
+
+### Types d'Analyses
+
+- **Alcoolémie** : Taux d'alcool dans le sang
+- **Drogues** : Détection de substances illicites
+- **Médicaments** : Présence de médicaments dans l'organisme
+- **Autres substances** : Selon les besoins de l'enquête
+
+💡 **Important** : Ces analyses sont essentielles pour comprendre les circonstances de l'accident.
+
+---
+
+## 🔗 Étape 3 : Lier à l'Accident et Classement (2 min)
 
 ### Recherche de l'Accident
 
@@ -112,6 +459,43 @@ Après connexion, vous accédez à :
 2. Demandez le numéro de constat
 3. Créez une note "Liaison en attente"
 4. Le système notifiera automatiquement quand le constat sera créé
+
+### Classement des Accidents Mortels
+
+1. Une fois l'accident lié, le système classe automatiquement :
+   - **Accident mortel** : Décès confirmé
+   - **Type d'accident** : Collision, piéton renversé, etc.
+   - **Gravité** : Nombre de décès
+2. Ces informations sont utilisées pour :
+   - Statistiques de mortalité routière
+   - Rapports d'analyse
+   - Base de données nationale
+
+💡 **Note** : Le classement aide à l'analyse et à la prévention future des accidents.
+
+---
+
+## 📝 Étape 3bis : Documentation des Circonstances du Décès (2 min)
+
+### Enregistrement des Circonstances
+
+1. Section **"Circonstances du Décès"**
+2. Documentez :
+   - **Détails de l'accident** : Informations fournies par la police
+   - **Circonstances** : Comment le décès s'est produit
+   - **Contexte** : Conditions (météo, route, etc.)
+   - **Informations pertinentes** : Tout élément utile
+3. Liez aux informations de l'accident DOSER
+
+### Rapport à l'Usage de la Base de Données
+
+1. Toutes les informations sont automatiquement :
+   - **Enregistrées** dans la base de données DOSER
+   - **Partagées** avec les autorités compétentes
+   - **Utilisées** pour les statistiques
+   - **Archivées** selon les normes légales
+
+💡 **Important** : La documentation complète aide à comprendre les circonstances ayant conduit à la mort.
 
 ---
 
@@ -175,7 +559,59 @@ Le système affiche :
 
 ---
 
-## 👨‍👩‍👧 Étape 6 : Contact avec la Famille
+## ⚖️ Étape 5bis : Coordination avec les Autorités Judiciaires (2 min)
+
+### Collaboration avec la Police et le Procureur
+
+1. Section **"Coordination Judiciaire"**
+2. Fournissez les informations requises :
+   - **Rapport médico-légal** : Résultats des examens
+   - **Cause du décès** : Détermination médicale
+   - **Analyses toxicologiques** : Résultats des prélèvements
+   - **Circonstances** : Documentation complète
+3. Répondez aux demandes spécifiques :
+   - Demandes d'informations complémentaires
+   - Requêtes pour autopsie
+   - Documents pour enquête
+
+### Enquêtes Judiciaires
+
+Si une enquête est ouverte :
+1. Statut **"Sous Scellés Judiciaires"**
+2. Conservation prolongée
+3. Accès limité (enquêteurs uniquement)
+4. Traçabilité renforcée de tous les accès
+
+💡 **Note** : En tant qu'expert auprès des tribunaux, votre collaboration est essentielle.
+
+---
+
+## 🚚 Étape 5ter : Gestion des Demandes de Transport (2 min)
+
+### Organisation du Transport
+
+1. Section **"Demandes de Transport"**
+2. Enregistrez les demandes :
+   - **Destination** : Chambre funéraire, autre établissement
+   - **Demandeur** : Famille, entreprise funéraire, autorités
+   - **Autorisations** : Vérifiez les autorisations légales
+   - **Date prévue** : Planification du transport
+3. Coordonnez avec :
+   - Entreprises funéraires
+   - Services de transport
+   - Autorités compétentes
+
+### Procédure de Transport
+
+1. Vérifiez les autorisations légales
+2. Préparez les documents nécessaires
+3. Organisez le transport sécurisé
+4. Enregistrez la sortie dans le système
+5. Changez le statut : **"Transporté"**
+
+---
+
+## 👨‍👩‍👧 Étape 6 : Communication avec les Familles (2 min)
 
 ### Enregistrement Contact Famille
 
@@ -204,6 +640,32 @@ Le système peut envoyer :
    - Nom du récipiendaire
    - Entreprise funéraire
 5. Changez le statut : **"Remis à la Famille"**
+
+---
+
+## 📊 Étape 6bis : Archivage et Rapports Statistiques (2 min)
+
+### Archivage des Dossiers Médicaux
+
+1. Tous les dossiers sont automatiquement :
+   - **Archivés** dans le système DOSER
+   - **Conservés** selon les normes légales
+   - **Sécurisés** avec accès contrôlé
+   - **Accessibles** pour référence future
+
+### Production de Rapports Statistiques
+
+1. Section **"Statistiques"** > **"Rapports"**
+2. Le système compile automatiquement :
+   - **Données sur les décès** : Nombre, causes, circonstances
+   - **Analyses** : Tendances, patterns
+   - **Contributions** : À l'analyse et prévention future
+3. Consultez ou exportez les rapports :
+   - Rapports mensuels/trimestriels/annuels
+   - Analyses par région
+   - Statistiques de mortalité routière
+
+💡 **Note** : Ces statistiques aident à améliorer la sécurité routière.
 
 ---
 
@@ -333,12 +795,6 @@ Si autopsie nécessaire :
 
 📕 [Manuel Complet Morgue](../../manuel/morgue.md)
 
-### Tutoriels
-
-- 📖 [Procédures d'identification](../tutoriels/identification-defunt.md)
-- 📖 [Gestion des cas non identifiés](../tutoriels/corps-non-identifies.md)
-- 📖 [Coordination avec médecine légale](../tutoriels/medecine-legale.md)
-
 ---
 
 ## 🆘 Besoin d'Aide ?
@@ -358,11 +814,18 @@ Si autopsie nécessaire :
 ## ✅ Checklist
 
 - [ ] J'ai accédé au portail morgue
-- [ ] Je sais enregistrer l'arrivée d'un corps
+- [ ] Je sais accueillir et enregistrer les corps des victimes
+- [ ] Je sais identifier les victimes (identifiées ou non identifiées)
+- [ ] Je sais réaliser les examens cliniques (liaisons cutanées, organes)
+- [ ] Je sais effectuer les analyses de substances psychoactives
+- [ ] Je sais classer les accidents mortels de la route
+- [ ] Je sais documenter les circonstances du décès
 - [ ] Je sais lier un défunt à un accident
 - [ ] Je sais générer un certificat de décès
-- [ ] Je connais les procédures de conservation
-- [ ] Je sais gérer le contact avec les familles
+- [ ] Je sais coordonner avec les autorités judiciaires
+- [ ] Je sais gérer les demandes de transport
+- [ ] Je sais communiquer avec les familles
+- [ ] Je sais archiver les dossiers et produire des rapports statistiques
 
 ---
 

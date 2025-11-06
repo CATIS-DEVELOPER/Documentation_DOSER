@@ -1102,12 +1102,6 @@ Vous DEVEZ déclarer :
 
 📕 [Manuel Complet Agences de Voyage](../../manuel/agence-voyage.md)
 
-### Tutoriels
-
-- 📖 [Gérer une flotte de véhicules](../tutoriels/gestion-flotte.md)
-- 📖 [Former vos conducteurs à la sécurité](../tutoriels/formation-conducteurs.md)
-- 📖 [Optimiser vos itinéraires](../tutoriels/optimisation-itineraires.md)
-
 ### Ressources
 
 - 📄 Réglementation transport de personnes

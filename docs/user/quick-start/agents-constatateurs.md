@@ -1007,17 +1007,9 @@ Vous pouvez modifier :
 Pour une documentation exhaustive de toutes les fonctionnalités :
 📕 [Manuel Complet des Agents Constatateurs](../../manuel/agents-constatateurs.md)
 
-### Tutoriels Spécifiques
-
-- 📖 [Géolocaliser un accident avec précision](../tutoriels/geolocaliser.md)
-- 📖 [Créer un croquis professionnel](../tutoriels/creer-croquis.md)
-- 📖 [Optimiser la prise de photos](../tutoriels/photos-optimales.md)
-- 📖 [Gérer les accidents complexes](../tutoriels/accidents-complexes.md)
-
 ### Formation Avancée
 
 - 🎓 Formations en présentiel disponibles
-- 🎥 Vidéos tutoriels sur le portail
 - 📞 Support technique : support@ditros.org
 
 ---

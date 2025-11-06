@@ -1,0 +1,60 @@
+# Fichiers générés par MkDocs
+site/
+*.html
+
+# PDFs de test et temporaires
+docs/pdf/test-*.pdf
+docs/pdf/*-final.pdf
+docs/pdf/*-complet.pdf
+docs/pdf/test-*.html
+
+# Scripts de test et développement
+generate-pdfs-improved.ps1
+generate_pdfs.py
+test-pdf-encoding.ps1
+test-single-pdf.ps1
+restore_all.ps1
+
+# Fichiers de documentation temporaire
+AMELIORATIONS_PDF.md
+CORRECTIONS_PDF.md
+VERIFICATION_ENCODAGE.md
+
+# Fichiers avec noms étranges ou corrompus
+"et --hard HEAD"
+"hell -ExecutionPolicy Bypass -File restore_all.ps1"
+stor .
+
+# Plugins (si générés automatiquement)
+docs/plugins/
+
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Fichiers de cache
+.cache/
+*.cache
+
+# Fichiers de système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers d'éditeur
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+

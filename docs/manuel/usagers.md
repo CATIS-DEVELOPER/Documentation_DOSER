@@ -1,86 +1,526 @@
-# 📕 Manuel Complet : Usagers (Grand Public)
+# Guide des Usagers (Grand Public)
 
-**Version** : 2.0 | **Dernière mise à jour** : 9 octobre 2025
-
----
-
-## 📋 Table des Matières
-
-1. [Introduction](#introduction)
-2. [Portail Citoyen DOSER](#portail-citoyen-doser)
-3. [Déclarer un Accident](#déclarer-un-accident)
-4. [Suivre une Déclaration](#suivre-une-déclaration)
-5. [Droits et Démarches](#droits-et-démarches)
-6. [Attestations et Documents](#attestations-et-documents)
-7. [Statistiques et Prévention](#statistiques-et-prévention)
-8. [FAQ et Support](#faq-et-support)
+**Version** : 1.0 | **Dernière mise à jour** : 9 octobre 2025
 
 ---
 
-## 1. Introduction
+## 👥 Rôle et Responsabilités
 
-### 1.1 À Propos de ce Manuel
+L'**Usager** est toute personne présente sur un lieu d'accident. Les **Usagers (Grand Public)** sont des acteurs essentiels du système DOSER. Ils participent activement à la sécurité routière en :
 
-Ce manuel complet s'adresse aux **citoyens camerounais** et à toute personne souhaitant utiliser le portail citoyen DOSER pour déclarer un accident, suivre une déclaration ou consulter des informations de sécurité routière.
+- **Créant des alertes** en direction du Centre d'Analyse (portail, numéro vert, réseaux sociaux)
+- **Vérifiant la fiabilité** des véhicules en scannant leur QR code
+- **Signalant** les accidents de la route en tant que témoins
+- **Déclarant** leur implication en tant que victimes
+- **Suivant** leurs déclarations en temps réel
+- **Consultant** les statistiques et données publiques
+- **S'informant** sur les rapports et zones accidentogènes
 
-### 1.2 Objectifs du Portail Citoyen
+## 🎯 Missions Principales
 
-Le portail citoyen DOSER permet aux usagers de :
+### Création d'Alertes
+- **Portail public** : Soumettre des alertes via le portail dédié
+- **Numéro vert** : Appeler pour créer une alerte
+- **Réseaux sociaux** : Utiliser les plateformes sociales pour signaler
 
-- **Participer activement** à la sécurité routière en signalant les accidents
-- **Accéder à leurs droits** et connaître les démarches à suivre
-- **Suivre leurs déclarations** en temps réel
-- **Obtenir des attestations** pour leurs démarches administratives
-- **Consulter les statistiques** de sécurité routière
+### Vérification de Fiabilité des Véhicules
+- **Scanner QR code** : Vérifier le score de fiabilité d'un véhicule
+- **Consulter les statistiques** : Accidents et infractions du véhicule
+- **Antécédents du chauffeur** : Informations sur le conducteur
 
-### 1.3 Qui Peut Utiliser le Portail ?
+### Déclaration d'Accidents
+- **Témoin** : Signaler un accident observé
+- **Victime** : Déclarer son implication dans un accident
+- **Proche** : Déclarer pour un membre de la famille victime
 
-- ✅ **Témoins** d'accidents de la route
-- ✅ **Victimes** d'accidents (conducteurs, passagers, piétons)
-- ✅ **Proches** de victimes
-- ✅ **Tout citoyen** souhaitant signaler un danger routier
+### Accès aux Données et Informations
+- **Observatoire** : Consulter les données de sensibilisation
+- **Open Data** : Accéder aux données publiques
+- **Zones accidentogènes** : S'informer sur les rapports et zones à risque
+- **Statistiques** : Consulter les analyses et rapports
 
-### 1.4 Garanties et Confidentialité
+### Suivi et Information
+- **Suivre** l'évolution de ses déclarations
+- **Consulter** les constats officiels
+- **Télécharger** les attestations nécessaires
+- **Recevoir** des notifications automatiques
 
-Le portail DOSER garantit :
+## 🔧 Fonctionnalités Clés
 
-- 🔒 **Protection des données personnelles** (conformité RGPD)
-- 🔒 **Anonymat possible** pour les témoins
-- 🔒 **Sécurisation** des informations sensibles
-- 🔒 **Droit à l'oubli** (suppression sur demande)
+### Création d'Alertes
+- **Portail public** : Formulaire dédié pour soumettre des alertes
+- **Numéro vert** : Appel téléphonique pour créer une alerte
+- **Réseaux sociaux** : Intégration Facebook, Twitter/X, WhatsApp
+- **Transmission automatique** : Alertes envoyées au Centre d'Analyse
+
+### Vérification de Fiabilité des Véhicules
+- **Scanner QR code** : Lecture du code sur plaque ou pare-brise
+- **Score de fiabilité** : Calcul basé sur accidents, infractions, antécédents
+- **Affichage visuel** : Code couleur (vert/jaune/rouge)
+- **Détails** : Rapport statistique complet
+
+### Portail Citoyen
+- **Création de compte** simple et rapide
+- **Déclaration** d'accident en ligne
+- **Suivi** en temps réel des déclarations
+- **Téléchargement** d'attestations officielles
+
+### Déclarations
+- **Types multiples** : Témoin, Victime, Proche
+- **Photos et vidéos** : Ajout de preuves visuelles
+- **Géolocalisation** : Positionnement précis
+- **Anonymat** : Possibilité de déclarer anonymement (témoin)
+
+### Accès aux Données
+- **Observatoire** : Données et informations de sensibilisation
+- **Open Data** : Portail de données publiques ouvertes
+- **Zones accidentogènes** : Rapports et cartes des zones à risque
+- **Statistiques** : Analyses et rapports détaillés
+
+### Suivi et Documents
+- **Statuts** : Suivi de l'évolution de la déclaration
+- **Notifications** : Alertes SMS et email
+- **Attestations** : Documents téléchargeables avec QR Code
+- **Historique** : Consultation de toutes les déclarations
+
+## 📊 Cas d'Utilisation Détaillés
+
+### 🚨 **Création d'Alertes**
+
+#### 1. Déclarer des Alertes sur le Portail Public
+
+**Description** : Soumettre des alertes concernant des accidents ou des situations dangereuses via le portail public dédié.
+
+**Informations collectées** :
+- Lieu de l'accident ou situation dangereuse (géolocalisation ou adresse)
+- Description rapide de la situation
+- Photos si disponibles
+- Coordonnées du déclarant (optionnel)
+
+**Actions effectuées** :
+- Accès au portail public DOSER
+- Clic sur "Créer une Alerte"
+- Saisie des informations de base
+- Ajout de photos si disponibles
+- Envoi de l'alerte au Centre d'Analyse
+- Réception d'une confirmation
+
+#### 2. Faire des Alertes sur les Réseaux Sociaux
+
+**Description** : Utiliser les plateformes de réseaux sociaux pour signaler des accidents ou partager des informations pertinentes.
+
+**Informations collectées** :
+- Message avec localisation
+- Description de l'accident ou situation
+- Photos ou vidéos partagées
+- Hashtags pertinents (#DOSER, #AccidentRoute, etc.)
+
+**Actions effectuées** :
+- Accès aux comptes officiels DOSER (Facebook, Twitter/X, WhatsApp)
+- Envoi d'un message avec les informations
+- Partage de photos/vidéos si disponibles
+- Traitement de l'alerte par le Centre d'Analyse
+- Transmission aux autorités compétentes
+
+#### 3. Créer une Alerte via Numéro Vert
+
+**Description** : Appeler le numéro vert pour créer une alerte d'accident.
+
+**Informations collectées** :
+- Description verbale de la situation
+- Localisation précise
+- Nombre de victimes estimé
+- Gravité apparente
+- Coordonnées de l'appelant
+
+**Actions effectuées** :
+- Appel du numéro vert DOSER
+- Description de la situation à l'opérateur
+- Fourniture de la localisation précise
+- Création automatique de l'alerte par l'opérateur
+- Transmission au Centre d'Analyse
+- Confirmation de réception
+
+### 🔍 **Vérification de Fiabilité des Véhicules**
+
+#### 4. Vérifier la Fiabilité d'un Véhicule en Scannant son QR Code
+
+**Description** : Obtenir un score de fiabilité d'un véhicule en scannant son code QR, basé sur les statistiques d'accidents, infractions et antécédents du chauffeur.
+
+**Informations collectées** :
+- QR code du véhicule (sur plaque ou pare-brise)
+- Identifiant unique du véhicule
+- Historique des accidents impliquant ce véhicule
+- Infractions commises par ce véhicule
+- Antécédents du chauffeur (si disponible)
+
+**Actions effectuées** :
+- Ouverture de l'application DOSER ou du portail
+- Accès à la fonction "Scanner QR Code Véhicule"
+- Scan du QR code avec la caméra
+- Calcul automatique du score de fiabilité
+- Affichage du score avec code couleur :
+  - 🟢 Score élevé : Véhicule fiable
+  - 🟡 Score moyen : Prudence recommandée
+  - 🔴 Score faible : Risque élevé
+- Consultation du rapport détaillé
+
+### 📊 **Accès aux Données et Informations**
+
+#### 5. Accéder aux Données et Informations de Sensibilisation
+
+**Description** : Consulter les données et ressources d'information sur la sécurité routière disponibles sur l'observatoire des accidents.
+
+**Informations collectées** :
+- Données de sensibilisation
+- Informations sur la sécurité routière
+- Campagnes de prévention
+- Conseils et bonnes pratiques
+- Actualités sécurité routière
+
+**Actions effectuées** :
+- Accès à la section "Observatoire" ou "Sensibilisation"
+- Consultation des données disponibles
+- Lecture des informations de sensibilisation
+- Visionnage des vidéos de prévention
+- Partage des informations si souhaité
+
+#### 6. Accéder aux Données Publiques sur le Portail Open Data
+
+**Description** : Obtenir des informations ouvertes concernant les accidents de la route via le portail Open Data, incluant des statistiques et des analyses.
+
+**Informations collectées** :
+- Statistiques ouvertes sur les accidents
+- Analyses disponibles publiquement
+- Données anonymisées
+- Rapports d'analyse
+- Métadonnées
+
+**Actions effectuées** :
+- Accès au portail Open Data DOSER
+- Navigation dans les catégories de données
+- Consultation des statistiques
+- Téléchargement des données si nécessaire
+- Utilisation des données pour analyses personnelles
+
+#### 7. S'informer sur les Rapports et Zones Accidentogènes
+
+**Description** : Se renseigner sur les rapports d'accidents et identifier les zones classées comme à haut risque pour la sécurité routière.
+
+**Informations collectées** :
+- Rapports d'analyse des accidents
+- Zones identifiées comme accidentogènes
+- Statistiques par zone géographique
+- Points noirs identifiés
+- Recommandations pour chaque zone
+
+**Actions effectuées** :
+- Accès à la section "Zones Accidentogènes" ou "Carte des Accidents"
+- Visualisation de la carte interactive
+- Consultation des rapports détaillés
+- Filtrage par période, type d'accident, gravité
+- Consultation des statistiques par zone
+
+### 🚨 **Déclaration d'Accidents**
+
+#### 8. Déclarer un Accident en Tant que Témoin
+
+**Description** : Signaler un accident de la route dont vous avez été témoin.
+
+**Informations collectées** :
+- Date et heure de l'accident (approximative acceptée)
+- Lieu précis (adresse ou description)
+- Type d'accident observé
+- Description de ce qui s'est passé
+- Photos ou vidéos si disponibles
+- Vos coordonnées (optionnel si anonyme)
+
+**Actions effectuées** :
+- Accès au formulaire de déclaration
+- Saisie des informations générales
+- Description détaillée de l'accident
+- Ajout de photos/vidéos
+- Choix anonyme ou avec coordonnées
+- Envoi de la déclaration
+- Réception du numéro de déclaration
+
+#### 9. Déclarer un Accident en Tant que Victime
+
+**Description** : Déclarer votre implication dans un accident de la route.
+
+**Informations collectées** :
+- Vos informations personnelles complètes
+- Votre rôle (conducteur, passager, piéton, cycliste)
+- État de santé (indemne, blessé, grave)
+- Véhicule impliqué (si applicable)
+- Photos des dégâts et blessures
+- Description de l'accident
+
+**Actions effectuées** :
+- Création ou connexion au compte
+- Saisie des informations personnelles
+- Description de votre implication
+- Ajout de preuves visuelles
+- Envoi de la déclaration
+- Réception du numéro de déclaration et attestation
+
+#### 10. Déclarer un Accident pour un Proche
+
+**Description** : Déclarer un accident impliquant un membre de votre famille.
+
+**Informations collectées** :
+- Identité de la victime (nom, prénom, date de naissance)
+- Votre lien de parenté
+- Informations sur l'accident (si connues)
+- Vos coordonnées pour le suivi
+- Documents d'identité de la victime
+
+**Actions effectuées** :
+- Connexion au portail
+- Sélection "Déclarer pour un proche"
+- Saisie des informations de la victime
+- Description de l'accident
+- Envoi de la déclaration
+- Suivi de l'évolution pour la victime
+
+### 📋 **Suivi des Déclarations**
+
+#### 11. Suivre une Déclaration avec Compte
+
+**Description** : Consulter l'évolution de vos déclarations via votre compte.
+
+**Informations collectées** :
+- Liste de toutes vos déclarations
+- Statut actuel de chaque déclaration
+- Historique des changements de statut
+- Messages des autorités
+- Constat officiel (si disponible)
+
+**Actions effectuées** :
+- Connexion au portail
+- Accès au menu "Mes Déclarations"
+- Consultation de la liste
+- Détails d'une déclaration spécifique
+- Téléchargement des documents disponibles
+
+#### 12. Suivre une Déclaration sans Compte
+
+**Description** : Consulter une déclaration en utilisant le numéro de déclaration.
+
+**Informations collectées** :
+- Numéro de déclaration (format DEC-2025-XXXXXX)
+- Numéro de téléphone utilisé lors de la déclaration
+- QR Code reçu par SMS (optionnel)
+
+**Actions effectuées** :
+- Accès à la page "Suivre une Déclaration"
+- Saisie du numéro de déclaration
+- Saisie du numéro de téléphone
+- Consultation du statut et des informations
+- Ou scan du QR Code pour accès direct
+
+#### 13. Recevoir des Notifications
+
+**Description** : Être automatiquement informé des changements de statut de vos déclarations.
+
+**Informations collectées** :
+- Statut de la déclaration (Reçue, Vérifiée, Constat Établi, Clôturée, Rejetée)
+- Messages des autorités
+- Demandes d'informations complémentaires
+- Disponibilité de nouveaux documents
+
+**Actions effectuées** :
+- Configuration des préférences de notification (SMS, Email)
+- Réception automatique des notifications
+- Consultation des messages dans le portail
+- Actions requises si nécessaire
+
+### 📄 **Attestations et Documents**
+
+#### 14. Télécharger une Attestation de Déclaration
+
+**Description** : Obtenir une attestation certifiant votre déclaration d'accident.
+
+**Informations collectées** :
+- Numéro de déclaration
+- Date et lieu de l'accident
+- Votre rôle (témoin/victime)
+- Date de déclaration
+- QR Code de vérification
+
+**Actions effectuées** :
+- Connexion au portail
+- Accès à "Mes Attestations"
+- Sélection de l'attestation souhaitée
+- Téléchargement en PDF
+- Vérification de l'authenticité via QR Code
+
+#### 15. Télécharger une Attestation de Victime
+
+**Description** : Obtenir une attestation officielle pour vos démarches (assurance, employeur, etc.).
+
+**Informations collectées** :
+- Identité complète
+- Numéro de constat officiel
+- Circonstances de l'accident
+- État de santé déclaré
+- Véhicule impliqué
+
+**Actions effectuées** :
+- Connexion au portail
+- Accès à "Mes Attestations"
+- Sélection "Attestation de Victime"
+- Téléchargement du PDF signé électroniquement
+- Utilisation pour démarches administratives
+
+#### 16. Vérifier l'Authenticité d'un Document
+
+**Description** : Vérifier qu'un document DOSER est authentique via le QR Code.
+
+**Informations collectées** :
+- QR Code présent sur le document
+- Numéro de déclaration
+- Détails du document
+
+**Actions effectuées** :
+- Scan du QR Code avec smartphone
+- Redirection vers la page de vérification
+- Affichage de la confirmation d'authenticité
+- Consultation des détails du document
+
+### 🛣️ **Droits et Démarches**
+
+#### 17. Connaître ses Droits en Tant que Victime
+
+**Description** : Comprendre les droits et démarches disponibles après un accident.
+
+**Informations collectées** :
+- Statut de victime (blessé, indemne, responsable)
+- Type de dommages (corporels, matériels)
+- Situation d'assurance
+- Besoins spécifiques
+
+**Actions effectuées** :
+- Consultation de la section "Droits et Démarches"
+- Information sur les droits (soins médicaux, indemnisation, etc.)
+- Accès aux guides de démarches
+- Contact avec le support si nécessaire
+
+#### 18. Effectuer les Démarches d'Assurance
+
+**Description** : Suivre les démarches nécessaires auprès de son assureur.
+
+**Informations collectées** :
+- Attestation DOSER téléchargée
+- Constat amiable (si établi)
+- Photos des dégâts
+- Devis de réparation
+- Coordonnées de l'assureur
+
+**Actions effectuées** :
+- Téléchargement de l'attestation DOSER
+- Contact de l'assureur (téléphone, agence, en ligne)
+- Fourniture du numéro de constat DOSER
+- Suivi des instructions de l'assureur
+- Suivi de l'expertise et de l'indemnisation
+
+#### 19. Obtenir des Documents pour l'Employeur/École
+
+**Description** : Obtenir les documents nécessaires pour justifier une absence.
+
+**Informations collectées** :
+- Attestation DOSER
+- Certificat médical (si blessé)
+- Arrêt de travail (si nécessaire)
+- Justificatif d'absence
+
+**Actions effectuées** :
+- Téléchargement de l'attestation DOSER
+- Obtention du certificat médical si nécessaire
+- Transmission à l'employeur/école
+- Suivi de la validation
+
+### 📊 **Statistiques et Prévention**
+
+#### 20. Consulter les Statistiques de Sécurité Routière
+
+**Description** : Accéder aux statistiques nationales et régionales sur les accidents.
+
+**Informations collectées** :
+- Statistiques nationales (nombre d'accidents, répartition par gravité)
+- Statistiques régionales (accidents dans votre région)
+- Tendances et évolutions
+- Comparaisons temporelles
+
+**Actions effectuées** :
+- Accès à la section "Statistiques"
+- Consultation des graphiques et tableaux
+- Filtrage par période, région, type
+- Visualisation sur carte interactive
+
+#### 21. Signaler un Danger Routier
+
+**Description** : Signaler un danger observé sur la route (nid de poule, panneau manquant, etc.).
+
+**Informations collectées** :
+- Type de danger (nid de poule, feu défectueux, panneau manquant, etc.)
+- Localisation précise (GPS ou adresse)
+- Photo du danger
+- Description détaillée
+- Urgence du danger
+
+**Actions effectuées** :
+- Accès à "Signaler un Danger"
+- Sélection du type de danger
+- Saisie de la localisation
+- Ajout de photos
+- Description du problème
+- Envoi du signalement
+
+#### 22. Participer aux Campagnes de Sensibilisation
+
+**Description** : Accéder aux campagnes et informations de prévention.
+
+**Informations collectées** :
+- Vidéos de prévention
+- Actualités sécurité routière
+- Chiffres clés du mois
+- Conseils de prudence
+- Alertes zones dangereuses
+
+**Actions effectuées** :
+- Consultation de la section "Prévention"
+- Visionnage des vidéos
+- Lecture des actualités
+- Activation des notifications d'alertes
+- Partage des informations
 
 ---
 
-## 2. Portail Citoyen DOSER
+## 💻 Utilisation de l'Interface Web DOSER
 
-### 2.1 Accès au Portail
+### Connexion et Accès
 
-**URL** : https://citoyen.doser.ditros.org
+1. **URL** : `https://citoyen.doser.ditros.org`
+2. **Compatibilité** : Ordinateurs, smartphones, tablettes
+3. **Navigateurs** : Chrome, Firefox, Safari, Edge (versions récentes)
 
-**Compatibilité** :
-- 💻 Ordinateurs (Windows, Mac, Linux)
-- 📱 Smartphones (Android, iOS)
-- 📱 Tablettes
-- 🌐 Tous navigateurs modernes (Chrome, Firefox, Safari, Edge)
+### Création de Compte
 
-### 2.2 Créer un Compte
+#### **Avantages d'un Compte**
+- Suivi de toutes vos déclarations
+- Historique consultable
+- Notifications automatiques
+- Téléchargement d'attestations
+- Accès à des statistiques personnalisées
 
-#### Avantages d'un Compte
-
-- ✅ Suivi de toutes vos déclarations
-- ✅ Historique consultable
-- ✅ Notifications automatiques
-- ✅ Téléchargement d'attestations
-- ✅ Accès à des statistiques personnalisées
-
-#### Procédure d'Inscription
-
+#### **Procédure d'Inscription**
 1. Cliquez sur **"S'inscrire"**
 2. Remplissez le formulaire :
-   - **Nom et prénoms** (obligatoire)
-   - **Numéro de téléphone** (obligatoire - validation par SMS)
-   - **Email** (optionnel mais recommandé)
-   - **Date de naissance** (pour vérification d'âge)
+   - Nom et prénoms (obligatoire)
+   - Numéro de téléphone (obligatoire - validation par SMS)
+   - Email (optionnel mais recommandé)
+   - Date de naissance (pour vérification d'âge)
 3. Créez un **mot de passe** :
    - Minimum 8 caractères
    - Au moins 1 majuscule, 1 chiffre
@@ -91,9 +531,9 @@ Le portail DOSER garantit :
    - Entrez le code dans les 5 minutes
 7. Votre compte est activé !
 
-### 2.3 Connexion
+### Connexion
 
-1. Allez sur https://citoyen.doser.ditros.org
+1. Allez sur `https://citoyen.doser.ditros.org`
 2. Cliquez sur **"Se Connecter"**
 3. Entrez votre **numéro de téléphone** ou **email**
 4. Entrez votre **mot de passe**
@@ -101,393 +541,227 @@ Le portail DOSER garantit :
 
 **Option "Se souvenir de moi"** : Garde la session active 30 jours
 
-### 2.4 Interface Principale
+### Interface Principale
 
-Après connexion, vous accédez à :
-
-#### Tableau de Bord
+#### **Tableau de Bord**
 - 📊 Résumé de vos déclarations
 - 🔔 Notifications récentes
 - 📈 Statistiques de votre région
 - 🆘 Accès rapide aux urgences
 
-#### Menu Principal
-- 🚨 **Déclarer un Accident** : Nouvelle déclaration
+#### **Menu Principal**
+- 🚨 **Créer une Alerte** : Alerte rapide au Centre d'Analyse
+- 🔍 **Scanner QR Véhicule** : Vérifier la fiabilité d'un véhicule
+- 📱 **Déclarer un Accident** : Nouvelle déclaration
 - 📋 **Mes Déclarations** : Historique et suivi
 - 📄 **Mes Attestations** : Documents téléchargeables
-- 📊 **Statistiques** : Sécurité routière
+- 📊 **Observatoire** : Données et statistiques
+- 🌐 **Open Data** : Portail de données publiques
+- ⚠️ **Zones à Risque** : Carte des zones accidentogènes
 - ⚙️ **Paramètres** : Configuration compte
 - 🆘 **Aide** : Support et FAQ
 
----
+### Formulaire de Déclaration
 
-## 3. Déclarer un Accident
+#### **Section 1 : Informations Générales (Obligatoire)**
+- Date de l'accident
+- Heure approximative
+- Lieu (adresse ou description)
+- Type d'accident
+- Estimation de la gravité
 
-### 3.1 Types de Déclaration
+#### **Section 2 : Votre Implication**
+- Rôle (Témoin/Victime/Proche)
+- État (si victime : Indemne/Blessé/Grave)
+- Véhicule impliqué (si conducteur)
 
-#### 3.1.1 Témoin d'Accident
+#### **Section 3 : Description**
+- Description détaillée de ce qui s'est passé
+- Cause apparente (optionnel)
+- Conditions (météo, visibilité)
 
-**Quand** : Vous avez assisté à un accident
+#### **Section 4 : Médias**
+- Photos (0-10, max 5 MB, JPG/PNG)
+- Vidéos (0-2, max 50 MB, MP4)
 
-**Informations requises** :
-- Lieu et heure (approximatifs acceptés)
-- Description de ce que vous avez vu
-- Photos si possible
-- Vos coordonnées (optionnel si anonyme)
+#### **Section 5 : Vos Coordonnées**
+- Nom (obligatoire si victime, optionnel si témoin)
+- Téléphone (obligatoire)
+- Email (optionnel)
 
-**Utilité** :
-- Alerte les autorités rapidement
-- Complète les informations officielles
-- Aide à la reconstruction des faits
+### Fonctionnalités Avancées
 
-#### 3.1.2 Victime d'Accident
+#### **Création d'Alertes Multi-Canal**
+- Portail public avec formulaire dédié
+- Numéro vert avec opérateurs disponibles 24/7
+- Intégration réseaux sociaux (Facebook, Twitter/X, WhatsApp)
+- Transmission automatique au Centre d'Analyse
 
-**Quand** : Vous êtes impliqué dans l'accident
+#### **Scanner QR Code Véhicule**
+- Lecture du QR code avec caméra smartphone
+- Calcul automatique du score de fiabilité
+- Affichage visuel avec code couleur
+- Rapport détaillé (accidents, infractions, antécédents)
 
-**Informations requises** :
-- Vos informations personnelles complètes
-- Votre rôle (conducteur, passager, piéton)
-- État de santé
-- Véhicule impliqué (si applicable)
-- Photos des dégâts/blessures
+#### **Accès aux Données**
+- Observatoire avec données de sensibilisation
+- Portail Open Data avec données publiques
+- Carte interactive des zones accidentogènes
+- Rapports et analyses téléchargeables
 
-**Utilité** :
-- Enregistrement officiel de votre implication
-- Base pour démarches assurance
-- Attestation pour employeur/école
+#### **Géolocalisation**
+- Positionnement automatique via GPS
+- Saisie manuelle de l'adresse
+- Carte interactive pour validation
 
-#### 3.1.3 Proche de Victime
+#### **Mode Hors Ligne**
+- Déclaration possible sans connexion
+- Synchronisation automatique dès connexion rétablie
+- Sauvegarde locale des données
 
-**Quand** : Un membre de votre famille est victime
-
-**Informations requises** :
-- Identité de la victime
-- Votre lien de parenté
-- Informations sur l'accident (si connues)
-- Vos coordonnées
-
-**Utilité** :
-- Obtenir des informations
-- Suivre l'état de la victime
-- Coordonner avec hôpitaux/assurances
-
-### 3.2 Formulaire de Déclaration Détaillé
-
-#### Section 1 : Informations Générales (Obligatoire)
-
-| Champ | Type | Obligatoire | Description |
-|-------|------|-------------|-------------|
-| Date | Date | Oui | Date de l'accident |
-| Heure | Heure | Oui | Heure approximative |
-| Lieu | Texte | Oui | Adresse ou description |
-| Type | Liste | Oui | Type d'accident |
-| Gravité | Liste | Non | Estimation gravité |
-
-#### Section 2 : Votre Implication
-
-| Champ | Type | Obligatoire | Description |
-|-------|------|-------------|-------------|
-| Rôle | Liste | Oui | Témoin/Victime/Proche |
-| État | Liste | Si victime | Indemne/Blessé/Grave |
-| Véhicule | Texte | Si conducteur | Immatriculation |
-
-#### Section 3 : Description
-
-| Champ | Type | Obligatoire | Description |
-|-------|------|-------------|-------------|
-| Description | Texte long | Oui | Ce qui s'est passé |
-| Cause | Liste | Non | Cause apparente |
-| Conditions | Liste | Non | Météo, visibilité |
-
-#### Section 4 : Médias
-
-| Type | Nombre | Taille Max | Format |
-|------|--------|------------|--------|
-| Photos | 0-10 | 5 MB | JPG, PNG |
-| Vidéos | 0-2 | 50 MB | MP4 |
-
-#### Section 5 : Vos Coordonnées
-
-| Champ | Type | Obligatoire | Description |
-|-------|------|-------------|-------------|
-| Nom | Texte | Non* | Anonyme possible |
-| Téléphone | Tél | Oui | Pour suivi |
-| Email | Email | Non | Notifications |
-
-*Obligatoire si victime, optionnel si témoin
-
-### 3.3 Validation et Envoi
-
-Avant l'envoi, le système vérifie :
-
-- ✅ Champs obligatoires remplis
-- ✅ Format des données correct
-- ✅ Photos/vidéos dans les limites
-- ✅ Cohérence des informations
-
-**Bouton "Envoyer"** devient actif quand tout est OK.
-
-### 3.4 Confirmation
-
-Après envoi, vous recevez :
-
-1. **Numéro de déclaration** : Format `DEC-2025-XXXXXX`
-2. **SMS de confirmation** (si téléphone fourni)
-3. **Email de confirmation** (si email fourni)
-4. **QR Code** : Pour suivi rapide
-
-💡 **Conservez ce numéro** pour suivre votre déclaration !
+#### **Notifications**
+- SMS de confirmation après déclaration/alerte
+- Email avec numéro de déclaration
+- Notifications de changement de statut
+- Alertes zones dangereuses (si activées)
 
 ---
 
-## 4. Suivre une Déclaration
+## 🚨 Cas Particuliers et Procédures Spécialisées
 
-### 4.1 Statuts de Déclaration
+### Déclaration Anonyme
 
-| Statut | Icône | Description | Délai Moyen |
-|--------|-------|-------------|-------------|
-| Reçue | 🟡 | En attente vérification | 0-2h |
-| Vérifiée | 🔵 | Validée par modérateur | 2-24h |
-| Constat Établi | 🟢 | Constat officiel créé | 1-3 jours |
-| Clôturée | ⚫ | Dossier finalisé | Variable |
-| Rejetée | 🔴 | Non valide (raison fournie) | 1-24h |
+#### **Quand Utiliser**
+- Vous êtes témoin d'un accident
+- Vous souhaitez rester anonyme
+- Vous craignez des représailles
 
-### 4.2 Suivi avec Compte
+#### **Procédure**
+1. Sélectionnez "Témoin" dans le formulaire
+2. Cochez "Déclaration anonyme"
+3. Seul le numéro de téléphone est requis
+4. Vous recevez un numéro de déclaration pour suivi
+5. Vos informations personnelles ne sont pas enregistrées
 
-1. Connectez-vous
-2. Menu > **"Mes Déclarations"**
-3. Liste de toutes vos déclarations
-4. Cliquez sur une déclaration pour détails :
-   - Statut actuel
-   - Historique des changements
-   - Constat officiel (si disponible)
-   - Messages des autorités
+### Modification d'une Déclaration
 
-### 4.3 Suivi sans Compte
+#### **Délai**
+- Modification possible dans les 24h après envoi
+- Après 24h, contactez le support
 
-1. Page d'accueil > **"Suivre une Déclaration"**
-2. Entrez votre **numéro de déclaration**
-3. Entrez votre **numéro de téléphone**
-4. Cliquez sur **"Consulter"**
+#### **Procédure**
+1. Accédez à "Mes Déclarations"
+2. Sélectionnez la déclaration à modifier
+3. Cliquez sur "Modifier"
+4. Apportez les corrections nécessaires
+5. Enregistrez les modifications
 
-OU scannez le **QR Code** reçu par SMS
+### Réclamation
 
-### 4.4 Notifications
+#### **Quand Déposer une Réclamation**
+- Vous n'êtes pas satisfait du traitement
+- Erreur dans votre déclaration
+- Problème avec les autorités
+- Retard dans le traitement
 
-Vous êtes notifié automatiquement (SMS/Email) quand :
-
-- ✅ Votre déclaration est vérifiée
-- ✅ Un constat officiel est établi
-- ✅ Des informations complémentaires sont demandées
-- ✅ Le dossier est clôturé
-- ❌ Votre déclaration est rejetée (avec raison)
-
----
-
-## 5. Droits et Démarches
-
-### 5.1 Droits des Victimes
-
-#### Si Vous Êtes Blessé
-
-Vous avez droit à :
-
-- 🏥 **Soins médicaux** : Prise en charge par assurance responsable
-- 💰 **Indemnisation** : Dommages corporels et préjudices
-- 🚗 **Véhicule de remplacement** : Si votre véhicule est immobilisé
-- ⚖️ **Assistance juridique** : Aide pour démarches légales
-- 📄 **Attestations** : Pour employeur, école, etc.
-
-#### Si Vous Êtes Responsable
-
-Vos obligations :
-
-- 📝 **Déclarer à votre assurance** : Sous 5 jours ouvrés
-- 🤝 **Coopérer** avec les enquêtes
-- 💰 **Assumer** les réparations (via assurance)
-- ⚖️ **Respecter** les procédures judiciaires si applicable
-
-### 5.2 Démarches Assurance
-
-#### Étape 1 : Déclaration à Votre Assureur
-
-**Délai** : 5 jours ouvrés maximum
-
-**Documents nécessaires** :
-- Attestation DOSER (téléchargeable)
-- Constat amiable (si établi)
-- Photos des dégâts
-- Devis de réparation
-
-**Comment** :
-1. Téléchargez votre attestation DOSER
-2. Contactez votre assureur (téléphone, agence, en ligne)
-3. Fournissez le numéro de constat DOSER
-4. Suivez les instructions de votre assureur
-
-#### Étape 2 : Expertise
-
-- L'assurance mandate un expert
-- Rendez-vous pour constater les dégâts
-- Photos et évaluation
-- Rapport d'expertise (7-15 jours)
-
-#### Étape 3 : Indemnisation
-
-- Proposition d'indemnisation
-- Acceptation ou négociation
-- Paiement (virement, chèque)
-- Délai moyen : 30-60 jours
-
-### 5.3 Démarches Administratives
-
-#### Pour l'Employeur
-
-Si accident pendant trajet travail :
-
-- 📄 Attestation DOSER
-- 📄 Certificat médical (si blessé)
-- 📄 Arrêt de travail (si nécessaire)
-
-#### Pour l'École/Université
-
-Si étudiant impliqué :
-
-- 📄 Attestation DOSER
-- 📄 Justificatif d'absence
-- 📄 Certificat médical
-
-#### Pour Démarches Légales
-
-- 📄 Constat officiel DOSER
-- 📄 Attestation de victime
-- 📄 Photos et preuves
-- 📄 Coordonnées des témoins
+#### **Procédure**
+1. Accédez à "Support" > "Réclamation"
+2. Sélectionnez le type de réclamation
+3. Décrivez le problème
+4. Joignez des pièces justificatives si nécessaire
+5. Envoyez la réclamation
+6. Suivez le traitement (réponse sous 5 jours)
 
 ---
 
-## 6. Attestations et Documents
+## ⚠️ Problèmes Fréquents
 
-### 6.1 Types d'Attestations
+### Problèmes de Connexion
 
-#### Attestation de Déclaration
+#### Je ne peux pas me connecter
 
-**Contenu** :
-- Numéro de déclaration
-- Date et lieu de l'accident
-- Votre rôle (témoin/victime)
-- Date de déclaration
-- QR Code de vérification
+**Solutions :**
+1. Vérifier que l'URL est correcte
+2. Vérifier les identifiants (attention aux majuscules/minuscules)
+3. Vérifier la connexion Internet
+4. Vider le cache du navigateur
+5. Essayer depuis un autre navigateur
+6. Utiliser la récupération de mot de passe
 
-**Usage** : Preuve que vous avez déclaré
+#### Je n'ai pas reçu le code SMS de validation
 
-#### Attestation de Victime
+**Solutions :**
+1. Vérifier que le numéro de téléphone est correct
+2. Attendre quelques minutes (délai possible)
+3. Vérifier que le téléphone a du réseau
+4. Demander un nouveau code
+5. Vérifier les messages indésirables
+6. Contacter le support si le problème persiste
 
-**Contenu** :
-- Identité complète
-- Numéro de constat officiel
-- Circonstances de l'accident
-- État de santé déclaré
-- Véhicule impliqué
+### Problèmes de Déclaration
 
-**Usage** : Assurance, employeur, démarches légales
+#### Je ne peux pas envoyer ma déclaration
 
-#### Constat Officiel (Copie)
+**Solutions :**
+1. Vérifier que tous les champs obligatoires sont remplis
+2. Vérifier la taille des photos/vidéos (max 5 MB pour photos, 50 MB pour vidéos)
+3. Vérifier le format des fichiers (JPG, PNG pour photos, MP4 pour vidéos)
+4. Vérifier la connexion Internet
+5. Essayer de réduire la taille des photos
+6. Contacter le support si le problème persiste
 
-**Contenu** :
-- Rapport complet des Forces de l'Ordre
-- Tous les détails de l'accident
-- Responsabilités établies
-- Croquis et photos officiels
+#### Ma déclaration a été rejetée
 
-**Usage** : Procédures judiciaires, assurances
+**Solutions :**
+1. Consulter la raison du rejet dans les notifications
+2. Vérifier les informations fournies
+3. Corriger les erreurs identifiées
+4. Créer une nouvelle déclaration si nécessaire
+5. Contacter le support pour clarification
 
-### 6.2 Télécharger vos Documents
+### Problèmes de Suivi
 
-1. Connectez-vous
-2. Menu > **"Mes Attestations"**
-3. Sélectionnez le document
-4. Cliquez sur **"Télécharger PDF"**
-5. Le document est signé électroniquement
+#### Je ne reçois pas les notifications
 
-### 6.3 Vérification d'Authenticité
+**Solutions :**
+1. Vérifier les paramètres de notification dans votre compte
+2. Vérifier que votre email/téléphone est correct
+3. Vérifier les messages indésirables/spam
+4. Activer les notifications dans les paramètres
+5. Vérifier que le numéro de téléphone est valide
+6. Contacter le support si le problème persiste
 
-Chaque document contient un **QR Code** :
+#### Je ne trouve pas ma déclaration
 
-1. Scannez le QR Code
-2. Vous êtes redirigé vers la page de vérification
-3. Le système confirme l'authenticité
-4. Affiche les détails du document
-
----
-
-## 7. Statistiques et Prévention
-
-### 7.1 Consulter les Statistiques
-
-Le portail offre :
-
-#### Statistiques Nationales
-- Nombre d'accidents (jour/mois/année)
-- Répartition par gravité
-- Tendances et évolution
-- Comparaisons régionales
-
-#### Statistiques Régionales
-- Accidents dans votre région
-- Points noirs identifiés
-- Heures à risque
-- Types d'accidents fréquents
-
-#### Carte Interactive
-- Visualisation géographique
-- Filtres (période, gravité, type)
-- Zoom sur votre quartier
-- Heatmap des zones dangereuses
-
-### 7.2 Prévention et Sensibilisation
-
-#### Campagnes de Sensibilisation
-
-Le portail diffuse :
-- 📺 Vidéos de prévention
-- 📰 Actualités sécurité routière
-- 📊 Chiffres clés du mois
-- 💡 Conseils de prudence
-
-#### Alertes Zones Dangereuses
-
-Activez les notifications pour :
-- ⚠️ Points noirs près de chez vous
-- ⚠️ Conditions météo dangereuses
-- ⚠️ Travaux et déviations
-- ⚠️ Événements à risque (fêtes, grands départs)
-
-### 7.3 Signaler un Danger
-
-Vous pouvez signaler :
-
-- 🚧 **Nid de poule** dangereux
-- 🚦 **Feu de signalisation** défectueux
-- 🪧 **Panneau** manquant ou illisible
-- 🌳 **Végétation** obstruant la visibilité
-- 💡 **Éclairage** public défaillant
-
-**Procédure** :
-1. Menu > **"Signaler un Danger"**
-2. Type de danger
-3. Localisation (GPS ou adresse)
-4. Photo du danger
-5. Description
-6. Envoyer
-
-Les services techniques sont automatiquement notifiés.
+**Solutions :**
+1. Vérifier que vous êtes connecté avec le bon compte
+2. Vérifier le numéro de déclaration
+3. Utiliser la recherche par numéro de déclaration
+4. Vérifier les filtres appliqués (date, statut)
+5. Contacter le support avec le numéro de déclaration
 
 ---
 
-## 8. FAQ et Support
+## 📞 Support et Formation
 
-### 8.1 Questions Fréquentes
+### Ressources Disponibles
+
+#### **Support Citoyen**
+- **Email** : citoyen@doser.ditros.org
+- **Hotline** : +237 XXX XXX XXX (Lun-Ven 8h-18h)
+- **Chat** : Disponible sur le portail (9h-17h)
+- **FAQ** : Base de connaissances complète
+
+#### **Urgences**
+**En cas d'accident, appelez d'abord les urgences !**
+
+- 🚔 **Police** : 117
+- 🚑 **Ambulance/SAMU** : 119
+- 🚒 **Pompiers** : 118
+
+**Puis** déclarez sur DOSER pour le suivi officiel.
+
+### Questions Fréquentes
 
 **Q : Ma déclaration est-elle anonyme ?**  
 R : Oui, si vous êtes témoin. Seul votre numéro de téléphone est requis pour le suivi. Si vous êtes victime, vos informations sont nécessaires mais protégées.
@@ -504,56 +778,29 @@ R : Oui, les attestations DOSER sont reconnues officiellement et peuvent être v
 **Q : Que faire si je ne suis pas satisfait du traitement ?**  
 R : Contactez le support citoyen. Vous pouvez aussi déposer une réclamation formelle.
 
-### 8.2 Support Citoyen
+### Guides et Tutoriels
 
-**Email** : citoyen@doser.ditros.org  
-**Hotline** : +237 XXX XXX XXX (Lun-Ven 8h-18h)  
-**Chat** : Disponible sur le portail (9h-17h)
+#### **Vidéos Tutoriales**
+- Comment créer un compte
+- Comment déclarer un accident
+- Comment suivre une déclaration
+- Comment télécharger une attestation
 
-### 8.3 Urgences
-
-**En cas d'accident, appelez d'abord les urgences !**
-
-- 🚔 **Police** : 117
-- 🚑 **Ambulance/SAMU** : 119
-- 🚒 **Pompiers** : 118
-
-**Puis** déclarez sur DOSER pour le suivi officiel.
+#### **Guides PDF**
+- Guide complet du portail citoyen
+- Guide des démarches d'assurance
+- Guide des droits des victimes
+- Modèles de lettres
 
 ---
 
-## Annexes
+## 🔗 Liens Utiles
 
-### Annexe A : Glossaire Usagers
-
-- **Constat** : Document officiel établi par les autorités
-- **Déclaration** : Votre signalement citoyen
-- **Attestation** : Document certifiant votre déclaration
-- **QR Code** : Code-barres pour vérification rapide
-
-### Annexe B : Modèles de Documents
-
-Disponibles en téléchargement :
-- Modèle de déclaration à l'assurance
-- Lettre type pour employeur
-- Demande d'indemnisation
-
-### Annexe C : Contacts Utiles
-
-- **DITROS** : Direction des Transports Routiers
-- **Assurances** : Liste des compagnies agréées
-- **Aide juridique** : Ordre des avocats
-- **Associations** : Victimes de la route
+- **Guide rapide** : [Usagers](../user/quick-start/usagers.md)
+- **FAQ complète** : [Questions fréquentes](../faq/usagers.md)
+- **Support** : [Centre d'aide](../support/index.md)
+- **Documentation** : [Base de connaissances](../index.md)
 
 ---
 
-**Vous êtes maintenant expert du portail citoyen DOSER !** 🎉
-
-Pour des questions spécifiques, consultez la [FAQ complète](../faq/usagers.md) ou contactez le support.
-
----
-
-*Manuel créé le : 9 octobre 2025*  
-*Dernière mise à jour : 9 octobre 2025*  
-*Version : 2.0 | Pages : 45*
-
+*Dernière mise à jour : 9 octobre 2025 | Version : 1.0*

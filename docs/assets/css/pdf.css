@@ -1,0 +1,268 @@
+/* ============================================
+   CSS dédié pour la génération PDF
+   Améliore la mise en page et la lisibilité
+   ============================================ */
+
+@page {
+    size: A4;
+    margin: 2cm 2.5cm;
+    @top-center { content: none; }
+    @bottom-center { content: none; }
+}
+
+/* Force l'encodage UTF-8 */
+@charset "UTF-8";
+
+/* Styles de base */
+body {
+    font-family: "DejaVu Sans", "Liberation Sans", Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 12pt;
+    color: #111;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titres avec hiérarchie claire */
+h1 {
+    color: #1E88E5;
+    font-size: 24pt;
+    font-weight: bold;
+    margin-top: 1.5em;
+    margin-bottom: 0.8em;
+    padding-bottom: 0.3em;
+    border-bottom: 3px solid #1E88E5;
+    page-break-after: avoid;
+}
+
+h2 {
+    color: #1976D2;
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 1.2em;
+    margin-bottom: 0.6em;
+    padding-left: 0.5em;
+    border-left: 4px solid #1976D2;
+    page-break-after: avoid;
+}
+
+h3 {
+    color: #42A5F5;
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    page-break-after: avoid;
+}
+
+h4, h5, h6 {
+    color: #64B5F6;
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 0.8em;
+    margin-bottom: 0.4em;
+    page-break-after: avoid;
+}
+
+/* Paragraphes */
+p {
+    margin-bottom: 0.8em;
+    text-align: justify;
+    orphans: 3;
+    widows: 3;
+}
+
+/* Code et blocs de code */
+code {
+    font-family: "Courier New", "DejaVu Sans Mono", "Liberation Mono", monospace;
+    font-size: 10pt;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 2px 6px;
+    color: #d63384;
+}
+
+pre {
+    font-family: "Courier New", "DejaVu Sans Mono", "Liberation Mono", monospace;
+    font-size: 10pt;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-left: 4px solid #1E88E5;
+    border-radius: 4px;
+    padding: 12px;
+    overflow-x: auto;
+    page-break-inside: avoid;
+    line-height: 1.4;
+}
+
+pre code {
+    background: none;
+    border: none;
+    padding: 0;
+    color: #333;
+}
+
+/* Tableaux */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 1em 0;
+    page-break-inside: avoid;
+    font-size: 11pt;
+}
+
+table th {
+    background-color: #1E88E5;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #1976D2;
+    text-align: left;
+}
+
+table td {
+    padding: 8px 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Images */
+img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 15px auto;
+    page-break-inside: avoid;
+}
+
+/* Listes */
+ul, ol {
+    margin: 1em 0;
+    padding-left: 2em;
+    page-break-inside: avoid;
+}
+
+li {
+    margin-bottom: 0.5em;
+    line-height: 1.6;
+}
+
+/* Citations */
+blockquote {
+    border-left: 4px solid #1E88E5;
+    padding: 10px 20px;
+    margin: 15px 0;
+    background-color: #f8f9fa;
+    font-style: italic;
+    color: #555;
+    page-break-inside: avoid;
+    border-radius: 4px;
+}
+
+/* Admonitions (notes, warnings, etc.) */
+.admonition {
+    margin: 1em 0;
+    padding: 12px 15px;
+    border-left: 4px solid #1E88E5;
+    background-color: #f0f7ff;
+    page-break-inside: avoid;
+    border-radius: 4px;
+}
+
+.admonition-title {
+    font-weight: bold;
+    color: #1E88E5;
+    margin-bottom: 0.5em;
+}
+
+/* Liens */
+a {
+    color: #1E88E5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Emojis et caractères spéciaux */
+.emoji {
+    font-size: 1.2em;
+}
+
+/* Éviter les sauts de page mal placés */
+.no-break {
+    page-break-inside: avoid;
+}
+
+.page-break {
+    page-break-before: always;
+}
+
+/* Page de garde */
+.cover {
+    text-align: center;
+    page-break-after: always;
+    padding: 3cm 2cm;
+}
+
+.cover img {
+    max-width: 200px;
+    margin-bottom: 2em;
+}
+
+.cover h1 {
+    border: none;
+    color: #1E88E5;
+    font-size: 32pt;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.cover h3 {
+    color: #666;
+    font-size: 18pt;
+    font-weight: normal;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.cover p {
+    text-align: center;
+    margin: 0.5em 0;
+    font-size: 11pt;
+    color: #555;
+}
+
+/* Table des matières */
+.toc {
+    page-break-after: always;
+    margin-bottom: 2em;
+}
+
+.toc h1 {
+    border: none;
+    margin-bottom: 1em;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.toc li {
+    margin-bottom: 0.3em;
+    line-height: 1.4;
+}
+
+.toc a {
+    color: #1E88E5;
+    text-decoration: none;
+}
+

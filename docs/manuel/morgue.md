@@ -1,455 +1,521 @@
-# 📕 Manuel Complet : Morgue
+# Guide de la Morgue
 
-**Version** : 2.0 | **Dernière mise à jour** : 9 octobre 2025
-
----
-
-## 📋 Table des Matières
-
-1. [Introduction](#introduction)
-2. [Accès et Configuration](#accès-et-configuration)
-3. [Enregistrement des Corps](#enregistrement-des-corps)
-4. [Identification et Liaison](#identification-et-liaison)
-5. [Certificats de Décès](#certificats-de-décès)
-6. [Conservation et Gestion](#conservation-et-gestion)
-7. [Coordination Multi-Services](#coordination-multi-services)
-8. [Procédures Spéciales](#procédures-spéciales)
-9. [Aspects Légaux](#aspects-légaux)
-10. [Annexes](#annexes)
+**Version** : 1.0 | **Dernière mise à jour** : 9 octobre 2025
 
 ---
 
-## 1. Introduction
+## 👥 Rôle et Responsabilités
 
-### 1.1 Rôle de la Morgue dans DOSER
+La **Morgue** concerne tout médecin compétent en médecine légale qui remplit les fonctions d'expert auprès des tribunaux. Les **Morgues** sont des acteurs essentiels du système DOSER. Elles sont responsables de :
 
-Les morgues sont des acteurs essentiels du système DOSER pour :
-
+- **Collecter** les informations sur l'identification des morts pour aider les services de recherche
+- **Renseigner** les informations sur les examens cliniques (évaluation des liaisons cutanées, examens des organes)
+- **Collecter** les informations sur le classement des accidents mortels de la route
+- **Renseigner** les informations sur le rapport à l'usage de la base de données
+- **Renseigner** les détails résultant des analyses des substances psychoactives
+- **Renseigner** les détails sur les procédures nécessitant une action médico-légale pour comprendre les circonstances ayant conduit à la mort
 - **Enregistrer** les victimes décédées d'accidents de la route
 - **Identifier** les corps et les lier aux accidents correspondants
 - **Générer** les certificats de décès officiels
+- **Conserver** les corps dans des conditions appropriées
 - **Coordonner** avec les familles, autorités et services funéraires
 - **Contribuer** aux statistiques de mortalité routière
 
-### 1.2 Objectifs du Module Morgue
+## 🎯 Missions Principales
 
-- ✅ Centraliser l'enregistrement des décès routiers
-- ✅ Faciliter l'identification et la liaison aux accidents
-- ✅ Automatiser la génération des certificats
-- ✅ Améliorer la coordination avec tous les acteurs
-- ✅ Respecter la dignité des défunts et des familles
+### Accueil et Enregistrement
+- **Accueil** des corps des victimes d'accidents de la route
+- **Enregistrement** pour une gestion appropriée
+- **Documentation** initiale complète
 
-### 1.3 Utilisateurs du Module
+### Identification des Victimes
+- **Vérification** et confirmation de l'identité des victimes décédées
+- **Utilisation** de documents d'identité ou autres moyens d'identification
+- **Aide** aux services de recherche pour retrouver les proches
 
-- **Personnel de morgue** : Enregistrement et gestion quotidienne
-- **Médecins légistes** : Autopsies et causes de décès
-- **Administrateurs** : Supervision et statistiques
-- **Autorités** : Consultation pour enquêtes
+### Examens et Analyses Médico-Légales
+- **Examens cliniques** : Évaluation des liaisons cutanées et examens des organes
+- **Réalisation d'autopsies** : Si requises par la loi ou les autorités judiciaires
+- **Analyses toxicologiques** : Détails des analyses des substances psychoactives
+- **Documentation** : Procédures médico-légales pour comprendre les circonstances de la mort
 
----
+### Classement et Documentation
+- **Classement** des accidents mortels de la route
+- **Documentation** des circonstances du décès
+- **Rapport** à l'usage de la base de données
+- **Archivage** des dossiers médicaux et légaux
 
-## 2. Accès et Configuration
+### Conservation et Gestion
+- **Assignation** des places dans les chambres froides
+- **Suivi** de la conservation (température, durée)
+- **Préparation** des corps (toilette, habillage, mise en bière)
+- **Gestion** des délais légaux
 
-### 2.1 Connexion au Portail
+### Coordination Multi-Services
+- **Communication** avec les Forces de l'Ordre
+- **Liaison** avec les hôpitaux
+- **Coordination** avec les assurances
+- **Accompagnement** des familles
 
-**URL** : https://doser.ditros.org/morgue
+## 🔧 Fonctionnalités Clés
 
-**Identifiants** :
-- Fournis par votre administrateur DOSER
-- Rôle : ROLE_MORGUE ou ROLE_MEDECIN_LEGISTE
-- Changement mot de passe obligatoire à la première connexion
+### Enregistrement des Corps
+- **Formulaire complet** d'admission
+- **Description détaillée** de l'état du corps
+- **Inventaire** des vêtements et effets personnels
+- **Photos** d'identification
 
-### 2.2 Configuration Initiale
+### Identification
+- **Corps identifiés** : Vérification documents et reconnaissance
+- **Corps non identifiés** : Description physique détaillée et recherche
+- **Liaison automatique** aux accidents DOSER
+- **Mise à jour** dès identification
 
-#### Informations Établissement
+### Certificats de Décès
+- **Génération automatique** avec pré-remplissage
+- **Signature électronique** du médecin
+- **Distribution** automatique (état civil, famille, assurance)
+- **Archivage** selon normes légales
 
-1. Menu > **Paramètres** > **Mon Établissement**
-2. Remplissez :
-   - Nom de la morgue
-   - Adresse complète
-   - Téléphone et email
-   - Responsable
-   - Capacité (nombre de places)
-   - Horaires d'ouverture
+### Gestion des Chambres Froides
+- **Plan visuel** des chambres et compartiments
+- **Assignation** automatique des places
+- **Suivi** de la température et de l'état
+- **Alertes** de dépassement de délais
 
-#### Configuration des Chambres Froides
+## 📊 Cas d'Utilisation Détaillés
 
-1. Menu > **Configuration** > **Chambres Froides**
-2. Pour chaque chambre :
-   - Identifiant (A, B, C, etc.)
-   - Nombre de compartiments
-   - Température de fonctionnement
-   - État (opérationnelle, en maintenance)
+### 📥 **Accueil et Enregistrement**
 
-#### Paramètres de Notification
+#### 1. Accueil des Corps des Victimes
 
-1. Menu > **Paramètres** > **Notifications**
-2. Configurez :
-   - Alertes dépassement délai conservation
-   - Notifications identification réussie
-   - Rappels certificats à générer
-   - Alertes capacité saturée
+**Description** : Recevoir et enregistrer les corps des victimes d'accidents de la route pour une gestion appropriée.
 
----
+**Informations collectées** :
+- Date et heure d'arrivée précises
+- Provenance (lieu accident, hôpital, service de secours)
+- Moyen de transport (ambulance, véhicule funéraire)
+- Accompagnant (nom de la personne)
+- État général du corps (intact, endommagé, carbonisé)
+- Température, rigidité, lividités, décomposition
+- Vêtements et effets personnels
+- Documents d'identité (si présents)
 
-## 3. Enregistrement des Corps
-
-### 3.1 Nouvelle Admission
-
-#### Accès au Formulaire
-
-1. Tableau de bord > **"Nouvelle Admission"**
-2. OU : Menu > **Enregistrement** > **Nouveau Corps**
-
-#### Informations d'Arrivée (Section 1)
-
-| Champ | Type | Obligatoire | Description |
-|-------|------|-------------|-------------|
-| Date arrivée | DateTime | Oui | Date et heure précises |
-| Heure arrivée | Time | Oui | Horodatage exact |
-| Provenance | Liste | Oui | Lieu/Hôpital/Accident |
-| Moyen transport | Liste | Oui | Ambulance/Funéraire |
-| Accompagnant | Texte | Non | Nom personne accompagnante |
-| Documents | Fichier | Non | Certificat médical, etc. |
-
-#### État du Corps (Section 2)
-
-| Champ | Type | Obligatoire | Description |
-|-------|------|-------------|-------------|
-| État général | Liste | Oui | Intact/Endommagé/Carbonisé |
-| Température | Nombre | Non | Si mesurée |
-| Rigidité | Liste | Non | Absente/Partielle/Complète |
-| Lividités | Texte | Non | Description |
-| Décomposition | Liste | Non | Stade si applicable |
-
-#### Vêtements et Effets (Section 3)
-
-1. **Description vêtements** :
-   - Type (costume, robe, uniforme, etc.)
-   - Couleur
-   - État (intact, déchiré, taché de sang)
-   - Marques ou inscriptions
-
-2. **Objets personnels** :
-   - Documents d'identité (CNI, passeport)
-   - Téléphone mobile
-   - Portefeuille et contenu
-   - Bijoux et accessoires
-   - Autres effets
-
-3. **Sécurisation** :
-   - Tous les effets sont inventoriés
-   - Photos prises
-   - Stockage sécurisé
-   - Remise à la famille avec décharge
-
-### 3.2 Identification
-
-#### Corps Identifié
-
-**Informations complètes** :
-
-| Catégorie | Champs |
-|-----------|--------|
-| **Identité** | Nom, prénoms, date naissance, lieu naissance |
-| **Documents** | CNI, passeport, permis conduire |
-| **Adresse** | Domicile habituel |
-| **Famille** | Contact principal, lien parenté, téléphone |
-| **Profession** | Métier, employeur |
-| **Nationalité** | Camerounaise ou étrangère |
-
-**Vérification** :
-- Confrontation documents/corps
-- Reconnaissance par famille (si possible)
-- Empreintes digitales (si système disponible)
+**Actions effectuées** :
+- Accueil du corps à l'arrivée
+- Vérification des documents d'accompagnement
+- Accès au formulaire "Nouvelle Admission"
+- Saisie des informations d'arrivée
+- Description de l'état du corps
+- Inventaire des vêtements et effets
 - Photos d'identification
-
-#### Corps Non Identifié
-
-**Code provisoire** : `INCONNU-[REGION]-[DATE]-[NUMERO]`
-
-**Description physique détaillée** :
-
-| Caractéristique | Détails à Noter |
-|-----------------|-----------------|
-| **Sexe** | Masculin/Féminin |
-| **Âge estimé** | Fourchette (ex: 25-35 ans) |
-| **Taille** | En cm (mesure précise) |
-| **Poids** | En kg (estimation) |
-| **Corpulence** | Mince/Normale/Forte |
-| **Carnation** | Description |
-| **Cheveux** | Couleur, longueur, type |
-| **Signes distinctifs** | Cicatrices, tatouages, malformations |
-| **Dentition** | État, prothèses, particularités |
-| **Autres** | Tout élément d'identification |
-
-**Photos** :
-- Vue d'ensemble du corps
-- Visage (plusieurs angles)
-- Signes distinctifs
-- Tatouages ou cicatrices
-- Objets personnels
-
-**Actions d'Identification** :
-1. Recherche dans base personnes disparues
-2. Publication avis de recherche (médias, réseaux sociaux)
-3. Coordination avec Forces de l'Ordre
-4. Analyse ADN si nécessaire
-5. Mise à jour dès identification
-
----
-
-## 4. Identification et Liaison
-
-### 4.1 Liaison à un Accident
-
-#### Recherche Automatique
-
-Le système DOSER recherche automatiquement :
-- Accidents du même jour
-- Même région/ville
-- Avec victimes décédées non encore liées
-- Véhicules correspondants
-
-**Suggestions affichées** : Score de correspondance (%)
-
-#### Recherche Manuelle
-
-1. Cliquez sur **"Lier à un Accident"**
-2. Critères de recherche :
-   - **Numéro de constat** (si connu)
-   - **Date** (± 3 jours)
-   - **Lieu** (rayon 50 km)
-   - **Véhicule** (immatriculation)
-   - **Circonstances** (mots-clés)
-
-3. Résultats affichés avec détails
-4. Sélectionnez l'accident correspondant
-5. Confirmez la liaison
-
-#### Validation de la Liaison
-
-Après liaison, vérifiez :
-- ✅ Cohérence date/heure
-- ✅ Cohérence lieu
-- ✅ Correspondance description
-- ✅ Nombre de victimes cohérent
-
-### 4.2 Liaison Multiple
-
-Si plusieurs victimes du même accident :
-
-1. Le système détecte automatiquement
-2. Propose de lier tous les corps
-3. Affiche les relations (même accident)
-4. Facilite la coordination familles
-
----
-
-## 5. Certificats de Décès
-
-### 5.1 Génération du Certificat
-
-#### Prérequis
-
-Avant de générer :
-- ✅ Corps identifié (nom complet)
-- ✅ Cause du décès déterminée
-- ✅ Date, heure et lieu de décès connus
-- ✅ Médecin légiste consulté (si nécessaire)
-
-#### Procédure
-
-1. Ouvrez le dossier du défunt
-2. Onglet **"Certificat de Décès"**
-3. Le formulaire est pré-rempli avec :
-   - Identité du défunt
-   - Date, heure, lieu du décès
-   - Circonstances (accident de la route)
-   - Informations de la morgue
-
-4. **Complétez** :
-   - **Cause immédiate du décès** : Traumatisme crânien, hémorragie, etc.
-   - **Causes antécédentes** : Collision frontale, etc.
-   - **Autres affections** : Si pertinent
-   - **Autopsie** : Oui/Non
-   - **Médecin certificateur** : Nom et signature électronique
-
-5. **Validez** : Le certificat est généré en PDF
-
-### 5.2 Distribution du Certificat
-
-Le certificat est automatiquement :
-
-- ✅ **Enregistré** dans le dossier DOSER
-- ✅ **Envoyé** à l'état civil (maire de la commune)
-- ✅ **Disponible** pour la famille (avec autorisation)
-- ✅ **Transmis** à l'assurance (si liaison établie)
-- ✅ **Archivé** selon les normes légales
-
-### 5.3 Certificat Provisoire
-
-En cas d'identification incertaine :
-
-1. Générez un **certificat provisoire**
-2. Mention "Sous réserve d'identification définitive"
-3. Valable pour inhumation d'urgence
-4. Certificat définitif après identification
-
----
-
-## 6. Conservation et Gestion
-
-### 6.1 Assignation des Places
-
-#### Gestion des Chambres Froides
-
-1. Menu > **Gestion** > **Chambres Froides**
-2. Vue d'ensemble :
-   - Chambres disponibles/occupées
-   - Température de chaque chambre
-   - Alertes techniques
-
-#### Assigner une Place
-
-1. Ouvrez le dossier du corps
-2. Section **"Conservation"**
-3. Cliquez sur **"Assigner Place"**
-4. Sélectionnez :
-   - Chambre (A, B, C, etc.)
-   - Compartiment (numéro)
-5. Le système enregistre :
-   - Date et heure d'entrée
-   - Responsable de l'assignation
-   - Température initiale
-
-#### Plan de la Morgue
-
-Le système affiche un **plan visuel** :
-- 🟢 Places disponibles
-- 🔴 Places occupées
-- 🟡 Places réservées
-- ⚫ Places en maintenance
-
-### 6.2 Suivi de la Conservation
-
-#### Durée de Conservation
-
-Le système calcule automatiquement :
-- **Durée écoulée** : Compteur en jours/heures
-- **Délai légal** : 7 jours (standard)
-- **Alertes** : 
-  - 🟡 J-2 : Rappel famille
-  - 🟠 J-1 : Alerte urgente
-  - 🔴 J+0 : Dépassement délai
-
-#### Contrôles Quotidiens
-
-Chaque jour, enregistrez :
-- **Température** des chambres
-- **État** du corps (inspection visuelle)
-- **Incidents** éventuels (panne, etc.)
-- **Maintenance** effectuée
-
-### 6.3 Préparation du Corps
-
-#### Toilette Mortuaire
-
-1. Dossier > **"Préparation"** > **"Toilette"**
-2. Enregistrez :
-   - Date et heure
-   - Personnel effectuant
-   - Produits utilisés
-   - Observations
-
-#### Habillage
-
-1. **"Préparation"** > **"Habillage"**
-2. Notez :
-   - Vêtements fournis (famille/morgue)
-   - Description
-   - État
-
-#### Mise en Bière
-
-1. **"Préparation"** > **"Mise en Bière"**
-2. Détails :
-   - Type de cercueil
-   - Fourni par (famille/morgue)
-   - Date et heure
-   - Personnel
-
-3. Changez le statut : **"Prêt pour Remise"**
-
----
-
-## 7. Coordination Multi-Services
-
-### 7.1 Avec les Forces de l'Ordre
-
-**Échanges automatiques** :
-- Notification arrivée corps accident
-- Demande numéro de constat
-- Partage informations identification
-- Coordination enquêtes judiciaires
-
-### 7.2 Avec les Hôpitaux
-
-**Transferts** :
-- Réception dossier médical
-- Historique soins prodigués
-- Cause médicale du décès
-- Prélèvements effectués
-
-### 7.3 Avec les Assurances
-
-**Informations partagées** :
-- Identité du défunt
-- Circonstances du décès
-- Certificat de décès
-- Coordination indemnisations
-
-### 7.4 Avec les Familles
-
-**Communication** :
-- Notification identification
-- Information procédures
-- Coordination remise du corps
+- Assignation d'un numéro d'enregistrement
+
+### 🔍 **Identification**
+
+#### 2. Identification des Victimes
+
+**Description** : Vérifier et confirmer l'identité des victimes décédées, en utilisant des documents d'identité ou d'autres moyens d'identification.
+
+**Informations collectées** :
+- Documents d'identité (CNI, passeport, permis de conduire)
+- Nom, prénoms, date et lieu de naissance
+- Adresse du domicile
+- Contact de la famille (nom, lien, téléphone)
+- Profession et employeur
+- Nationalité
+- Description physique (si non identifié)
+
+**Actions effectuées** :
+- Vérification des documents trouvés
+- Confrontation documents/corps
+- Saisie des informations d'identité
+- Recherche de la famille
+- Notification de la famille
+- Photos d'identification
+- Mise à jour du statut "Identifié"
+- Aide aux services de recherche pour retrouver les proches
+
+💡 **Important** : L'identification aide les services de recherche à retrouver les proches des victimes.
+
+### 🧪 **Examens et Analyses**
+
+#### 3. Réalisation de l'Autopsie
+
+**Description** : Effectuer les autopsies nécessaires pour déterminer la cause du décès, si requises par la loi ou par les autorités judiciaires.
+
+**Informations collectées** :
+- Demande d'autopsie (autorités judiciaires, famille)
+- Médecin légiste assigné
+- Date et heure prévues
+- Raison de l'autopsie
+- Prélèvements nécessaires
+- Résultats de l'autopsie
+- Cause déterminée du décès
+
+**Actions effectuées** :
+- Changement du statut "Attente Autopsie"
+- Coordination avec le médecin légiste
+- Préparation du corps (ne pas préparer pour remise)
+- Présence lors de l'autopsie
+- Enregistrement des résultats
+- Mise à jour de la cause du décès
+- Génération du rapport médico-légal
+- Libération du corps après autopsie
+
+#### 4. Examens Cliniques des Victimes
+
+**Description** : Renseigner les informations sur les examens cliniques de la victime (évaluation des liaisons cutanées, examens des organes).
+
+**Informations collectées** :
+- **Liaisons cutanées** :
+  - Plaies : Localisation, type, dimensions
+  - Contusions : Zones touchées, aspect
+  - Lésions : Description détaillée
+- **Examens des organes** :
+  - Organes visibles : État, lésions
+  - Traumatismes internes : Si visibles
+  - Observations médicales : Notes détaillées
+- Photos médico-légales si nécessaire
+
+**Actions effectuées** :
+- Accès au module "Examens Cliniques"
+- Saisie des observations sur les liaisons cutanées
+- Documentation des traumatismes
+- Examens des organes visibles
+- Prise de photos si nécessaire
+- Enregistrement des résultats
+- Liaison avec le dossier médical
+
+💡 **Note** : Ces examens aident à comprendre les circonstances ayant conduit à la mort.
+
+#### 5. Analyse des Substances Psychoactives
+
+**Description** : Renseigner les détails résultant des analyses des substances psychoactives.
+
+**Informations collectées** :
+- Type d'analyse (alcool, drogues, médicaments)
+- Résultats des analyses
+- Concentrations détectées
+- Laboratoire effectuant l'analyse
+- Date des résultats
+- Rapport d'analyse complet
+
+**Actions effectuées** :
+- Accès au module "Analyses Toxicologiques"
+- Saisie des résultats d'analyse
+- Documentation des concentrations
+- Liaison avec le rapport médico-légal
+- Mise à jour du certificat de décès
+
+💡 **Important** : Ces analyses sont essentielles pour comprendre les circonstances de l'accident.
+
+### 📊 **Classement et Documentation**
+
+#### 6. Classement des Accidents Mortels de la Route
+
+**Description** : Collecter les informations sur le classement des accidents mortels de la route.
+
+**Informations collectées** :
+- Type d'accident (collision, piéton renversé, etc.)
+- Gravité (nombre de décès)
+- Classification automatique par le système
+- Données pour statistiques
+
+**Actions effectuées** :
+- Liaison du corps à l'accident DOSER
+- Classement automatique par le système
+- Vérification de la classification
+- Contribution aux statistiques de mortalité routière
+- Utilisation pour rapports d'analyse
+
+💡 **Note** : Le classement aide à l'analyse et à la prévention future des accidents.
+
+#### 7. Documentation des Circonstances du Décès
+
+**Description** : Enregistrer les circonstances entourant le décès, y compris les détails de l'accident et toute information pertinente fournie par la police.
+
+**Informations collectées** :
+- Détails de l'accident fournis par la police
+- Circonstances : Comment le décès s'est produit
+- Contexte : Conditions (météo, route, visibilité)
+- Informations pertinentes : Tout élément utile
+- Rapport à l'usage de la base de données
+
+**Actions effectuées** :
+- Accès au module "Circonstances du Décès"
+- Saisie des détails de l'accident
+- Documentation des circonstances
+- Enregistrement du contexte
+- Enregistrement automatique dans la base de données
+- Partage avec les autorités compétentes
+- Utilisation pour statistiques
+
+💡 **Important** : La documentation complète aide à comprendre les circonstances ayant conduit à la mort.
+
+#### 8. Rapport à l'Usage de la Base de Données
+
+**Description** : Renseigner les informations sur le rapport à l'usage de la base de données.
+
+**Informations collectées** :
+- Toutes les données collectées (identification, examens, analyses)
+- Informations enregistrées dans DOSER
+- Partage avec autorités compétentes
+- Utilisation pour statistiques
+- Archivage selon normes légales
+
+**Actions effectuées** :
+- Enregistrement automatique de toutes les informations
+- Partage avec les autorités compétentes
+- Contribution aux statistiques nationales
+- Archivage sécurisé
+- Accessibilité pour référence future
+
+### 📄 **Certificats et Documents**
+
+#### 9. Établissement du Certificat de Décès
+
+**Description** : Rédiger et délivrer le certificat de décès, document officiel nécessaire pour les démarches administratives ultérieures.
+
+**Informations collectées** :
+- Identité complète du défunt
+- Date, heure et lieu du décès
+- Cause immédiate du décès
+- Causes antécédentes
+- Autres affections pertinentes
+- Autopsie effectuée (Oui/Non)
+- Médecin certificateur
+
+**Actions effectuées** :
+- Vérification des prérequis (corps identifié, cause déterminée)
+- Accès à l'onglet "Certificat de Décès"
+- Complétion du formulaire pré-rempli
+- Saisie de la cause du décès
+- Signature électronique du médecin
+- Génération du PDF
+- Distribution automatique (état civil, famille, assurance)
+
+### 🤝 **Coordination et Gestion**
+
+#### 10. Coordination avec les Autorités Judiciaires
+
+**Description** : Collaborer avec la police et le procureur pour fournir les informations requises concernant les décès liés aux accidents.
+
+**Informations collectées** :
+- Demandes d'informations des autorités
+- Rapport médico-légal
+- Cause du décès
+- Analyses toxicologiques
+- Documentation des circonstances
+- Requêtes pour autopsie
+- Documents pour enquête
+
+**Actions effectuées** :
+- Accès au module "Coordination Judiciaire"
+- Fourniture des informations requises
+- Réponse aux demandes spécifiques
+- Transmission des rapports
+- Coordination pour enquêtes
+- En tant qu'expert auprès des tribunaux
+
+#### 11. Gestion des Demandes de Transport
+
+**Description** : Organiser le transport des corps vers les chambres funéraires ou autres établissements selon les autorisations légales.
+
+**Informations collectées** :
+- Destination (chambre funéraire, autre établissement)
+- Demandeur (famille, entreprise funéraire, autorités)
+- Autorisations légales
+- Date prévue de transport
+- Entreprise funéraire
+
+**Actions effectuées** :
+- Enregistrement de la demande de transport
+- Vérification des autorisations légales
+- Coordination avec entreprises funéraires
+- Organisation du transport sécurisé
+- Enregistrement de la sortie
+- Changement du statut "Transporté"
+
+#### 12. Communication avec les Familles
+
+**Description** : Informer et accompagner les familles des victimes concernant les procédures à suivre après le décès et la récupération du corps.
+
+**Informations collectées** :
+- Coordonnées de la famille
+- Lien de parenté
+- État d'avancement de l'identification
+- Procédures à suivre
+- Disponibilité pour la remise
+
+**Actions effectuées** :
+- Notification de l'identification réussie
+- Information sur les procédures
+- Coordination pour la remise du corps
 - Support et accompagnement
+- Remise des effets personnels
+
+#### 13. Préparation des Corps
+
+**Description** : Procéder aux soins du corps pour préserver son intégrité avant la remise aux familles, en respectant les normes éthiques et sanitaires.
+
+**Informations collectées** :
+- Toilette mortuaire effectuée
+- Habillage (vêtements fournis)
+- Mise en bière (type de cercueil)
+- État final du corps
+
+**Actions effectuées** :
+- Accès au module "Préparation"
+- Enregistrement de la toilette
+- Enregistrement de l'habillage
+- Enregistrement de la mise en bière
+- Changement du statut "Prêt pour Remise"
+- Notification de la famille
+
+#### 14. Archivage des Dossiers Médicaux
+
+**Description** : Conserver tous les dossiers médicaux et légaux relatifs aux victimes décédées pour référence future et statistiques.
+
+**Informations collectées** :
+- Dossier médical complet
+- Dossier légal
+- Examens cliniques
+- Analyses toxicologiques
+- Rapports médico-légaux
+- Certificats de décès
+
+**Actions effectuées** :
+- Archivage automatique dans DOSER
+- Conservation selon normes légales
+- Sécurisation avec accès contrôlé
+- Accessibilité pour référence future
+- Contribution aux statistiques
+
+#### 15. Production de Rapports Statistiques
+
+**Description** : Compiler des données statistiques sur les décès liés aux accidents pour aider à l'analyse et à la prévention future.
+
+**Informations collectées** :
+- Données sur les décès (nombre, causes, circonstances)
+- Analyses et tendances
+- Patterns identifiés
+- Contributions à la prévention
+
+**Actions effectuées** :
+- Compilation automatique des données
+- Génération de rapports (mensuels/trimestriels/annuels)
+- Analyses par région
+- Export des statistiques
+- Contribution à l'amélioration de la sécurité routière
 
 ---
 
-## 8. Procédures Spéciales
+## 💻 Utilisation de l'Interface Web DOSER
 
-### 8.1 Autopsie Médico-Légale
+### Connexion et Accès
 
-**Quand** :
+1. **URL** : `https://doser.ditros.org/morgue`
+2. **Identifiants** : Fournis par votre administrateur DOSER
+3. **Rôle** : ROLE_MORGUE ou ROLE_MEDECIN_LEGISTE
+4. **Permissions** : Accès complet aux données de morgue
+
+### Configuration Initiale
+
+#### **Informations Établissement**
+- Nom de la morgue
+- Adresse complète
+- Téléphone et email
+- Responsable
+- Capacité (nombre de places)
+- Horaires d'ouverture
+
+#### **Configuration des Chambres Froides**
+- Identifiant de chaque chambre (A, B, C, etc.)
+- Nombre de compartiments par chambre
+- Température de fonctionnement
+- État (opérationnelle, en maintenance)
+
+#### **Paramètres de Notification**
+- Alertes dépassement délai conservation
+- Notifications identification réussie
+- Rappels certificats à générer
+- Alertes capacité saturée
+
+### Interface Spécialisée Morgue
+
+#### **Tableau de Bord Principal**
+- Corps enregistrés aujourd'hui
+- Corps identifiés/non identifiés
+- Certificats à générer
+- Alertes (délais, capacité)
+- Statistiques de la morgue
+
+#### **Gestion des Corps**
+- Liste de tous les corps enregistrés
+- Filtres (statut, date, identifié/non identifié)
+- Recherche par nom, numéro, date
+- Détails complets de chaque dossier
+
+#### **Plan des Chambres Froides**
+- Vue visuelle des chambres
+- Places disponibles (🟢), occupées (🔴), réservées (🟡)
+- Température de chaque chambre
+- Assignation rapide de places
+
+### Fonctionnalités Avancées
+
+#### **Recherche et Liaison Automatique**
+- Recherche automatique d'accidents correspondants
+- Suggestions avec score de correspondance
+- Recherche manuelle par critères
+- Validation de la liaison
+
+#### **Génération de Documents**
+- Certificats de décès (définitifs et provisoires)
+- Procès-verbaux de remise
+- Inventaires des effets personnels
+- Avis de recherche (corps non identifiés)
+
+#### **Statistiques et Rapports**
+- Statistiques de la morgue
+- Rapports mensuels/trimestriels
+- Export des données
+- Analyses de tendances
+
+---
+
+## 🚨 Cas Particuliers et Procédures Spécialisées
+
+### Autopsie Médico-Légale
+
+#### **Quand Effectuer une Autopsie**
 - Décès suspect
-- Demande autorités judiciaires
+- Demande des autorités judiciaires
 - Cause indéterminée
 - Accident grave/mortel
 
-**Procédure** :
-1. Statut : **"Attente Autopsie"**
-2. Ne pas préparer le corps
-3. Coordination médecin légiste
-4. Prélèvements si nécessaires
-5. Rapport d'autopsie (48-72h)
-6. Mise à jour cause décès
-7. Libération du corps
+#### **Procédure**
+1. Changement du statut "Attente Autopsie"
+2. Ne pas préparer le corps pour remise
+3. Coordination avec le médecin légiste
+4. Présence lors de l'autopsie
+5. Prélèvements si nécessaires
+6. Rapport d'autopsie (48-72h)
+7. Mise à jour de la cause du décès
+8. Libération du corps après autopsie
 
-### 8.2 Personnes Étrangères
+### Personnes Étrangères
 
-**Procédure spécifique** :
-
-1. **Identification nationalité** :
-   - Passeport, documents voyage
-   - Ambassade/consulat du pays
+#### **Procédure Spécifique**
+1. **Identification de la nationalité** :
+   - Passeport, documents de voyage
+   - Contact de l'ambassade/consulat
 
 2. **Notification consulaire** :
    - Automatique via DOSER
-   - Coordonnées famille à l'étranger
-   - Procédures rapatriement
+   - Coordonnées de la famille à l'étranger
+   - Procédures de rapatriement
 
 3. **Documents additionnels** :
    - Certificat de décès traduit
@@ -457,36 +523,33 @@ Chaque jour, enregistrez :
    - Scellés sanitaires
 
 4. **Conservation prolongée** :
-   - Attente décision famille
-   - Délais rapatriement
-   - Coordination entreprise funéraire internationale
+   - Attente de la décision de la famille
+   - Délais de rapatriement
+   - Coordination avec entreprise funéraire internationale
 
-### 8.3 Enquête Judiciaire
+### Enquête Judiciaire
 
-**Statut** : "Sous Scellés Judiciaires"
+#### **Statut "Sous Scellés Judiciaires"**
+- Aucune remise sans autorisation du juge
+- Pas de préparation du corps
+- Accès limité (enquêteurs uniquement)
+- Conservation prolongée automatique
+- Traçabilité renforcée
 
-**Restrictions** :
-- ❌ Aucune remise sans autorisation juge
-- ❌ Pas de préparation du corps
-- ❌ Accès limité (enquêteurs uniquement)
-- ✅ Conservation prolongée automatique
-- ✅ Traçabilité renforcée
-
-**Procédure** :
+#### **Procédure**
 1. Notification du juge d'instruction
-2. Attente ordonnance de levée de corps
-3. Coordination avec police scientifique
+2. Attente de l'ordonnance de levée de corps
+3. Coordination avec la police scientifique
 4. Prélèvements pour analyses
 5. Libération sur ordre du juge
 
-### 8.4 Corps Non Réclamés
+### Corps Non Réclamés
 
-**Après 30 jours** :
-
-1. Statut : **"Non Réclamé"**
-2. Notification préfet
-3. Publication avis légal
-4. Attente 15 jours supplémentaires
+#### **Après 30 Jours**
+1. Statut "Non Réclamé"
+2. Notification du préfet
+3. Publication d'un avis légal
+4. Attente de 15 jours supplémentaires
 5. Si toujours non réclamé :
    - Inhumation administrative
    - Fosse commune ou carré réservé
@@ -494,134 +557,129 @@ Chaque jour, enregistrez :
 
 ---
 
-## 9. Aspects Légaux
+## ⚠️ Problèmes Fréquents
 
-### 9.1 Obligations Légales
+### Problèmes d'Identification
 
-#### Conservation
+#### Je ne peux pas identifier un corps
 
-- **Délai standard** : 7 jours maximum
-- **Non identifié** : 30 jours
-- **Enquête judiciaire** : Selon ordonnance
-- **Rapatriement** : Variable
+**Solutions :**
+1. Vérifier tous les effets personnels
+2. Rechercher dans la base personnes disparues
+3. Publier un avis de recherche
+4. Coordonner avec les Forces de l'Ordre
+5. Envisager une analyse ADN si nécessaire
+6. Contacter le support DOSER
 
-#### Registres Obligatoires
+#### La liaison à l'accident ne fonctionne pas
 
-1. **Registre des entrées** :
-   - Date, heure, identité
-   - Provenance
-   - État du corps
+**Solutions :**
+1. Vérifier les critères de recherche (date, lieu)
+2. Élargir le rayon de recherche
+3. Vérifier la cohérence des informations
+4. Effectuer une recherche manuelle
+5. Contacter le support si l'accident n'existe pas dans DOSER
 
-2. **Registre des sorties** :
-   - Date, heure remise
-   - Identité récipiendaire
-   - Destination (inhumation, rapatriement)
-   - Signature
+### Problèmes de Certificats
 
-3. **Registre des autopsies** :
-   - Date, médecin légiste
-   - Résultats
-   - Prélèvements
+#### Je ne peux pas générer le certificat de décès
 
-#### Certificats
+**Solutions :**
+1. Vérifier que le corps est identifié
+2. Vérifier que la cause du décès est déterminée
+3. Vérifier que toutes les informations requises sont complètes
+4. Vérifier les permissions du médecin certificateur
+5. Contacter le support technique
 
-- **Obligatoire** pour toute inhumation
-- **Délai** : 24h après décès
-- **Validité** : Permanente
-- **Copies** : Famille, mairie, DOSER
+#### Le certificat n'est pas distribué automatiquement
 
-### 9.2 Confidentialité et Dignité
+**Solutions :**
+1. Vérifier la configuration des notifications
+2. Vérifier les coordonnées de l'état civil
+3. Vérifier la connexion au système d'état civil
+4. Effectuer un envoi manuel si nécessaire
+5. Contacter le support technique
 
-#### Respect du Défunt
+### Problèmes de Conservation
 
-- ✅ Traitement digne et respectueux
-- ✅ Conservation dans conditions appropriées
-- ✅ Pas de photos non nécessaires
-- ✅ Accès limité au personnel autorisé
+#### La chambre froide est saturée
 
-#### Protection des Données
+**Solutions :**
+1. Vérifier les corps prêts pour remise
+2. Contacter les familles pour accélérer les remises
+3. Coordonner avec d'autres morgues pour transfert
+4. Alerter la direction pour solution d'urgence
+5. Documenter la situation dans le système
 
-- 🔒 Informations famille protégées
-- 🔒 Causes de décès confidentielles
-- 🔒 Photos accessibles uniquement pour identification
-- 🔒 Traçabilité de tous les accès
+#### Un corps dépasse le délai légal
 
-### 9.3 Responsabilités
-
-#### Responsabilité de la Morgue
-
-- Identification correcte
-- Conservation appropriée
-- Respect des délais
-- Remise à la bonne personne
-- Tenue des registres
-
-#### En Cas d'Erreur
-
-- Procédure de correction
-- Notification immédiate
-- Rapport d'incident
-- Mesures correctives
+**Solutions :**
+1. Vérifier la raison du dépassement (enquête, non réclamé)
+2. Notifier immédiatement les autorités compétentes
+3. Coordonner avec la famille si identifié
+4. Suivre les procédures légales appropriées
+5. Documenter toutes les actions
 
 ---
 
-## 10. Annexes
+## 📞 Support et Formation
 
-### Annexe A : Codes d'État
+### Ressources Disponibles
 
-| Code | Statut | Description |
-|------|--------|-------------|
-| ARR | Arrivée | Corps vient d'arriver |
-| IDE | Identifié | Identité confirmée |
-| NON_IDE | Non Identifié | Recherche en cours |
-| AUT | Autopsie | En attente/en cours |
-| PREP | Préparé | Prêt pour remise |
-| REM | Remis | Remis à la famille |
-| INH | Inhumé | Inhumation effectuée |
-| RAP | Rapatrié | Rapatrié à l'étranger |
+#### **Support Technique**
+- **Email** : morgue-support@doser.ditros.org
+- **Hotline** : +237 XXX XXX XXX (24/7)
+- **Chat** : Support en direct dans l'application
+- **FAQ** : Base de connaissances complète
 
-### Annexe B : Délais Légaux
+#### **Contacts Spécialisés**
+- **Chef de Service** : Dr. MARTIN
+- **Médecine Légale** : [Contact]
+- **Coordination** : M. KOUAM
+- **Support Technique** : M. FON
 
-| Situation | Délai Conservation | Base Légale |
-|-----------|-------------------|-------------|
-| Standard | 7 jours | Loi sanitaire |
-| Non identifié | 30 jours | Code civil |
-| Enquête judiciaire | Variable | Ordonnance juge |
-| Rapatriement | 60 jours max | Accord international |
-| Non réclamé | 45 jours | Procédure administrative |
+### Modules de Formation
 
-### Annexe C : Contacts Utiles
+#### **Niveau 1 : Base (2 jours)**
+- Interface DOSER Morgue
+- Enregistrement de base
+- Identification simple
+- Génération de certificats
 
-**Autorités** :
-- Préfecture : [Contact région]
-- Mairie (état civil) : [Contact commune]
-- Parquet : [Contact tribunal]
+#### **Niveau 2 : Avancé (3 jours)**
+- Corps non identifiés
+- Autopsies et analyses
+- Coordination multi-services
+- Procédures spéciales
 
-**Services** :
-- Médecine légale : [Contact]
-- Police scientifique : [Contact]
-- Ambassades : [Liste]
+#### **Niveau 3 : Expert (5 jours)**
+- Gestion de crise
+- Enquêtes judiciaires
+- Formation de formateurs
+- Optimisation des processus
 
-**Support DOSER** :
-- Email : morgue-support@doser.ditros.org
-- Hotline : +237 XXX XXX XXX (24/7)
+### Certification
 
-### Annexe D : Modèles de Documents
+#### **Niveaux de Certification**
+- **Bronze** : Utilisateur de base
+- **Argent** : Utilisateur avancé
+- **Or** : Expert et formateur
 
-Disponibles dans le système :
-- Certificat de décès
-- Procès-verbal de remise
-- Inventaire des effets personnels
-- Demande d'autopsie
-- Avis de recherche
-
----
-
-**Vous maîtrisez maintenant le module Morgue de DOSER !** 🎉
-
-Pour questions spécifiques : [Support Morgue](mailto:morgue-support@doser.ditros.org)
+#### **Processus de Certification**
+1. **Formation** théorique et pratique
+2. **Évaluation** des compétences
+3. **Certification** par un expert
+4. **Renouvellement** annuel obligatoire
 
 ---
 
-*Manuel créé le : 9 octobre 2025 | Version : 2.0 | Pages : 65*
+## 🔗 Liens Utiles
 
+- **Guide rapide** : [Morgue](../user/quick-start/morgue.md)
+- **Formation** : [Modules de formation](../formation/index.md)
+- **Support** : [Centre d'aide](../support/index.md)
+- **Documentation** : [Base de connaissances](../index.md)
+
+---
+
+*Dernière mise à jour : 9 octobre 2025 | Version : 1.0*
