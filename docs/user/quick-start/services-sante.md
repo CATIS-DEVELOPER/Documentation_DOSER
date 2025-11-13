@@ -6,19 +6,34 @@
 
 ---
 
-## 📋 Ce que vous allez apprendre
+## Pré-requis
 
-À la fin de ce guide, vous saurez :
+- Lire les [principes communs](principes-communs.md) pour vérifier les exigences matérielles et de sécurité.  
+- Disposer d’un compte **DOSER Santé** avec les droits d’accès à l’hôpital/structure et, si besoin, d’un accès VPN sécurisé.  
+- Déclarer vos référentiels médicaux (codes ICD/CIM, actes, médicaments, chambres) et disposer des procédures internes de confidentialité (RGPD/local).  
+- Préparer l’équipement : poste connecté (Chrome/Firefox/Edge à jour) et, pour la collecte mobile, tablette/smartphone avec app DOSER.  
+- S’assurer que la politique d’archivage médical et de transfert inter-hospitalier est connue (protocoles, formulaires, contacts).
 
-✅ Accéder au portail DOSER Services de Santé  
-✅ Configurer les produits et services (première utilisation)  
-✅ Créer un dossier médical complet  
-✅ Enrichir le dossier avec examens, traitements et diagnostics  
-✅ Gérer les transferts inter-hospitaliers  
-✅ Générer des rapports et factures  
-✅ Respecter la confidentialité médicale  
+## Checklist de démarrage
 
-## 🎬 Workflow Complet avec Captures d'Écran
+### Objectifs du guide
+
+- Se connecter au portail DOSER Santé et paramétrer l’établissement.  
+- Créer et enrichir un dossier patient (examens, traitements, diagnostics).  
+- Gérer les transferts inter-hospitaliers et la facturation.  
+- Respecter les règles de confidentialité médicale.
+
+### Avant de commencer
+
+- [ ] Vérifier l’accès au portail et aux référentiels (ICD, médicaments, chambres).  
+- [ ] Disposer des formulaires d’admission et protocoles d’urgence à jour.  
+- [ ] Confirmer la disponibilité du matériel de saisie (scanner, QR, signature).  
+- [ ] Préparer les informations patients attendues (identité, couverture sociale).  
+- [ ] S’assurer que les procédures de sauvegarde locale sont opérationnelles.
+
+## Procédure standard
+
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -263,7 +278,7 @@ graph TD
 
 ---
 
-## 🌐 Étape 1 : Accès au Portail (2 min)
+### 🌐 Étape 1 : Accès au portail (2 min)
 
 ### Connexion Web
 
@@ -323,7 +338,7 @@ Pour une utilisation sur mobile/tablette :
 
 ---
 
-## 🏥 Étape 2 : Créer un Dossier Médical (5 min)
+### 🏥 Étape 2 : Créer un dossier médical (5 min)
 
 ### 2.1 Accéder au Formulaire
 
@@ -380,7 +395,7 @@ Pour une utilisation sur mobile/tablette :
 
 ---
 
-## 🩺 Étape 3 : Saisir les Données Médicales (4 min)
+### 🩺 Étape 3 : Saisir les données médicales (4 min)
 
 ### 3.1 Triage et Évaluation Initiale
 
@@ -484,7 +499,7 @@ Pour une utilisation sur mobile/tablette :
 
 ---
 
-## 🏢 Étape 4 : Identifier les Compagnies d'Assurance (2 min)
+### 🏢 Étape 4 : Identifier les compagnies d'assurance (2 min)
 
 ### 4.1 Informations d'Assurance
 
@@ -520,7 +535,7 @@ Pour une utilisation sur mobile/tablette :
 
 ---
 
-## 🔗 Étape 5 : Partage des Informations (1 min)
+### 🔗 Étape 5 : Partage des informations (1 min)
 
 ### Avec les Assurances
 
@@ -551,7 +566,7 @@ Pour une utilisation sur mobile/tablette :
 
 ---
 
-## 🔄 Étape 6 : Transfert Inter-Hospitalier (3 min)
+### 🔄 Étape 6 : Transfert inter-hospitalier (3 min)
 
 ### 6.1 Procédure de Transfert
 
@@ -571,7 +586,7 @@ Pour une utilisation sur mobile/tablette :
 
 ---
 
-## 📄 Étape 7 : Génération des Rapports (2 min)
+### 📄 Étape 7 : Génération des rapports (2 min)
 
 ### 7.1 Génération du Rapport Médical
 
@@ -587,7 +602,7 @@ Pour une utilisation sur mobile/tablette :
 
 ---
 
-## 💰 Étape 8 : Production de Factures Médicales (2 min)
+### 💰 Étape 8 : Production de factures médicales (2 min)
 
 ### 8.1 Génération Automatique
 
@@ -628,7 +643,7 @@ Pour une utilisation sur mobile/tablette :
 
 ---
 
-## 🔐 Étape 7 : Respect de la Confidentialité (1 min)
+### 🔐 Étape 9 : Respect de la confidentialité (1 min)
 
 ### Secret Médical
 
@@ -651,7 +666,7 @@ L'application DOSER protège automatiquement :
 
 ---
 
-## 🚨 Procédures d'Urgence
+### 🚨 Procédures d'urgence
 
 ### Cas Critique (P1 - Urgence Vitale)
 
@@ -693,7 +708,7 @@ L'application DOSER protège automatiquement :
 4. **Coordination** des équipes
 5. **Communication** centralisée
 
-## 📊 Cas d'Usage Standards
+### 📊 Cas d'usage standards
 
 ### Victime Consciente (Blessures Légères)
 
@@ -756,7 +771,7 @@ L'application DOSER protège automatiquement :
 
 ---
 
-## ⚠️ Problèmes Fréquents et Solutions
+### ⚠️ Problèmes fréquents et solutions
 
 ### Je ne trouve pas l'accident correspondant
 
@@ -784,7 +799,7 @@ L'application DOSER protège automatiquement :
 
 ---
 
-## 📚 Pour Aller Plus Loin
+## Aller plus loin
 
 ### Manuel Complet
 
@@ -798,7 +813,7 @@ L'application DOSER protège automatiquement :
 
 ---
 
-## 🆘 Besoin d'Aide ?
+## Support & ressources
 
 ### Support Technique
 - **📧 Email** : support-sante@ditros.org
@@ -812,28 +827,8 @@ L'application DOSER protège automatiquement :
 
 ---
 
-## ✅ Checklist de Démarrage
-
-Avant de quitter ce guide, assurez-vous d'avoir :
-
-- [ ] Accédé au portail DOSER Services de Santé
-- [ ] Configuré les produits et services (examens, traitements, médicaments, chambres)
-- [ ] Consulté la liste des codes ICD
-- [ ] Créé un dossier médical complet
-- [ ] Enrichi le dossier avec examens, traitements, médicaments et diagnostics
-- [ ] Testé le transfert inter-hospitalier
-- [ ] Généré un rapport médical PDF
-- [ ] Modifié un dossier médical existant
-- [ ] Identifié les compagnies d'assurance
-- [ ] Testé la production de factures médicales
-- [ ] Compris l'enregistrement des codes OMS pour les décès
-- [ ] Compris les règles de confidentialité
-- [ ] Testé le partage avec une assurance (en mode test)
-
----
-
-**Félicitations ! 🎉**  
-Vous êtes maintenant prêt à utiliser DOSER pour enregistrer et gérer les victimes d'accidents !
+🎉 **Félicitations !**  
+Vous êtes maintenant prêt à utiliser DOSER pour enregistrer et suivre les victimes d'accidents. Pensez à relire la [checklist de démarrage](#checklist-de-d%C3%A9marrage) avant chaque prise de poste.
 
 ---
 
@@ -843,7 +838,7 @@ Vous êtes maintenant prêt à utiliser DOSER pour enregistrer et gérer les vic
 
 ---
 
-## 📸 Note sur les Captures d'Écran
+## Note sur les captures d'écran
 
 **Les captures d'écran présentées dans ce guide sont des représentations visuelles de l'interface DOSER. Elles montrent :**
 

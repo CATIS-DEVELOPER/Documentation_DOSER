@@ -4,7 +4,7 @@
 
 ---
 
-## 👥 Rôle et Responsabilités
+## Vue d'ensemble
 
 La **Morgue** concerne tout médecin compétent en médecine légale qui remplit les fonctions d'expert auprès des tribunaux. Les **Morgues** sont des acteurs essentiels du système DOSER. Elles sont responsables de :
 
@@ -21,7 +21,7 @@ La **Morgue** concerne tout médecin compétent en médecine légale qui remplit
 - **Coordonner** avec les familles, autorités et services funéraires
 - **Contribuer** aux statistiques de mortalité routière
 
-## 🎯 Missions Principales
+### Missions principales
 
 ### Accueil et Enregistrement
 - **Accueil** des corps des victimes d'accidents de la route
@@ -57,7 +57,9 @@ La **Morgue** concerne tout médecin compétent en médecine légale qui remplit
 - **Coordination** avec les assurances
 - **Accompagnement** des familles
 
-## 🔧 Fonctionnalités Clés
+## Parcours utilisateur
+
+### Fonctionnalités clés
 
 ### Enregistrement des Corps
 - **Formulaire complet** d'admission
@@ -83,7 +85,18 @@ La **Morgue** concerne tout médecin compétent en médecine légale qui remplit
 - **Suivi** de la température et de l'état
 - **Alertes** de dépassement de délais
 
-## 📊 Cas d'Utilisation Détaillés
+### Cas d'utilisation détaillés
+
+- Gestion du flux mortuaire, identification, autopsies, restitution aux familles.  
+- Collaboration avec les autorités judiciaires et les hôpitaux.  
+- Production d'indicateurs sur les décès routiers (types, causes, tendances).
+
+## Rapports & indicateurs
+
+### Tableaux de suivi
+- Statistiques de mortalité routière (type d’usager, région, facteurs).  
+- Délai de traitement entre arrivée et restitution.  
+- Reporting médico-légal (causes de décès, analyses toxicologiques).
 
 ### 📥 **Accueil et Enregistrement**
 
@@ -411,7 +424,9 @@ La **Morgue** concerne tout médecin compétent en médecine légale qui remplit
 
 ---
 
-## 💻 Utilisation de l'Interface Web DOSER
+## Procédures détaillées
+
+### Utilisation de l'interface web DOSER
 
 ### Connexion et Accès
 
@@ -485,7 +500,7 @@ La **Morgue** concerne tout médecin compétent en médecine légale qui remplit
 
 ---
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### Cas particuliers et procédures spécialisées
 
 ### Autopsie Médico-Légale
 
@@ -557,7 +572,7 @@ La **Morgue** concerne tout médecin compétent en médecine légale qui remplit
 
 ---
 
-## ⚠️ Problèmes Fréquents
+### Problèmes fréquents
 
 ### Problèmes d'Identification
 
@@ -622,7 +637,9 @@ La **Morgue** concerne tout médecin compétent en médecine légale qui remplit
 
 ---
 
-## 📞 Support et Formation
+## FAQ & assistance
+
+### Support et formation
 
 ### Ressources Disponibles
 
@@ -673,11 +690,9 @@ La **Morgue** concerne tout médecin compétent en médecine légale qui remplit
 
 ---
 
-## 🔗 Liens Utiles
+### Liens utiles
 
 - **Guide rapide** : [Morgue](../user/quick-start/morgue.md)
-- **Formation** : [Modules de formation](../formation/index.md)
-- **Support** : [Centre d'aide](../support/index.md)
 - **Documentation** : [Base de connaissances](../index.md)
 
 ---

@@ -6,24 +6,34 @@
 
 ---
 
-## 📋 Ce que vous allez apprendre
+## Pré-requis
 
-À la fin de ce guide, vous saurez :
+- Lire les [principes communs](principes-communs.md) pour valider les prérequis matériels, la sécurité et la synchronisation des données.  
+- Disposer d’un compte **Morgue** avec accès aux modules d’identification, d’autopsie, de toxicologie et de rapports judiciaires.  
+- Equipement requis : poste sécurisé, périphériques de numérisation (scanner, appareil photo), autoclave, laboratoire accrédité.  
+- Accès aux référentiels (nomenclatures anatomiques, codes ICD, procédures médico-légales) et aux formulaires judiciaires.  
+- Coordination avec les autorités judiciaires, la police scientifique, les hôpitaux et les familles (protocoles de communication).
 
-✅ Accueillir et enregistrer les corps des victimes d'accidents  
-✅ Identifier les victimes décédées (documents, description physique)  
-✅ Réaliser les examens cliniques (liaisons cutanées, examens des organes)  
-✅ Effectuer les autopsies médico-légales  
-✅ Analyser les substances psychoactives  
-✅ Classer les accidents mortels de la route  
-✅ Établir les certificats de décès  
-✅ Documenter les circonstances du décès  
-✅ Coordonner avec les autorités judiciaires  
-✅ Gérer les transports et la communication avec les familles  
+## Checklist de démarrage
 
----
+### Objectifs du guide
 
-## 🎬 Workflow Complet avec Captures d'Écran
+- Enregistrer et identifier les corps liés à un accident.  
+- Réaliser les examens, autopsies et analyses toxicologiques.  
+- Documenter les circonstances, produire certificats et rapports.  
+- Assurer la traçabilité jusqu’à la remise à la famille ou aux autorités.
+
+### Avant de commencer
+
+- [ ] Vérifier l’état des équipements (laboratoire, chaines de froid, matériel photo).  
+- [ ] Préparer les dossiers d’accident correspondants (ID unique, documents transmis).  
+- [ ] S’assurer que les procédures de conservation et de chaîne de custody sont connues.  
+- [ ] Confirmer la disponibilité des laborantins/experts nécessaires.  
+- [ ] Respecter les protocoles d’hygiène, EPI et sécurité biohazard.
+
+## Procédure standard
+
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -315,7 +325,7 @@ graph TD
 
 ---
 
-## 🌐 Étape 1 : Accès au Portail Morgue (2 min)
+### 🌐 Étape 1 : Accès au portail morgue (2 min)
 
 ### Connexion
 
@@ -335,7 +345,7 @@ Après connexion, vous accédez à :
 
 ---
 
-## ⚚️ Étape 2 : Enregistrer un Corps (4 min)
+### ⚚️ Étape 2 : Enregistrer un corps (4 min)
 
 ### 2.1 Nouvelle Admission
 
@@ -391,7 +401,7 @@ Après connexion, vous accédez à :
 
 ---
 
-## 🔬 Étape 2bis : Examens Cliniques (3 min)
+### 🔬 Étape 2bis : Examens cliniques (3 min)
 
 ### Évaluation des Liaisons Cutanées
 
@@ -416,7 +426,7 @@ Après connexion, vous accédez à :
 
 ---
 
-## 🧪 Étape 2ter : Analyse des Substances Psychoactives (2 min)
+### 🧪 Étape 2ter : Analyse des substances psychoactives (2 min)
 
 ### Enregistrement des Analyses
 
@@ -439,7 +449,7 @@ Après connexion, vous accédez à :
 
 ---
 
-## 🔗 Étape 3 : Lier à l'Accident et Classement (2 min)
+### 🔗 Étape 3 : Lier à l'accident et classement (2 min)
 
 ### Recherche de l'Accident
 
@@ -475,7 +485,7 @@ Après connexion, vous accédez à :
 
 ---
 
-## 📝 Étape 3bis : Documentation des Circonstances du Décès (2 min)
+### 📝 Étape 3bis : Documentation des circonstances du décès (2 min)
 
 ### Enregistrement des Circonstances
 
@@ -499,7 +509,7 @@ Après connexion, vous accédez à :
 
 ---
 
-## 📄 Étape 4 : Générer le Certificat de Décès (2 min)
+### 📄 Étape 4 : Générer le certificat de décès (2 min)
 
 ### Prérequis
 
@@ -529,7 +539,7 @@ Le certificat est :
 
 ---
 
-## 🏥 Étape 5 : Gestion de la Conservation
+### 🏥 Étape 5 : Gestion de la conservation
 
 ### Assignation d'une Place
 
@@ -559,7 +569,7 @@ Le système affiche :
 
 ---
 
-## ⚖️ Étape 5bis : Coordination avec les Autorités Judiciaires (2 min)
+### ⚖️ Étape 5bis : Coordination avec les autorités judiciaires (2 min)
 
 ### Collaboration avec la Police et le Procureur
 
@@ -586,7 +596,7 @@ Si une enquête est ouverte :
 
 ---
 
-## 🚚 Étape 5ter : Gestion des Demandes de Transport (2 min)
+### 🚚 Étape 5ter : Gestion des demandes de transport (2 min)
 
 ### Organisation du Transport
 
@@ -611,7 +621,7 @@ Si une enquête est ouverte :
 
 ---
 
-## 👨‍👩‍👧 Étape 6 : Communication avec les Familles (2 min)
+### 👨‍👩‍👧 Étape 6 : Communication avec les familles (2 min)
 
 ### Enregistrement Contact Famille
 
@@ -643,7 +653,7 @@ Le système peut envoyer :
 
 ---
 
-## 📊 Étape 6bis : Archivage et Rapports Statistiques (2 min)
+### 📊 Étape 6bis : Archivage et rapports statistiques (2 min)
 
 ### Archivage des Dossiers Médicaux
 
@@ -669,7 +679,7 @@ Le système peut envoyer :
 
 ---
 
-## 📊 Cas d'Usage Pratiques
+### 📊 Cas d'usage pratiques
 
 ### Corps Identifié, Famille Présente
 
@@ -709,7 +719,7 @@ Le système peut envoyer :
 
 ---
 
-## ⚠️ Situations Particulières
+### ⚠️ Situations particulières
 
 ### Médecine Légale Requise
 
@@ -736,7 +746,7 @@ Si autopsie nécessaire :
 
 ---
 
-## ℹ️ Informations Importantes
+### ℹ️ Informations importantes
 
 ### Délais Légaux
 
@@ -761,7 +771,7 @@ Si autopsie nécessaire :
 
 ---
 
-## ⚠️ Problèmes Fréquents
+### ⚠️ Problèmes fréquents
 
 ### Impossible de lier à un accident
 
@@ -789,7 +799,7 @@ Si autopsie nécessaire :
 
 ---
 
-## 📚 Pour Aller Plus Loin
+## Aller plus loin
 
 ### Manuel Complet
 
@@ -797,7 +807,7 @@ Si autopsie nécessaire :
 
 ---
 
-## 🆘 Besoin d'Aide ?
+## Support & ressources
 
 ### Support Morgue
 - **📧 Email** : morgue-support@doser.ditros.org
@@ -811,26 +821,8 @@ Si autopsie nécessaire :
 
 ---
 
-## ✅ Checklist
-
-- [ ] J'ai accédé au portail morgue
-- [ ] Je sais accueillir et enregistrer les corps des victimes
-- [ ] Je sais identifier les victimes (identifiées ou non identifiées)
-- [ ] Je sais réaliser les examens cliniques (liaisons cutanées, organes)
-- [ ] Je sais effectuer les analyses de substances psychoactives
-- [ ] Je sais classer les accidents mortels de la route
-- [ ] Je sais documenter les circonstances du décès
-- [ ] Je sais lier un défunt à un accident
-- [ ] Je sais générer un certificat de décès
-- [ ] Je sais coordonner avec les autorités judiciaires
-- [ ] Je sais gérer les demandes de transport
-- [ ] Je sais communiquer avec les familles
-- [ ] Je sais archiver les dossiers et produire des rapports statistiques
-
----
-
-**Félicitations ! 🎉**  
-Vous savez maintenant utiliser DOSER pour la gestion mortuaire !
+🎉 **Félicitations !**  
+Vous savez maintenant utiliser DOSER pour la gestion mortuaire. Conservez la [checklist de démarrage](#checklist-de-demarrage) en référence avant chaque prise de service.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ---
 
-## 👥 Rôle et Responsabilités
+## Vue d'ensemble
 
 Les **Administrateurs** sont les pilotes du système DOSER. Ils sont responsables de :
 
@@ -15,7 +15,7 @@ Les **Administrateurs** sont les pilotes du système DOSER. Ils sont responsable
 - **Analyse** des statistiques pour améliorer les processus
 - **Maintenance** du système en bon état de fonctionnement
 
-## 🎯 Missions Principales
+### Missions principales
 
 ### Gestion des Utilisateurs
 - **Création** et configuration des comptes utilisateurs
@@ -41,7 +41,9 @@ Les **Administrateurs** sont les pilotes du système DOSER. Ils sont responsable
 - **Mises à jour** et patches de sécurité
 - **Support** technique aux utilisateurs
 
-## 🔧 Fonctionnalités Clés
+## Parcours utilisateur
+
+### Fonctionnalités clés
 
 ### Gestion des Utilisateurs
 - **Création** de comptes avec informations complètes
@@ -68,7 +70,7 @@ Les **Administrateurs** sont les pilotes du système DOSER. Ils sont responsable
 - **Export** en PDF, Excel, CSV
 - **Programmation** de rapports récurrents
 
-## 📊 Cas d'Utilisation Détaillés
+### Cas d'utilisation détaillés
 
 ### 👥 **Gestion des Utilisateurs**
 
@@ -438,7 +440,9 @@ Les **Administrateurs** sont les pilotes du système DOSER. Ils sont responsable
 
 ---
 
-## 💻 Utilisation de l'Interface Web DOSER
+## Procédures détaillées
+
+### Utilisation de l'interface web DOSER
 
 ### Connexion et Accès
 
@@ -527,7 +531,19 @@ Les **Administrateurs** sont les pilotes du système DOSER. Ils sont responsable
 
 ---
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### Cas particuliers et procédures spécialisées
+
+## Rapports & indicateurs
+
+### Tableaux de bord et reporting
+- Accédez aux tableaux de bord administrateur (statistiques d’usage, volumétrie de constats, alertes système).  
+- Configurez les exports automatisés (PDF, Excel, API) pour partage avec la direction.  
+- Utilisez les filtres pour segmenter par région, service et statut.
+
+### Contrôles qualité
+- Surveillez les taux de complétude et de validation (`READY`, `REJECTED`).  
+- Analysez les temps de traitement (collecte → validation → clôture).  
+- Identifiez les points de blocage et assignez des plans d’action.
 
 ### Gestion de Crise Système
 
@@ -575,7 +591,7 @@ Les **Administrateurs** sont les pilotes du système DOSER. Ils sont responsable
 
 ---
 
-## ⚠️ Problèmes Fréquents
+### Problèmes fréquents
 
 ### Problèmes de Connexion
 
@@ -669,7 +685,9 @@ Les **Administrateurs** sont les pilotes du système DOSER. Ils sont responsable
 
 ---
 
-## 📞 Support et Formation
+## FAQ & assistance
+
+### Support et formation
 
 ### Ressources Disponibles
 
@@ -727,11 +745,9 @@ Les **Administrateurs** sont les pilotes du système DOSER. Ils sont responsable
 
 ---
 
-## 🔗 Liens Utiles
+### Liens utiles
 
 - **Guide rapide** : [Administrateurs](../user/quick-start/administrateurs.md)
-- **Formation** : [Modules de formation](../formation/index.md)
-- **Support** : [Centre d'aide](../support/index.md)
 - **Documentation** : [Base de connaissances](../index.md)
 
 ---

@@ -6,20 +6,34 @@
 
 ---
 
-## 📋 Ce que vous allez apprendre
+## Pré-requis
 
-À la fin de ce guide, vous saurez :
+- Lire les [principes communs](principes-communs.md) pour valider les prérequis matériels et de sécurité.  
+- Disposer d’un compte DOSER avec le rôle **Administrateur** (ou d’un compte service équivalent) et, si nécessaire, des accès VPN.  
+- Navigateur moderne (Chrome/Firefox/Edge) à jour, ordinateur Windows 10 64 bits ou équivalent.  
+- Accès aux référentiels internes (organigramme, nomenclatures, modèles de rapports) et aux procédures de sauvegarde.  
+- Authentification forte activée lorsque disponible (MFA, carte à puce).
 
-✅ Accéder à l'interface d'administration DOSER  
-✅ Gérer les utilisateurs et leurs permissions  
-✅ Configurer les paramètres système  
-✅ Surveiller les performances et la qualité  
-✅ Générer des rapports et statistiques  
-✅ Gérer les sauvegardes et la maintenance  
+## Checklist de démarrage
 
----
+### Objectifs du guide
 
-## 🎯 Votre Rôle en Tant qu'Administrateur
+- Se connecter à l’interface d’administration.  
+- Gérer utilisateurs/permissions et configurer les paramètres majeurs.  
+- Surveiller la qualité des données et la performance.  
+- Mettre en place sauvegardes, maintenance et rapports.
+
+### Avant de commencer
+
+- [ ] Vérifier que votre session Windows utilise un compte avec privilèges nécessaires.  
+- [ ] Confirmer l’accès au serveur d’administration (`http://51.195.80.167:8098`).  
+- [ ] Préparer la liste des utilisateurs/organisations à créer ou mettre à jour.  
+- [ ] S’assurer que les sauvegardes précédentes sont disponibles et testées.  
+- [ ] Planifier un créneau pour appliquer les changements (gestion impacts utilisateurs).
+
+## Procédure standard
+
+### 🎯 Votre rôle en tant qu'administrateur
 
 En tant qu'administrateur DOSER, vous êtes le **pilote du système**. Votre mission :
 
@@ -32,7 +46,7 @@ En tant qu'administrateur DOSER, vous êtes le **pilote du système**. Votre mis
 
 ---
 
-## 💻 Accès à l'Interface d'Administration
+### 💻 Accès à l'interface d'administration
 
 ### Configuration PC Requise
 
@@ -57,7 +71,7 @@ En tant qu'administrateur DOSER, vous êtes le **pilote du système**. Votre mis
 
 ---
 
-## 🎬 Workflow Complet avec Captures d'Écran
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -341,7 +355,7 @@ graph TD
 
 ---
 
-## 🔧 Fonctionnalités Principales d'Administration
+### 🔧 Fonctionnalités principales d'administration
 
 ### 1. Gestion des Utilisateurs
 
@@ -442,7 +456,7 @@ graph TD
 
 ---
 
-## ⚠️ Problèmes Fréquents et Solutions
+### ⚠️ Problèmes fréquents et solutions
 
 ### Je ne peux pas créer un utilisateur
 
@@ -470,7 +484,7 @@ graph TD
 
 ---
 
-## 📚 Pour Aller Plus Loin
+## Aller plus loin
 
 ### Manuel Complet
 
@@ -479,13 +493,11 @@ Pour une documentation exhaustive :
 
 ### Ressources Complémentaires
 
-- 📖 [Guide de sécurité avancée](../../manuel/securite-avancee.md)
-- 📖 [Procédures de maintenance](../../manuel/maintenance.md)
-- 📖 [Optimisation des performances](../../manuel/performance.md)
+- 📖 [Procédures de maintenance](../../implementation/maintenance.md)
 
 ---
 
-## 🆘 Besoin d'Aide ?
+## Support & ressources
 
 ### Support Administrateur
 
@@ -503,42 +515,8 @@ Pour une documentation exhaustive :
 
 ---
 
-## ✅ Checklist d'Administration
-
-Avant de quitter ce guide :
-
-### Configuration de Base
-- [ ] J'ai accédé à l'interface d'administration
-- [ ] J'ai configuré les paramètres de base
-- [ ] J'ai créé les utilisateurs nécessaires
-- [ ] J'ai configuré les permissions
-
-### Surveillance
-- [ ] J'ai configuré les alertes système
-- [ ] Je sais consulter les logs d'activité
-- [ ] Je sais générer des rapports
-- [ ] Je sais surveiller les performances
-
-### Maintenance
-- [ ] J'ai configuré les sauvegardes automatiques
-- [ ] Je sais effectuer une sauvegarde manuelle
-- [ ] Je sais restaurer des données
-- [ ] Je connais les procédures d'urgence
-
----
-
-## 🎉 Félicitations !
-
-**Vous savez maintenant administrer le système DOSER !**
-
-Vous pouvez :
-- ✅ Gérer efficacement les utilisateurs et permissions
-- ✅ Configurer le système selon vos besoins
-- ✅ Surveiller les performances en temps réel
-- ✅ Générer des rapports détaillés
-- ✅ Maintenir le système en bon état
-
-**Prochaine étape** : Consultez le [Manuel Complet](../../manuel/administrateurs.md) pour découvrir toutes les fonctionnalités avancées.
+🎉 **Félicitations !**  
+Vous savez maintenant administrer le système DOSER. La [checklist de démarrage](#checklist-de-demarrage) vous aide à valider vos préparatifs avant chaque session. Pour approfondir, consultez le [Manuel complet](../../manuel/administrateurs.md).
 
 ---
 

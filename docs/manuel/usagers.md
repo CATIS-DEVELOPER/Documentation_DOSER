@@ -4,7 +4,7 @@
 
 ---
 
-## 👥 Rôle et Responsabilités
+## Vue d'ensemble
 
 L'**Usager** est toute personne présente sur un lieu d'accident. Les **Usagers (Grand Public)** sont des acteurs essentiels du système DOSER. Ils participent activement à la sécurité routière en :
 
@@ -16,7 +16,7 @@ L'**Usager** est toute personne présente sur un lieu d'accident. Les **Usagers 
 - **Consultant** les statistiques et données publiques
 - **S'informant** sur les rapports et zones accidentogènes
 
-## 🎯 Missions Principales
+### Missions principales
 
 ### Création d'Alertes
 - **Portail public** : Soumettre des alertes via le portail dédié
@@ -45,7 +45,9 @@ L'**Usager** est toute personne présente sur un lieu d'accident. Les **Usagers 
 - **Télécharger** les attestations nécessaires
 - **Recevoir** des notifications automatiques
 
-## 🔧 Fonctionnalités Clés
+## Parcours utilisateur
+
+### Fonctionnalités clés
 
 ### Création d'Alertes
 - **Portail public** : Formulaire dédié pour soumettre des alertes
@@ -83,7 +85,18 @@ L'**Usager** est toute personne présente sur un lieu d'accident. Les **Usagers 
 - **Attestations** : Documents téléchargeables avec QR Code
 - **Historique** : Consultation de toutes les déclarations
 
-## 📊 Cas d'Utilisation Détaillés
+### Cas d'utilisation détaillés
+
+- Déclaration citoyenne d'accident.  
+- Consultation des zones à risque et des statistiques.  
+- Suivi des alertes et démarches administratives.
+
+## Rapports & indicateurs
+
+### Accès aux données ouvertes
+- Portail observatoire, open data et infographies publiques.  
+- Indicateurs ONU (taux de mortalité, accidents par type d’usager).  
+- Rapports de prévention et campagnes de sensibilisation.
 
 ### 🚨 **Création d'Alertes**
 
@@ -497,7 +510,9 @@ L'**Usager** est toute personne présente sur un lieu d'accident. Les **Usagers 
 
 ---
 
-## 💻 Utilisation de l'Interface Web DOSER
+## Procédures détaillées
+
+### Utilisation de l'interface web DOSER
 
 ### Connexion et Accès
 
@@ -627,7 +642,7 @@ L'**Usager** est toute personne présente sur un lieu d'accident. Les **Usagers 
 
 ---
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### Cas particuliers et procédures spécialisées
 
 ### Déclaration Anonyme
 
@@ -674,7 +689,7 @@ L'**Usager** est toute personne présente sur un lieu d'accident. Les **Usagers 
 
 ---
 
-## ⚠️ Problèmes Fréquents
+### Problèmes fréquents
 
 ### Problèmes de Connexion
 
@@ -742,7 +757,9 @@ L'**Usager** est toute personne présente sur un lieu d'accident. Les **Usagers 
 
 ---
 
-## 📞 Support et Formation
+## FAQ & assistance
+
+### Support et formation
 
 ### Ressources Disponibles
 
@@ -794,11 +811,9 @@ R : Contactez le support citoyen. Vous pouvez aussi déposer une réclamation fo
 
 ---
 
-## 🔗 Liens Utiles
+### Liens utiles
 
 - **Guide rapide** : [Usagers](../user/quick-start/usagers.md)
-- **FAQ complète** : [Questions fréquentes](../faq/usagers.md)
-- **Support** : [Centre d'aide](../support/index.md)
 - **Documentation** : [Base de connaissances](../index.md)
 
 ---

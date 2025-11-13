@@ -1,168 +1,98 @@
-# Module VAAR - Vigilance et Alerte sur les Accidents de la Route
+# Module VAAR – Vigilance et Alerte sur les Accidents de la Route
 
-## Vue d'ensemble
+VAAR est le **système de détection proactive** de DOSER. Il capte les signaux faibles (réseaux sociaux, médias, sources ouvertes), les enrichit via l’intelligence artificielle, puis alimente la chaîne post-accident pour accélérer les interventions.
 
-Le Module VAAR (Vigilance et Alerte sur les Accidents de la Route) est un système d'intelligence artificielle avancé qui surveille les réseaux sociaux et sources web en temps réel pour détecter, analyser et alerter sur les accidents de la route au Cameroun.
+## Position dans le cycle
 
-## 🎯 Objectifs
+```mermaid
+sequenceDiagram
+    participant Sources as Sources ouvertes
+    participant VAAR as VAAR (IA)
+    participant Analyste as Centre d'analyse
+    participant ALLOVOIE as ALLOVOIE
+    participant Collecte as Collecte DOSER
 
-- **Détection en temps réel** des accidents via les réseaux sociaux
-- **Analyse automatique** des informations publiées par les citoyens
-- **Génération d'alertes** enrichies pour les services d'urgence
-- **Amélioration de la réactivité** des interventions d'urgence
+    Sources->>VAAR: Contenus texte / image / vidéo
+    VAAR->>Analyste: Alertes scorées
+    Analyste->>ALLOVOIE: Validation + déclenchement
+    ALLOVOIE->>Collecte: Création du constat
+```
 
-## 🔄 Processus de Traitement
+- **Amont** : surveille les réseaux sociaux (Facebook, X, TikTok, WhatsApp publics), médias, forums, flux RSS.  
+- **Pivot** : produit un paquet d’alerte structuré (localisation, gravité, sources, score de confiance).  
+- **Aval** : après validation humaine, l’alerte devient un constat dans DOSER et enclenche ALLOVOIE / collecte terrain.
 
-### 1. Collecte des Données
-**Sources surveillées :**
-- Réseaux sociaux (X/Twitter, Facebook, Instagram)
-- Forums et plateformes de discussion
-- Sites d'actualités locales
-- Applications de messagerie publique
+## Pipeline IA
 
-**Types de contenu :**
-- Publications textuelles
-- Images et vidéos
-- Géolocalisation
-- Métadonnées temporelles
+1. **Collecte** : ingestion continue des contenus textuels, images, vidéos et métadonnées.  
+2. **Pré-traitement** : suppression des doublons, nettoyage, normalisation linguistique (français, anglais, langues locales).  
+3. **Analyse IA** :  
+   - *NLP* (modèles Transformers) pour extraire lieux, dates, véhicules, gravité, victimes.  
+   - *Vision* (YOLOv5/OpenCV) pour reconnaître véhicules accidentés, estimer dégâts, lire panneaux.  
+   - *Fusion* : agrégation des signaux pour produire un score de confiance.  
+4. **Scoring & priorisation** : seuils configurables, classement des alertes par criticité et fraîcheur.  
+5. **Validation humaine** : analyste vérifie la véracité (via dashboards), complète si besoin, escalade vers ALLOVOIE.  
+6. **Intégration DOSER** : génération d’un dossier pré-rempli (localisation, heures, médias) pour accélérer la collecte.
 
-### 2. Nettoyage et Standardisation
-**Traitements automatiques :**
-- Suppression des doublons
-- Normalisation des formats de données
-- Filtrage du bruit et des contenus non pertinents
-- Standardisation des langues (français, anglais, langues locales)
+```mermaid
+flowchart LR
+    A[Collecte flux sociaux] --> B[Pré-traitement]
+    B --> C[NLP & Vision IA]
+    C --> D[Scoring & priorisation]
+    D --> E[Console analyste]
+    E --> F[Validation]
+    F --> G[ALLOVOIE / Collecte DOSER]
+```
 
-### 3. Analyse par Intelligence Artificielle
+## Fonctionnalités clés
 
-#### Traitement du Langage Naturel (NLP)
-- **Modèle BERT** pour l'analyse sémantique
-- **Reconnaissance d'entités nommées** (lieux, personnes, véhicules)
-- **Classification des sentiments** et de l'urgence
-- **Extraction d'informations clés** :
-  - Lieu de l'accident
-  - Heure et date
-  - Type de véhicules impliqués
-  - Gravité estimée
-  - Nombre de victimes
+- **Surveillance multimodale** : texte, image, vidéo, métadonnées GPS.  
+- **Détection multilingue** : français, anglais, langues locales via modèles mixtes.  
+- **Tableau de bord analyste** : alertes en file d’attente, filtres par région, gravité, source.  
+- **Enrichissement automatique** : génération de résumés, ajout de cartes, regroupement des sources concordantes.  
+- **Intégration directe** : envoi vers ALLOVOIE, pré-remplissage du module Collecte, notifications aux forces de l’ordre.  
+- **Historique** : archivage des alertes, rapports de performance des modèles.
 
-#### Traitement d'Images (Computer Vision)
-- **Modèle YOLOv5** pour la détection d'objets
-- **Reconnaissance de véhicules** accidentés
-- **Analyse de la gravité** des dégâts
-- **Géolocalisation** via métadonnées EXIF
+## Paramétrage & administration
 
-### 4. Génération d'Alertes
-**Critères d'alerte :**
-- Confiance de l'IA > 80%
-- Gravité estimée > seuil configuré
-- Nouveauté de l'événement
-- Géolocalisation valide
+- **Sources surveillées** : configuration granulaires (hashtags, pages officielles, flux RSS, comptes certifiés).  
+- **Seuils de confiance** : ajustables par type d’événement (multi-collisions, incendies, victimes multiples).  
+- **Zones d’intérêt** : priorisation de certains corridors, agglomérations, axes sensibles.  
+- **Escalade** : règles d’escalade automatique vers ALLOVOIE ou vers un superviseur régional.  
+- **Audit** : journalisation complète des traitements IA et des validations humaines.
 
-**Contenu de l'alerte :**
-- Résumé de l'événement
-- Lieu précis (coordonnées GPS)
-- Heure estimée
-- Gravité et type d'accident
-- Sources des informations
-- Niveau de confiance
+## Indicateurs de performance
 
-## 🛠️ Technologies Utilisées
+- Temps moyen de détection (source → alerte) < 5 minutes.  
+- Précision globale > 85 %, rappel > 80 %, faux positifs < 15 %.  
+- Nombre d’alertes validées vs rejetées (mesure de confiance).  
+- Impact sur le délai d’intervention (avant/après VAAR).  
+- Corrélation entre alertes VAAR et constats confirmés.
 
-### Intelligence Artificielle
-- **BERT** (Bidirectional Encoder Representations from Transformers)
-- **YOLOv5** (You Only Look Once v5)
-- **Transformers** pour le traitement multilingue
-- **OpenCV** pour le traitement d'images
+## Cas d’usage
 
-### Infrastructure
-- **API de réseaux sociaux** (Twitter API, Facebook Graph API)
-- **Base de données vectorielles** pour la recherche sémantique
-- **Pipeline de traitement** en temps réel
-- **Système de scoring** de confiance
+- **Services d’urgence** : intervention anticipée grâce aux alertes priorisées.  
+- **Forces de l’ordre** : mobilisation de patrouilles avec localisation précise.  
+- **Observatoire** : suivi des tendances d’accidents déclarés par la population.  
 
-### Sécurité et Confidentialité
-- **Anonymisation** des données personnelles
-- **Chiffrement** des communications
-- **Conformité RGPD** et réglementations locales
-- **Audit trail** complet des traitements
+!!! warning "Validation humaine indispensable"
+    Les analystes du centre d’analyse restent responsables de la validation finale pour éviter les faux positifs et contextualiser chaque alerte.
 
-## 📊 Métriques et Performance
+## Technologies
 
-### Indicateurs de Performance
-- **Temps de détection** : < 5 minutes
-- **Précision** : > 85%
-- **Rappel** : > 80%
-- **Taux de faux positifs** : < 15%
+- **IA** : Transformers multilingues (NLP), YOLOv5/OpenCV (vision), scoring probabiliste.  
+- **Infrastructure** : pipelines temps réel, bases vectorielles pour la recherche sémantique, conteneurs orchestrés.  
+- **Sécurité** : anonymisation, chiffrement, conformité RGPD, audit trail complet.
 
-### Tableaux de Bord
-- **Alertes en temps réel**
-- **Statistiques de détection**
-- **Performance des modèles IA**
-- **Cartographie des alertes**
+## Évolutions prévues
 
-## 🔧 Configuration et Administration
-
-### Paramètres Configurables
-- **Seuils de confiance** par type d'alerte
-- **Sources de données** à surveiller
-- **Zones géographiques** d'intérêt
-- **Filtres de contenu** et mots-clés
-
-### Gestion des Alertes
-- **Validation manuelle** des alertes critiques
-- **Escalade automatique** selon la gravité
-- **Intégration** avec les systèmes d'urgence
-- **Historique** et archivage
-
-## 🚨 Cas d'Usage
-
-### Services d'Urgence
-- **Détection précoce** d'accidents graves
-- **Coordination** des interventions
-- **Optimisation** des ressources
-- **Réduction** des temps de réponse
-
-### Forces de l'Ordre
-- **Alertes géolocalisées** pour les patrouilles
-- **Informations contextuelles** sur les accidents
-- **Suivi** des tendances d'accidents
-- **Planification** des interventions
-
-### Services de Santé
-- **Préparation** des équipes médicales
-- **Estimation** du nombre de victimes
-- **Coordination** avec les hôpitaux
-- **Optimisation** des ressources sanitaires
-
-## 📈 Évolutions Futures
-
-### Améliorations Prévues
-- **Modèles IA** plus performants
-- **Sources de données** élargies
-- **Intégration** avec les capteurs IoT
-- **Prédiction** des zones à risque
-
-### Nouvelles Fonctionnalités
-- **Analyse prédictive** des accidents
-- **Recommandations** de prévention
-- **Intégration** avec les systèmes de transport intelligent
-- **API publique** pour les développeurs
-
-## 🔗 Intégrations
-
-### Systèmes DOSER
-- **Base de données** principale
-- **Module de cartographie**
-- **Système de notifications**
-- **Portail d'administration**
-
-### Systèmes Externes
-- **Services d'urgence** (117, 119)
-- **Forces de l'ordre** (Police, Gendarmerie)
-- **Services de santé** (SAMU, Hôpitaux)
-- **Médias** et communication publique
+- Intégration de capteurs IoT / caméras urbaines.  
+- Modèles prédictifs pour anticiper les zones d’accident récurrentes.  
+- API partenaires pour permettre aux médias ou plateformes tierces d’envoyer directement des signalements.  
+- Couplage avec les campagnes de prévention (réseaux sociaux DOSER) pour répondre aux tendances émergentes.
 
 ---
 
-*Pour plus d'informations techniques, consultez la [documentation développeur](developpers/api-reference.md) ou contactez l'équipe VAAR.*
+- [Collecte de données](collecte-donnees.md)  
+- [Intervention post-accident](piliers/post-accident.md)  
+- [Documentation développeur](../developer/index.md)

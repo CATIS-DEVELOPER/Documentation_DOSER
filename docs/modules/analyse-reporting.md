@@ -1,152 +1,101 @@
-# Module d'Analyse et Reporting
+# Analyse & Reporting
 
-## Vue d'ensemble
+Le module Analyse & Reporting est le **cerveau décisionnel** de DOSER. Il transforme les données validées en insights, recommandations et scénarios d’action pour les décideurs, les analystes et les partenaires.
 
-Le module d'Analyse et Reporting de DOSER fournit des tableaux de bord dynamiques, des analyses prédictives et des rapports automatisés pour transformer les données d'accidents en informations exploitables pour la prise de décision stratégique.
+## Rôle dans le cycle DOSER
 
-## 🎯 Objectifs
+```mermaid
+flowchart LR
+    Validation[Validation des constats] --> Analyse[Analyse & Reporting]
+    Analyse --> Cartographie[Cartographie]
+    Analyse --> Statistiques[Statistiques & KPI]
+    Analyse --> Observatoire[Portail observatoire]
+    Analyse --> BI[BI / Big Data / IA]
+```
 
-- **Visualiser** les tendances d'accidents en temps réel
-- **Identifier** les points noirs et zones à risque
-- **Générer** des rapports automatisés pour les décideurs
-- **Prédire** les risques futurs grâce à l'IA
+- **Consolider** les données multi-sources (collecte, hôpitaux, assurances, FLOTAX, GEOROUTE).  
+- **Déployer** les quatre niveaux d’analyse (descriptive → prescriptive).  
+- **Diffuser** les résultats via dashboards, rapports, API, Open Data.
 
-## 📊 Tableaux de Bord Dynamiques
+## Quatre niveaux d’analyse
 
-### Tableau de Bord Principal
-- **Vue d'ensemble** des accidents en temps réel
-- **Métriques clés** : nombre d'accidents, victimes, tendances
-- **Cartographie** interactive des incidents
-- **Alertes** et notifications importantes
+```mermaid
+sequenceDiagram
+    participant D as Données validées
+    participant Des as Analyse descriptive
+    participant Dia as Analyse diagnostique
+    participant Pre as Analyse prédictive
+    participant Pres as Analyse prescriptive
+    D->>Des: Indicateurs clés
+    Des->>Dia: Corrélations & facteurs
+    Dia->>Pre: Modélisation
+    Pre->>Pres: Recommandations
+    Pres->>D: Ajustements & boucles
+```
 
-### Tableaux de Bord Spécialisés
-- **Forces de l'Ordre** : interventions, zones de patrouille
-- **Services de Santé** : victimes, hôpitaux, ressources
-- **Assurances** : sinistres, coûts, tendances
-- **Administration** : KPIs, performance, budgets
+1. **Descriptive** : volumes, tendances, répartitions spatio-temporelles.  
+2. **Diagnostique** : exploration des causes, facteurs aggravants, comportements à risque.  
+3. **Prédictive** : anticipation des pics d’accidents, simulations météo/trafic, probabilité par zone.  
+4. **Prescriptive** : recommandations ciblées (contrôles, investissements, campagnes), scénarios « what-if ».
 
-## 📈 Types d'Analyses
+## Tableaux de bord & visualisations
 
-### Analyses Statistiques
-- **Évolution temporelle** des accidents
-- **Répartition géographique** des incidents
-- **Analyse des causes** principales
-- **Corrélation** météo/trafic/accidents
+- **Dashboard exécutif** : KPIs nationaux, objectifs Décennie ONU, alertes critiques.  
+- **Dashboards métiers** : forces de l’ordre, santé, assurances, infrastructures.  
+- **Visualisations avancées** : heatmaps, diagrammes de causes, timelines, comparaisons avant/après.
 
-### Analyses Prédictives
-- **Modèles de prédiction** des zones à risque
-- **Prévision** des pics d'accidents
-- **Optimisation** des ressources
-- **Planification** préventive
+!!! tip "Personnalisation"
+    Les dashboards peuvent être filtrés par région, période, type d’usager ou module DITROS pour répondre aux besoins de chaque acteur.
 
-### Analyses Comparatives
-- **Benchmarking** régional et national
-- **Comparaison** avant/après interventions
-- **Évaluation** de l'efficacité des mesures
-- **Analyse** des meilleures pratiques
+## Rapports automatisés
 
-## 📋 Rapports Automatisés
+- **Quotidiens** : incidents majeurs, alertes VAAR, interventions en cours.  
+- **Hebdomadaires** : tendances, points noirs, recommandations opérationnelles.  
+- **Mensuels / trimestriels** : bilan complet, analyse des facteurs de risque, suivi des plans d’action.  
+- **Annuels** : évaluation stratégique, contribution aux engagements internationaux, projections pluriannuelles.
 
-### Rapports Quotidiens
-- **Résumé** des accidents de la journée
-- **Alertes** et incidents critiques
-- **Performance** des services
-- **Recommandations** d'action
+Les rapports sont diffusés en PDF, Excel, CSV, JSON, et peuvent être programmés (scheduling) ou exposés via API.
 
-### Rapports Hebdomadaires
-- **Synthèse** des tendances
-- **Analyse** des points noirs
-- **Évaluation** des interventions
-- **Planification** de la semaine suivante
+## Intelligence artificielle & data science
 
-### Rapports Mensuels
-- **Bilan** complet des accidents
-- **Analyse** des causes principales
-- **Évaluation** des politiques publiques
-- **Recommandations** stratégiques
+- **Clustering** des zones et profils d’accidents.  
+- **Régression** pour les prévisions (fréquence, gravité).  
+- **Détection d’anomalies** (outliers, comportements atypiques).  
+- **Traitement du langage naturel** sur les rapports texte, médias sociaux (VAAR).  
+- **Score d’exposition au risque** par segment de route, flotte, type d’usager.
 
-### Rapports Annuels
-- **Bilan** de l'année écoulée
-- **Évolution** des indicateurs
-- **Impact** des mesures prises
-- **Objectifs** pour l'année suivante
+## Intégrations clés
 
-## 🗺️ Cartographie et Visualisation
+- **GEOROUTE** (SIG) pour contextualiser les accidents.  
+- **FLOTAX** pour analyser les comportements des flottes.  
+- **SEVITEV / CERDIDOC** pour relier conformité véhicule ↔ accident.  
+- **CKAN** pour publier des données agrégées en open data.  
+- **HelpDesk** pour remonter les demandes d’amélioration fonctionnelle.
 
-### Cartes Interactives
-- **Heatmaps** des zones à risque
-- **Points noirs** identifiés
-- **Densité** d'accidents par zone
-- **Évolution** temporelle des risques
+## Acteurs & usages
 
-### Visualisations Avancées
-- **Graphiques** de tendances
-- **Diagrammes** de causes
-- **Charts** de performance
-- **Dashboards** personnalisables
+- **Observatoire national** : pilotage stratégique, rapports officiels.  
+- **Ministères & décideurs** : arbitrage budgétaire, priorisation des politiques publiques.  
+- **Analystes** : investigations approfondies, modélisation, simulations.  
+- **Bailleurs / partenaires** : suivi des engagements, reporting standardisé.
 
-## 🤖 Intelligence Artificielle
+## Indicateurs de performance
 
-### Modèles Prédictifs
-- **Machine Learning** pour la prédiction
-- **Deep Learning** pour l'analyse d'images
-- **NLP** pour l'analyse des rapports
-- **Reinforcement Learning** pour l'optimisation
+- Taux d’accidents par 100 000 habitants / type d’usager.  
+- Évolution de la gravité (blessés, décès) par région.  
+- Temps moyen de traitement post-accident.  
+- Taux de complétude des dossiers.  
+- Impact des mesures (avant/après campagne, intervention infrastructurelle).
 
-### Algorithmes d'Analyse
-- **Clustering** des zones similaires
-- **Classification** des types d'accidents
-- **Régression** pour les prédictions
-- **Anomaly Detection** pour les alertes
+## Bonnes pratiques
 
-## 📊 Indicateurs de Performance
-
-### Indicateurs de Sécurité
-- **Taux d'accidents** par 100 000 habitants
-- **Gravité** des accidents (blessés/décès)
-- **Évolution** des tendances
-- **Efficacité** des interventions
-
-### Indicateurs Opérationnels
-- **Temps de réponse** des services
-- **Taux de résolution** des cas
-- **Satisfaction** des utilisateurs
-- **Performance** des équipes
-
-## 🔧 Fonctionnalités Techniques
-
-### Export de Données
-- **Formats** : PDF, Excel, CSV, JSON
-- **Personnalisation** des rapports
-- **Scheduling** automatique
-- **Distribution** par email
-
-### API et Intégrations
-- **REST API** pour les données
-- **Webhooks** pour les alertes
-- **Intégration** avec les systèmes externes
-- **SDK** pour les développeurs
-
-### Sécurité et Confidentialité
-- **Chiffrement** des données sensibles
-- **Contrôle d'accès** granulaire
-- **Audit trail** complet
-- **Conformité** réglementaire
-
-## 🚀 Évolutions Futures
-
-### Nouvelles Fonctionnalités
-- **IA conversationnelle** pour les requêtes
-- **Réalité augmentée** pour la visualisation
-- **Prédiction** en temps réel
-- **Recommandations** automatiques
-
-### Améliorations Techniques
-- **Performance** optimisée
-- **Interface** plus intuitive
-- **Mobile** responsive
-- **Accessibilité** améliorée
+1. **Mettre à jour** les référentiels (territoires, usagers, véhicules) pour garantir la cohérence des analyses.  
+2. **Documenter** les sources et méthodologies pour assurer la reproductibilité.  
+3. **Croiser** systématiquement les données internes et partenaires (hôpitaux, assurances).  
+4. **Animer** des revues de performance mensuelles pour déclencher des actions concrètes.
 
 ---
 
-*Pour plus d'informations techniques, consultez la [documentation développeur](developpers/api-reference.md).*
+- [Pilier Intervention post-accident](piliers/post-accident.md)  
+- [Cartographie des accidents](cartographie-accidents.md)  
+- [Documentation développeur](../developer/index.md)

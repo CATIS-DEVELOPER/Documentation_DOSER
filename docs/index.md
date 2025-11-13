@@ -27,15 +27,20 @@ Sans données précises, il est impossible de mesurer l'efficacité des interven
 
 ## 👥 Par où commencer ?
 
-| **Votre Profil** | **Documentation Recommandée** |
-| :--- | :--- |
-| **👮 Agent Constatateur** | [Guide des Agents Constatateurs](acteurs/agents-constatateurs.md) |
-| **🔍 Agent de Validation** | [Guide des Agents de Validation](acteurs/agents-validation.md) |
-| **🏥 Personnel de Santé** | [Guide des Services de Santé](acteurs/services-sante.md) |
-| **👮 Forces de l'Ordre** | [Guide des Forces de l'Ordre](acteurs/forces-ordre.md) |
-| **🏢 Compagnies d'Assurance** | [Guide des Assurances](acteurs/assurances.md) |
-| **⚙️ Administrateur** | [Guide d'Administration](deployment/guide-administrateur.md) |
-| **💻 Développeur** | [Environnement de Dev](developpers/setup.md) |
+| **Votre Profil** | **Guide rapide** | **Manuel de référence** |
+| :--- | :--- | :--- |
+| **👮 Agent Constatateur** | [Guide rapide](user/quick-start/agents-constatateurs.md) | [Manuel complet](manuel/agents-constatateurs.md) |
+| **🔍 Agent de Validation** | [Guide rapide](user/quick-start/agents-validation.md) | [Manuel complet](manuel/agents-validation.md) |
+| **🏥 Personnel de Santé** | [Guide rapide](user/quick-start/services-sante.md) | [Manuel complet](manuel/services-sante.md) |
+| **👮 Forces de l'Ordre** | [Guide rapide](user/quick-start/agents-constatateurs.md) | [Manuel complet](manuel/agents-constatateurs.md) |
+| **🏢 Compagnies d'Assurance** | [Guide rapide](user/quick-start/compagnies-assurance.md) | [Manuel complet](manuel/compagnies-assurance.md) |
+| **⚙️ Administrateur** | [Guide rapide](user/quick-start/administrateurs.md) | [Manuel complet](manuel/administrateurs.md) |
+| **💻 Développeur** | [Environnement de Dev](developer/setup.md) | [Architecture & API](developer/architecture-technique.md) |
+| **🚌 Agence de Voyage** | [Guide rapide](user/quick-start/agence-voyage.md) | [Manuel complet](manuel/agence-voyage.md) |
+| **⚰️ Morgue** | [Guide rapide](user/quick-start/morgue.md) | [Manuel complet](manuel/morgue.md) |
+| **🚑 Services de Secours** | [Guide rapide](user/quick-start/services-secours.md) | [Manuel complet](manuel/services-secours.md) |
+| **📊 Centre d'Analyse** | [Guide rapide](user/quick-start/centre-analyse.md) | [Manuel complet](manuel/centre-analyse.md) |
+| **👥 Usager / Public** | [Guide rapide](user/quick-start/usagers.md) | [Manuel complet](manuel/usagers.md) |
 
 ## 📊 Modules Fonctionnels
 
@@ -72,4 +77,4 @@ Le système intègre un écosystème complet d'acteurs :
 
 ---
 
-*Pour toute question technique, consultez la [documentation technique](developpement/architecture-technique.md) ou contactez l'équipe support.*
+*Pour toute question technique, consultez la [documentation technique](developer/architecture-technique.md) ou contactez l'équipe support.*

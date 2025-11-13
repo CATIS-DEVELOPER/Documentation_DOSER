@@ -6,19 +6,34 @@
 
 ---
 
-## 📋 Ce que vous allez apprendre
+## Pré-requis
 
-À la fin de ce guide, vous saurez :
+- Lire les [principes communs](principes-communs.md) pour la configuration matérielle, les règles de sécurité et la synchronisation.  
+- Disposer d’un compte DOSER avec le rôle **Agent Validateur** et accès au module de contrôle qualité.  
+- Navigateur moderne (Chrome/Firefox/Edge) et poste connecté au réseau sécurisé (VPN si requis).  
+- Accès aux référentiels de contrôle (checklists qualité, barèmes, instructions) et aux contacts des agents constatateurs.  
+- Connaître la procédure d’escalade en cas d’incohérence majeure ou de suspicion de fraude.
 
-✅ Accéder à l'interface web de validation  
-✅ Consulter les déclarations en attente (statut READY)  
-✅ Examiner et analyser un constat d'accident  
-✅ Valider ou rejeter une déclaration avec justification  
-✅ Suivre les indicateurs de qualité  
+## Checklist de démarrage
 
----
+### Objectifs du guide
 
-## 🎯 Votre Rôle en Tant qu'Agent Validateur
+- Accéder à l’interface de validation.  
+- Examiner, comparer et valider/rejeter les constats.  
+- Suivre les indicateurs de qualité et les retours.  
+- Communiquer efficacement avec les agents de terrain.
+
+### Avant de commencer
+
+- [ ] Vérifier la file de constats en attente et les priorités (gravité, ancienneté).  
+- [ ] Préparer les référentiels (codifications, procédures d’audit).  
+- [ ] Disposer des moyens de communication avec les agents constatateurs (chat, téléphone).  
+- [ ] Confirmer que les rapports d’incident et pièces jointes sont accessibles.  
+- [ ] Prévoir un temps dédié sans interruption pour l’analyse de dossier.
+
+## Procédure standard
+
+### 🎯 Votre rôle en tant qu'agent validateur
 
 En tant qu'agent validateur, vous êtes le **garant de la qualité** des déclarations d'accidents. Votre mission :
 
@@ -30,7 +45,7 @@ En tant qu'agent validateur, vous êtes le **garant de la qualité** des déclar
 
 ---
 
-## 💻 Accès à la Plateforme de Validation
+### 💻 Accès à la plateforme de validation
 
 ### Configuration PC Requise
 
@@ -55,7 +70,7 @@ En tant qu'agent validateur, vous êtes le **garant de la qualité** des déclar
 
 ---
 
-## 📊 Interface de Validation
+### 📊 Interface de validation
 
 ### Tableau de Bord Principal
 
@@ -74,7 +89,7 @@ Après connexion, vous accédez au **tableau de bord de validation** qui affiche
 
 ---
 
-## 🎬 Workflow Complet avec Captures d'Écran
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -413,7 +428,7 @@ graph TD
 
 ---
 
-## 🔍 Processus de Validation en 5 Étapes
+### 🔍 Processus de validation en 5 étapes
 
 ### Étape 1 : Sélectionner une Déclaration à Valider
 
@@ -544,7 +559,7 @@ Après validation ou rejet :
 
 ---
 
-## 📈 Indicateurs de Performance
+### 📈 Indicateurs de performance
 
 Le système suit automatiquement vos performances :
 
@@ -558,7 +573,7 @@ Le système suit automatiquement vos performances :
 
 ---
 
-## ⚖️ Vos Droits et Limites
+### ⚖️ Vos droits et limites
 
 ### ✅ Ce que vous POUVEZ faire :
 
@@ -576,7 +591,7 @@ Le système suit automatiquement vos performances :
 
 ---
 
-## ⏱️ Temps de Traitement Recommandés
+### ⏱️ Temps de traitement recommandés
 
 | Type d'Accident | Temps Recommandé | Priorité |
 |-----------------|------------------|----------|
@@ -590,7 +605,7 @@ Le système suit automatiquement vos performances :
 
 ---
 
-## 🚨 Cas Particuliers
+### 🚨 Cas particuliers
 
 ### Accidents avec Blessés Graves ou Décès
 
@@ -627,7 +642,7 @@ Le système suit automatiquement vos performances :
 
 ---
 
-## ⚠️ Problèmes Fréquents et Solutions
+### ⚠️ Problèmes fréquents et solutions
 
 ### Je ne vois aucune déclaration à valider
 
@@ -654,7 +669,7 @@ Le système suit automatiquement vos performances :
 
 ---
 
-## 📚 Pour Aller Plus Loin
+## Aller plus loin
 
 ### Manuel Complet
 
@@ -663,13 +678,13 @@ Pour une documentation exhaustive de toutes les fonctionnalités :
 
 ### Ressources Complémentaires
 
-- 📖 [Grille d'évaluation standardisée](../../manuel/agents-validation.md#grille-dévaluation-standardisée)
-- 📖 [Procédures spécialisées](../../manuel/agents-validation.md#procédures-spécialisées)
+- 📖 [Grille d'évaluation standardisée](../../manuel/agents-validation.md#grille-devaluation-standardisee)
+- 📖 [Procédures spécialisées](../../manuel/agents-validation.md#procedures-specialisees)
 - 📖 [Gestion des cas sensibles](../../manuel/agents-validation.md#gestion-des-cas-sensibles)
 
 ---
 
-## 🆘 Besoin d'Aide ?
+## Support & ressources
 
 ### Support Technique
 - **📧 Email** : support@doser.cm
@@ -683,37 +698,8 @@ Pour une documentation exhaustive de toutes les fonctionnalités :
 
 ---
 
-## ✅ Checklist de Validation
-
-Avant de valider une déclaration, assurez-vous que :
-
-### Vérifications Obligatoires
-- [ ] Tous les champs obligatoires sont complétés
-- [ ] Photos présentes et exploitables (minimum 4 par véhicule)
-- [ ] Cohérence temporelle et spatiale vérifiée
-- [ ] Documents légaux lisibles et valides
-- [ ] Croquis clair et compréhensible
-- [ ] Procès-verbal complet et détaillé
-
-### Points de Vigilance
-- [ ] Correspondance photos/descriptions
-- [ ] Témoignages concordants
-- [ ] Absence de contradictions flagrantes
-- [ ] Respect des procédures métier
-- [ ] Données GPS cohérentes avec le lieu
-
-### Décision Finale
-- [ ] Décision prise : **ACCEPTER** ✅ ou **REJETER** ❌
-- [ ] Commentaire ajouté (obligatoire si rejet)
-- [ ] Signature apposée
-- [ ] Validation confirmée
-
----
-
-**Félicitations ! 🎉**  
-Vous êtes maintenant prêt à valider les déclarations d'accidents dans DOSER !
-
-**Prochaine étape** : Consultez le [Manuel Complet](../../manuel/agents-validation.md) pour découvrir toutes les fonctionnalités avancées.
+🎉 **Félicitations !**  
+Vous êtes maintenant prêt à valider les déclarations d'accidents dans DOSER. Appuyez-vous sur la [checklist de démarrage](#checklist-de-demarrage) avant chaque session pour garantir la qualité.
 
 ---
 

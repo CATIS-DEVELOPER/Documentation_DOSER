@@ -1,6 +1,6 @@
 # Guide des Forces de l'Ordre
 
-## 👮 Rôle et Responsabilités
+## Vue d'ensemble
 
 Les Forces de l'Ordre (Police et Gendarmerie) jouent un rôle central dans le système DOSER en tant qu'acteurs principaux de la collecte de données sur le terrain et de la coordination des interventions d'urgence.
 
@@ -19,7 +19,7 @@ Les Forces de l'Ordre (Police et Gendarmerie) jouent un rôle central dans le sy
 - **Recueil** des dépositions
 - **Vérification** des documents et titres
 
-## 🎯 Missions Principales
+### Missions principales
 
 - **Intervention** sur les lieux d'accidents
 - **Collecte** de données standardisées via DOSER DATA CAPTURE
@@ -27,7 +27,9 @@ Les Forces de l'Ordre (Police et Gendarmerie) jouent un rôle central dans le sy
 - **Validation** et transmission des informations
 - **Suivi** des procédures judiciaires
 
-## 📋 Description des Processus et États
+## Parcours utilisateur
+
+### Description des processus et états
 
 ### Processus de Déclaration d'Accident
 
@@ -68,7 +70,9 @@ stateDiagram-v2
     ACCEPTED --> [*] : Accident enregistré avec succès
 ```
 
-## 📱 Utilisation de DOSER DATA CAPTURE
+## Procédures détaillées
+
+### Utilisation de DOSER DATA CAPTURE
 
 ### Cas d'Usage Spécifiques
 
@@ -140,7 +144,7 @@ Au cœur de la collecte de données se trouve l'application mobile, un outil ess
 - **Synchronisation** automatique du croquis avec les données GPS
 - **Export** du croquis numérique pour les rapports et analyses
 
-## 🔧 Fonctionnalités Spécialisées
+### Fonctionnalités spécialisées
 
 ### Interface Police/Gendarmerie
 - **Formulaires** adaptés aux procédures judiciaires
@@ -174,7 +178,7 @@ Au cœur de la collecte de données se trouve l'application mobile, un outil ess
 - **Transmission** aux services techniques
 - **Suivi** des interventions
 
-## 🏥 Procédures Légales et Médicales
+### Procédures légales et médicales
 
 ### Dépistage et Tests
 - **Dépistage d'alcoolémie sur place** : Utilisation d'éthylomètres portables pour les conducteurs
@@ -202,7 +206,7 @@ Au cœur de la collecte de données se trouve l'application mobile, un outil ess
 
 ---
 
-## 💻 Utilisation de l'Interface Web DOSER
+### Utilisation de l'interface web DOSER
 
 ### Vue d'Ensemble
 
@@ -753,7 +757,7 @@ Le **Module VAAR (Vigilance et Alerte sur les Accidents de la Route)** surveille
 
 ---
 
-## 📊 Workflow Opérationnel
+### Workflow opérationnel
 
 ### Phase 1 : Arrivée sur les Lieux
 1. **Sécurisation** de la zone d'accident
@@ -787,7 +791,7 @@ Le **Module VAAR (Vigilance et Alerte sur les Accidents de la Route)** surveille
 5. **Obtention des certificats médicaux** : Coordination avec les hôpitaux
 6. **Association patients-victimes** : Liaison des dossiers médicaux et d'accident
 
-## 🚨 Cas Particuliers
+### Cas particuliers
 
 ### Accidents avec Blessés Graves
 - **Priorité** absolue aux soins médicaux
@@ -819,7 +823,9 @@ Le **Module VAAR (Vigilance et Alerte sur les Accidents de la Route)** surveille
 - **Enregistrement des plaintes** : Collecte des déclarations de toutes les victimes
 - **Certificats médicaux multiples** : Coordination avec plusieurs hôpitaux
 
-## 📈 Indicateurs de Performance
+## Rapports & indicateurs
+
+### Indicateurs de performance
 
 ### Métriques Opérationnelles
 - **Temps** de réponse moyen
@@ -833,7 +839,9 @@ Le **Module VAAR (Vigilance et Alerte sur les Accidents de la Route)** surveille
 - **Qualité** des photos et croquis
 - **Satisfaction** des partenaires
 
-## 🔒 Sécurité et Confidentialité
+## FAQ & assistance
+
+### Sécurité et confidentialité
 
 ### Protection des Données
 - **Chiffrement** des informations sensibles
@@ -847,7 +855,7 @@ Le **Module VAAR (Vigilance et Alerte sur les Accidents de la Route)** surveille
 - **Révocation** en cas de problème
 - **Formation** continue
 
-## 📞 Support et Formation
+### Support et formation
 
 ### Ressources Disponibles
 - **Formation** initiale et continue

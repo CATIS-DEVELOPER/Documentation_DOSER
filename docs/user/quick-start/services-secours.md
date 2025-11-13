@@ -4,18 +4,34 @@
 
 ---
 
-## 🎯 Ce que vous allez apprendre
+## Pré-requis
 
-✅ Se connecter au portail DOSER Services de Secours  
-✅ Déployer les équipes de secours efficacement  
-✅ Évaluer et soigner les victimes sur place  
-✅ Coordonner avec les hôpitaux  
-✅ Documenter les interventions complètement  
-✅ Analyser les données pour la prévention  
+- Lire les [principes communs](principes-communs.md) pour la configuration du matériel mobile, la sécurité et la synchronisation.  
+- Disposer d’un compte **Services de secours** (SAMU, pompiers, etc.) avec accès à l’application mobile et au portail web DOSER.  
+- Équipement opérationnel : smartphone/tablette durcis, GPS activé, batterie externe, kit photos, réseau radio/téléphonie, fiches médicales d’urgence.  
+- Connaître les protocoles nationaux (triage START, P1/P2/P3), les numéros d’escalade, et les plans blancs.  
+- Coordination assurée avec les hôpitaux de référence, forces de l’ordre et centre d’analyse.
 
----
+## Checklist de démarrage
 
-## 🎬 Workflow Complet avec Captures d'Écran
+### Objectifs du guide
+
+- Recevoir une alerte, s’y engager et documenter l’intervention.  
+- Évaluer les victimes, appliquer les soins d’urgence et gérer le transport.  
+- Synchroniser les informations avec les hôpitaux et autres acteurs.  
+- Exploiter les données pour la prévention et le reporting.
+
+### Avant de partir en mission
+
+- [ ] Vérifier l’état du matériel (appareil chargé, connexion, kits médicaux).  
+- [ ] Confirmer la disponibilité de l’équipe (composition, compétences).  
+- [ ] Tester la connexion à l’application et la synchronisation.  
+- [ ] Connaître les hôpitaux de référence et les lits disponibles.  
+- [ ] Réviser les procédures d’intervention rapide et de triage.
+
+## Procédure standard
+
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -229,7 +245,7 @@ graph TD
 
 ---
 
-## 🌐 Étape 1 : Accès au Portail Services de Secours (1 min)
+### 🌐 Étape 1 : Accès au portail services de secours (1 min)
 
 ### Connexion Mobile
 
@@ -249,7 +265,7 @@ graph TD
 
 ---
 
-## 🚨 Étape 2 : Gérer une Nouvelle Alerte (2 min)
+### 🚨 Étape 2 : Gérer une nouvelle alerte (2 min)
 
 ### Réception d'Alerte
 
@@ -269,7 +285,7 @@ graph TD
 
 ---
 
-## 📍 Étape 3 : Navigation et Arrivée (3 min)
+### 📍 Étape 3 : Navigation et arrivée (3 min)
 
 ### Navigation GPS
 
@@ -287,7 +303,7 @@ graph TD
 
 ---
 
-## 👥 Étape 4 : Évaluer les Victimes (3 min)
+### 👥 Étape 4 : Évaluer les victimes (3 min)
 
 ### Classification des Victimes
 
@@ -316,7 +332,7 @@ graph TD
 
 ---
 
-## ⚕️ Étape 5 : Prodiger les Soins (5 min)
+### ⚕️ Étape 5 : Prodiger les soins (5 min)
 
 ### Soins d'Urgence P1
 
@@ -345,7 +361,7 @@ graph TD
 
 ---
 
-## 🚑 Étape 6 : Transport vers Hôpital (2 min)
+### 🚑 Étape 6 : Transport vers l'hôpital (2 min)
 
 ### Préparation du Transport
 
@@ -370,7 +386,7 @@ graph TD
 
 ---
 
-## 📊 Étape 7 : Finaliser l'Intervention (2 min)
+### 📊 Étape 7 : Finaliser l'intervention (2 min)
 
 ### Rapport d'Intervention
 
@@ -389,7 +405,7 @@ graph TD
 
 ---
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### 🚨 Cas particuliers et procédures spécialisées
 
 ### Victimes Multiples (Plan Blanc)
 
@@ -436,7 +452,7 @@ graph TD
 
 ---
 
-## 📞 Support et Formation
+## Support & ressources
 
 ### Ressources Disponibles
 
@@ -479,46 +495,8 @@ graph TD
 
 ---
 
-## ✅ Checklist de Démarrage
-
-### Avant la Première Intervention
-
-- [ ] **Application** installée et configurée
-- [ ] **Identifiants** de connexion obtenus
-- [ ] **GPS** activé et fonctionnel
-- [ ] **Équipement** médical vérifié
-- [ ] **Communication** testée
-- [ ] **Formation** de base suivie
-
-### Après Chaque Intervention
-
-- [ ] **Victimes** correctement évaluées
-- [ ] **Soins** documentés
-- [ ] **Transport** effectué
-- [ ] **Rapport** complété
-- [ ] **Données** synchronisées
-- [ ] **Équipement** nettoyé
-
----
-
-## 🆘 Besoin d'Aide ?
-
-### Support Immédiat
-
-- **📞 Hotline** : +237 XXX XXX XXX (24/7)
-- **📧 Email** : secours@ditros.org
-- **💬 Chat** : Support en direct dans l'app
-- **❓ FAQ** : [Questions fréquentes](../faq/index.md)
-
-### Formation et Ressources
-
-- **📖 Manuel complet** : [Services de Secours](../../manuel/services-secours.md)
-- **👨‍🏫 Formation** : [Sessions de formation](../formation/index.md)
-- **📚 Documentation** : [Base de connaissances](../index.md)
-
----
-
-**Prêt à sauver des vies avec DOSER ?** 🚑✨
+🎉 **Prêt à sauver des vies avec DOSER ?** 🚑✨  
+Pensez à relire la [checklist de démarrage](#checklist-de-demarrage) avant chaque intervention pour garantir votre préparation.
 
 ---
 

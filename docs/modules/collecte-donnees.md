@@ -12,6 +12,26 @@ L'**application mobile DOSER DATA CAPTURE** est un outil essentiel au cœur du s
 - **Permettre** le travail hors-ligne avec synchronisation intelligente
 - **Adapter** l'interface aux besoins spécifiques de chaque type d'utilisateur
 
+## 🧭 Position dans l’écosystème DOSER
+
+```mermaid
+flowchart LR
+    VAAR[VAAR] -.-> Collecte
+    ALLOVOIE[ALLOVOIE] --> Collecte
+    Collecte --> Validation[Validation multi-niveaux]
+    Validation --> Analyse[Analyse & Reporting]
+    Collecte --> ID[Identifiant unique d'accident]
+    ID --> Hopitaux[Interfaces hospitalières]
+    ID --> Assureurs[Portails assurances]
+```
+
+- **Point d’entrée** du pilier post-accident : chaque constat génère un identifiant unique partagé avec les hôpitaux, assureurs et centres d’analyse.
+- **Alimentation** des alertes VAAR/ALLOVOIE : les signaux détectés basculent automatiquement dans un flux de collecte structuré.
+- **Base analytique** : la qualité de la saisie conditionne la pertinence des validations, rapports et cartes produits ensuite.
+
+!!! info "Capitaliser sur la donnée dès le terrain"
+    Une collecte complète réduit les retours correctifs, accélère la validation et fiabilise les indicateurs de performance.
+
 ## 📱 Application Mobile DOSER DATA CAPTURE
 
 ### Résumé des Fonctionnalités Clés
@@ -286,5 +306,4 @@ En intégrant ces fonctionnalités, l'application DOSER DATA CAPTURE assure une 
 
 ---
 
-*Pour plus d'informations sur l'installation et la configuration, consultez le [guide d'installation](deployment/guide-installation.md).*
-*Pour découvrir les autres modules du système DOSER, consultez l'[index des modules](index.md).*
+*Pour la mise en œuvre, voir le [guide d’installation](../implementation/installation.md). Pour la vision globale, parcourez le [pilier Intervention post-accident](piliers/post-accident.md) et l’[index des modules](index.md).*

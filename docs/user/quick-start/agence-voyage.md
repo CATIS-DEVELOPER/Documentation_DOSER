@@ -6,19 +6,34 @@
 
 ---
 
-## 📋 Ce que vous allez apprendre
+## Pré-requis
 
-À la fin de ce guide, vous saurez :
+- Lire les [principes communs](principes-communs.md) pour la configuration matérielle, la sécurité et la synchronisation des données.  
+- Disposer d’un compte **Agence de voyage/transport** avec accès aux modules flotte, chauffeurs, passagers, sinistres et reporting.  
+- Mettre à jour la flotte (véhicules, contrats d’assurance), le planning des trajets et la liste des chauffeurs habilités.  
+- Préparer les informations clients (manifestes passagers, bagages, contacts d’urgence) et les procédures d’escalade.  
+- Connaitre les canaux de coordination avec les assurances, autorités et centres de secours.
 
-✅ Déclarer un accident impliquant vos véhicules/passagers  
-✅ Consulter les statistiques de sécurité de vos trajets  
-✅ Gérer les déclarations pour vos clients  
-✅ Suivre les sinistres et coordonner avec les assurances  
-✅ Accéder aux rapports de sécurité routière  
+## Checklist de démarrage
 
----
+### Objectifs du guide
 
-## 🎬 Workflow Complet avec Captures d'Écran
+- Déclarer un accident et suivre son traitement.  
+- Gérer la flotte, les chauffeurs, les passagers et les bagages.  
+- Produire statistiques et rapports de sécurité.  
+- Coordonner les sinistres avec assurances et autorités.
+
+### Avant de commencer
+
+- [ ] Vérifier que la flotte et les chauffeurs sont synchronisés avec DOSER.  
+- [ ] S’assurer que les trajets et manifests sont à jour.  
+- [ ] Préparer les numéros d’urgence, polices d’assurance et procédures internes.  
+- [ ] Contrôler l’accès à l’application mobile (pour les équipes terrain) et au portail web.  
+- [ ] Planifier un créneau pour analyser les alertes et rapports.
+
+## Procédure standard
+
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -303,7 +318,7 @@ graph TD
 
 ---
 
-## 🌐 Étape 1 : Accès au Portail Agences (2 min)
+### 🌐 Étape 1 : Accès au portail agences (2 min)
 
 ### Connexion
 
@@ -326,7 +341,7 @@ Lors de la première connexion :
 
 ---
 
-## 🚌 Étape 2 : Enregistrer Vos Véhicules (3 min)
+### 🚌 Étape 2 : Enregistrer vos véhicules (3 min)
 
 ### Ajouter un Véhicule
 
@@ -362,7 +377,7 @@ Le tableau de bord affiche :
 
 ---
 
-## 🚨 Étape 3 : Déclarer un Accident (4 min)
+### 🚨 Étape 3 : Déclarer un accident (4 min)
 
 ### 3.1 Nouvelle Déclaration
 
@@ -428,7 +443,7 @@ Le tableau de bord affiche :
 
 ---
 
-## 📊 Étape 4 : Consulter les Statistiques (1 min)
+### 📊 Étape 4 : Consulter les statistiques (1 min)
 
 ### Tableau de Bord Sécurité
 
@@ -465,7 +480,7 @@ Le portail vous fournit :
 
 ---
 
-## 🔍 Suivi et Coordination
+### 🔍 Suivi et coordination
 
 ### Suivre un Sinistre
 
@@ -495,7 +510,7 @@ Pour les accidents graves :
 
 ---
 
-## 📋 Cas d'Usage Détaillés
+### 📋 Cas d'usage détaillés
 
 ### 1. Gestion de Flotte - Enregistrement Véhicule
 
@@ -950,7 +965,7 @@ Pour les accidents graves :
 
 ---
 
-## 🚨 Procédures Spécialisées
+### 🚨 Procédures spécialisées
 
 ### Transport International
 
@@ -1014,7 +1029,7 @@ Pour les accidents graves :
 
 ---
 
-## 📈 Utiliser les Données pour Améliorer la Sécurité
+### 📈 Utiliser les données pour améliorer la sécurité
 
 ### Analyse des Tendances
 
@@ -1043,7 +1058,7 @@ DOSER peut générer :
 
 ---
 
-## ⚠️ Obligations Légales
+### ⚠️ Obligations légales
 
 ### Déclaration Obligatoire
 
@@ -1068,7 +1083,7 @@ Vous DEVEZ déclarer :
 
 ---
 
-## ⚠️ Problèmes Fréquents
+### ⚠️ Problèmes fréquents
 
 ### Mon véhicule n'apparaît pas dans la liste
 
@@ -1096,7 +1111,7 @@ Vous DEVEZ déclarer :
 
 ---
 
-## 📚 Pour Aller Plus Loin
+## Aller plus loin
 
 ### Manuel Complet
 
@@ -1110,7 +1125,7 @@ Vous DEVEZ déclarer :
 
 ---
 
-## 🆘 Besoin d'Aide ?
+## Support & ressources
 
 ### Support Agences
 - **📧 Email** : agences@doser.ditros.org
@@ -1124,19 +1139,8 @@ Vous DEVEZ déclarer :
 
 ---
 
-## ✅ Checklist
-
-- [ ] J'ai accédé au portail agences
-- [ ] J'ai enregistré mes véhicules
-- [ ] Je sais déclarer un accident
-- [ ] Je connais mes obligations légales
-- [ ] Je sais suivre mes sinistres
-- [ ] Je consulte régulièrement mes statistiques
-
----
-
-**Félicitations ! 🎉**  
-Vous savez maintenant utiliser DOSER pour gérer la sécurité de votre flotte !
+🎉 **Félicitations !**  
+Vous savez maintenant utiliser DOSER pour gérer la sécurité de votre flotte. Référez-vous à la [checklist de démarrage](#checklist-de-demarrage) pour contrôler vos préparatifs avant chaque départ.
 
 ---
 

@@ -1,10 +1,10 @@
 # Guide des Services de Santé
 
-## 🏥 Rôle et Responsabilités
+## Vue d'ensemble
 
 Les Services de Santé (Hôpitaux, Services de Secours, SAMU) sont des acteurs essentiels du système DOSER, responsables de la prise en charge médicale des victimes d'accidents et de la collecte de données sanitaires cruciales.
 
-## 🎯 Missions Principales
+### Missions principales
 
 Les Services de Santé (établissements sanitaires) sont des acteurs essentiels capables de prendre en charge des personnes accidentées avec les responsabilités suivantes :
 
@@ -25,7 +25,9 @@ Les Services de Santé (établissements sanitaires) sont des acteurs essentiels 
 - **Réponse** aux traumatismes
 - **Délai d'action** sur un blessé pour l'administration d'un traitement médical après accident
 
-## 📱 Utilisation de DOSER DATA CAPTURE
+## Parcours utilisateur
+
+### Utilisation de DOSER DATA CAPTURE
 
 ### Interface Spécialisée Santé
 
@@ -37,7 +39,7 @@ L'application DOSER DATA CAPTURE propose une interface adaptée aux besoins spé
 - **Mode hors ligne** pour garantir la continuité des soins
 - **Synchronisation** automatique dès que la connexion est rétablie
 
-## 📋 Cas d'Utilisation Détaillés
+### Cas d'utilisation détaillés
 
 ### 1. Accueillir et Déclarer les Victimes d'Accident
 
@@ -305,7 +307,9 @@ L'application DOSER DATA CAPTURE propose une interface adaptée aux besoins spé
 - **Identification** des points d'amélioration
 - **Recommandations** pour l'optimisation des soins
 
-## 💻 Utilisation de l'Interface Web DOSER
+## Procédures détaillées
+
+### Utilisation de l'interface web DOSER
 
 ### Accès au Portail Web
 
@@ -518,7 +522,7 @@ Pour les services de santé qui préfèrent utiliser un ordinateur ou pour la ge
 - **CLOSED** : Dossier fermé, traitements terminés
 - **TRANSFERRED** : Patient transféré vers un autre établissement
 
-## 📊 Workflow Opérationnel
+### Workflow opérationnel
 
 ### Phase 1 : Arrivée des Victimes
 1. **Accueil** et triage des victimes
@@ -538,7 +542,7 @@ Pour les services de santé qui préfèrent utiliser un ordinateur ou pour la ge
 3. **Transmission** des données aux services compétents
 4. **Archivage** des dossiers médicaux
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### Cas particuliers et procédures spécialisées
 
 ### Victimes Graves (P1 - Urgence Vitale)
 
@@ -680,7 +684,9 @@ Le système DOSER intègre la classification internationale des maladies (CIM-10
 - **Gestion** des complications
 - **Suivi** à long terme
 
-## 📈 Indicateurs de Performance
+## Rapports & indicateurs
+
+### Indicateurs de performance
 
 ### Métriques Médicales
 - **Temps** de prise en charge moyen
@@ -694,7 +700,9 @@ Le système DOSER intègre la classification internationale des maladies (CIM-10
 - **Rapidité** de transmission des informations
 - **Coordination** avec les autres services
 
-## 🔒 Confidentialité et Éthique
+## FAQ & assistance
+
+### Confidentialité et éthique
 
 ### Secret Médical
 - **Protection** des informations personnelles
@@ -708,7 +716,7 @@ Le système DOSER intègre la classification internationale des maladies (CIM-10
 - **Archivage** sécurisé
 - **Suppression** selon les délais légaux
 
-## 📞 Support et Formation
+### Support et formation
 
 ### Ressources Disponibles
 - **Formation** médicale spécialisée sur DOSER
@@ -748,8 +756,6 @@ Le système DOSER intègre la classification internationale des maladies (CIM-10
 ### Documentation Complémentaire
 - **Guide rapide** : [Guide de démarrage rapide](../user/quick-start/services-sante.md)
 - **Tutoriels** : [Tutoriels spécialisés](../user/tutoriels/index.md)
-- **FAQ** : [Questions fréquentes](../faq/services-sante.md)
-- **Vidéos** : [Formation vidéo](../formation/videos-sante.md)
 
 ### Communauté et Échanges
 - **Forum** des professionnels de santé
@@ -760,4 +766,4 @@ Le système DOSER intègre la classification internationale des maladies (CIM-10
 
 ---
 
-*Pour plus d'informations sur les procédures techniques, consultez le [guide de l'application mobile](modules/collecte-donnees.md).*
+*Pour plus d'informations sur les procédures techniques, consultez le [guide de l'application mobile](../modules/collecte-donnees.md).*

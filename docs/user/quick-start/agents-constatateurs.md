@@ -6,20 +6,33 @@
 
 ---
 
-## 📋 Ce que vous allez apprendre
+## Pré-requis
 
-À la fin de ce guide, vous saurez :
+- Lire les [principes communs](principes-communs.md) pour vérifier les prérequis matériels, la connexion et les règles de sécurité.  
+- Disposer d’un smartphone/tablette Android ou iOS avec l’application **DOSER DATA CAPTURE** installée (version ≥ 2.0).  
+- Avoir vos identifiants DOSER, le QR code d’initialisation et l’autorisation d’accéder aux modules Police/Gendarmerie.  
+- Activer les permissions **GPS**, **caméra**, **micro**, **stockage** et prévoir un mode de connexion (4G/5G ou WiFi).  
+- Se munir des équipements terrain habituels (gilet, carnet de notes, rubalise, appareils de mesure, etc.).
 
-✅ Installer et configurer l'application mobile DOSER DATA CAPTURE  
-✅ Créer votre premier constat d'accident  
-✅ Géolocaliser un accident avec précision  
-✅ Prendre des photos et documenter la scène  
-✅ Travailler en mode hors ligne  
-✅ Synchroniser vos données avec le serveur  
+## Checklist de démarrage
 
----
+### Objectifs du guide
 
-## 🎬 Workflow Complet avec Captures d'Écran
+- Installer et configurer l’application mobile.  
+- Créer et envoyer un constat complet avec géolocalisation, pièces jointes et validation.  
+- Maîtriser le travail hors ligne et la synchronisation différée.
+
+### Avant de partir en intervention
+
+- [ ] Application installée et mise à jour.  
+- [ ] QR code scanné, identifiants testés, code PIN créé.  
+- [ ] GPS activé, stockage libre suffisant pour photos/vidéos.  
+- [ ] Constat de test réalisé puis synchronisé (pour valider la chaîne complète).  
+- [ ] Numéros d’urgence et contacts support enregistrés.
+
+## Procédure standard
+
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -246,7 +259,7 @@ graph TD
 
 ---
 
-## 📱 Étape 1 : Installation de l'Application (2 min)
+### 📱 Étape 1 : Installation de l'application (2 min)
 
 ### Sur Android
 
@@ -268,7 +281,7 @@ graph TD
 
 ---
 
-## 🔐 Étape 2 : Première Connexion (3 min)
+### 🔐 Étape 2 : Première connexion (3 min)
 
 ### Connexion par QR Code
 
@@ -293,7 +306,7 @@ Après la première connexion :
 
 ---
 
-## 📝 Étape 3 : Créer Votre Premier Constat (5 min)
+### 📝 Étape 3 : Créer votre premier constat (5 min)
 
 ### 3.1 Démarrer un Nouveau Constat
 
@@ -344,7 +357,7 @@ Après la première connexion :
 
 ---
 
-## 📸 Étape 4 : Documenter la Scène (3 min)
+### 📸 Étape 4 : Documenter la scène (3 min)
 
 ### Prendre des Photos
 
@@ -376,7 +389,7 @@ Après la première connexion :
 
 ---
 
-## 🔄 Étape 5 : Travailler Hors Ligne (2 min)
+### 🔄 Étape 5 : Travailler hors ligne (2 min)
 
 ### Mode Hors Ligne Automatique
 
@@ -410,7 +423,7 @@ Si vous voulez synchroniser immédiatement :
 
 ---
 
-## ✅ Étape 6 : Finaliser et Envoyer (1 min)
+### ✅ Étape 6 : Finaliser et envoyer (1 min)
 
 ### Vérification Finale
 
@@ -439,7 +452,7 @@ Si vous voulez synchroniser immédiatement :
 
 ---
 
-## 🎯 Workflows Spécialisés par Type d'Accident
+### 🎯 Workflows spécialisés par type d'accident
 
 ### 🚗 Accident Simple (2 véhicules, pas de blessés)
 
@@ -690,7 +703,7 @@ Si vous voulez synchroniser immédiatement :
    └── Envoi immédiat
 ```
 
-## 📋 Procédures Complémentaires
+### 📋 Procédures complémentaires
 
 ### 🔍 Collecte et Analyse des Indices
 - **Traces de freinage** : Mesurer et photographier
@@ -717,7 +730,7 @@ Si vous voulez synchroniser immédiatement :
 - **Certificats** : Collecter les certificats médicaux
 - **Famille** : Informer les proches des victimes
 
-## 🎯 Cas d'Usage Rapides
+### 🎯 Cas d'usage rapides
 
 ### Accident Simple (2 véhicules, pas de blessés)
 
@@ -755,7 +768,7 @@ Si vous voulez synchroniser immédiatement :
 
 ---
 
-## 💻 Utilisation de l'Interface Web DOSER
+### 💻 Utilisation de l'interface web DOSER
 
 ### Accès à la Plateforme Web
 
@@ -966,7 +979,7 @@ Vous pouvez modifier :
 
 ---
 
-## ⚠️ Problèmes Fréquents et Solutions
+### ⚠️ Problèmes fréquents et solutions
 
 ### Le GPS ne fonctionne pas
 
@@ -1000,7 +1013,7 @@ Vous pouvez modifier :
 
 ---
 
-## 📚 Pour Aller Plus Loin
+## Aller plus loin
 
 ### Manuel Complet
 
@@ -1014,7 +1027,7 @@ Pour une documentation exhaustive de toutes les fonctionnalités :
 
 ---
 
-## 🆘 Besoin d'Aide ?
+## Support & ressources
 
 ### Support Technique
 - **📧 Email** : support@ditros.org
@@ -1028,24 +1041,10 @@ Pour une documentation exhaustive de toutes les fonctionnalités :
 
 ---
 
-## ✅ Checklist de Démarrage
-
-Avant de quitter ce guide, assurez-vous d'avoir :
-
-- [ ] Installé l'application DOSER DATA CAPTURE
-- [ ] Connecté avec vos identifiants
-- [ ] Créé un code PIN de sécurité
-- [ ] Créé votre premier constat de test
-- [ ] Pris des photos de test
-- [ ] Compris le mode hors ligne
-- [ ] Synchronisé avec succès
-
----
-
 **Félicitations ! 🎉**  
-Vous êtes maintenant prêt à utiliser DOSER DATA CAPTURE sur le terrain !
+Vous êtes maintenant prêt à utiliser DOSER DATA CAPTURE sur le terrain. La [checklist de démarrage](#checklist-de-demarrage) vous permet de valider que tout est prêt avant chaque mission.
 
-**Prochaine étape** : Consultez le [Manuel Complet](../../manuel/agents-constatateurs.md) pour découvrir toutes les fonctionnalités avancées.
+**Prochaine étape** : Consultez le [Manuel complet](../../manuel/agents-constatateurs.md) pour découvrir toutes les fonctionnalités avancées.
 
 ---
 

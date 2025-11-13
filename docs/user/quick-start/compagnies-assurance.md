@@ -6,20 +6,34 @@
 
 ---
 
-## 📋 Ce que vous allez apprendre
+## Pré-requis
 
-À la fin de ce guide, vous saurez :
+- Lire les [principes communs](principes-communs.md) pour vérifier les prérequis matériels, sécurité et synchronisation.  
+- Disposer d’un compte **Assurance** avec accès aux modules contrats, sinistres et reporting (droits validés par l’administrateur).  
+- Avoir les référentiels d’entreprise à jour : contrats, véhicules, assurés, barèmes d’indemnisation, procédures internes de validation.  
+- Navigateur à jour (Chrome/Firefox/Edge), connexion sécurisée (VPN/HTTPS) et accès aux justificatifs nécessaires (scanners, signature).  
+- Connaître les SLA et circuits de validation avec les autres acteurs (forces de l’ordre, hôpitaux, assurés).
 
-✅ Accéder au portail DOSER pour les assurances  
-✅ Enregistrer et gérer les déclarations de sinistres  
-✅ Évaluer les dommages matériels et corporels  
-✅ Calculer et verser les indemnités  
-✅ Coordonner avec les autres acteurs  
-✅ Générer des rapports et statistiques  
+## Checklist de démarrage
 
----
+### Objectifs du guide
 
-## 🎬 Workflow Complet avec Captures d'Écran
+- Se connecter au portail assurance DOSER.  
+- Déclarer, instruire et clôturer un sinistre.  
+- Évaluer les dommages et calculer l’indemnité.  
+- Partager les informations avec les partenaires et produire des rapports.
+
+### Avant de commencer
+
+- [ ] Vérifier que la liste des contrats et véhicules est synchronisée.  
+- [ ] Préparer les documents (constat, pièces jointes, barèmes) pour le dossier à traiter.  
+- [ ] Identifier le canal de communication avec l’assuré et les partenaires (centre d’analyse, atelier, expert).  
+- [ ] S’assurer que les alertes et notifications (email/SMS) fonctionnent.  
+- [ ] Bloquer un créneau pour l’instruction complète (documentation, validation, paiement).
+
+## Procédure standard
+
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -287,7 +301,7 @@ graph TD
 
 ---
 
-## 🌐 Étape 1 : Accès au Portail (2 min)
+### 🌐 Étape 1 : Accès au portail (2 min)
 
 ### Connexion Web
 
@@ -307,7 +321,7 @@ Lors de votre première connexion :
 
 ---
 
-## 📋 Étape 2 : Déclaration de Sinistre (5 min)
+### 📋 Étape 2 : Déclaration de sinistre (5 min)
 
 ### Création d'un Nouveau Sinistre
 
@@ -334,7 +348,7 @@ Le système vérifie automatiquement :
 
 ---
 
-## 🔍 Étape 3 : Vérification de Police (3 min)
+### 🔍 Étape 3 : Vérification de police (3 min)
 
 ### Contrôles Obligatoires
 
@@ -358,7 +372,7 @@ Le système vérifie automatiquement :
 
 ---
 
-## 📊 Étape 4 : Évaluation des Dommages (8 min)
+### 📊 Étape 4 : Évaluation des dommages (8 min)
 
 ### Dommages Matériels
 
@@ -390,7 +404,7 @@ Le système vérifie automatiquement :
 
 ---
 
-## 💰 Étape 5 : Calcul des Indemnités (4 min)
+### 💰 Étape 5 : Calcul des indemnités (4 min)
 
 ### Calcul Automatique
 
@@ -416,7 +430,7 @@ Le système calcule automatiquement :
 
 ---
 
-## 💳 Étape 6 : Versement des Indemnités (3 min)
+### 💳 Étape 6 : Versement des indemnités (3 min)
 
 ### Procédure de Paiement
 
@@ -435,7 +449,7 @@ Le système calcule automatiquement :
 
 ---
 
-## 🚨 Procédures d'Urgence
+### 🚨 Procédures d'urgence
 
 ### Sinistre Grave (P1)
 
@@ -461,7 +475,7 @@ Le système calcule automatiquement :
 
 ---
 
-## 📊 Cas d'Usage Standards
+### 📊 Cas d'usage standards
 
 ### Sinistre Standard (P2)
 
@@ -479,7 +493,7 @@ Le système calcule automatiquement :
 - Indemnisation : **Négociation**
 - Suivi : **Bi-hebdomadaire**
 
-## 🔧 Fonctionnalités Avancées
+### 🔧 Fonctionnalités avancées
 
 ### Gestion des Contrats d'Assurance
 - **Vérification automatique** de la validité des polices
@@ -524,7 +538,7 @@ Le système calcule automatiquement :
 
 ---
 
-## 🎯 Procédures Pratiques Détaillées
+### 🎯 Procédures pratiques détaillées
 
 ### 1. Gestion des Contrats d'Assurance
 
@@ -619,7 +633,7 @@ Le système calcule automatiquement :
 
 ---
 
-## 💻 Interface Web Exclusivement
+### 💻 Interface web exclusivement
 
 ### Pourquoi Interface Web Seulement ?
 
@@ -641,7 +655,7 @@ Ces acteurs collectent les données sur le terrain, puis les compagnies d'assura
 
 ---
 
-## 📚 Pour Aller Plus Loin
+## Aller plus loin
 
 ### Documentation Complète
 - 📖 **[Manuel complet](../../manuel/compagnies-assurance.md)** : Guide détaillé
@@ -649,13 +663,13 @@ Ces acteurs collectent les données sur le terrain, puis les compagnies d'assura
 - 📊 **[Rapports et statistiques](../../manuel/compagnies-assurance.md#outils-danalyse-et-reporting)** : Analyses détaillées
 
 ### Ressources Spécialisées
-- 🔧 **[Outils d'évaluation](../../manuel/compagnies-assurance.md#outils-dévaluation-avancés)** : Calculateurs et barèmes
+- 🔧 **[Outils d'évaluation](../../manuel/compagnies-assurance.md#outils-devaluation-avances)** : Calculateurs et barèmes
 - 📋 **[Templates de sinistres](../../manuel/compagnies-assurance.md#gestion-des-sinistres-web)** : Modèles prêts à l'emploi
-- 🎯 **[Bonnes pratiques](../../manuel/compagnies-assurance.md#cas-particuliers-et-procédures-spécialisées)** : Recommandations
+- 🎯 **[Bonnes pratiques](../../manuel/compagnies-assurance.md#cas-particuliers-et-procedures-specialisees)** : Recommandations
 
 ---
 
-## 🆘 Besoin d'Aide ?
+## Support & ressources
 
 ### Support Technique
 - 📧 **Email** : support-assurance@doser.cm
@@ -671,33 +685,8 @@ Ces acteurs collectent les données sur le terrain, puis les compagnies d'assura
 
 ---
 
-## ✅ Checklist de Démarrage
-
-### Configuration Initiale
-- [ ] Connexion au portail réussie
-- [ ] Profil assurance configuré
-- [ ] Templates de sinistres définis
-- [ ] Seuils d'indemnisation paramétrés
-- [ ] Accès mobile configuré
-
-### Première Utilisation
-- [ ] Premier sinistre enregistré
-- [ ] Vérification de police testée
-- [ ] Évaluation de dommages réalisée
-- [ ] Calcul d'indemnités validé
-- [ ] Versement effectué
-
-### Formation Complète
-- [ ] Workflow web maîtrisé
-- [ ] Application mobile utilisée
-- [ ] Procédures d'urgence connues
-- [ ] Outils d'évaluation maîtrisés
-- [ ] Support contacté si nécessaire
-
----
-
-**Félicitations ! 🎉**  
-Vous êtes maintenant prêt à utiliser DOSER pour gérer efficacement les sinistres d'assurance !
+🎉 **Félicitations !**  
+Vous êtes maintenant prêt à gérer efficacement les sinistres avec DOSER. Référez-vous à la [checklist de démarrage](#checklist-de-demarrage) avant chaque session pour valider vos préparatifs.
 
 ---
 
@@ -707,7 +696,7 @@ Vous êtes maintenant prêt à utiliser DOSER pour gérer efficacement les sinis
 
 ---
 
-## 📸 Note sur les Captures d'Écran
+## Note sur les captures d'écran
 
 Les captures d'écran présentées dans ce guide sont des représentations visuelles de l'interface DOSER. L'interface réelle peut varier légèrement selon les versions et configurations.
 
@@ -721,4 +710,4 @@ Les captures d'écran présentées dans ce guide sont des représentations visue
 Pour toute question sur l'utilisation de DOSER, contactez notre équipe de support :
 - 📧 **Email** : support@doser.cm
 - 📞 **Téléphone** : +237 6XX XX XX XX
-- 🌐 **Site web** : https://doser.cm
+- 🌐 **Site web** : 

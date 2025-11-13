@@ -51,11 +51,22 @@ filter:
       - Développement & Technique
      
 nav:
-  - 🏠 Accueil: index.md
-  
-  - 📚 Guides Rapides:
+  - Accueil: index.md
+
+  - Vision & Stratégie:
+      - vision/index.md
+      - Contexte mondial: vision/contexte-mondial.md
+      - Vision DOSER: vision/vision-doser.md
+      - Écosystème DITROS: vision/ecosysteme-ditros.md
+      - Stratégie de données: vision/strategie-donnees.md
+      - Gouvernance collaborative: vision/gouvernance-collaborative.md
+      - Positionnement marché: vision/positionnement-marche.md
+      - Valeur stratégique: vision/valeur-strategique.md
+
+  - Guides Rapides:
       - user/quick-start/index.md
       - Démarrage Rapide:
+          - Principes communs: user/quick-start/principes-communs.md
           - Agents Constatateurs: user/quick-start/agents-constatateurs.md
           - Services de Santé: user/quick-start/services-sante.md
           - Compagnies d'Assurance: user/quick-start/compagnies-assurance.md
@@ -67,7 +78,7 @@ nav:
           - Centre d'Analyse: user/quick-start/centre-analyse.md
           - Agences de Voyage: user/quick-start/agence-voyage.md
   
-  - 📕 Manuels de Référence:
+  - Manuels de Référence:
       - manuel/index.md
       - Par Rôle:
           - Agents Constatateurs: manuel/agents-constatateurs.md
@@ -85,25 +96,31 @@ nav:
           - Glossaire: manuel/reference/glossaire.md
           - API Reference: manuel/reference/api-reference.md
 
-  - 📊 Modules Fonctionnels:
-      - Accueil: modules/index.md
-      - Collecte de Données: modules/collecte-donnees.md
-      - Validation: modules/validation-constats.md
-      - Analyse & Reporting: modules/analyse-reporting.md
-      - Cartographie: modules/cartographie-accidents.md
-      - Module VAAR: modules/module-vaar.md
-      - Statistiques: modules/statistiques-metriques.md
-  
-  - 🚀 Guides d'Implémentation:
+  - Modules & Écosystème:
+      - Vue d’ensemble: modules/index.md
+      - Routes sûres: modules/piliers/routes-sures.md
+      - Véhicules sûrs: modules/piliers/vehicules-surs.md
+      - Usagers sûrs: modules/piliers/usagers-surs.md
+      - Intervention post-accident:
+          - Vue d’ensemble: modules/piliers/post-accident.md
+          - Collecte de données: modules/collecte-donnees.md
+          - Validation des constats: modules/validation-constats.md
+          - Analyse & Reporting: modules/analyse-reporting.md
+          - Cartographie des accidents: modules/cartographie-accidents.md
+          - Module VAAR: modules/module-vaar.md
+          - Statistiques & métriques: modules/statistiques-metriques.md
+      - Services transverses: modules/services-transverses.md
+
+  - Guides d'Implémentation:
       - Accueil: implementation/index.md
       - Installation: implementation/installation.md
       - Déploiement: implementation/deployment.md
       - Maintenance: implementation/maintenance.md
       - Sauvegarde: implementation/backup-procedures.md
-  
-  - 💻 Documentation Développeur:
+
+  - Documentation Développeur:
       - Accueil: developer/index.md
-      - Architecture: developer/architecture.md
+      - Architecture: developer/architecture-technique.md
       - Spécifications: developer/specifications.md
       - Sécurité: developer/security-plan.md
       - Tests: developer/testing-strategy.md

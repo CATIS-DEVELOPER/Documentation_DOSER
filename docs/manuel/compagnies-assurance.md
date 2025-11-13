@@ -1,14 +1,14 @@
 # 🏢 Manuel des Compagnies d'Assurance
 
-## 🎯 Introduction
+## Vue d'ensemble
 
 Les Compagnies d'Assurance sont des acteurs essentiels du système DOSER, jouant un rôle central dans la gestion des sinistres, l'évaluation des dommages et l'indemnisation des victimes d'accidents de la route. Ce manuel détaille l'utilisation complète de DOSER pour optimiser les processus d'assurance.
 
-## 🏢 Rôle et Responsabilités
+### Rôle et responsabilités
 
 Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsables de la gestion des sinistres, de l'évaluation des dommages et de l'indemnisation des victimes d'accidents de la route.
 
-## 🎯 Missions Principales
+### Missions principales
 
 - **Gestion** des déclarations de sinistres
 - **Évaluation** des dommages matériels et corporels
@@ -16,7 +16,9 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 - **Analyse** des tendances pour l'amélioration des polices
 - **Coordination** avec les autres acteurs du système
 
-## 🔧 Fonctionnalités Clés
+## Parcours utilisateur
+
+### Fonctionnalités clés
 
 ### Gestion Complète des Sinistres
 - **Enregistrement** automatique des déclarations
@@ -36,7 +38,7 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 - **Échange** avec les experts techniques
 - **Suivi** des procédures judiciaires
 
-## 📊 Cas d'Utilisation Détaillés
+### Cas d'utilisation détaillés
 
 ### 1. Enregistrement des Sinistres
 **Description** : Enregistrement et traitement des déclarations de sinistres d'accidents de la route.
@@ -574,7 +576,9 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 - Mise à jour des dossiers
 - Archivage des informations
 
-## 💻 Utilisation de l'Interface Web DOSER
+## Procédures détaillées
+
+### Utilisation de l'interface web DOSER
 
 ### Connexion et Accès
 
@@ -620,7 +624,7 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 - **Intégration comptable** : Liaison avec les systèmes de comptabilité
 - **Reporting avancé** : Génération de rapports détaillés
 
-## 📋 Procédures Détaillées d'Utilisation
+### Procédures détaillées d'utilisation
 
 ### 1. Gestion des Contrats d'Assurance
 
@@ -799,7 +803,7 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 - **Optimisation** des primes
 - **Détection** des fraudes
 
-## 📱 Utilisation de DOSER DATA CAPTURE
+### Utilisation de DOSER DATA CAPTURE
 
 ### Cas d'Usage Spécifiques
 
@@ -827,7 +831,7 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 - **Évaluation** des risques par zone
 - **Ajustement** des polices et tarifs
 
-## 🔧 Fonctionnalités Spécialisées
+### Fonctionnalités spécialisées
 
 ### Interface Assurance
 - **Formulaires** adaptés aux procédures d'assurance
@@ -847,7 +851,7 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 - **Échange** avec les experts techniques
 - **Suivi** des procédures judiciaires
 
-## 📊 Workflow Opérationnel
+### Workflow opérationnel
 
 ### Phase 1 : Déclaration de Sinistre
 1. **Réception** de la déclaration
@@ -867,7 +871,7 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 3. **Versement** des indemnités
 4. **Clôture** du dossier
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### Cas particuliers et procédures spécialisées
 
 ### Sinistres Graves (P1)
 
@@ -1049,7 +1053,9 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 - **Modèles** de contrats
 - **Suivi** des activités
 
-## 📈 Indicateurs de Performance
+## Rapports & indicateurs
+
+### Indicateurs de performance
 
 ### Métriques Financières
 - **Coût** moyen des sinistres
@@ -1063,21 +1069,16 @@ Les Compagnies d'Assurance sont des acteurs clés du système DOSER, responsable
 - **Qualité** des évaluations
 - **Coordination** avec les partenaires
 
-## 🔒 Sécurité et Confidentialité
+## FAQ & assistance
 
-### Protection des Données
-- **Chiffrement** des informations financières
-- **Contrôle d'accès** strict
-- **Audit trail** complet
-- **Conformité** réglementaire
+### Support et formation
 
-### Gestion des Accès
-- **Authentification** forte
-- **Permissions** granulaires
-- **Révocation** en cas de problème
-- **Formation** continue
-
-## 📞 Support et Formation
+### Sécurité et confidentialité
+- **Chiffrement** des informations financières.  
+- **Contrôle d'accès** strict avec audit trail complet.  
+- **Gestion** des permissions et révocation rapide en cas d'incident.  
+- **Conformité** aux réglementations (assurance, protection des données).  
+- **Sensibilisation** continue des équipes (formations, rappels).
 
 ### Ressources Disponibles
 

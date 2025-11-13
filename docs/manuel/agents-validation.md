@@ -1,6 +1,8 @@
 # Guide de l'Agent de Validation
 
-## 🔍 Rôle et Responsabilités
+## Vue d'ensemble
+
+### Missions principales
 
 L'agent de validation est responsable du contrôle qualité, de la vérification et de la validation des constats d'accidents soumis par les agents constatateurs. Vos missions principales incluent :
 
@@ -10,7 +12,9 @@ L'agent de validation est responsable du contrôle qualité, de la vérification
 - **Coordination** avec les agents constatateurs pour les corrections
 - **Reporting** des anomalies et des tendances qualité
 
-## 💻 Utilisation de la Plateforme Web de Validation
+## Parcours utilisateur
+
+### Utilisation de la plateforme web de validation
 
 ### Configuration PC Requise
 
@@ -83,7 +87,7 @@ Pour chaque constat, accès aux sections :
 - Analyse des patterns suspects
 
 
-## 📋 Processus de Validation
+### Processus de validation
 
 ### Étape 1 : Vérification initiale
 **Contrôles automatiques système :**
@@ -250,7 +254,9 @@ Le système suit automatiquement :
 - **Qualité par agent** : performance de chaque agent constatateur
 - **Tendances** : évolution de la qualité dans le temps
 
-## ⚙️ Fonctionnalités Avancées
+## Procédures détaillées
+
+### Fonctionnalités avancées
 
 ### Outils d'analyse intégrés
 - **Comparaison** avec historiques de similarités
@@ -282,7 +288,7 @@ Le système suit automatiquement :
 - **Benchmarking** : comparaison entre agents constatateurs
 - **Alertes prédictives** : identification des risques de non-conformité
 
-## 🚨 Cas Particuliers
+### Cas particuliers
 
 ### Accidents complexes
 **Multi-véhicules (>3 véhicules) :**
@@ -317,7 +323,7 @@ Le système suit automatiquement :
 - Recoupement avec données externes
 - Correction manuelle si justifiée
 
-## 🔧 Procédures Spécialisées
+### Procédures spécialisées
 
 ### Validation des Constats Techniques
 **Vérification des données de vitesse :**
@@ -357,7 +363,9 @@ Le système suit automatiquement :
 - Vérification des autorisations d'intervention
 - Gestion des responsabilités spécifiques
 
-## 📊 Assurance Qualité
+## Rapports & indicateurs
+
+### Assurance qualité
 
 ### Grille d'évaluation standardisée
 **Critères de notation (1-5) :**
@@ -393,7 +401,9 @@ Le système suit automatiquement :
 - **Échanges inter-services** : collaboration avec les agents constatateurs
 - **Certification continue** : maintien des compétences et expertise
 
-## ❓ FAQ (Foire Aux Questions)
+## FAQ & assistance
+
+### FAQ (foire aux questions)
 
 ### Q: Combien de temps dois-je accorder à chaque constat ?
 **R:** Le temps moyen est de 15-20 minutes pour un constat standard. Les accidents complexes peuvent nécessiter 30-45 minutes. La priorité va à la qualité plutôt qu'à la rapidité.
@@ -422,7 +432,7 @@ Le système suit automatiquement :
 ### Q: Quelle est la procédure pour les constats impliquant des véhicules d'urgence ?
 **R:** Validation spécialisée avec vérification des autorisations d'intervention et coordination avec les services concernés.
 
-## 📞 Support et Contacts
+### Support et contacts
 
 ### Support technique 
 - **Email** : support@doser.cm
@@ -441,7 +451,7 @@ Le système suit automatiquement :
 *Dernière mise à jour : {08/2025} - Version de la plateforme : {1.1.4}*
 *Référence : PROC-VAL-002 - Politique de validation des constats*
 
-## 📝 Checklist de Validation
+### Checklist de validation
 
 ### ✅ Vérifications Obligatoires
 - [ ] Tous les champs obligatoires complétés

@@ -4,7 +4,7 @@
 
 ---
 
-## 👥 Rôle et Responsabilités
+## Vue d'ensemble
 
 Le **Centre d'Analyse** est l'entité responsable de la vérification, de la correction et de l'enrichissement des données d'accidents de la route. Il joue un rôle central dans :
 
@@ -15,7 +15,7 @@ Le **Centre d'Analyse** est l'entité responsable de la vérification, de la cor
 - **La réception** des alertes des usagers
 - **La mise à disposition** de données pour les statistiques et prises de décision
 
-## 🎯 Missions Principales
+### Missions principales
 
 ### Analyse des Données
 - **Collecte** et consolidation des données multi-sources
@@ -41,7 +41,9 @@ Le **Centre d'Analyse** est l'entité responsable de la vérification, de la cor
 - **Formation** des analystes
 - **Innovation** technologique
 
-## 🔧 Fonctionnalités Clés
+## Parcours utilisateur
+
+### Fonctionnalités clés
 
 ### Collecte Multi-Sources
 - **Agents Constatateurs** : Données de terrain
@@ -61,7 +63,18 @@ Le **Centre d'Analyse** est l'entité responsable de la vérification, de la cor
 - **Tableaux de bord** dynamiques
 - **Rapports** automatisés
 
-## 📊 Cas d'Utilisation Détaillés
+### Cas d'utilisation détaillés
+
+- Analyse des circonstances d'accidents.  
+- Identification des zones à risque via SIG.  
+- Production de rapports stratégiques et campagnes de prévention.
+
+## Rapports & indicateurs
+
+### Outils analytiques
+- Tableaux de bord dynamiques (temps réel, comparaisons historiques).  
+- Exports open data (CSV/JSON) et APIs pour partenaires.  
+- Indicateurs ONU : taux de mortalité/blessures, points noirs, délais d’intervention.
 
 ### 1. Collecte des Données sur les Accidents
 
@@ -405,7 +418,9 @@ Le **Centre d'Analyse** est l'entité responsable de la vérification, de la cor
 
 ---
 
-## 💻 Utilisation de l'Interface Web DOSER
+## Procédures détaillées
+
+### Utilisation de l'interface web DOSER
 
 ### Connexion et Accès
 
@@ -465,7 +480,7 @@ Le **Centre d'Analyse** est l'entité responsable de la vérification, de la cor
 
 ---
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### Cas particuliers et procédures spécialisées
 
 ### Alertes Préventives Critiques
 
@@ -512,7 +527,9 @@ Le **Centre d'Analyse** est l'entité responsable de la vérification, de la cor
 
 ---
 
-## 📞 Support et Formation
+## FAQ & assistance
+
+### Support et formation
 
 ### Ressources Disponibles
 
@@ -569,11 +586,9 @@ Le **Centre d'Analyse** est l'entité responsable de la vérification, de la cor
 
 ---
 
-## 🔗 Liens Utiles
+### Liens utiles
 
 - **Guide rapide** : [Centre d'Analyse](../user/quick-start/centre-analyse.md)
-- **Formation** : [Modules de formation](../formation/index.md)
-- **Support** : [Centre d'aide](../support/index.md)
 - **Documentation** : [Base de connaissances](../index.md)
 
 ---

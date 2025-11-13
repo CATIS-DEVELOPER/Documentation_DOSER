@@ -1,187 +1,122 @@
-# Modules Fonctionnels DOSER
+# Modules & Écosystème DOSER – DITROS
 
-Bienvenue dans la documentation des modules fonctionnels de la plateforme DOSER. Chaque module est conçu pour répondre à un besoin spécifique dans la gestion des accidents de la route.
+DOSER s’inscrit au cœur d’un écosystème élargi, DITROS (Digital Technologies for Road Safety), qui couvre l’ensemble des piliers du « Safe System ». Cette section présente les modules fonctionnels, leurs interactions et les services transverses qui transforment la donnée en action.
 
-## 📋 Vue d'ensemble
-
-DOSER est composé de **6 modules principaux** qui couvrent l'ensemble du cycle de gestion des accidents :
+## Carte d’ensemble
 
 ```mermaid
-graph LR
-    A[📱 Collecte] --> B[✅ Validation]
-    B --> C[📊 Analyse]
-    C --> D[🗺️ Cartographie]
-    E[🚨 VAAR] -.->|Alerte| A
-    C --> F[📈 Statistiques]
+flowchart TD
+    subgraph "Routes sûres"
+        DIPEX[DIPEX]
+        PARKEO[PARKEO]
+        GEOROUTE[GEOROUTE]
+    end
+    subgraph "Véhicules sûrs"
+        SEVITEV[SEVITEV]
+        CERDIDOC[CERDIDOC]
+        FLOTAX[FLOTAX]
+    end
+    subgraph "Usagers sûrs"
+        SIMECOLE[SIMECOLE]
+        VIGIROUTE[VIGIROUTE]
+    end
+    subgraph "Intervention post-accident"
+        ALLOVOIE[ALLOVOIE]
+        COLLECTE[Collecte DOSER]
+        VALIDATION[Validation DOSER]
+        ANALYSE[Analyse & Reporting]
+        CARTO[Cartographie]
+        VAAR[VAAR]
+        STATS[Statistiques & KPI]
+    end
+    subgraph "Services transverses"
+        BI[BI / Big Data / IA]
+        OBS[Observatoire]
+        CKAN[Open Data CKAN]
+        HELP[HelpDesk]
+        MOOC[MOOC / e-learning]
+        SOCIAL[Réseaux sociaux]
+        SCORE[Scoring & KPI]
+    end
+    GEOROUTE --> CARTO
+    FLOTAX --> ANALYSE
+    VIGIROUTE --> VAAR
+    ALLOVOIE --> COLLECTE
+    COLLECTE --> VALIDATION --> ANALYSE --> CARTO --> STATS
+    ANALYSE --> BI --> OBS --> CKAN
+    HELP --> COLLECTE
+    MOOC --> VIGIROUTE
+    SCORE --> STATS
 ```
 
-## 📱 [Collecte de Données](collecte-donnees.md)
+## Tableau de synthèse
 
-**Application Mobile DOSER DATA CAPTURE**
+| Module | Pilier | Objectif | Acteurs clés | Données principales | Intégration DOSER |
+| --- | --- | --- | --- | --- | --- |
+| DIPEX | Routes sûres | Gestion des péages & exploitation routière | Gestionnaires d’infrastructures | Trafic, incidents, flux financiers | Priorisation des investissements, analyse congestion |
+| PARKEO | Routes sûres | Gestion intelligente du stationnement | Collectivités, opérateurs urbains | Occupation, infractions, paiement | Corrélation congestion / accidentologie |
+| GEOROUTE | Routes sûres | Référentiel SIG des infrastructures | Ministères, urbanistes | Réseau routier, chantiers, équipements | Cartographie des points noirs, analyses spatiales |
+| SEVITEV | Véhicules sûrs | Sécurisation contrôle technique | Centres agréés, autorités | Résultats visites, défauts | Détection défaillances véhicules impliqués |
+| CERDIDOC | Véhicules sûrs | Sécurisation titres & documents | Ministères, forces de l’ordre | Permis, cartes grises, licences | Vérification statutaire lors des constats |
+| FLOTAX | Véhicules sûrs | Suivi & géolocalisation des flottes | Transporteurs, agences de voyage | Trajets, vitesse, incidents | Analyse comportements chauffeurs |
+| SIMECOLE | Usagers sûrs | Formation & simulateurs | Auto-écoles, citoyens | Parcours pédagogiques, évaluations | Ajustement campagnes pédagogiques |
+| VIGIROUTE | Usagers sûrs | Contrôle & prévention routière | Forces de l’ordre, ministères | Infractions, contrôles, historiques | Corrélation comportements / accidents |
+| ALLOVOIE | Post-accident | Coordination urgence | Secours, SAMU | Alertes, délais, ressources | Synchronisation interventions ↔ constats |
+| Collecte DOSER | Post-accident | Saisie structurée des constats | Forces de l’ordre, hôpitaux | Scènes, victimes, véhicules | Point d’entrée de la donnée |
+| Validation DOSER | Post-accident | Contrôle qualité & enrichissement | Agents validation, observatoire | Règles métier, compléments | Garantie fiabilité, scoring |
+| Analyse & Reporting | Post-accident | Tableaux de bord & IA | Analystes, décideurs | Indicateurs agrégés, tendances | 4 niveaux d’analyse |
+| Cartographie | Post-accident | Visualisation SIG | Planificateurs, MINTP | Localisation, points noirs | Priorisation infrastructure |
+| VAAR | Post-accident | Vigilance & alertes IA | Centre d’analyse, secours | Flux réseaux sociaux, médias | Alerte anticipée, enrichissement |
+| Statistiques & KPI | Post-accident | Suivi performance | Observatoire, bailleurs | KPI ONU, scores, tendances | Reporting, redevabilité |
 
-Module de collecte de données sur le terrain via application mobile.
+### Services transverses
 
-**Fonctionnalités clés** :
-- ✅ Mode hors ligne complet
-- ✅ Synchronisation intelligente
-- ✅ Capture multimédia (photos, vidéos, audio)
-- ✅ Géolocalisation automatique
-- ✅ Interfaces adaptées par acteur
-- ✅ Validation en temps réel
+- **BI / Big Data / IA** : moteur analytique (descriptif → prescriptif).  
+- **Observatoire** : portail décisionnel, dashboards, rapport nationaux.  
+- **Open Data CKAN** : diffusion des données ouvertes et API publiques.  
+- **HelpDesk** : support 24/7, base de connaissances, suivi tickets.  
+- **MOOC / e-learning** : formation continue, certifications, communauté.  
+- **Réseaux sociaux** : campagnes de sensibilisation, veille accidents.  
+- **Scoring & KPI** : indicateurs par acteur, suivi Décennie ONU.
 
-**Utilisateurs** : Agents Constatateurs, Services de Santé
+## Parcours recommandés
 
----
+- **Décideurs** : commencez par [Piliers & Modules](piliers/routes-sures.md) pour comprendre la couverture complète, puis consultez la section [Vision](../vision/index.md).  
+- **Opérationnels** : consultez les fiches détaillées de la section [Intervention post-accident](piliers/post-accident.md) et les [Guides par rôle](../user/index.md).  
+- **Analystes & techniciens** : explorez [Analyse et Reporting](analyse-reporting.md), [Cartographie](cartographie-accidents.md) et [Services transverses](services-transverses.md).
 
-## ✅ [Validation des Constats](validation-constats.md)
-
-**Portail Web de Validation**
-
-Module de validation multi-niveaux des données collectées.
-
-**Fonctionnalités clés** :
-- ✅ Workflow de validation configurable
-- ✅ Contrôle qualité automatique
-- ✅ Détection des incohérences
-- ✅ Enrichissement des données
-- ✅ Traçabilité complète
-- ✅ Tableau de bord de validation
-
-**Utilisateurs** : Agents de Validation, Superviseurs
-
----
-
-## 📊 [Analyse et Reporting](analyse-reporting.md)
-
-**Module Business Intelligence**
-
-Analyse avancée et génération de rapports automatisés.
-
-**Fonctionnalités clés** :
-- ✅ Tableaux de bord dynamiques
-- ✅ 4 niveaux d'analyse (descriptive, diagnostique, prédictive, prescriptive)
-- ✅ Rapports automatisés
-- ✅ Export multi-formats
-- ✅ Analyse prédictive par IA
-- ✅ Identification des facteurs de risque
-
-**Utilisateurs** : Analystes, Décideurs, Ministères
-
----
-
-## 🗺️ [Cartographie des Accidents](cartographie-accidents.md)
-
-**Module SIG (Système d'Information Géographique)**
-
-Visualisation géographique et analyse spatiale des accidents.
-
-**Fonctionnalités clés** :
-- ✅ Cartes interactives
-- ✅ Identification des points noirs
-- ✅ Heatmaps de concentration
-- ✅ Analyse de clustering
-- ✅ Corrélation infrastructure/accidents
-- ✅ Visualisations 3D
-
-**Utilisateurs** : Planificateurs, Analystes, MINTP
-
----
-
-## 🚨 [Module VAAR](module-vaar.md)
-
-**Vigilance et Alerte sur les Accidents de la Route**
-
-Module d'intelligence artificielle pour la détection proactive d'accidents.
-
-**Fonctionnalités clés** :
-- ✅ Surveillance réseaux sociaux (Facebook, X, TikTok, WhatsApp)
-- ✅ Analyse IA (NLP + Computer Vision)
-- ✅ Génération d'alertes en temps réel
-- ✅ Enrichissement automatique des données
-- ✅ Validation manuelle des alertes
-- ✅ Conversion en déclaration d'accident
-
-**Utilisateurs** : Centre d'Analyse, Services d'Urgence
-
----
-
-## 📈 [Statistiques et Métriques](statistiques-metriques.md)
-
-**Tableaux de Bord et Indicateurs**
-
-Module de suivi des indicateurs clés de performance.
-
-**Fonctionnalités clés** :
-- ✅ KPIs en temps réel
-- ✅ Évolution temporelle
-- ✅ Comparaisons géographiques
-- ✅ Métriques par acteur
-- ✅ Indicateurs de qualité des données
-- ✅ Objectifs Décennie ONU 2021-2030
-
-**Utilisateurs** : Tous les acteurs, Observatoire
-
----
-
-## 🔄 Intégration des Modules
-
-### Flux de Données
+## Intégration continue
 
 ```mermaid
 sequenceDiagram
-    participant Agent as 👮 Agent
-    participant Mobile as 📱 Mobile App
-    participant Collecte as Collecte
-    participant Validation as Validation
-    participant Analyse as Analyse
-    participant Carto as Cartographie
-    participant Stats as Statistiques
-    
-    Agent->>Mobile: Saisie données
-    Mobile->>Collecte: Synchronisation
-    Collecte->>Validation: Données brutes
-    Validation->>Validation: Contrôles qualité
-    Validation->>Analyse: Données validées
-    Analyse->>Carto: Enrichissement spatial
-    Analyse->>Stats: Agrégation indicateurs
-    Carto->>Stats: Points noirs identifiés
+    participant Terrain as Terrain
+    participant DOSER as DOSER
+    participant DITROS as Modules DITROS
+    participant IA as BI / IA
+    participant Obs as Observatoire & Open Data
+
+    Terrain->>DOSER: Collecte normalisée
+    DOSER->>DOSER: Validation & enrichissement
+    DOSER->>DITROS: Synchronisation (GEOROUTE, SEVITEV, FLOTAX…)
+    DITROS->>DOSER: Données contextuelles
+    DOSER->>IA: Jeux de données consolidés
+    IA->>Obs: Insights, recommandations
+    Obs->>Terrain: Campagnes, directives, feedback
 ```
 
-### Workflow Complet
+## Aller plus loin
 
-1. **Collecte** : Données saisies sur le terrain
-2. **Validation** : Contrôle et enrichissement
-3. **Analyse** : Transformation en insights
-4. **Cartographie** : Visualisation spatiale
-5. **Statistiques** : Suivi des indicateurs
-6. **VAAR** : Détection proactive (parallèle)
+- **Routes sûres** : [Découvrir les modules d’infrastructure](piliers/routes-sures.md)  
+- **Véhicules sûrs** : [Explorer les solutions de conformité](piliers/vehicules-surs.md)  
+- **Usagers sûrs** : [Renforcer formation & prévention](piliers/usagers-surs.md)  
+- **Intervention post-accident** : [Plongez dans le cœur de DOSER](piliers/post-accident.md)  
+- **Services transverses** : [Comprendre les leviers de support](services-transverses.md)
 
-## 🎯 Par Type d'Utilisateur
+!!! note "Besoin d’une vue opérationnelle immédiate ?"
+    Les pages historiques (collecte, validation, analyse, cartographie, VAAR, statistiques) restent accessibles et sont consolidées dans le pilier **Intervention post-accident**.
 
-### Pour les Agents de Terrain
-- [Collecte de Données](collecte-donnees.md)
-- Application mobile hors ligne
+- [Guides utilisateur](../user/index.md)  
+- [Documentation développeur](../developer/index.md)  
+- [Guides d’implémentation](../implementation/index.md)
 
-### Pour les Validateurs
-- [Validation des Constats](validation-constats.md)
-- Portail web de validation
-
-### Pour les Analystes
-- [Analyse et Reporting](analyse-reporting.md)
-- [Cartographie](cartographie-accidents.md)
-- [Statistiques](statistiques-metriques.md)
-
-### Pour le Centre d'Analyse
-- [Module VAAR](module-vaar.md)
-- Tous les modules d'analyse
-
-## 📚 Documentation Complémentaire
-
-- **Guides Utilisateur** : [Documentation par rôle](../user/index.md)
-- **Guides Technique** : [Documentation développeur](../developer/index.md)
-- **Guides Implémentation** : [Déploiement](../implementation/index.md)
-
----
-
-**Besoin d'aide ?** Consultez les [Guides Utilisateur](../user/index.md) ou contactez le support : support@ditros.org
 

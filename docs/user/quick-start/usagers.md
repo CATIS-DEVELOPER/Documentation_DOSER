@@ -6,21 +6,34 @@
 
 ---
 
-## 📋 Ce que vous allez apprendre
+## Pré-requis
 
-À la fin de ce guide, vous saurez :
+- Lire les [principes communs](principes-communs.md) pour connaître les règles de base (connexion, synchronisation, sécurité).  
+- Disposer d’un compte citoyen (optionnel) ou au minimum d’un numéro de téléphone valide pour suivre votre déclaration.  
+- Accéder à un smartphone/ordinateur connecté à Internet pour le portail DOSER, ou connaître le numéro vert/réseaux sociaux officiels.  
+- Préparer les informations essentielles en cas de déclaration : localisation, type d’accident, photos éventuelles, coordonnées.  
+- Connaître les numéros d’urgence (117/118/119) et les procédures de sécurité routière.
 
-✅ Créer une alerte d'accident (portail, réseaux sociaux, numéro vert)  
-✅ Vérifier la fiabilité d'un véhicule en scannant son QR code  
-✅ Déclarer un accident dont vous êtes témoin ou victime  
-✅ Suivre l'évolution de votre déclaration  
-✅ Accéder aux données publiques et statistiques  
-✅ Consulter les zones accidentogènes  
-✅ Obtenir une attestation d'accident  
+## Checklist de démarrage
 
----
+### Objectifs du guide
 
-## 🎬 Workflow Complet avec Captures d'Écran
+- Créer une alerte ou une déclaration d’accident.  
+- Vérifier la fiabilité d’un véhicule (QR code).  
+- Suivre l’avancement de votre dossier et récupérer une attestation.  
+- Consulter les statistiques, zones à risque et informations de prévention.
+
+### Avant de déclarer un accident
+
+- [ ] Mettre votre sécurité en premier (se placer hors de danger, alerter les secours).  
+- [ ] Rassembler les informations clés (lieu, date, description, photos si possible).  
+- [ ] Noter les coordonnées des témoins ou autres personnes impliquées.  
+- [ ] Vérifier votre connexion Internet ou préparer l’appel au numéro vert.  
+- [ ] Prévoir de suivre la déclaration (numéro reçu par SMS/email).
+
+## Procédure standard
+
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -361,7 +374,7 @@ graph TD
 
 ---
 
-## 🌐 Étape 1 : Accès au Portail Citoyen (2 min)
+### 🌐 Étape 1 : Accès au portail citoyen (2 min)
 
 ### Première Visite
 
@@ -380,7 +393,7 @@ graph TD
 
 💡 **Note** : Vous pouvez créer des alertes et déclarer sans compte, mais un compte permet le suivi de vos déclarations.
 
-## 🚨 Étape 1bis : Créer une Alerte d'Accident (2 min)
+### 🚨 Étape 1bis : Créer une alerte d'accident (2 min)
 
 ### Méthode 1 : Portail Public
 
@@ -415,7 +428,7 @@ graph TD
 
 ---
 
-## 🔍 Étape 1ter : Vérifier la Fiabilité d'un Véhicule (1 min)
+### 🔍 Étape 1ter : Vérifier la fiabilité d'un véhicule (1 min)
 
 ### Scanner le QR Code d'un Véhicule
 
@@ -434,7 +447,7 @@ graph TD
 
 💡 **Utile** : Avant de monter dans un véhicule (taxi, transport en commun), vérifiez son score de fiabilité !
 
-## 📱 Étape 2 : Déclarer un Accident (3 min)
+### 📱 Étape 2 : Déclarer un accident (3 min)
 
 ### En Tant que Témoin
 
@@ -476,7 +489,7 @@ graph TD
 
 ---
 
-## 📞 Étape 3 : Contacter les Urgences (1 min)
+### 📞 Étape 3 : Contacter les urgences (1 min)
 
 ### Numéros d'Urgence
 
@@ -496,7 +509,7 @@ Le portail affiche directement :
 
 ---
 
-## 📊 Étape 3bis : Accéder aux Données et Statistiques (2 min)
+### 📊 Étape 3bis : Accéder aux données et statistiques (2 min)
 
 ### Observatoire des Accidents
 
@@ -525,7 +538,7 @@ Le portail affiche directement :
    - Les statistiques par zone
 3. Consultez les rapports détaillés sur chaque zone
 
-## 🔍 Étape 4 : Suivre Votre Déclaration (1 min)
+### 🔍 Étape 4 : Suivre votre déclaration (1 min)
 
 ### Avec Compte
 
@@ -545,7 +558,7 @@ Le portail affiche directement :
 
 ---
 
-## 📄 Étape 5 : Obtenir une Attestation (1 min)
+### 📄 Étape 5 : Obtenir une attestation (1 min)
 
 ### Pour les Victimes
 
@@ -564,7 +577,7 @@ Si vous êtes victime enregistrée :
 
 ---
 
-## 🎯 Cas d'Usage Pratiques
+### 🎯 Cas d'usage pratiques
 
 ### Créer une alerte rapide
 
@@ -620,7 +633,7 @@ Si vous êtes victime enregistrée :
 
 ---
 
-## ℹ️ Informations Utiles
+### ℹ️ Informations utiles
 
 ### Vos Droits en Cas d'Accident
 
@@ -640,7 +653,7 @@ Le portail citoyen vous informe sur :
 
 ---
 
-## ⚠️ Problèmes Fréquents
+### ⚠️ Problèmes fréquents
 
 ### Je n'arrive pas à uploader mes photos
 
@@ -668,7 +681,7 @@ Le portail citoyen vous informe sur :
 
 ---
 
-## 📚 Pour Aller Plus Loin
+## Aller plus loin
 
 ### Manuel Complet
 
@@ -683,7 +696,7 @@ Pour une documentation exhaustive :
 
 ---
 
-## 🆘 Besoin d'Aide ?
+## Support & ressources
 
 ### Support Citoyen
 - **📧 Email** : citoyen@doser.ditros.org
@@ -697,25 +710,8 @@ Pour une documentation exhaustive :
 
 ---
 
-## ✅ Checklist
-
-Avant de quitter ce guide :
-
-- [ ] J'ai accédé au portail citoyen
-- [ ] Je sais créer une alerte (portail, numéro vert, réseaux sociaux)
-- [ ] Je sais vérifier la fiabilité d'un véhicule (QR code)
-- [ ] J'ai créé un compte (optionnel)
-- [ ] Je sais déclarer un accident
-- [ ] Je connais les numéros d'urgence
-- [ ] Je sais accéder aux données et statistiques
-- [ ] Je sais consulter les zones accidentogènes
-- [ ] Je sais suivre ma déclaration
-- [ ] Je sais obtenir une attestation
-
----
-
-**Félicitations ! 🎉**  
-Vous savez maintenant utiliser le portail citoyen DOSER !
+🎉 **Félicitations !**  
+Vous savez maintenant utiliser le portail citoyen DOSER. Conservez la [checklist de démarrage](#checklist-de-demarrage) pour vérifier vos actions avant et après chaque déclaration.
 
 ---
 

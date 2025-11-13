@@ -4,20 +4,34 @@
 
 ---
 
-## 🎯 Ce que vous allez apprendre
+## Pré-requis
 
-✅ Accéder au portail DOSER Centre d'Analyse  
-✅ Vérifier et corriger les données collectées  
-✅ Analyser les circonstances des accidents  
-✅ Identifier les sites à haut risque  
-✅ Produire des rapports d'analyse détaillés  
-✅ Organiser des campagnes de sensibilisation  
-✅ Collaborer avec les autres entités  
-✅ Gérer les bases de données  
+- Lire les [principes communs](principes-communs.md) pour valider les prérequis matériels, sécurité et synchronisation.  
+- Disposer d’un compte **Centre d’analyse** avec accès aux modules d’investigation, SIG, reporting et open data.  
+- Outils requis : poste Windows/Mac avec navigateur à jour, accès aux plateformes BI (tableaux de bord, exports CSV/JSON) et au SIG (PostGIS/GEOROUTE).  
+- Accès aux référentiels nationaux (codes ICD, classification accidents, plans de prévention) et protocoles de gestion de crise.  
+- Connaître les procédures de coordination avec les ministères, forces de l’ordre, hôpitaux, assurances et acteurs locaux.
 
----
+## Checklist de démarrage
 
-## 🎬 Workflow Complet avec Captures d'Écran
+### Objectifs du guide
+
+- Vérifier, nettoyer et enrichir les données multi-sources.  
+- Conduire des analyses temporelles, spatiales et comportementales.  
+- Produire rapports, alertes, campagnes et recommandations.  
+- Coordonner la réponse avec les autorités et partenaires.
+
+### Avant de commencer
+
+- [ ] Contrôler l’état des synchronisations (collecte, VAAR, hôpitaux, assurances).  
+- [ ] Préparer les jeux de données de travail (période, région, type d’accident).  
+- [ ] Mettre à jour vos tableaux de bord et scripts d’analyse (Mermaid, BI, notebooks).  
+- [ ] Vérifier les calendriers de diffusion (comité, réunions interministérielles).  
+- [ ] Planifier le partage des résultats (rapports PDF, open data, campagnes).
+
+## Procédure standard
+
+### 🎬 Workflow complet avec captures d'écran
 
 ### Vue d'Ensemble du Workflow
 
@@ -233,7 +247,7 @@ graph TD
 
 ---
 
-## 🌐 Étape 1 : Accès au Portail Centre d'Analyse (1 min)
+### 🌐 Étape 1 : Accès au portail centre d'analyse (1 min)
 
 ### Connexion
 
@@ -253,7 +267,7 @@ graph TD
 
 ---
 
-## 📊 Étape 2 : Collecter les Données (5 min)
+### 📊 Étape 2 : Collecter les données (5 min)
 
 ### Sélection des Sources
 
@@ -278,7 +292,7 @@ graph TD
 
 ---
 
-## 🧹 Étape 3 : Nettoyer les Données (10 min)
+### 🧹 Étape 3 : Nettoyer les données (10 min)
 
 ### Identification des Erreurs
 
@@ -299,7 +313,7 @@ graph TD
 
 ---
 
-## 📈 Étape 4 : Analyser les Données (15 min)
+### 📈 Étape 4 : Analyser les données (15 min)
 
 ### Types d'Analyses Disponibles
 
@@ -331,7 +345,7 @@ graph TD
 
 ---
 
-## 📋 Étape 5 : Générer un Rapport (5 min)
+### 📋 Étape 5 : Générer un rapport (5 min)
 
 ### Sélection du Template
 
@@ -363,7 +377,7 @@ graph TD
 
 ---
 
-## 📤 Étape 6 : Diffuser les Résultats (2 min)
+### 📤 Étape 6 : Diffuser les résultats (2 min)
 
 ### Sélection des Destinataires
 
@@ -388,7 +402,7 @@ graph TD
 
 ---
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### 🚨 Cas particuliers et procédures spécialisées
 
 ### Alertes Préventives
 
@@ -434,7 +448,7 @@ graph TD
 
 ---
 
-## 📞 Support et Formation
+## Support & ressources
 
 ### Ressources Disponibles
 
@@ -477,46 +491,8 @@ graph TD
 
 ---
 
-## ✅ Checklist de Démarrage
-
-### Avant la Première Analyse
-
-- [ ] **Accès** au portail obtenu
-- [ ] **Formation** de base suivie
-- [ ] **Permissions** vérifiées
-- [ ] **Outils** installés
-- [ ] **Templates** configurés
-- [ ] **Destinataires** définis
-
-### Après Chaque Analyse
-
-- [ ] **Données** collectées et nettoyées
-- [ ] **Analyse** effectuée correctement
-- [ ] **Rapport** généré et validé
-- [ ] **Résultats** diffusés
-- [ ] **Archives** mises à jour
-- [ ] **Suivi** planifié
-
----
-
-## 🆘 Besoin d'Aide ?
-
-### Support Immédiat
-
-- **📞 Hotline** : +237 XXX XXX XXX (24/7)
-- **📧 Email** : analyse@ditros.org
-- **💬 Chat** : Support en direct
-- **❓ FAQ** : [Questions fréquentes](../faq/index.md)
-
-### Formation et Ressources
-
-- **📖 Manuel complet** : [Centre d'Analyse](../../manuel/centre-analyse.md)
-- **👨‍🏫 Formation** : [Sessions de formation](../formation/index.md)
-- **📚 Documentation** : [Base de connaissances](../index.md)
-
----
-
-**Prêt à analyser les données pour améliorer la sécurité routière ?** 🔬📊
+**Prêt à analyser les données pour améliorer la sécurité routière ?** 🔬📊  
+N'oubliez pas de revoir la [checklist de démarrage](#checklist-de-demarrage) avant chaque campagne d'analyse.
 
 ---
 

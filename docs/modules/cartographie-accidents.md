@@ -1,167 +1,85 @@
-# Module de Cartographie des Accidents
+# Cartographie des accidents
 
-## Vue d'ensemble
+Le module de cartographie fournit une **vue géospatiale unifiée** des accidents et des facteurs environnementaux. Il exploite les données structurées de DOSER et les référentiels GEOROUTE/DITROS pour prioriser les interventions sur le réseau routier.
 
-Le module de Cartographie des Accidents de DOSER fournit une visualisation géographique interactive des accidents de la route, permettant d'identifier les points noirs, d'analyser les tendances spatiales et de planifier des interventions ciblées.
+## Position dans l’écosystème
 
-## 🎯 Objectifs
+```mermaid
+flowchart LR
+    Collecte[Collecte] --> Validation[Validation]
+    Validation --> Carto[Cartographie]
+    GEOROUTE[GEOROUTE] --> Carto
+    DIPEX[DIPEX] --> Carto
+    PARKEO[PARKEO] --> Carto
+    Carto --> Analyse[Analyse & Reporting]
+    Carto --> Statistiques[Statistiques & KPI]
+```
 
-- **Visualiser** géographiquement les accidents de la route
-- **Identifier** les points noirs et zones à risque
-- **Analyser** les tendances spatiales et temporelles
-- **Planifier** des interventions ciblées et efficaces
+- **Référentiel** : repose sur GEOROUTE (réseau, équipements, chantiers) pour assurer la précision géographique.  
+- **Contexte** : intègre DIPEX (trafic, incidents) et PARKEO (stationnement) pour comprendre les conditions locales.  
+- **Export** : alimente les dashboards et rapports du module Analyse & Reporting.
 
-## 🗺️ Fonctionnalités Cartographiques
+## Objectifs
 
-### Cartes Interactives
-- **Navigation** fluide et intuitive
-- **Zoom** et déplacement multi-niveaux
-- **Couches** de données superposables
-- **Filtres** dynamiques par critères
+- Localiser précisément chaque accident et visualiser les zones de concentration.  
+- Identifier les **points noirs** et comprendre les facteurs infrastructurels.  
+- Simuler l’impact des interventions (travaux, nouveaux équipements, contrôles).  
+- Partager une cartographie unique entre toutes les parties prenantes.
 
-### Visualisations Spécialisées
-- **Heatmaps** de densité d'accidents
-- **Points noirs** identifiés automatiquement
-- **Clusters** d'incidents groupés
-- **Flux** de circulation et accidents
+## Fonctionnalités principales
 
-## 📊 Types de Cartes
+- **Cartes interactives** : zoom multi-échelles, légendes dynamiques, filtres temporels.  
+- **Heatmaps et clusters** : densité par gravité, type d’usager, horaire, conditions météo.  
+- **Points noirs automatisés** : détection par algorithmes (fréquence, gravité, tendance), classification par niveaux de risque.  
+- **Analyse infrastructurelle** : corrélation accident ↔ état de la route, éclairage, signalisation, travaux récents.  
+- **Plans d’intervention** : visualisation des projets programmés, suivi de l’impact après travaux.
 
-### Carte des Accidents
-- **Localisation** précise de chaque accident
-- **Informations** détaillées au survol
-- **Filtrage** par date, gravité, type
-- **Statistiques** par zone géographique
+```mermaid
+sequenceDiagram
+    participant Geo as GEOROUTE
+    participant DOSER as DOSER Collecte/Validation
+    participant Carto as Module Cartographie
+    participant Plan as Plans Investissement
 
-### Carte des Points Noirs
-- **Identification** automatique des zones à risque
-- **Classification** par niveau de dangerosité
-- **Évolution** temporelle des risques
-- **Priorisation** des interventions
+    Geo->>Carto: Référentiel réseau & équipements
+    DOSER->>Carto: Accidents validés (coordonnées, gravité)
+    Carto->>Plan: Points noirs & recommandations
+    Plan->>Carto: Statut des interventions
+```
 
-### Carte de Densité
-- **Heatmap** des zones les plus accidentogènes
-- **Gradient** de couleurs selon la fréquence
-- **Animation** temporelle des tendances
-- **Seuils** configurables par utilisateur
+## Analyses et filtres
 
-### Carte des Interventions
-- **Localisation** des équipements de sécurité
-- **Historique** des aménagements
-- **Planification** des futurs travaux
-- **Impact** des mesures prises
+- **Temporalité** : plages horaires, saisons, périodes spéciales (vacances, événements).  
+- **Typologie** : collision, piéton, deux-roues, matériel, multi-véhicules.  
+- **Gravité** : blessés légers/graves, décès, dégâts matériels.  
+- **Contexte** : météo, luminosité, état chaussée, infrastructures disponibles.  
+- **Acteurs** : forces de l’ordre, hôpitaux, flottes impliquées.
 
-## 🔍 Analyse Spatiale
+## Indicateurs suivis
 
-### Identification des Points Noirs
-- **Algorithmes** de détection automatique
-- **Critères** de classification (fréquence, gravité)
-- **Seuils** configurables par zone
-- **Validation** manuelle des résultats
+- Nombre et taux d’accidents par tronçon / commune / type de voie.  
+- Évolution des points noirs avant/après intervention.  
+- Délai moyen d’intervention sur les zones à risque.  
+- Taux de couverture des équipements de sécurité (éclairage, signalisation, barrières).  
+- Contribution aux KPI Décennie ONU (réduction blessés/décès sur zones ciblées).
 
-### Analyse des Tendances
-- **Évolution** temporelle des accidents
-- **Corrélation** avec les facteurs environnementaux
-- **Prédiction** des zones à risque
-- **Recommandations** d'intervention
+## Intégrations clés
 
-### Clustering et Groupement
-- **Regroupement** des accidents similaires
-- **Identification** des patterns récurrents
-- **Analyse** des causes communes
-- **Optimisation** des interventions
+- **GEOROUTE** : référence spatiale et attributs infrastructures.  
+- **Analyse & Reporting** : exploitation des cartes dans les dashboards et rapports.  
+- **Open Data** : publication de couches anonymisées (points noirs, statistiques par zone).  
+- **HelpDesk** : remontée des demandes d’ajout/actualisation de couches cartographiques.
 
-## 🛠️ Outils d'Analyse
+## Bonnes pratiques
 
-### Filtres Avancés
-- **Période** : jour, semaine, mois, année
-- **Gravité** : matériel, blessés, décès
-- **Type** : collision, sortie de route, piéton
-- **Météo** : conditions climatiques
-- **Heure** : jour/nuit, heures de pointe
-
-### Mesures et Calculs
-- **Distance** entre accidents
-- **Surface** des zones à risque
-- **Densité** d'accidents par km²
-- **Fréquence** par période
-
-### Export et Partage
-- **Images** haute résolution
-- **Données** géographiques (KML, Shapefile)
-- **Rapports** cartographiques
-- **Intégration** dans d'autres systèmes
-
-## 📱 Interface Utilisateur
-
-### Navigation Intuitive
-- **Contrôles** de zoom et déplacement
-- **Légende** interactive et personnalisable
-- **Recherche** par adresse ou coordonnées
-- **Marqueurs** personnalisables
-
-### Affichage Adaptatif
-- **Responsive** pour mobile et desktop
-- **Mode** jour/nuit
-- **Accessibilité** pour tous les utilisateurs
-- **Performance** optimisée
-
-## 🔗 Intégrations
-
-### Systèmes GIS
-- **WMS/WFS** pour les données externes
-- **OpenStreetMap** et cartes de base
-- **Données** gouvernementales
-- **APIs** de géolocalisation
-
-### Systèmes DOSER
-- **Module** de collecte de données
-- **Module** d'analyse et reporting
-- **Base de données** principale
-- **Système** de notifications
-
-## 📊 Métriques et KPIs
-
-### Indicateurs Géographiques
-- **Nombre** d'accidents par zone
-- **Densité** d'accidents par km²
-- **Évolution** des points noirs
-- **Efficacité** des interventions
-
-### Indicateurs Temporels
-- **Tendances** saisonnières
-- **Pics** d'accidents identifiés
-- **Corrélation** météo/accidents
-- **Prédiction** des risques futurs
-
-## 🚀 Fonctionnalités Avancées
-
-### Intelligence Artificielle
-- **Détection** automatique des patterns
-- **Prédiction** des zones à risque
-- **Optimisation** des interventions
-- **Apprentissage** continu
-
-### Temps Réel
-- **Mise à jour** automatique des données
-- **Alertes** géographiques
-- **Notifications** push
-- **Synchronisation** multi-plateforme
-
-## 🔒 Sécurité et Confidentialité
-
-### Protection des Données
-- **Anonymisation** des données sensibles
-- **Chiffrement** des communications
-- **Contrôle d'accès** géographique
-- **Audit** des consultations
-
-### Conformité
-- **RGPD** et réglementations locales
-- **Standards** de sécurité
-- **Certifications** requises
-- **Documentation** de conformité
+1. **Mettre à jour** régulièrement les couches GEOROUTE (travaux, nouvelles voies).  
+2. **Vérifier** la qualité des coordonnées dès la collecte (GPS, correction manuelle).  
+3. **Associer** chaque point noir à une feuille de route d’intervention et suivre l’impact.  
+4. **Croiser** les données cartographiques avec les modules DIPEX/PARKEO pour comprendre la congestion et le stationnement.  
+5. **Partager** les cartes avec les gestionnaires d’infrastructures pour des décisions concertées.
 
 ---
 
-*Pour plus d'informations techniques, consultez la [documentation développeur](developpers/api-reference.md).*
+- [Pilier Routes sûres](piliers/routes-sures.md)  
+- [Analyse & Reporting](analyse-reporting.md)  
+- [Index des modules](index.md)

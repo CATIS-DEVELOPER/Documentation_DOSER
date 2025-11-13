@@ -14,7 +14,7 @@ Bienvenue dans les manuels utilisateur de la plateforme DOSER. Cette section con
 Documentation complète pour les agents de police et gendarmerie qui interviennent sur les lieux d'accidents.
 
 <div style="margin: 15px 0;">
-  <a href="agents-constatateurs/" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
+  <a href="agents-constatateurs.md" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
     📖 Lire en HTML
   </a>
   <a href="../pdf/manuel-agents-constatateurs.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">
@@ -36,7 +36,7 @@ Documentation complète pour les agents de police et gendarmerie qui intervienne
 Guide pour le personnel hospitalier et les services d'urgence.
 
 <div style="margin: 15px 0;">
-  <a href="services-sante/" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
+  <a href="services-sante.md" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
     📖 Lire en HTML
   </a>
   <a href="../pdf/manuel-services-sante.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">
@@ -58,7 +58,7 @@ Guide pour le personnel hospitalier et les services d'urgence.
 Documentation pour les compagnies d'assurance et leurs agents.
 
 <div style="margin: 15px 0;">
-  <a href="compagnies-assurance/" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
+  <a href="compagnies-assurance.md" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
     📖 Lire en HTML
   </a>
   <a href="../pdf/manuel-compagnies-assurance.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">
@@ -80,7 +80,7 @@ Documentation pour les compagnies d'assurance et leurs agents.
 Guide pour les agents responsables de la validation des constats.
 
 <div style="margin: 15px 0;">
-  <a href="agents-validation/" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
+  <a href="agents-validation.md" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
     📖 Lire en HTML
   </a>
   <a href="../pdf/manuel-agents-validation.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">
@@ -101,7 +101,7 @@ Guide pour les agents responsables de la validation des constats.
 Documentation pour les administrateurs de la plateforme.
 
 <div style="margin: 15px 0;">
-  <a href="administrateurs/" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
+  <a href="administrateurs.md" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
     📖 Lire en HTML
   </a>
   <a href="../pdf/manuel-administrateurs.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">
@@ -122,7 +122,7 @@ Documentation pour les administrateurs de la plateforme.
 Guide complet pour les citoyens utilisant le portail DOSER.
 
 <div style="margin: 15px 0;">
-  <a href="usagers/" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
+  <a href="usagers.md" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
     📖 Lire en HTML
   </a>
   <a href="../pdf/manuel-usagers.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">
@@ -146,7 +146,7 @@ Guide complet pour les citoyens utilisant le portail DOSER.
 Manuel complet pour la gestion mortuaire des victimes d'accidents.
 
 <div style="margin: 15px 0;">
-  <a href="morgue/" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
+  <a href="morgue.md" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
     📖 Lire en HTML
   </a>
   <a href="../pdf/manuel-morgue.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">
@@ -171,7 +171,7 @@ Manuel complet pour la gestion mortuaire des victimes d'accidents.
 Manuel pour les agences de transport routier et gestionnaires de flottes.
 
 <div style="margin: 15px 0;">
-  <a href="agence-voyage/" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
+  <a href="agence-voyage.md" style="display: inline-block; padding: 10px 20px; margin-right: 10px; background-color: #2196F3; color: white; text-decoration: none; border-radius: 4px;">
     📖 Lire en HTML
   </a>
   <a href="../pdf/manuel-agence-voyage.pdf" download style="display: inline-block; padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 4px;">

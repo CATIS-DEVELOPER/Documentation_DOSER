@@ -4,7 +4,7 @@
 
 ---
 
-## 👥 Rôle et Responsabilités
+## Vue d'ensemble
 
 Les **Services de Secours** (SAMU, Pompiers, Services d'Urgence) sont des acteurs essentiels du système DOSER. Ils interviennent en première ligne lors d'accidents de la route pour :
 
@@ -14,7 +14,7 @@ Les **Services de Secours** (SAMU, Pompiers, Services d'Urgence) sont des acteur
 - **Coordonner** avec les autres services d'urgence
 - **Documenter** les interventions et soins prodigués
 
-## 🎯 Missions Principales
+### Missions principales
 
 ### Intervention d'Urgence
 - **Réponse rapide** aux alertes d'accident
@@ -34,7 +34,9 @@ Les **Services de Secours** (SAMU, Pompiers, Services d'Urgence) sont des acteur
 - **Transmission** des informations médicales
 - **Archivage** des dossiers d'intervention
 
-## 🔧 Fonctionnalités Clés
+## Parcours utilisateur
+
+### Fonctionnalités clés
 
 ### Gestion des Alertes
 - **Réception** automatique des alertes d'accident
@@ -54,7 +56,18 @@ Les **Services de Secours** (SAMU, Pompiers, Services d'Urgence) sont des acteur
 - **Suivi** GPS des véhicules d'urgence
 - **Transmission** des informations médicales
 
-## 📊 Cas d'Utilisation Détaillés
+### Cas d'utilisation détaillés
+
+- Gestion des alertes P0/P1/P2 et déclenchement des plans d'urgence.  
+- Coordination inter-services (pompiers, SAMU, police).  
+- Suivi post-intervention (rapports, statistiques, retours d'expérience).
+
+## Rapports & indicateurs
+
+### Tableaux de bord opérationnels
+- Nombre d'interventions, temps de réponse, taux de réussite.  
+- Cartographie des zones d’accidents fréquents.  
+- Analyse des ressources (équipements, personnel) mobilisées.
 
 ### 🚨 **Gestion des Urgences**
 
@@ -334,7 +347,9 @@ Les **Services de Secours** (SAMU, Pompiers, Services d'Urgence) sont des acteur
 
 ---
 
-## 💻 Utilisation de l'Interface Web DOSER
+## Procédures détaillées
+
+### Utilisation de l'interface web DOSER
 
 ### Connexion et Accès
 
@@ -400,7 +415,7 @@ Les **Services de Secours** (SAMU, Pompiers, Services d'Urgence) sont des acteur
 
 ---
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### Cas particuliers et procédures spécialisées
 
 ### Accidents avec Matières Dangereuses
 
@@ -462,7 +477,9 @@ Les **Services de Secours** (SAMU, Pompiers, Services d'Urgence) sont des acteur
 
 ---
 
-## 📞 Support et Formation
+## FAQ & assistance
+
+### Support et formation
 
 ### Ressources Disponibles
 
@@ -518,11 +535,9 @@ Les **Services de Secours** (SAMU, Pompiers, Services d'Urgence) sont des acteur
 
 ---
 
-## 🔗 Liens Utiles
+### Liens utiles
 
 - **Guide rapide** : [Services de Secours](../user/quick-start/services-secours.md)
-- **Formation** : [Modules de formation](../formation/index.md)
-- **Support** : [Centre d'aide](../support/index.md)
 - **Documentation** : [Base de connaissances](../index.md)
 
 ---

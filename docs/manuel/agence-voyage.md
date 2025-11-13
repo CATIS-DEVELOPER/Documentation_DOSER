@@ -1,6 +1,6 @@
 # Guide des Agences de Voyage
 
-## 🚌 Rôle et Responsabilités
+## Vue d'ensemble
 
 Les Agences de Voyage sont des acteurs essentiels du système DOSER, responsables de la gestion de leurs flottes de véhicules, de la sécurité de leurs passagers et de la coordination avec les autres acteurs du système en cas d'accidents.
 
@@ -18,7 +18,7 @@ Les Agences de Voyage sont des acteurs essentiels du système DOSER, responsable
 - 🚌 **Transport touristique** : Voyages organisés
 - 🚐 **Transport scolaire** : Ramassage scolaire
 
-## 🎯 Missions Principales
+### Missions principales
 
 - **Gestion** de la flotte de véhicules
 - **Enregistrement** des voyages et manifests passagers
@@ -27,7 +27,9 @@ Les Agences de Voyage sont des acteurs essentiels du système DOSER, responsable
 - **Suivi** de la sécurité de leurs trajets
 - **Analyse** des performances pour améliorer la sécurité
 
-## 🔧 Fonctionnalités Clés
+## Parcours utilisateur
+
+### Fonctionnalités clés
 
 ### Gestion Complète de Flotte
 - **Enregistrement** des véhicules avec documents
@@ -59,7 +61,7 @@ Les Agences de Voyage sont des acteurs essentiels du système DOSER, responsable
 - **Recommandations** d'amélioration
 - **Rapports** automatisés et personnalisés
 
-## 📋 Cas d'Utilisation Détaillés
+### Cas d'utilisation détaillés
 
 ### 1. Gestion de Flotte - Enregistrement Véhicule
 
@@ -780,7 +782,9 @@ Les Agences de Voyage sont des acteurs essentiels du système DOSER, responsable
 
 ---
 
-## 💻 Utilisation de l'Interface Web DOSER
+## Procédures détaillées
+
+### Utilisation de l'interface web DOSER
 
 ### Connexion et Accès
 
@@ -888,7 +892,7 @@ Après connexion, vous accédez au tableau de bord principal qui constitue le po
 
 ---
 
-## 🚨 Cas Particuliers et Procédures Spécialisées
+### Cas particuliers et procédures spécialisées
 
 ### Transport International
 
@@ -932,7 +936,9 @@ Après connexion, vous accédez au tableau de bord principal qui constitue le po
 
 ---
 
-## 📞 Support et Formation
+## FAQ & assistance
+
+### Support et formation
 
 ### Ressources Disponibles
 
@@ -1582,7 +1588,7 @@ Le système enregistre :
 
 ---
 
-## 4. Déclaration d'Accidents
+### Déclaration d'accidents
 
 ### 4.1 Déclaration Immédiate
 
@@ -1701,7 +1707,7 @@ Le système vérifie :
 
 ---
 
-## 5. Gestion des Passagers
+### Gestion des passagers
 
 ### 5.1 Manifest de Passagers
 
@@ -1745,7 +1751,9 @@ Pour chaque voyage :
 
 ---
 
-## 6. Statistiques et Analyse
+## Rapports & indicateurs
+
+### Statistiques et analyse
 
 ### 6.1 Tableau de Bord Sécurité
 
@@ -1855,7 +1863,7 @@ Bilan complet :
 
 ---
 
-## 7. Coordination Assurances
+### Coordination assurances
 
 ### 7.1 Déclaration Automatique
 
@@ -1892,7 +1900,7 @@ Le système coordonne automatiquement tous les acteurs.
 
 ---
 
-## 8. Prévention et Sécurité
+### Prévention et sécurité
 
 ### 8.1 Programme de Formation Conducteurs
 
@@ -1984,7 +1992,7 @@ Pour chaque risque identifié :
 
 ---
 
-## 9. Conformité Réglementaire
+### Conformité réglementaire
 
 ### 9.1 Obligations Légales
 
@@ -2055,7 +2063,7 @@ DOSER permet d'obtenir :
 
 ---
 
-## 10. Annexes
+## Annexes
 
 ### Annexe A : Checklist Quotidienne
 

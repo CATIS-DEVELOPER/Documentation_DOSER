@@ -15,6 +15,12 @@ Un guide rapide est un **document pratique de 10-20 pages** conçu pour :
 
 ---
 
+## 🧭 Commencer par les principes communs
+
+Avant de suivre votre guide de rôle, prenez 5 minutes pour lire les [principes communs](principes-communs.md) qui regroupent les prérequis, la checklist de base, les règles de sécurité et les bonnes pratiques de synchronisation.
+
+---
+
 ## 👥 Guides par Rôle
 
 ### 👮 Agents Constatateurs (Forces de l'Ordre)
